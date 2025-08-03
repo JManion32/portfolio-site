@@ -1,5 +1,7 @@
 @import 'colors.css';
 @import 'dark-mode.css';
+@import 'home.css';
+@import 'navbar.css';
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

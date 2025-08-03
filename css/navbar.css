@@ -1,0 +1,20 @@
+.navbar {
+  background-color: rgb(60, 60, 60);
+  padding-top: 20px;
+}
+
+.nav-links {
+    font-weight: bold;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+}

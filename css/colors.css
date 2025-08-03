@@ -1,0 +1,35 @@
+:root {
+    /* General */
+    --standard-text: #000000;
+    --site-background: #f4f2ee;
+    --content-background: #ffffff;
+    --section-divider: #202020;
+    --media-text: #0000009a;
+    --media-text-hover: #000000;
+
+    /* Nav Bar */
+    --nav-bar-blue: #158cba;
+    --table-border: #333333;
+
+    /* Table */
+    --dark-table-bg: #f0f0f0;
+    --light-table-bg: #ffffff;
+}
+
+[data-theme="dark"] {
+    /* General */
+    --standard-text: #ffffff;
+    --site-background: #111111;
+    --content-background: #202225;
+    --section-divider: #808080;
+    --media-text: #ffffff9a;
+    --media-text-hover: #ffffff;
+
+    /* Nav Bar */
+    --nav-bar-blue: #0c5470;
+    --table-border: #777777;
+    
+    /*Table */
+    --dark-table-bg: #191919;
+    --light-table-bg: #202225;
+}

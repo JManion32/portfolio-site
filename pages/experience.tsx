@@ -10,7 +10,9 @@ function Experience() {
   return (
     <>
       <Navbar />
-      
+      <div>
+        <h1 className="name-header">Experience</h1>
+      </div>
     </>
   );
 }

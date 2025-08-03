@@ -1,9 +1,22 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { initDarkMode } from '../utils/darkMode';
 
 const Navbar: React.FC = () => {
 
   const navigate = useNavigate();
+
+  useEffect(() => {
+    initDarkMode();
+  }, []);
+
+  useEffect(() => {
+    const img = document.getElementById('dark-mode-icon');
+    if (img) {
+        img.classList.remove('no-transition');
+    }
+  }, []);
 
   return (
     <nav className="navbar">

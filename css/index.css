@@ -1,5 +1,4 @@
 @import 'colors.css';
-@import 'dark-mode.css';
 @import 'home.css';
 @import 'navbar.css';
 
@@ -10,10 +9,23 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: var(--site-background);
+  background-color: var(--site-background) !important;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }

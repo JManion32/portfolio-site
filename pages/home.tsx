@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react';
 import { initDarkMode } from '../utils/darkMode';
 import Navbar from '../components/Navbar';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+    const navigate = useNavigate();
     useEffect(() => {
         initDarkMode();
     }, []);
@@ -11,7 +13,7 @@ function Home() {
     <>
       <div className="page">
         <Navbar />
-        <div className="home-container">
+        <div className="home-container content">
             <h1 className="name-header">Justin Manion</h1>
             <p className="name-desc">
                 Dedicated computer science student with a passion for evaluating, designing, 
@@ -56,6 +58,9 @@ function Home() {
                 </button>
             </div>
         </div>
+        <button className="right-guide-button" onClick={() => navigate('/projects')}>
+            Projects {'>'}
+        </button>
       </div>
     </>
   );

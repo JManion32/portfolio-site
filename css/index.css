@@ -2,6 +2,8 @@
 @import 'home.css';
 @import 'navbar.css';
 
+/* This stylesheet contains everything shared by more than 1 page / component. */
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -28,4 +30,32 @@ html, body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+}
+
+.content {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.left-guide-button {
+  left: 2rem;
+}
+
+.right-guide-button {
+  right: 2rem;
+}
+
+.left-guide-button, .right-guide-button {
+  position: absolute;
+  bottom: 2.25rem;
+  height: 2.25rem;
+  width: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.page-header {
+  font-size: 5rem;
 }

@@ -13,7 +13,7 @@
 
 .name-desc {
     font-size: 1.5rem;
-    width: 55%;
+    width: 70%;
     text-align: center;
 }
 
@@ -22,6 +22,7 @@
     display: flex;
     gap: 3.75rem;
     margin-bottom: 20rem;
+    flex-wrap: wrap;
 }
 
 .contact-button {

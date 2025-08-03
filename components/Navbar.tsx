@@ -22,9 +22,11 @@ const Navbar: React.FC = () => {
     <nav className="navbar">
         <ul className="nav-links">
             <li>
-                <a onClick={() => navigate('/')}>
-                    Home
-                </a>
+                <img
+                    src="../assets/jm-dark-circle.png"
+                    onClick={() => navigate('/')}
+                    className="jm-logo"
+                />
             </li>
             <li>
                 <a onClick={() => navigate('/projects')}>
@@ -36,7 +38,7 @@ const Navbar: React.FC = () => {
                     Experience
                 </a>
             </li>
-            <li>
+            <li id="last-link">
                 <a onClick={() => navigate('/blogs')}>
                     Blogs
                 </a>

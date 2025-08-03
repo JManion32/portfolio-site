@@ -1,6 +1,4 @@
 .navbar {
-  padding-left: 2rem;
-  padding-right: 2rem;
   background-color: rgb(60, 60, 60);
   height: 4rem;
   display: flex;
@@ -14,19 +12,24 @@
     font-size: 1.125rem;
     list-style: none;
     display: flex;
-    gap: 2.5rem;
     align-items: center;
     padding: 0 !important;
     margin: 0 !important;
 }
 
+.nav-links li {
+  min-width: 7.75rem;
+  text-align: center;
+}
+
+#home-button {
+  min-width: 4rem;
+  align-items: center;
+}
+
 .nav-links a {
   text-decoration: none;
   color: inherit;
-}
-
-#last-link {
-  flex-grow: 1;
 }
 
 .jm-logo {
@@ -35,12 +38,14 @@
   display: block;
 }
 
+.active-page {
+  background-color: red;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
 
-
-.dark-mode-container {
-  margin-top: auto;
-  margin-bottom: 1.4375rem;
-  align-self: center;
+#dark-mode-item {
+  margin-left: auto;
 }
 
 .dark-mode-switch {

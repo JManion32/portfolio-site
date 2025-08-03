@@ -11,7 +11,7 @@ function Blogs() {
       <div className="content">
         <h1 className="page-header">Blogs</h1>
       </div>
-      <button className="left-guide-button" onClick={() => navigate('/projects')}>
+      <button className="left-guide-button" onClick={() => navigate('/experience')}>
           {'<'} Experience
       </button>
     </>

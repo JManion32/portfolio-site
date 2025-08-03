@@ -1,11 +1,13 @@
 import React from 'react';
 import { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { initDarkMode } from '../utils/darkMode';
 
 const Navbar: React.FC = () => {
 
   const navigate = useNavigate();
+  const location = useLocation();
+  const isActive = (path: string) => location.pathname === path;
 
   useEffect(() => {
     initDarkMode();
@@ -21,7 +23,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
         <ul className="nav-links">
-            <li>
+            <li id="home-button">
                 <img
                     src="../assets/jm-dark-circle.png"
                     onClick={() => navigate('/')}
@@ -29,23 +31,26 @@ const Navbar: React.FC = () => {
                 />
             </li>
             <li>
-                <a onClick={() => navigate('/projects')}>
+                <a onClick={() => navigate('/projects')}
+                    className={isActive('/projects') ? 'active-page' : ''}>
                     Projects
                 </a>
             </li>
             <li>
-                <a onClick={() => navigate('/experience')}>
+                <a onClick={() => navigate('/experience')}
+                    className={isActive('/experience') ? 'active-page' : ''}>
                     Experience
                 </a>
             </li>
             <li id="last-link">
-                <a onClick={() => navigate('/blogs')}>
+                <a onClick={() => navigate('/blogs')}
+                    className={isActive('/blogs') ? 'active-page' : ''}>
                     Blogs
                 </a>
             </li>
-            <li>
+            <li id="dark-mode-item">
                 <label className="dark-mode-switch">
-                    <input type="checkbox" id="dark-mode-toggle" />
+                    <input type="checkbox" id="dark-mode-toggle"/>
                     <span className="slider">
                     <img
                         id="dark-mode-icon"

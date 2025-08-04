@@ -1,11 +1,12 @@
 :root {
     /* General */
-    --standard-text: #000000;
-    --site-background: #f4f2ee;
-    --content-background: #ffffff;
-    --section-divider: #202020;
-    --media-text: #0000009a;
-    --media-text-hover: #000000;
+    --standard-text: #1A1A1A;
+    --always-white: #ffffff;
+    --site-background: #eceff1;
+    --nav-background: #ffffff;
+    --default-button: #ffffff;
+    --active-nav: #dee8f3;
+
     --toggle-thumb: #ffffff;
     --toggle-track: #ccc;
 }
@@ -14,11 +15,10 @@
     /* General */
     --standard-text: #ffffff;
     --site-background: #111111;
-    --content-background: #202225;
-    --section-divider: #808080;
-    --media-text: #ffffff9a;
-    --media-text-hover: #ffffff;
-
+    --nav-background: #3c3c3c;
+    --default-button: #444444;
+    --active-nav: #1A1A1A;
+    
     --toggle-thumb: #000000;
     --toggle-track:  #4d4d4d;
 }

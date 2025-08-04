@@ -24,23 +24,23 @@ function Home() {
                 role that provides opportunities for both technical and professional growth.
             </p>
             <div className="contact-button-container">
+                <button 
+                    className="contact-button"
+                    onClick={() => window.open('https://github.com/JManion32', '_blank')}
+                >
+                    <img src="../assets/github-logo.png" className="github-image"/>
+                    GitHub
+                </button>
                 <button
                     className="contact-button"
                     onClick={() => window.location.href = 'mailto:jmanion32@gmail.com'}
                 >
                     <img
-                        src="../assets/mail_icon.png"
-                        className="github-image"
+                        src="../assets/gmail-logo.png"
+                        className="gmail-image"
                         alt="mail icon"
                     />
-                    Contact Me
-                </button>
-                <button 
-                    className="contact-button"
-                    onClick={() => window.open('https://github.com/JManion32', '_blank')}
-                >
-                    <img src="../assets/github_white.png" className="github-image"/>
-                    GitHub
+                    jmanion32@gmail.com
                 </button>
                 <button 
                     className="contact-button"
@@ -49,6 +49,7 @@ function Home() {
                     <img src="../assets/linkedin_logo.png" className="linkedin-image"/>
                     LinkedIn
                 </button>
+                {/*
                 <button 
                     className="contact-button"
                     onClick={() => window.open('https://www.youtube.com/@JManCodes', '_blank')}
@@ -56,6 +57,7 @@ function Home() {
                     <img src="../assets/youtube_logo.png" className="yt-image"/>
                     YouTube
                 </button>
+                */}
             </div>
         </div>
         <button className="right-guide-button" onClick={() => navigate('/projects')}>

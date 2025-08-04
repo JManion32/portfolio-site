@@ -15,7 +15,7 @@ function Projects() {
         >
             <img
                 src="../assets/preview.png"
-                className="github-image"
+                className="project-image"
                 alt="mail icon"
             />
             Speed Roulette
@@ -25,7 +25,7 @@ function Projects() {
         >
             <img
                 src="../assets/favicon.ico"
-                className="github-image"
+                className="project-image"
                 alt="mail icon"
             />
             Submitty
@@ -35,7 +35,7 @@ function Projects() {
         >
             <img
                 src="../assets/psoft-logo.png"
-                className="github-image"
+                className="project-image"
                 alt="mail icon"
             />
             Course Website
@@ -45,7 +45,7 @@ function Projects() {
         >
             <img
                 src="../assets/jm-dark-circle.png"
-                className="github-image"
+                className="project-image"
                 alt="mail icon"
             />
             Portfolio Website

@@ -1,30 +1,33 @@
 .navbar {
-  background-color: rgb(60, 60, 60);
+  background-color: var(--nav-background);
+  color: var(--standard-text);
   height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .nav-links {
-    width: 65%;
-    font-weight: bold;
-    font-size: 1.125rem;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    padding: 0 !important;
-    margin: 0 !important;
+  width: 65%;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: bold;
+  gap: 2rem; /* Equal spacing between items */
 }
 
 .nav-links li {
-  min-width: 7.75rem;
   text-align: center;
+  cursor: pointer;
 }
 
-#home-button {
-  min-width: 4rem;
-  align-items: center;
+.nav-link-text {
+  padding: 0.25rem 1rem;
+  border-radius: 1rem;
+  display: inline-block;
 }
 
 .nav-links a {
@@ -32,16 +35,32 @@
   color: inherit;
 }
 
+.active-page {
+  background-color: var(--active-nav);
+}
+
 .jm-logo {
   height: 2rem;
   align-self: center;
   display: block;
+  transition: transform 1s ease;
 }
 
-.active-page {
-  background-color: red;
-  border-radius: 0.5rem;
-  padding: 0.25rem 0.5rem;
+.spin-infinite {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.jm-logo:hover {
+  animation: spin 2s linear infinite;
 }
 
 #dark-mode-item {

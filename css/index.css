@@ -11,7 +11,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: var(--standard-text);
   background-color: var(--site-background) !important;
 
   font-synthesis: none;
@@ -55,6 +55,11 @@ html, body {
   padding-right: 1rem;
   font-size: 1.5rem;
   font-weight: bold;
+  background-color: var(--default-button);
+  color: var(--standard-text);
+  border: none;
+  border-radius: 0.375rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .page-header {

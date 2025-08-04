@@ -32,19 +32,19 @@ const Navbar: React.FC = () => {
             </li>
             <li>
                 <a onClick={() => navigate('/projects')}
-                    className={isActive('/projects') ? 'active-page' : ''}>
+                    className={`nav-link-text ${isActive('/projects') ? 'active-page' : ''}`}>
                     Projects
                 </a>
             </li>
             <li>
                 <a onClick={() => navigate('/experience')}
-                    className={isActive('/experience') ? 'active-page' : ''}>
+                    className={`nav-link-text ${isActive('/experience') ? 'active-page' : ''}`}>
                     Experience
                 </a>
             </li>
             <li id="last-link">
                 <a onClick={() => navigate('/blogs')}
-                    className={isActive('/blogs') ? 'active-page' : ''}>
+                    className={`nav-link-text ${isActive('/blogs') ? 'active-page' : ''}`}>
                     Blogs
                 </a>
             </li>

@@ -1,3 +1,9 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
 .home-container {
     flex-grow: 1;
     display: flex;
@@ -21,7 +27,7 @@
     margin-top: 4rem;
     display: flex;
     gap: 3.75rem;
-    margin-bottom: 20rem;
+    margin-bottom: 12rem;
     flex-wrap: wrap;
 }
 

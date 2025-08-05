@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import Navbar from '../components/Navbar';
 import { useNavigate } from 'react-router-dom';
 
 function Projects() {
@@ -7,7 +6,6 @@ function Projects() {
 
   return (
     <>
-      <Navbar />
       <div className="content">
         <h1 className="page-header">Projects</h1>
         <p className="projects-desc">Click on each project to learn more!</p> 

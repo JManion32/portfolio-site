@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { initDarkMode } from '../utils/darkMode';
-import Navbar from '../components/Navbar';
 import { useNavigate } from 'react-router-dom';
 
 function Home() {
@@ -11,8 +10,7 @@ function Home() {
 
   return (
     <>
-      <div className="page">
-        <Navbar />
+      <div className="home-page">
         <div className="home-container content">
             <h1 className="name-header">Justin Manion</h1>
             <p className="name-desc">

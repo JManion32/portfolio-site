@@ -28,12 +28,6 @@ html, body {
   flex-direction: column;
 }
 
-.page {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
 .content {
   width: 65%;
   margin: 0 auto;

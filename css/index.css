@@ -13,6 +13,7 @@
   color-scheme: light dark;
   color: var(--standard-text);
   background-color: var(--site-background) !important;
+  transition: color 0.2s ease, background-color 0.2s ease;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -47,6 +48,7 @@ html, body {
 }
 
 .left-guide-button, .right-guide-button {
+  transition: color 0.2s ease, background-color 0.2s ease;
   position: absolute;
   bottom: 2.25rem;
   height: 2.25rem;
@@ -60,6 +62,10 @@ html, body {
   border: none;
   border-radius: 0.375rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-guide-button:hover, .right-guide-button:hover {
+  background-color: var(--hover-default-button);
 }
 
 .page-header {

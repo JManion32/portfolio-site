@@ -24,13 +24,16 @@ function Home() {
                 role that provides opportunities for both technical and professional growth.
             </p>
             <div className="contact-button-container">
-                <button 
-                    className="contact-button"
-                    onClick={() => window.open('https://github.com/JManion32', '_blank')}
-                >
-                    <img src="../assets/github-logo.png" className="github-image"/>
-                    GitHub
-                </button>
+            <button 
+            className="contact-button"
+            onClick={() => window.open('https://github.com/JManion32', '_blank')}
+            >
+            <div className="github-image-wrapper">
+                <img src="../assets/github-mark.png" className="github-image light" />
+                <img src="../assets/github-mark-white.png" className="github-image dark" />
+            </div>
+            GitHub
+            </button>
                 <button
                     className="contact-button"
                     onClick={() => window.location.href = 'mailto:jmanion32@gmail.com'}

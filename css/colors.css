@@ -6,9 +6,13 @@
     --nav-background: #ffffff;
     --default-button: #ffffff;
     --active-nav: #dee8f3;
+    --contact-border: #9c9c9c;
 
     --toggle-thumb: #ffffff;
     --toggle-track: #ccc;
+
+    --hover-nav-text: #eef2f6;
+    --hover-default-button: #ededed; 
 }
 
 [data-theme="dark"] {
@@ -21,4 +25,7 @@
     
     --toggle-thumb: #000000;
     --toggle-track:  #4d4d4d;
+
+    --hover-nav-text: #303030;
+    --hover-default-button: #555555; 
 }

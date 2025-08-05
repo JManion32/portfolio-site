@@ -10,7 +10,7 @@ function SpeedRoulette() {
         <h1 className="page-header">Speed Roulette</h1>
       </div>
       <button className="right-guide-button" onClick={() => navigate('/projects/submitty')}>
-            Submitty {'>'}
+            Submitty <span className="right-arrow-spacer">{'>>'}</span>
       </button>
     </>
   );

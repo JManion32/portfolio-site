@@ -10,7 +10,7 @@ function Portfolio() {
         <h1 className="page-header">Portfolio Site</h1>
       </div>
       <button className="left-guide-button" onClick={() => navigate('/projects/psoft')}>
-          {'<'} Course Website
+          <span className="left-arrow-spacer">{'<<'}</span> Course Website
       </button>
     </>
   );

@@ -10,10 +10,10 @@ function Experience() {
         <h1 className="page-header">Experience</h1>
       </div>
       <button className="left-guide-button" onClick={() => navigate('/projects')}>
-          {'<'} Projects
+          <span className="left-arrow-spacer">{'<<'}</span> Projects
       </button>
       <button className="right-guide-button" onClick={() => navigate('/blogs')}>
-            Blogs {'>'}
+            Blogs <span className="right-arrow-spacer">{'>>'}</span>
       </button>
     </>
   );

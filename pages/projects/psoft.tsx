@@ -10,10 +10,10 @@ function PSoft() {
         <h1 className="page-header">Course Website</h1>
       </div>
       <button className="left-guide-button" onClick={() => navigate('/projects/submitty')}>
-          {'<'} Submitty
+          <span className="left-arrow-spacer">{'<<'}</span> Submitty
       </button>
       <button className="right-guide-button" onClick={() => navigate('/projects/portfolio')}>
-            Portfolio Site {'>'}
+            Portfolio Site <span className="right-arrow-spacer">{'>>'}</span>
       </button>
     </>
   );

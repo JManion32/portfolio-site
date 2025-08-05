@@ -62,7 +62,7 @@ function Home() {
             </div>
         </div>
         <button className="right-guide-button" onClick={() => navigate('/projects')}>
-            Projects {'>'}
+            Projects <span className="right-arrow-spacer">{'>>'}</span>
         </button>
       </div>
     </>

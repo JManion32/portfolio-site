@@ -68,3 +68,11 @@ html, body {
   font-size: 5rem;
   margin: 0;
 }
+
+.left-arrow-spacer {
+  margin-right: 0.5rem;
+}
+
+.right-arrow-spacer {
+  margin-left: 0.5rem;
+}

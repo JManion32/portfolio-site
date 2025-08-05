@@ -49,10 +49,10 @@ function Projects() {
         </div>
       </div>
       <button className="left-guide-button" onClick={() => navigate('/')}>
-          {'<'} Home
+          <span className="left-arrow-spacer">{'<<'}</span> Home
       </button>
       <button className="right-guide-button" onClick={() => navigate('/experience')}>
-            Experience {'>'}
+            Experience <span className="right-arrow-spacer">{'>>'}</span>
       </button>
     </>
   );

@@ -44,7 +44,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.875rem;
+  gap: 1rem;
   border: none;
   border-radius: 0.4rem;
   overflow: hidden;
@@ -123,6 +123,7 @@
 
 .linkedin-image {
     height: 1.5rem;
+    border-radius: 0.25rem;
 }
 
 .yt-image {

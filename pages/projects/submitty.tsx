@@ -10,10 +10,10 @@ function Submitty() {
         <h1 className="page-header">Submitty</h1>
       </div>
       <button className="left-guide-button" onClick={() => navigate('/projects/speedroulette')}>
-          {'<'} Speed Roulette
+          <span className="left-arrow-spacer">{'<<'}</span> Speed Roulette
       </button>
       <button className="right-guide-button" onClick={() => navigate('/projects/psoft')}>
-            Course Website {'>'}
+            Course Website <span className="right-arrow-spacer">{'>>'}</span>
       </button>
     </>
   );

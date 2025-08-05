@@ -49,24 +49,11 @@
   height: 2rem;
   align-self: center;
   display: block;
-  transition: transform 1s ease;
-}
-
-.spin-infinite {
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  transition: transform 0.2s ease;
 }
 
 .jm-logo:hover {
-  animation: spin 2s linear infinite;
+  transform: scale(1.05);
 }
 
 #dark-mode-item {

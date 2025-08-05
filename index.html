@@ -5,20 +5,25 @@
     <link rel="icon" type="image/png" href="./assets/jm-dark-circle.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>justinmanion.com</title>
+
     <script>
       try {
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
         const stored = localStorage.getItem('site_mode');
         const isDark = stored === 'dark' || (stored === null && prefersDark);
-        if (isDark) document.documentElement.classList.add('dark');
+        document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+
+        // Apply background color immediately to prevent white flash
+        document.documentElement.style.backgroundColor = isDark ? '#111111' : '#eceff1';
       } catch (_) {}
     </script>
+
     <style>
-      html {
+      html[data-theme='dark'] {
         background-color: #111111;
         color: white;
       }
-      html:not(.dark) {
+      html[data-theme='light'] {
         background-color: #f4f2ee;
         color: black;
       }

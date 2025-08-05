@@ -3,6 +3,7 @@
     --standard-text: #1A1A1A;
     --always-white: #ffffff;
     --site-background: #eceff1;
+    --project-preview: #ffffff;
     --nav-background: #ffffff;
     --default-button: #ffffff;
     --active-nav: #dee8f3;
@@ -12,13 +13,15 @@
     --toggle-track: #ccc;
 
     --hover-nav-text: #eef2f6;
-    --hover-default-button: #ededed; 
+    --hover-default-button: #f5f5f5; 
+    --hover-project-preview: #f5f5f5;
 }
 
 [data-theme="dark"] {
     /* General */
     --standard-text: #ffffff;
     --site-background: #111111;
+    --project-preview: #222222;
     --nav-background: #3c3c3c;
     --default-button: #444444;
     --active-nav: #1A1A1A;
@@ -28,4 +31,5 @@
 
     --hover-nav-text: #303030;
     --hover-default-button: #555555; 
+    --hover-project-preview: #333333;
 }

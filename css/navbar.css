@@ -103,5 +103,5 @@
 }
 
 .dark-mode-switch input:checked ~ .slider img {
-  transform: translateX(25.3px);
+  transform: translateX(1.58125rem);
 }

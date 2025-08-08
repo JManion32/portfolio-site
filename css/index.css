@@ -64,8 +64,8 @@ html, body {
 }
 
 .page-header {
-  margin-top: 3rem !important;
-  font-size: 5rem;
+  margin-top: 2rem !important;
+  font-size: 4rem;
   margin: 0;
 }
 
@@ -75,4 +75,10 @@ html, body {
 
 .right-arrow-spacer {
   margin-left: 0.5rem;
+}
+
+@media screen and (min-width: 2560px) {
+  html {
+    font-size: 18px;
+  }
 }

@@ -2,6 +2,10 @@
 
 Website to showcase my work, experience, and blogs.
 
+```
+git clone https://github.com/JManion32/portfolio-site.git
+```
+
 
 # Tech Stack
 

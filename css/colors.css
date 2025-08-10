@@ -8,6 +8,7 @@
     --default-button: #ffffff;
     --active-nav: #dee8f3;
     --contact-border: #9c9c9c;
+    --breadcrumb-link: #3e6d8f;
 
     --toggle-thumb: #ffffff;
     --toggle-track: #ccc;
@@ -15,6 +16,7 @@
     --hover-nav-text: #eef2f6;
     --hover-default-button: #f5f5f5; 
     --hover-project-preview: #f5f5f5;
+    --hover-breadcrumb-link: #294b64;
 }
 
 [data-theme="dark"] {
@@ -25,6 +27,7 @@
     --nav-background: #3c3c3c;
     --default-button: #444444;
     --active-nav: #1A1A1A;
+    --breadcrumb-link: #84a1c2;
     
     --toggle-thumb: #000000;
     --toggle-track:  #4d4d4d;
@@ -32,4 +35,5 @@
     --hover-nav-text: #303030;
     --hover-default-button: #555555; 
     --hover-project-preview: #333333;
+    --hover-breadcrumb-link: #a0c0e5;
 }

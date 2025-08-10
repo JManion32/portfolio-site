@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Breadcrumbs from '../../components/Breadcrumb';
 
 function PSoft() {
   const navigate = useNavigate();
@@ -7,6 +8,7 @@ function PSoft() {
   return (
     <>
       <div className="content">
+        <Breadcrumbs labelMap={{ projects: 'Projects', submitty: 'Submitty' }} />
         <h1 className="page-header">Course Website</h1>
       </div>
       <button className="left-guide-button" onClick={() => navigate('/projects/submitty')}>

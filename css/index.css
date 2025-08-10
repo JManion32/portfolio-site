@@ -2,6 +2,7 @@
 @import 'home.css';
 @import 'navbar.css';
 @import 'projects.css';
+@import 'breadcrumb.css';
 
 /* This stylesheet contains everything shared by more than 1 page / component. */
 
@@ -64,7 +65,6 @@ html, body {
 }
 
 .page-header {
-  margin-top: 2rem !important;
   font-size: 4rem;
   margin: 0;
 }

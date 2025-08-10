@@ -6,7 +6,7 @@ function Projects() {
 
   return (
     <>
-      <div className="content">
+      <div className="project-content">
         <h1 className="page-header">Projects</h1>
         <p className="projects-desc">Click on each project to learn more!</p> 
         <div className="project-grid">

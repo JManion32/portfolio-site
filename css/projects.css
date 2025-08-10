@@ -1,11 +1,16 @@
+.project-content {
+  width: 55%;
+  margin: 0 auto;
+}
+
 .project-image {
-  height: 5.5rem;
+  height: 4.5rem;
   margin-bottom: .75rem;
 }
 
 .projects-desc {
   transition: color 0.2s ease, background-color 0.2s ease;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: bold;
   font-style: italic;
   margin: 0;
@@ -16,7 +21,7 @@
   transition: color 0.2s ease, background-color 0.2s ease;
   padding: 0;
   margin: 0;
-  font-size: 2.125rem;
+  font-size: 1.8rem;
 }
 
 .project-preview-desc {
@@ -30,12 +35,13 @@
 }
 
 .project-preview-container {
-  transition: color 0.2s ease, background-color 0.2s ease;
+  transition: color 0.2s ease, background-color 0.2s ease, border 0.2s ease;
   background-color: var(--project-preview);
   padding: 1.5rem;
   border-radius: 0.5rem;
+  border: 2px solid var(--hover-project-preview);
   text-align: center;
-  min-height: 10rem;
+  min-height: 8rem;
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }

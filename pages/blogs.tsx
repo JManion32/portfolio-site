@@ -8,6 +8,7 @@ function Blogs() {
     <>
       <div className="content">
         <h1 className="page-header">Blogs</h1>
+        <p>Coming soon!</p>
       </div>
       <button className="left-guide-button" onClick={() => navigate('/experience')}>
           <span className="left-arrow-spacer">{'<<'}</span> Experience

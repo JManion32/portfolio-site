@@ -1,5 +1,5 @@
 .project-content {
-  width: 55%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -48,6 +48,20 @@
 
 .project-preview-container:hover {
   background-color: var(--hover-project-preview);
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+}
+
+.page-header {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.project-contact-btn {
+  margin-left: 1rem;
 }
 
 /* Stack vertically on small screens */

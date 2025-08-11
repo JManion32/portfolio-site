@@ -8,7 +8,7 @@ function PSoft() {
   return (
     <>
       <div className="content">
-        <Breadcrumbs labelMap={{ projects: 'Projects', submitty: 'Submitty' }} />
+        <Breadcrumbs />
         <h1 className="page-header">Course Website</h1>
       </div>
       <button className="left-guide-button" onClick={() => navigate('/projects/submitty')}>

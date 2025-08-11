@@ -4,10 +4,15 @@ import { Link, useLocation } from 'react-router-dom';
 
 function toTitle(s: string) {
   return s
-    .split('-')
-    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(' ');
+    .replace(/([a-z])([A-Z])/g, '$1 $2') // camelCase → camel Case
+    .replace(/-/g, ' ')                  // kebab-case → kebab case
+    .replace(/([a-z])(?=[A-Z])/g, '$1 ') // optional extra split
+    .replace(/speedroulette/i, 'Speed Roulette') // special case
+    .replace(/psoft/i, 'Course Website') // special case
+    .replace(/portfolio/i, 'Portfolio Site') // special case
+    .replace(/\b\w/g, char => char.toUpperCase());
 }
+
 
 export default function Breadcrumbs({ labelMap = {} }: { labelMap?: Record<string, string> }) {
   const { pathname } = useLocation();

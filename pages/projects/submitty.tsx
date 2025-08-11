@@ -8,8 +8,25 @@ function Submitty() {
   return (
     <>
       <div className="content">
-        <Breadcrumbs labelMap={{ projects: 'Projects', submitty: 'Submitty' }} />
-        <h1 className="page-header">Submitty</h1>
+        <Breadcrumbs />
+        <div className="header-row">
+          <h1 className="page-header">Submitty</h1>
+          <button 
+            className="contact-button project-contact-btn"
+            onClick={() => window.open('https://submitty.org/index/overview', '_blank')}
+            >
+            <img src="../../assets/submitty_duck.png" className="contact-image"/>
+          </button>
+          <button 
+            className="contact-button project-contact-btn"
+            onClick={() => window.open('https://github.com/Submitty/Submitty', '_blank')}
+            >
+            <div className="github-image-wrapper">
+                <img src="../../assets/github-mark.png" className="github-image light" />
+                <img src="../../assets/github-mark-white.png" className="github-image dark" />
+            </div>
+          </button>
+        </div>
       </div>
       <button className="left-guide-button" onClick={() => navigate('/projects/speedroulette')}>
           <span className="left-arrow-spacer">{'<<'}</span> Speed Roulette

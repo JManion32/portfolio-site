@@ -70,3 +70,24 @@
     grid-template-columns: 1fr;
   }
 }
+
+.techStack {
+  margin-top: 3rem;
+  background:#121418;
+  color:#e7e7ea;
+  border:1px solid #23262d;
+  border-radius:12px;
+  padding:16px
+}
+.techStack__heading{margin:0 0 8px;font-size:1.25rem;letter-spacing:.2px}
+.techStack__grid{display:grid;grid-template-columns:1fr;gap:12px}
+@media (min-width:700px){.techStack__grid{grid-template-columns:1fr 1fr}}
+.techStack__section{background:#0f1115;border:1px solid #1f232b;border-radius:10px;padding:12px}
+.techStack__title{margin:0 0 8px;font-size:.95rem;font-weight:700;border-bottom:1px dashed #2a2f39;padding-bottom:6px}
+.techStack__badges{display:flex;flex-wrap:wrap;gap:6px}
+.badge{display:inline-flex;align-items:center;padding:4px 8px;border-radius:6px;font-size:.8rem;font-weight:700;line-height:1;white-space:nowrap;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.06)}
+.vite{background:#646cff;color:#fff}.react{background:#61dafb;color:#0b0f14}.ts{background:#3178c6;color:#fff}.tailwind{background:#06b6d4;color:#051923}
+.go{background:#00add8;color:#032027}
+.postgres{background:#336791;color:#fff}.redis{background:#d82c20;color:#fff}
+.docker{background:#0db7ed;color:#03121a}.digitalocean{background:#0080ff;color:#fff}.route53{background:#ff9900;color:#211a00}.nginx{background:#009639;color:#00170a}.certbot{background:#2dce89;color:#041711}
+.eslint{background:#4b32c3;color:#fff}.stylelint{background:#263238;color:#e6f1f5}.prettier{background:#f7b93e;color:#1a1400}.cypress{background:#2e2e2e;color:#fff}.golangci{background:#00add8;color:#032027}.gofmt{background:#00add8;color:#032027}.gotest{background:#00add8;color:#032027}

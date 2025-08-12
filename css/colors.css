@@ -22,17 +22,17 @@
 [data-theme="dark"] {
     /* General */
     --standard-text: #ffffff;
-    --site-background: #111111;
+    --site-background: #111111; /* #141415 is nice too */
     --project-preview: #222222;
-    --nav-background: #3c3c3c;
+    --nav-background: #222222;
     --default-button: #444444;
-    --active-nav: #1A1A1A;
+    --active-nav: #111111;
     --breadcrumb-link: #84a1c2;
     
     --toggle-thumb: #000000;
     --toggle-track:  #4d4d4d;
 
-    --hover-nav-text: #303030;
+    --hover-nav-text: #1A1A1A;
     --hover-default-button: #555555; 
     --hover-project-preview: #333333;
     --hover-breadcrumb-link: #a0c0e5;

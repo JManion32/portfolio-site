@@ -27,6 +27,11 @@ function Submitty() {
             </div>
           </button>
         </div>
+        <p>
+          Submitty is an open source course management, assignment submission, exam and grading 
+          system from the Rensselaer Center for Open Source Software (RCOS), Department of Computer 
+          Science at Rensselaer Polytechnic Institute.
+        </p>
       </div>
       <button className="left-guide-button" onClick={() => navigate('/projects/speedroulette')}>
           <span className="left-arrow-spacer">{'<<'}</span> Speed Roulette

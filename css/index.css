@@ -22,6 +22,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+    scrollbar-gutter: stable both-edges;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(92, 92, 92, 0.5);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -29,9 +49,21 @@ html, body {
   flex-direction: column;
 }
 
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
 .content {
   width: 65%;
   margin: 0 auto;
+  flex-grow: 1;
+}
+
+.guide-footer {
+  margin-top: 5rem;
+  position: relative;
+  height: 4.5rem;
 }
 
 .left-guide-button {
@@ -43,9 +75,9 @@ html, body {
 }
 
 .left-guide-button, .right-guide-button {
+  position: absolute; 
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   transition: color 0.2s ease, background-color 0.2s ease;
-  position: absolute;
   bottom: 2.25rem;
   height: 2.25rem;
   width: auto;

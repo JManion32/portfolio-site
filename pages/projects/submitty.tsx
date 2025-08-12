@@ -35,7 +35,6 @@ function Submitty() {
             Science at Rensselaer Polytechnic Institute.
           </p>
           <TechStack
-            heading="Tech Stack"
             sections={[
               {
                 title: "Frontend",

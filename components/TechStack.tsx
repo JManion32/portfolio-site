@@ -8,13 +8,13 @@ type Props = {
   id?: string;
 };
 
-export default function TechStack({ heading = "Tech Stack", sections, id = "tech-stack-title" }: Props) {
+export default function TechStack({ sections, id = "tech-stack-title" }: Props) {
   const getName  = (b: Badge) => (typeof b === "string" ? b : b.name);
   const getClass = (b: Badge) => (typeof b === "string" ? "" : (b.className ?? ""));
 
   return (
-    <section className="techStack" aria-labelledby={id}>
-      <h2 id={id} className="techStack__heading">{heading}</h2>
+    <section aria-labelledby={id}>
+      <h2 className="page-subheader">Tech Stack</h2>
       <div className="techStack__grid">
         {sections.map((sec) => (
           <div key={sec.title} className="techStack__section">

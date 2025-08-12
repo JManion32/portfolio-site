@@ -4,6 +4,7 @@
 @import 'projects.css';
 @import 'blogs.css';
 @import 'breadcrumb.css';
+@import 'techstack.css';
 
 /* This stylesheet contains everything shared by more than 1 page / component. */
 
@@ -26,6 +27,15 @@
 
 html {
     scrollbar-gutter: stable both-edges;
+}
+
+.page-subheader {
+    display: block;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    unicode-bidi: isolate;
 }
 
 ::-webkit-scrollbar {

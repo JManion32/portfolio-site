@@ -37,7 +37,6 @@ function SpeedRoulette() {
             decisions, taking bold risks, and hitting big payouts.
           </p>
           <TechStack
-            heading="Tech Stack"
             sections={[
               {
                 title: "Frontend",
@@ -85,15 +84,15 @@ function SpeedRoulette() {
               }
             ]}
           />
-          <h2>Implementation</h2>
+          <h2 className="page-subheader">Implementation</h2>
 
-          <h2>Technical Challenges</h2>
+          <h2 className="page-subheader">Technical Challenges</h2>
           1. New Technologies - throwing myself in the deep end
           2. Grid layout
           3. Deployment
           4. Security
 
-          <h2>Reflection</h2>
+          <h2 className="page-subheader">Reflection</h2>
           Despite this project being created this year, I think this is what truly ignited my true passion
           for programming. Before this I had created projects for assignments and contributed Submitty, but 
           I did it for requirement, rather than the love of the game. From the moment I started this project 

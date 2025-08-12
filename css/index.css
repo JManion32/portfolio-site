@@ -2,6 +2,7 @@
 @import 'home.css';
 @import 'navbar.css';
 @import 'projects.css';
+@import 'blogs.css';
 @import 'breadcrumb.css';
 
 /* This stylesheet contains everything shared by more than 1 page / component. */
@@ -10,6 +11,7 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  --nav-h: 6rem;
 
   color-scheme: light dark;
   color: var(--standard-text);
@@ -50,6 +52,7 @@ html, body {
 }
 
 .page {
+  min-height: calc(100dvh - var(--nav-h));
   display: flex;
   flex-direction: column;
 }
@@ -61,7 +64,7 @@ html, body {
 }
 
 .guide-footer {
-  margin-top: 5rem;
+  margin-top: 4rem;
   position: relative;
   height: 4.5rem;
 }

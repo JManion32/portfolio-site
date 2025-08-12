@@ -6,13 +6,17 @@ function Blogs() {
 
   return (
     <>
-      <div className="content">
-        <h1 className="page-header">Blogs</h1>
-        <p>Coming soon!</p>
+      <div className="page">
+        <div className="content">
+          <h1 className="page-header">Blogs</h1>
+          <p className="coming-soon">Coming soon!</p>
+        </div>
+        <footer className="guide-footer">
+          <button className="left-guide-button" onClick={() => navigate('/experience')}>
+              <span className="left-arrow-spacer">{'<<'}</span> Experience
+          </button>
+        </footer>
       </div>
-      <button className="left-guide-button" onClick={() => navigate('/experience')}>
-          <span className="left-arrow-spacer">{'<<'}</span> Experience
-      </button>
     </>
   );
 }

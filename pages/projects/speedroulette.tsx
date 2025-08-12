@@ -6,28 +6,6 @@ import TechStack from "../../components/TechStack";
 function SpeedRoulette() {
   const navigate = useNavigate();
 
-  const brandClasses = {
-    "vite": "vite",
-    "react": "react",
-    "typescript": "ts",
-    "tailwind css": "tailwind",
-    "go": "go",
-    "postgresql": "postgres",
-    "redis": "redis",
-    "docker": "docker",
-    "digitalocean": "digitalocean",
-    "aws route 53": "route53",
-    "nginx": "nginx",
-    "certbot": "certbot",
-    "eslint": "eslint",
-    "stylelint": "stylelint",
-    "prettier": "prettier",
-    "cypress": "cypress",
-    "golangci-lint": "golangci",
-    "gofmt": "gofmt",
-    "go test": "gotest"
-  };
-
   return (
     <>
       <div className="page">
@@ -59,30 +37,53 @@ function SpeedRoulette() {
             decisions, taking bold risks, and hitting big payouts.
           </p>
           <TechStack
-                heading="Tech Stack"
-                classMap={brandClasses}
-                sections={[
-                  {
-                    title: "Frontend",
-                    items: ["Vite", "React", "TypeScript", "Tailwind CSS"]
-                  },
-                  {
-                    title: "Backend",
-                    items: ["Go"]
-                  },
-                  {
-                    title: "Database & Caching",
-                    items: ["PostgreSQL", "Redis"]
-                  },
-                  {
-                    title: "Infrastructure & DevOps",
-                    items: ["Docker", "DigitalOcean", "AWS Route 53", "Nginx", "Certbot"]
-                  },
-                  {
-                    title: "Tooling / Dev Dependencies",
-                    items: ["ESLint", "Stylelint", "Prettier", "Cypress", "GolangCI-Lint", "gofmt", "go test"]
-                  }
-                ]}
+            heading="Tech Stack"
+            sections={[
+              {
+                title: "Frontend",
+                items: [
+                  { name: "Vite", className: "vite" },
+                  { name: "React", className: "react" },
+                  { name: "TypeScript", className: "ts" },
+                  { name: "Tailwind CSS", className: "tailwind" }
+                ]
+              },
+              {
+                title: "Backend",
+                items: [
+                  { name: "Go", className: "go" }
+                ]
+              },
+              {
+                title: "Database & Caching",
+                items: [
+                  { name: "PostgreSQL", className: "postgres" },
+                  { name: "Redis", className: "redis" }
+                ]
+              },
+              {
+                title: "Infrastructure & DevOps",
+                items: [
+                  { name: "Docker", className: "docker" },
+                  { name: "DigitalOcean", className: "digitalocean" },
+                  { name: "AWS Route 53", className: "route53" },
+                  { name: "Nginx", className: "nginx" },
+                  { name: "Certbot", className: "certbot" }
+                ]
+              },
+              {
+                title: "Tooling / Dev Dependencies",
+                items: [
+                  { name: "ESLint", className: "eslint" },
+                  { name: "Stylelint", className: "stylelint" },
+                  { name: "Prettier", className: "prettier" },
+                  { name: "Cypress", className: "cypress" },
+                  { name: "GolangCI-Lint", className: "golangci" },
+                  { name: "gofmt", className: "gofmt" },
+                  { name: "go test", className: "gotest" }
+                ]
+              }
+            ]}
           />
           <h2>Implementation</h2>
 

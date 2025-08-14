@@ -7,6 +7,12 @@ import Submitty from './pages/projects/submitty';
 import PSoft from './pages/projects/psoft';
 import Portfolio from './pages/projects/portfolio';
 import Experience from './pages/experience';
+import Rensselaer from './pages/experience/Rensselaer';
+import HudsonValley from './pages/experience/HudsonValley';
+import LambdaChi from './pages/experience/LambdaChi';
+import PriceChopper from './pages/experience/PriceChopper';
+import Stewarts from './pages/experience/Stewarts';
+import Streamer from './pages/experience/Streamer';
 import Blogs from './pages/blogs';
 
 function App() {
@@ -21,6 +27,12 @@ function App() {
         <Route path="/projects/psoft" element={<PSoft />} />
         <Route path="/projects/portfolio" element={<Portfolio />} />
         <Route path="/experience" element={<Experience />} />
+        <Route path="/experience/Rensselaer" element={<Rensselaer />} />
+        <Route path="/experience/HudsonValley" element={<HudsonValley />} />
+        <Route path="/experience/PriceChopper" element={<PriceChopper />} />
+        <Route path="/experience/LambdaChi" element={<LambdaChi />} />
+        <Route path="/experience/Stewarts" element={<Stewarts />} />
+        <Route path="/experience/Streamer" element={<Streamer />} />
         <Route path="/blogs" element={<Blogs />} />
       </Routes>
     </>

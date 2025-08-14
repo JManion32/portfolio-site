@@ -7,9 +7,15 @@ function toTitle(s: string) {
     .replace(/([a-z])([A-Z])/g, '$1 $2') // camelCase → camel Case
     .replace(/-/g, ' ')                  // kebab-case → kebab case
     .replace(/([a-z])(?=[A-Z])/g, '$1 ') // optional extra split
-    .replace(/speedroulette/i, 'Speed Roulette') // special case
-    .replace(/psoft/i, 'Course Website') // special case
-    .replace(/portfolio/i, 'Portfolio Site') // special case
+    .replace(/speedroulette/i, 'Speed Roulette')
+    .replace(/psoft/i, 'Course Website')
+    .replace(/portfolio/i, 'Portfolio Site')
+    .replace(/rensselaer/i, 'RPI')
+    .replace(/stewarts/i, 'Stewarts Shops')
+    .replace(/lambdachi/i, 'Lambda Chi Alpha')
+    .replace(/pricechopper/i, 'Price Chopper')
+    .replace(/hudsonvalley/i, 'HVCC')
+    .replace(/streamer/i, 'Twitch Streamer')
     .replace(/\b\w/g, char => char.toUpperCase());
 }
 

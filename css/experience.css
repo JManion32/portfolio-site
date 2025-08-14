@@ -1,0 +1,15 @@
+.exp-preview-container {
+    padding: 1rem;
+    margin-top: 1.5rem;
+    transition: color 0.2s ease, background-color 0.2s ease, border 0.2s ease;
+    background-color: var(--project-preview);
+    border-radius: 0.5rem;
+    border: 2px solid var(--hover-project-preview);
+    min-height: 8rem;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.exp-preview-container:hover {
+    background-color: var(--hover-project-preview);
+}

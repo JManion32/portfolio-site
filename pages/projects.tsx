@@ -9,7 +9,7 @@ function Projects() {
       <div className="page">
         <div className="project-content">
             <h1 className="page-header">Projects</h1>
-            <p className="projects-desc">Click on each project to learn more!</p> 
+            <p className="projects-desc">Click on a project to learn more!</p> 
             <div className="project-grid">
                 <div onClick={() => navigate('/projects/speedroulette')} className="project-preview-container">
                     <img

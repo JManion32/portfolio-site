@@ -8,7 +8,13 @@ function Experience() {
     <>
       <div className="page">
         <div className="content">
-          <h1 className="page-header">Experience</h1>
+          <div className="header-container">
+              <h1 className="page-header exp-header">Projects</h1>
+              <button className="contact-button" onClick={() => navigate('/experience/Resume')}>
+                  View Resume
+              </button>
+          </div>
+          <p className="projects-desc">Click on an experience to learn more!</p> 
           <div onClick={() => navigate('/experience/Rensselaer')} className="exp-preview-container">
             <h2>Rensselaer Polytechnic Institute</h2>
           </div>

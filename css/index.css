@@ -69,7 +69,7 @@ html, body {
 }
 
 .content {
-  width: 65%;
+  width: 60%;
   margin: 0 auto;
   flex-grow: 1;
 }

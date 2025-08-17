@@ -1,6 +1,7 @@
 .header-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -8,8 +9,12 @@
     flex-grow: 1;
 }
 
+.view-resume {
+  margin: 1rem 0;
+}
+
 .exp-preview-container {
-    padding: 1rem;
+    padding: 2rem;
     margin-top: 1.5rem;
     transition: color 0.2s ease, background-color 0.2s ease, border 0.2s ease;
     background-color: var(--project-preview);
@@ -42,3 +47,7 @@
   margin: 0.5rem 0 1rem;
 }
 
+.experience-date {
+  font-style: italic;
+  margin: 0;
+}

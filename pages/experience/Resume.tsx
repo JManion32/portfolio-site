@@ -1,17 +1,26 @@
 import Breadcrumbs from "../../components/Breadcrumb";
-import ResumeInteractive from "../../components/ResumeInteractive";
 
-function Rensselaer() {
+function Resume() {
   return (
     <div className="page">
-      <div className="content">
+      <div className="content resume-content">
         <div className="resume-breadcrumb-container">
           <Breadcrumbs />
         </div>
-        <ResumeInteractive />
+
+        <iframe
+          className="resume-frame"
+          src="/files/resume.pdf#page=1&zoom=100"
+          title="Resume"
+        />
+        <noscript>
+          <p>
+            View the resume: <a href="/files/resume.pdf">Open PDF</a>
+          </p>
+        </noscript>
       </div>
     </div>
   );
 }
 
-export default Rensselaer;
+export default Resume;

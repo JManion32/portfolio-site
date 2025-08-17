@@ -1,18 +1,16 @@
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import Breadcrumbs from '../../components/Breadcrumb';
+import Breadcrumbs from "../../components/Breadcrumb";
+import ResumeInteractive from "../../components/ResumeInteractive";
 
 function Rensselaer() {
-  const navigate = useNavigate();
-
   return (
-    <>
-      <div className="page">
-        <div className="content">
+    <div className="page">
+      <div className="content">
+        <div className="resume-breadcrumb-container">
           <Breadcrumbs />
         </div>
+        <ResumeInteractive />
       </div>
-    </>
+    </div>
   );
 }
 

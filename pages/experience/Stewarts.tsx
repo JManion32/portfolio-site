@@ -8,10 +8,13 @@ function Stewarts() {
   return (
     <>
       <div className="page">
-        <div className="content">
+        <div className="text-content">
           <Breadcrumbs />
           <div className="header-row">
             <h1 className="page-header">IT Field Technician Intern</h1>
+          </div>
+          <div id="text-body">
+
           </div>
         </div>
         <footer className="guide-footer">

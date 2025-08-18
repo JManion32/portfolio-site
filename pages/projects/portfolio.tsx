@@ -8,7 +8,7 @@ function Portfolio() {
   return (
     <>
       <div className="page">
-        <div className="content">
+        <div className="text-content">
           <Breadcrumbs />
           <div className="header-row">
             <h1 className="page-header">Portfolio Site</h1>
@@ -21,6 +21,9 @@ function Portfolio() {
                   <img src="../../assets/github-mark-white.png" className="github-image dark" />
               </div>
             </button>
+          </div>
+          <div id="text-body">
+            <p>Showcasing my work and experience!</p>
           </div>
         </div>
         <footer className="guide-footer">

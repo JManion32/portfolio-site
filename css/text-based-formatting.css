@@ -1,4 +1,4 @@
-.text-content h2 {
+#text-body h2 {
     display: block;
     margin-top: 3rem;
     margin-bottom: 1rem;
@@ -8,11 +8,11 @@
 
 }
 
-.text-content p {
+#text-body p {
   margin: 1.2rem 0;
 }
 
-.text-content img {
+#text-body img {
   border-radius: 1rem;
   border: 2px solid var(--project-img-border);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);

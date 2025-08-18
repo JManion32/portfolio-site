@@ -11,7 +11,6 @@ type Props = {
 
 export default function PreviewCard({img: previewImg, header: previewHeader, date: previewDate, desc: previewDesc, nav: previewNav,}: Props) {
   const navigate = useNavigate();
-  const hasDate = !!previewDate?.trim();
   return (
     <div onClick={() => navigate(previewNav)} className="project-preview-container">
       <img src={previewImg} className="project-image" alt={`${previewHeader} preview`} />

@@ -21,7 +21,7 @@ function Projects() {
                     img= "../assets/submitty_duck.png"
                     header= "Submitty"
                     desc= "Rensselaer Polytechnic Institute's open source homework submission server for computer science courses."
-                    nav= "projects/submitty"
+                    nav= "/projects/submitty"
                 />
                 <PreviewCard
                     img= "../assets/psoft-logo.png"
@@ -33,7 +33,7 @@ function Projects() {
                     img= "../assets/jm-dark-circle.png"
                     header= "Portfolio Site"
                     desc= "Website to showcase my projects, experience, and blogs."
-                    nav= "/projects/psoft"
+                    nav= "/projects/portfolio"
                 />
             </div>
         </div>

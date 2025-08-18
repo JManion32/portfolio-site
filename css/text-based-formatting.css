@@ -1,0 +1,33 @@
+.text-content h2 {
+    display: block;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    unicode-bidi: isolate;
+
+}
+
+.text-content p {
+  margin: 1.2rem 0;
+}
+
+.text-content img {
+  border-radius: 1rem;
+  border: 2px solid var(--project-img-border);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+  max-width: 70%;
+  height: auto;
+}
+
+.content-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-img-desc {
+  font-style: italic;
+}

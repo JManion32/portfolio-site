@@ -6,6 +6,7 @@
 @import 'blogs.css';
 @import 'breadcrumb.css';
 @import 'techstack.css';
+@import 'text-based-formatting.css';
 
 /* This stylesheet contains everything shared by more than 1 page / component. */
 
@@ -28,15 +29,6 @@
 
 html {
     scrollbar-gutter: stable both-edges;
-}
-
-.page-subheader {
-    display: block;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    unicode-bidi: isolate;
 }
 
 ::-webkit-scrollbar {
@@ -128,6 +120,7 @@ html, body {
 .page-header {
   font-size: 4rem;
   margin: 0;
+  flex-grow: 1;
 }
 
 .left-arrow-spacer {

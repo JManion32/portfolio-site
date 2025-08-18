@@ -14,7 +14,7 @@ export default function TechStack({ sections, id = "tech-stack-title" }: Props) 
 
   return (
     <section aria-labelledby={id}>
-      <h2 className="page-subheader">Tech Stack</h2>
+      <h2 className="content-h2">Tech Stack</h2>
       <div className="techStack__grid">
         {sections.map((sec) => (
           <div key={sec.title} className="techStack__section">

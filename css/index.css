@@ -68,10 +68,23 @@ html, body {
   flex-direction: column;
 }
 
+/* Projects, Experience, Blogs */
 .content {
+  width: 65%;
+  margin: 0 auto;
+  flex-grow: 1;
+}
+
+/* Speed Roulette, Submitty, RPI*/
+.text-content {
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   width: 60%;
   margin: 0 auto;
   flex-grow: 1;
+  background-color: var(--content-background);
+  padding: 3rem 5rem;
+  border-radius: 2rem;
 }
 
 .guide-footer {
@@ -220,4 +233,8 @@ html, body {
   html {
     font-size: 18px;
   }
+}
+
+.no-margin {
+  margin: 0 !important;
 }

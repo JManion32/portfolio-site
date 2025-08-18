@@ -29,7 +29,7 @@ function Experience() {
               <div onClick={() => navigate('/experience/Stewarts')} className="project-preview-container">
                   <img
                       src="../assets/stewarts-logo.png"
-                      className="project-image"
+                      className="project-image stewarts-img"
                       alt="Stewart's Shops Logo"
                   />
                   <h2 className="project-preview-header">IT Field Technician Intern</h2>
@@ -49,7 +49,7 @@ function Experience() {
               <div onClick={() => navigate('/experience/PriceChopper')} className="project-preview-container">
                   <img
                       src="../assets/price-chopper.png"
-                      className="project-image"
+                      className="project-image price-chopper-img"
                       alt="Price Chopper Logo"
                   />
                   <h2 className="project-preview-header">Price Chopper</h2>
@@ -58,7 +58,7 @@ function Experience() {
               </div>
               <div onClick={() => navigate('/experience/HudsonValley')} className="project-preview-container">
                   <img
-                      src="../assets/hvcc-green.jpg"
+                      src="../assets/hvcc-green.png"
                       className="project-image"
                       alt="Hudson Valley Community College Logo"
                   />

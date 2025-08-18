@@ -1,10 +1,7 @@
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import Breadcrumbs from '../../components/Breadcrumb';
+import NavButton from '../../components/NavButton';
 
 function PSoft() {
-  const navigate = useNavigate();
-
   return (
     <>
       <div className="page">
@@ -20,14 +17,10 @@ function PSoft() {
             </p>
           </div>
         </div>
-        <footer className="guide-footer">
-          <button className="left-guide-button" onClick={() => navigate('/projects/submitty')}>
-              <span className="left-arrow-spacer">{'<<'}</span> Submitty
-          </button>
-          <button className="right-guide-button" onClick={() => navigate('/projects/portfolio')}>
-                Portfolio Site <span className="right-arrow-spacer">{'>>'}</span>
-          </button>
-        </footer>
+        <NavButton
+          left="Submitty" leftNav="/projects/submitty"
+          right="Portfolio Site" rightNav="/projects/portfolio"
+        />
       </div>
     </>
   );

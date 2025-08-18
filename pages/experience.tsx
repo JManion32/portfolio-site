@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import PreviewCard from '../components/PreviewCard';
+import NavButton from '../components/NavButton';
 
 function Experience() {
   const navigate = useNavigate();
@@ -60,14 +61,10 @@ function Experience() {
             />
           </div>
         </div>
-        <footer className="guide-footer">
-          <button className="left-guide-button" onClick={() => navigate('/projects')}>
-               <span className="left-arrow-spacer">{'<<'}</span> Projects
-          </button>
-          <button className="right-guide-button" onClick={() => navigate('/blogs')}>
-                Blogs <span className="right-arrow-spacer">{'>>'}</span>
-          </button>
-        </footer>
+        <NavButton
+          left="Projects" leftNav="/projects"
+          right="Blogs" rightNav="/blogs"
+        />
       </div>
     </>
   );

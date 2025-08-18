@@ -1,10 +1,7 @@
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import Breadcrumbs from '../../components/Breadcrumb';
+import NavButton from '../../components/NavButton';
 
 function Streamer() {
-  const navigate = useNavigate();
-
   return (
     <>
       <div className="page">
@@ -14,14 +11,12 @@ function Streamer() {
             <h1 className="page-header">Twitch Streamer</h1>
           </div>
           <div id="text-body">
-            
+
           </div>
         </div>
-        <footer className="guide-footer">
-          <button className="left-guide-button" onClick={() => navigate('/experience/hudsonvalley')}>
-              <span className="left-arrow-spacer">{'<<'}</span> Hudson Valley CC
-          </button>
-        </footer>
+        <NavButton
+          left="Hudson Valley CC" leftNav="/experience/hudsonvalley"
+        />
       </div>
     </>
   );

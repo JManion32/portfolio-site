@@ -1,10 +1,7 @@
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import Breadcrumbs from '../../components/Breadcrumb';
+import NavButton from '../../components/NavButton';
 
 function Rensselaer() {
-  const navigate = useNavigate();
-
   return (
     <>
       <div className="page">
@@ -32,11 +29,9 @@ function Rensselaer() {
             </p>
           </div>
         </div>
-        <footer className="guide-footer">
-          <button className="right-guide-button" onClick={() => navigate('/experience/stewarts')}>
-                IT Field Technician <span className="right-arrow-spacer">{'>>'}</span>
-          </button>
-        </footer>
+        <NavButton
+          right="It Field Technician" rightNav="/experience/stewarts"
+        />
       </div>
     </>
   );

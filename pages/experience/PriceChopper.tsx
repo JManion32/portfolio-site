@@ -1,10 +1,7 @@
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import Breadcrumbs from '../../components/Breadcrumb';
+import NavButton from '../../components/NavButton';
 
 function PriceChopper() {
-  const navigate = useNavigate();
-
   return (
     <>
       <div className="page">
@@ -17,14 +14,10 @@ function PriceChopper() {
 
           </div>
         </div>
-        <footer className="guide-footer">
-          <button className="left-guide-button" onClick={() => navigate('/experience/lambdachi')}>
-              <span className="left-arrow-spacer">{'<<'}</span> Lambda Chi Alpha
-          </button>
-          <button className="right-guide-button" onClick={() => navigate('/experience/hudsonvalley')}>
-                Hudson Valley CC <span className="right-arrow-spacer">{'>>'}</span>
-          </button>
-        </footer>
+        <NavButton
+          left="Lambda Chi Alpha" leftNav="/experience/lambdachi"
+          right="Hudson Valley CC" rightNav="/experience/hudsonvalley"
+        />
       </div>
     </>
   );

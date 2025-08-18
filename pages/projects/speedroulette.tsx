@@ -1,11 +1,8 @@
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import Breadcrumbs from '../../components/Breadcrumb';
 import TechStack from "../../components/TechStack";
+import NavButton from '../../components/NavButton';
 
 function SpeedRoulette() {
-  const navigate = useNavigate();
-
   return (
     <>
       <div className="page">
@@ -161,11 +158,9 @@ function SpeedRoulette() {
             </div>
           </div>
         </div>
-        <footer className="guide-footer">
-          <button className="right-guide-button" onClick={() => navigate('/projects/submitty')}>
-                Submitty <span className="right-arrow-spacer">{'>>'}</span>
-          </button>
-        </footer>
+        <NavButton
+          right="Submitty" rightNav="/projects/submitty"
+        />
       </div>
     </>
   );

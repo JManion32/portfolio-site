@@ -1,10 +1,7 @@
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import Breadcrumbs from '../../components/Breadcrumb';
+import NavButton from '../../components/NavButton';
 
 function Portfolio() {
-  const navigate = useNavigate();
-
   return (
     <>
       <div className="page">
@@ -26,11 +23,9 @@ function Portfolio() {
             <p>Showcasing my work and experience!</p>
           </div>
         </div>
-        <footer className="guide-footer">
-          <button className="left-guide-button" onClick={() => navigate('/projects/psoft')}>
-              <span className="left-arrow-spacer">{'<<'}</span> Course Website
-          </button>
-        </footer>
+        <NavButton
+          left="Course Website" leftNav="/projects/psoft"
+        />
       </div>
     </>
   );

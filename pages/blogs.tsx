@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import NavButton from '../components/NavButton';
 
 function Blogs() {
   const navigate = useNavigate();
@@ -16,6 +17,9 @@ function Blogs() {
               <span className="left-arrow-spacer">{'<<'}</span> Experience
           </button>
         </footer>
+        <NavButton
+          left="Experience" rightNav="/experience"
+        />
       </div>
     </>
   );

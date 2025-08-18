@@ -1,10 +1,7 @@
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import Breadcrumbs from '../../components/Breadcrumb';
+import NavButton from '../../components/NavButton';
 
 function Stewarts() {
-  const navigate = useNavigate();
-
   return (
     <>
       <div className="page">
@@ -17,14 +14,10 @@ function Stewarts() {
 
           </div>
         </div>
-        <footer className="guide-footer">
-          <button className="left-guide-button" onClick={() => navigate('/experience/rensselaer')}>
-              <span className="left-arrow-spacer">{'<<'}</span> Rensselaer Polytechnic Institute
-          </button>
-          <button className="right-guide-button" onClick={() => navigate('/experience/lambdachi')}>
-                Lambda Chi Alpha <span className="right-arrow-spacer">{'>>'}</span>
-          </button>
-        </footer>
+        <NavButton
+          left="Rensselaer Polytechnic Institute" leftNav="/experience/rensselaer"
+          right="Lambda Chi Alpha" rightNav="/experience/lambdachi"
+        />
       </div>
     </>
   );

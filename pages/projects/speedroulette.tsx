@@ -34,6 +34,7 @@ function SpeedRoulette() {
               starts ticking again 2.5 seconds later. Compete for a spot on the daily leaderboard by making quick 
               decisions, taking bold risks, and hitting big payouts.
             </p>
+            <hr/>
             <TechStack
               sections={[
                 {
@@ -82,6 +83,7 @@ function SpeedRoulette() {
                 }
               ]}
             />
+            <hr/>
             <h2 className="content-h2">Planning</h2>
             <p className="content-p">The idea of building an online roulette game dates back to 2023 when the only programming language I knew was Java:</p>
             <div className="content-img-container">
@@ -107,7 +109,7 @@ function SpeedRoulette() {
               rules of the game. While planning is important and certainly paid off in the long run, I avoided analysis paralysis and dove 
               into the implementation.
             </p>
-
+            <hr/>
             <h2 className="content-h2">Implementation</h2>
             <p className="content-p">With the complete storyboard, it was easy to build out the UI.</p>
             <div className="content-img-container">
@@ -117,7 +119,7 @@ function SpeedRoulette() {
             <p className="content-p">
               I then moved to the backend.
             </p>
-
+            <hr/>
             <h2 className="content-h2">Technical Challenges</h2>
 
             <h3>1. New Technologies</h3>
@@ -143,7 +145,7 @@ function SpeedRoulette() {
             <p className="content-p">
               Although I am not handling any sensitive user data, I took great care in site security.
             </p>
-
+            <hr/>
             <h2 className="content-h2">Reflection</h2>
             <p className="content-p">
               Although this project was created only this year, I believe it is what truly ignited my passion for programming. 

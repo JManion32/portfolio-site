@@ -18,11 +18,14 @@ function Rensselaer() {
               my campus involvment on other pages of the site (see Lambda Chi Alpha and Submitty), I would like to talk here 
               about how each of my semesters and courses went.
             </p>
+            <hr/>
             <h2>Fall 2024</h2>
             <p>
 
             </p>
+            <hr/>
             <h2>Spring 2025</h2>
+            <hr/>
             <h2>Fall 2025</h2>
             <p>
               I'm so excited for this semester!.

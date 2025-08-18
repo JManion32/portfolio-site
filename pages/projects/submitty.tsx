@@ -32,6 +32,7 @@ function Submitty() {
               system from the Rensselaer Center for Open Source Software (RCOS), Department of Computer 
               Science at Rensselaer Polytechnic Institute.
             </p>
+            <hr/>
             <TechStack
               sections={[
                 {
@@ -69,6 +70,7 @@ function Submitty() {
                 }
               ]}
             />
+            <hr/>
           </div>
         </div>
         <NavButton

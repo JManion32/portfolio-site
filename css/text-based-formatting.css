@@ -1,11 +1,11 @@
+/* Styling for anything inside of a text-body div.
+   Basically my own version of Jekyll! */
 #text-body h2 {
     display: block;
-    margin-top: 3rem;
     margin-bottom: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
     unicode-bidi: isolate;
-
 }
 
 #text-body p {
@@ -19,6 +19,15 @@
   margin: 1rem 0;
   max-width: 70%;
   height: auto;
+}
+
+#text-body hr {
+  margin: 0;
+  margin: 3rem 0;
+  border: 0;
+  height: 1px;
+  background: var(--content-line);
+  transition: color 0.2s ease, background-color 0.2s ease;
 }
 
 .content-img-container {

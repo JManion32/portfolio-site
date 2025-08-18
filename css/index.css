@@ -47,17 +47,8 @@ html {
     background-clip: content-box;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.page {
-  min-height: calc(100dvh - var(--nav-h));
-  display: flex;
-  flex-direction: column;
+html {
+  font-size: 16px;
 }
 
 /* Projects, Experience, Blogs */
@@ -77,6 +68,47 @@ html, body {
   background-color: var(--content-background);
   padding: 3rem 5rem;
   border-radius: 2rem;
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 10px;
+  }
+  .content {
+    width: 90%;
+    padding: 0 1rem;
+    margin: 0 auto;
+    flex-grow: 1;
+  }
+  .text-content {
+    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 0 auto;
+    flex-grow: 1;
+    background-color: var(--content-background);
+    padding: .3rem .5rem;
+    border-radius: 2rem;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  min-height: calc(100dvh - var(--nav-h));
+  display: flex;
+  flex-direction: column;
 }
 
 .guide-footer {
@@ -220,12 +252,6 @@ html, body {
 
 [data-theme="dark"] .github-image.dark {
   opacity: 1;
-}
-
-@media screen and (min-width: 2560px) {
-  html {
-    font-size: 18px;
-  }
 }
 
 .no-margin {

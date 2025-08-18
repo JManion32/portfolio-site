@@ -29,6 +29,8 @@
     display: flex;
     gap: 3.75rem;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .gmail-image {

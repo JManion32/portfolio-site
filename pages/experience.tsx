@@ -62,7 +62,7 @@ function Experience() {
                       className="project-image"
                       alt="Hudson Valley Community College Logo"
                   />
-                  <h2 className="project-preview-header">Hudson Valley Community College</h2>
+                  <h2 className="project-preview-header">Hudson Valley CC</h2>
                   <p className="experience-date">August 2022 - May 2024</p>
                   <p className="project-preview-desc">Associates Degree in Computer Information Systems.</p>
               </div>

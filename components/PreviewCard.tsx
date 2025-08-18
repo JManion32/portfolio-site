@@ -16,7 +16,7 @@ export default function PreviewCard({img: previewImg, header: previewHeader, dat
     <div onClick={() => navigate(previewNav)} className="project-preview-container">
       <img src={previewImg} className="project-image" alt={`${previewHeader} preview`} />
       <h2 className="project-preview-header">{previewHeader}</h2>
-      <p className="project-preview-date">{previewDate}</p>
+      <p className="experience-date">{previewDate}</p>
       <p className="project-preview-desc">{previewDesc}</p>
     </div>
   );

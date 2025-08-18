@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import PreviewCard from '../components/PreviewCard';
 
 function Projects() {
   const navigate = useNavigate();
@@ -11,42 +11,30 @@ function Projects() {
             <h1 className="page-header">Projects</h1>
             <p className="projects-desc">Click on a project to learn more!</p> 
             <div className="project-grid">
-                <div onClick={() => navigate('/projects/speedroulette')} className="project-preview-container">
-                    <img
-                        src="../assets/preview.png"
-                        className="project-image"
-                        alt="Speed Roulette Logo"
-                    />
-                    <h2 className="project-preview-header">Speed Roulette</h2>
-                    <p className="project-preview-desc">A fast-paced browser game that puts an exciting twist on classic casino roulette.</p>
-                </div>
-                <div onClick={() => navigate('/projects/submitty')} className="project-preview-container">
-                    <img
-                        src="../assets/submitty_duck.png"
-                        className="project-image"
-                        alt="Submitty Logo"
-                    />
-                    <h2 className="project-preview-header">Submitty</h2>
-                    <p className="project-preview-desc">Rensselaer Polytechnic Institute's open source homework submission server for computer science courses.</p>
-                </div>
-                <div onClick={() => navigate('/projects/psoft')} className="project-preview-container">
-                    <img
-                        src="../assets/psoft-logo.png"
-                        className="project-image"
-                        alt="Priciples of Software Image"
-                    />
-                    <h2 className="project-preview-header">Course Website</h2>
-                    <p className="project-preview-desc">Course website for Principles of Software, a core computer science class at Rensselaer Polytechnic Institute.</p>
-                </div>
-                <div onClick={() => navigate('/projects/portfolio')} className="project-preview-container">
-                    <img
-                        src="../assets/jm-dark-circle.png"
-                        className="project-image"
-                        alt="JM logo"
-                    />
-                    <h2 className="project-preview-header">Portfolio Site</h2>
-                    <p className="project-preview-desc">Website to showcase my projects, experience, and blogs.</p>
-                </div>
+                <PreviewCard
+                    img= "../assets/sr-preview.png"
+                    header= "Speed Roulette"
+                    desc= "A fast-paced browser game that puts an exciting twist on classic casino roulette."
+                    nav= "/projects/speedroulette"
+                />
+                <PreviewCard
+                    img= "../assets/submitty_duck.png"
+                    header= "Submitty"
+                    desc= "Rensselaer Polytechnic Institute's open source homework submission server for computer science courses."
+                    nav= "projects/submitty"
+                />
+                <PreviewCard
+                    img= "../assets/psoft-logo.png"
+                    header= "Course Website"
+                    desc= "Course website for Principles of Software, a core computer science class at Rensselaer Polytechnic Institute."
+                    nav= "/projects/psoft"
+                />
+                <PreviewCard
+                    img= "../assets/jm-dark-circle.png"
+                    header= "Portfolio Site"
+                    desc= "Website to showcase my projects, experience, and blogs."
+                    nav= "/projects/psoft"
+                />
             </div>
         </div>
         <footer className="guide-footer">

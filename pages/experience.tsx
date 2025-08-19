@@ -10,12 +10,12 @@ function Experience() {
       <div className="page">
         <div className="content">
           <div className="header-container">
-              <h1 className="page-header exp-header">Experience</h1>
+              <h1 className="main-page-header exp-header">Experience</h1>
               <button className="contact-button view-resume" onClick={() => navigate('/experience/Resume')}>
                   View Resume
               </button>
           </div>
-          <p className="projects-desc">Click on an experience to learn more!</p> 
+          <p className="main-page-desc">Click on an experience to learn more!</p> 
           <div className="project-grid">
             <PreviewCard
                 img="/assets/rpi-seal.png"

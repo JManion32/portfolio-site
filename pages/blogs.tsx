@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import NavButton from '../components/NavButton';
 
@@ -9,8 +8,8 @@ function Blogs() {
     <>
       <div className="page">
         <div className="content">
-          <h1 className="page-header">Blogs</h1>
-          <p className="coming-soon">Coming soon!</p>
+          <h1 className="main-page-header">Blogs</h1>
+          <p className="main-page-desc">Coming soon!</p>
         </div>
         <footer className="guide-footer">
           <button className="left-guide-button" onClick={() => navigate('/experience')}>

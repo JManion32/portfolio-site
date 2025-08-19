@@ -14,7 +14,7 @@
 }
 
 .nav-links {
-  width: 65%;
+  width: var(--content-width);
   display: flex;
   list-style: none;
   padding: 0;
@@ -22,12 +22,6 @@
   font-size: 1.125rem;
   font-weight: bold;
   gap: 2rem; /* Equal spacing between items */
-}
-
-@media (max-width: 700px) {
-  .nav-links {
-    width: 90%;
-  }
 }
 
 .nav-links li {
@@ -114,4 +108,11 @@
 
 .dark-mode-switch input:checked ~ .slider img {
   transform: translateX(1.58125rem);
+}
+
+@media (max-width: 640px) {
+  .nav-links {
+    width: 90%;
+    gap: 1rem;
+  }
 }

@@ -19,7 +19,7 @@
 
 .name-desc {
     font-size: 1.3rem;
-    width: 80%;
+    width: 50%;
     text-align: center;
     font-weight: 600;
 }
@@ -44,4 +44,24 @@
 
 .yt-image {
     height: 1.25rem;
+}
+
+@media (max-width: 640px) {
+    .contact-button-container {
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .name-header {
+        font-size: 4rem;
+    }
+
+    .main-page-header {
+        text-align: center;
+    }
+
+    .name-desc {
+        width: 75%;
+        font-size: 1rem;
+    }
 }

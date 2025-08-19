@@ -3,14 +3,12 @@ import PreviewCard from '../components/PreviewCard';
 import NavButton from '../components/NavButton';
 
 function Projects() {
-  const navigate = useNavigate();
-
   return (
     <>
       <div className="page">
         <div className="content">
-            <h1 className="page-header">Projects</h1>
-            <p className="projects-desc">Click on a project to learn more!</p> 
+            <h1 className="main-page-header">Projects</h1>
+            <p className="main-page-desc">Click on a project to learn more!</p> 
             <div className="project-grid">
                 <PreviewCard
                     img= "../assets/sr-preview.png"

@@ -11,7 +11,7 @@ function Home() {
   return (
     <>
       <div className="home-page">
-        <div className="home-container content">
+        <div className="home-container">
             <h1 className="name-header">Justin Manion</h1>
             <p className="name-desc">
                 Dedicated computer science student with a passion for evaluating, designing, 

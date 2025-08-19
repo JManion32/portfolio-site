@@ -61,3 +61,13 @@
   border-radius: 0.75rem;
   height: 4.25rem !important;
 }
+
+@media (max-width: 640px) {
+  .view-resume {
+    display: none !important;
+  }
+
+  .exp-header {
+    text-align: center;
+  }
+}

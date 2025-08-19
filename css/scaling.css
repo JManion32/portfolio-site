@@ -1,0 +1,74 @@
+/* ========================================================================================================================================
+
+This page is responsible for the full scaling of the site. Listed below
+are the variables and what they do
+
+--site-font-size: Global font size; What rem is based off of
+--content-width: Width of content user interacts / reads (increases with screen size)
+--main-page-header-size: Projects, Experience, Blogs
+--main-page-header-align: Alignment of the description of the above headers
+--detail-page-header-size: Speed Roulette, Submitty, Rensselaer Polytechnic Institute, etc
+
+======================================================================================================================================== */
+
+/* Mobile */
+@media (max-width: 640px) {
+    :root {
+        --site-font-size: 12px;
+        --content-width: 90%;
+        --main-page-header-size: 3rem;
+        --main-page-header-align: center;
+        --detail-page-header-size: 3rem;
+
+        --content-background: var(--site-background);
+    }
+    .page-header {
+        font-size: 2rem;
+    }
+    .content {
+        padding: 0 1rem;
+    }
+    .text-content {
+        padding: .3rem .5rem;
+    }
+}
+
+/* Tablets */
+@media (min-width: 641px) {
+    :root {
+        --site-font-size: 13px;
+        --content-width: 80%;
+        --main-page-header-size: 3rem;
+        --main-page-header-align: left;
+    }
+}
+
+/* Small Laptops */
+@media (min-width: 1024px) {
+    :root {
+        --site-font-size: 14px;
+        --content-width: 70%;
+        --main-page-header-size: 3rem;
+        --main-page-header-align: left;
+    }
+}
+
+/* Desktop*/
+@media (min-width: 1280px) {
+    :root {
+        --site-font-size: 16px;
+        --content-width: 60%;
+        --main-page-header-size: 3rem;
+        --main-page-header-align: left;
+    }
+}
+
+/* Big Desktops */
+@media (min-width: 2560px) {
+    :root {
+        --site-font-size: 18px;
+        --content-width: 50%;
+        --main-page-header-size: 4rem;
+        --main-page-header-align: left;
+    }
+}

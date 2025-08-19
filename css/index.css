@@ -1,4 +1,5 @@
 @import 'colors.css';
+@import 'scaling.css';
 @import 'home.css';
 @import 'navbar.css';
 @import 'projects.css';
@@ -28,6 +29,7 @@
 }
 
 html {
+    font-size: var(--site-font-size);
     scrollbar-gutter: stable both-edges;
 }
 
@@ -47,13 +49,9 @@ html {
     background-clip: content-box;
 }
 
-html {
-  font-size: 16px;
-}
-
 /* Projects, Experience, Blogs */
 .content {
-  width: 65%;
+  width: var(--content-width);
   margin: 0 auto;
   flex-grow: 1;
 }
@@ -62,40 +60,12 @@ html {
 .text-content {
   transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  width: 60%;
+  width: var(--content-width);
   margin: 0 auto;
   flex-grow: 1;
   background-color: var(--content-background);
   padding: 3rem 5rem;
   border-radius: 2rem;
-}
-
-@media (max-width: 700px) {
-  html {
-    font-size: 10px;
-  }
-  .content {
-    width: 90%;
-    padding: 0 1rem;
-    margin: 0 auto;
-    flex-grow: 1;
-  }
-  .text-content {
-    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    margin: 0 auto;
-    flex-grow: 1;
-    background-color: var(--content-background);
-    padding: .3rem .5rem;
-    border-radius: 2rem;
-  }
-}
-
-@media screen and (min-width: 2560px) {
-  html {
-    font-size: 18px;
-  }
 }
 
 html, body {
@@ -149,10 +119,21 @@ html, body {
   background-color: var(--hover-default-button);
 }
 
-.page-header {
-  font-size: 4rem;
+.main-page-header {
+  font-size: var(--main-page-header-size);
+  text-align: var(--main-page-header-align);
   margin: 0;
   flex-grow: 1;
+}
+
+.main-page-desc {
+  text-align: var(--main-page-header-align);
+  transition: color 0.2s ease, background-color 0.2s ease;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 2rem;
 }
 
 .left-arrow-spacer {

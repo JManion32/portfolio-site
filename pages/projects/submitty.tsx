@@ -8,8 +8,8 @@ function Submitty() {
       <div className="page">
         <div className="text-content">
           <Breadcrumbs />
-          <div className="header-row">
-            <h1 className="page-header">Submitty</h1>
+          <div className="text-page-header-row">
+            <h1 className="text-page-header">Submitty</h1>
             <button 
               className="contact-button project-contact-btn"
               onClick={() => window.open('https://submitty.org/index/overview', '_blank')}

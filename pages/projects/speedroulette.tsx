@@ -8,8 +8,8 @@ function SpeedRoulette() {
       <div className="page">
         <div className="text-content">
           <Breadcrumbs />
-          <div className="header-row">
-            <h1 className="page-header">Speed Roulette</h1>
+          <div className="text-page-header-row">
+            <h1 className="text-page-header">Speed Roulette</h1>
             <button 
               className="contact-button project-contact-btn"
               onClick={() => window.open('https://speedroulette.io/', '_blank')}

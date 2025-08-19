@@ -7,8 +7,8 @@ function Rensselaer() {
       <div className="page">
         <div className="text-content">
           <Breadcrumbs />
-          <div className="header-row">
-            <h1 className="page-header">Rensselaer Polytechnic Institute</h1>
+          <div className="text-page-header-row">
+            <h1 className="text-page-header">Rensselaer Polytechnic Institute</h1>
           </div>
           <div id="text-body">
             <p>

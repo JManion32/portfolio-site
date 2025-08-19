@@ -1,5 +1,18 @@
 /* Styling for anything inside of a text-body div.
    Basically my own version of Jekyll! */
+
+.text-page-header-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.text-page-header {
+    font-size: var(--text-page-header-size);
+    flex-grow: 1;
+    margin: 0;
+}
+
 #text-body h2 {
     display: block;
     margin-bottom: 1rem;

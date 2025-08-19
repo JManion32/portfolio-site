@@ -9,66 +9,138 @@ are the variables and what they do
 --main-page-header-align: Alignment of the description of the above headers
 --detail-page-header-size: Speed Roulette, Submitty, Rensselaer Polytechnic Institute, etc
 
+I'm not going to put every variable here, instead I made them as explicit as possible.
+
 ======================================================================================================================================== */
 
 /* Mobile */
 @media (max-width: 640px) {
     :root {
+        /* Site / Index */
+        --content-background: var(--site-background);
         --site-font-size: 12px;
         --content-width: 90%;
+        --content-padding: 0 1rem;
+
+        /* Nav Bar */
+        --nav-link-gap: .75rem;
+
+        /* Home */
+        --name-header-size: 4rem;
+        --home-desc-width: 85%;
+        --full-contact-button-visibility: none;
+        --contact-button-icon-visibility: flex;
+        --home-contact-margin-top: 1rem;
+        --home-contact-button-gap: 3rem;
+
+        /* Main Project / Experience */
         --main-page-header-size: 3rem;
         --main-page-header-align: center;
-        --detail-page-header-size: 3rem;
+        --main-page-grid-columns: 1fr;
+        --experience-header-flex-direction: column;
 
-        --content-background: var(--site-background);
-    }
-    .page-header {
-        font-size: 2rem;
-    }
-    .content {
-        padding: 0 1rem;
-    }
-    .text-content {
-        padding: .3rem .5rem;
+        /* Text Content */
+        --detail-page-header-size: 3rem;
+        --text-content-padding: .3rem .5rem;
+        --text-page-header-size: 2rem;
     }
 }
 
 /* Tablets */
 @media (min-width: 641px) {
     :root {
+        /* Site / Index */
         --site-font-size: 13px;
         --content-width: 80%;
+
+        /* Nav Bar */
+        --nav-link-gap: 2rem;
+
+        /* Home */
+        --name-header-size: 5rem;
+        --home-desc-width: 80%;
+        --full-contact-button-visibility: none;
+        --contact-button-icon-visibility: flex;
+        --home-contact-margin-top: 1.5rem;
+        --home-contact-button-gap: 3.75rem;
+
+        /* Main Project / Experience */
         --main-page-header-size: 3rem;
         --main-page-header-align: left;
+        --main-page-grid-columns: repeat(2, 1fr);
+        --experience-header-flex-direction: row;
+
+        /* Text Content */
+        --text-content-padding: 3rem 5rem;
+        --text-page-header-size: 3rem;
     }
 }
 
 /* Small Laptops */
 @media (min-width: 1024px) {
     :root {
+        /* Site / Index */
         --site-font-size: 14px;
         --content-width: 70%;
+
+        /* Nav Bar */
+
+        /* Home */
+        --name-header-size: 6rem;
+        --home-desc-width: 65%;
+        --full-contact-button-visibility: flex;
+        --contact-button-icon-visibility: none;
+        --home-contact-margin-top: 3rem;
+
+        /* Main Project / Experience */
         --main-page-header-size: 3rem;
         --main-page-header-align: left;
+
+        /* Text Content */
+        --text-content-padding: 3rem 5rem;
     }
 }
 
 /* Desktop*/
 @media (min-width: 1280px) {
     :root {
+        /* Site / Index */
         --site-font-size: 16px;
         --content-width: 60%;
+
+        /* Nav Bar */
+
+        /* Home */
+        --home-desc-width: 55%;
+
+        /* Main Project / Experience */
         --main-page-header-size: 3rem;
         --main-page-header-align: left;
+
+        /* Text Content */
+        --text-content-padding: 3rem 5rem;
+        --text-page-header-size: 3rem;
     }
 }
 
 /* Big Desktops */
 @media (min-width: 2560px) {
     :root {
+        /* Site / Index */
         --site-font-size: 18px;
         --content-width: 50%;
+
+        /* Nav Bar */
+
+        /* Home */
+        --home-desc-width: 45%;
+
+        /* Main Project / Experience */
         --main-page-header-size: 4rem;
         --main-page-header-align: left;
+
+        /* Text Content */
+        --text-content-padding: 3rem 5rem;
+        --text-page-header-size: 4rem;
     }
 }

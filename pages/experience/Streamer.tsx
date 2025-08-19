@@ -7,15 +7,15 @@ function Streamer() {
       <div className="page">
         <div className="text-content">
           <Breadcrumbs />
-          <div className="header-row">
-            <h1 className="page-header">Twitch Streamer</h1>
+          <div className="text-page-header-row">
+            <h1 className="text-page-header">Twitch Streamer</h1>
           </div>
           <div id="text-body">
 
           </div>
         </div>
         <NavButton
-          left="Hudson Valley CC" leftNav="/experience/hudsonvalley"
+          left="Hudson Valley" leftNav="/experience/hudsonvalley"
         />
       </div>
     </>

@@ -7,7 +7,7 @@
 @import 'blogs.css';
 @import 'breadcrumb.css';
 @import 'techstack.css';
-@import 'text-based-formatting.css';
+@import 'text-body-formatting.css';
 
 /* This stylesheet contains everything shared by more than 1 page / component. */
 
@@ -64,7 +64,7 @@ html {
   margin: 0 auto;
   flex-grow: 1;
   background-color: var(--content-background);
-  padding: 3rem 5rem;
+  padding: var(--text-content-padding);
   border-radius: 2rem;
 }
 
@@ -206,6 +206,14 @@ html, body {
 
 .contact-image {
   height: 1.5rem;
+}
+
+.home-contact-button {
+  display: var(--full-contact-button-visibility);
+}
+
+.mobile-home-contact-button {
+  display: var(--contact-button-icon-visibility);
 }
 
 .github-image-wrapper {

@@ -21,7 +21,7 @@
   margin: 0;
   font-size: 1.125rem;
   font-weight: bold;
-  gap: 2rem; /* Equal spacing between items */
+  gap: var(--nav-link-gap);
 }
 
 .nav-links li {
@@ -108,11 +108,4 @@
 
 .dark-mode-switch input:checked ~ .slider img {
   transform: translateX(1.58125rem);
-}
-
-@media (max-width: 640px) {
-  .nav-links {
-    width: 90%;
-    gap: 1rem;
-  }
 }

@@ -1,8 +1,9 @@
 .header-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: var(--experience-header-flex-direction);
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .exp-header {
@@ -11,6 +12,7 @@
 
 .view-resume {
   margin: 1rem 0;
+  display: var(--view-resume-visibility);
 }
 
 .exp-preview-container {
@@ -60,14 +62,4 @@
   border: 8px solid white;
   border-radius: 0.75rem;
   height: 4.25rem !important;
-}
-
-@media (max-width: 640px) {
-  .view-resume {
-    display: none !important;
-  }
-
-  .exp-header {
-    text-align: center;
-  }
 }

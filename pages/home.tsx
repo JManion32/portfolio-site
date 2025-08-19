@@ -22,18 +22,18 @@ function Home() {
                 role that provides opportunities for both technical and professional growth.
             </p>
             <div className="contact-button-container">
-            <button 
-            className="contact-button"
-            onClick={() => window.open('https://github.com/JManion32', '_blank')}
-            >
-            <div className="github-image-wrapper">
-                <img src="../assets/github-mark.png" className="github-image light" />
-                <img src="../assets/github-mark-white.png" className="github-image dark" />
-            </div>
-            GitHub
-            </button>
+                <button 
+                    className="contact-button home-contact-button"
+                    onClick={() => window.open('https://github.com/JManion32', '_blank')}
+                >
+                <div className="github-image-wrapper">
+                    <img src="../assets/github-mark.png" className="github-image light" />
+                    <img src="../assets/github-mark-white.png" className="github-image dark" />
+                </div>
+                    GitHub
+                </button>
                 <button
-                    className="contact-button"
+                    className="contact-button home-contact-button"
                     onClick={() => window.location.href = 'mailto:jmanion32@gmail.com'}
                 >
                     <img
@@ -44,7 +44,7 @@ function Home() {
                     jmanion32@gmail.com
                 </button>
                 <button 
-                    className="contact-button"
+                    className="contact-button home-contact-button"
                     onClick={() => window.open('https://www.linkedin.com/in/jmanion32/', '_blank')}
                 >
                     <img src="../assets/linkedin_logo.png" className="linkedin-image"/>
@@ -52,13 +52,48 @@ function Home() {
                 </button>
                 {/*
                 <button 
-                    className="contact-button"
+                    className="contact-button home-contact-button"
                     onClick={() => window.open('https://www.youtube.com/@JManCodes', '_blank')}
                 >
                     <img src="../assets/youtube_logo.png" className="yt-image"/>
                     YouTube
                 </button>
                 */}
+            </div>
+                <div className="contact-button-container">
+                    <button 
+                        className="contact-button mobile-home-contact-button"
+                        onClick={() => window.open('https://github.com/JManion32', '_blank')}
+                    >
+                    <div className="github-image-wrapper">
+                        <img src="../assets/github-mark.png" className="github-image light" />
+                        <img src="../assets/github-mark-white.png" className="github-image dark" />
+                    </div>
+                    </button>
+                    <button
+                        className="contact-button mobile-home-contact-button"
+                        onClick={() => window.location.href = 'mailto:jmanion32@gmail.com'}
+                    >
+                        <img
+                            src="../assets/gmail-logo.png"
+                            className="gmail-image"
+                            alt="mail icon"
+                        />
+                    </button>
+                    <button 
+                        className="contact-button mobile-home-contact-button"
+                        onClick={() => window.open('https://www.linkedin.com/in/jmanion32/', '_blank')}
+                    >
+                        <img src="../assets/linkedin_logo.png" className="linkedin-image"/>
+                    </button>
+                    {/*
+                    <button 
+                        className="contact-button mobile-home-contact-button"
+                        onClick={() => window.open('https://www.youtube.com/@JManCodes', '_blank')}
+                    >
+                        <img src="../assets/youtube_logo.png" className="yt-image"/>
+                    </button>
+                    */}
             </div>
         </div>
         <button className="right-guide-button" onClick={() => navigate('/projects')}>

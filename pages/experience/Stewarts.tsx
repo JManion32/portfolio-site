@@ -7,16 +7,16 @@ function Stewarts() {
       <div className="page">
         <div className="text-content">
           <Breadcrumbs />
-          <div className="header-row">
-            <h1 className="page-header">IT Field Technician Intern</h1>
+          <div className="text-page-header-row">
+            <h1 className="text-page-header">IT Field Technician Intern</h1>
           </div>
           <div id="text-body">
 
           </div>
         </div>
         <NavButton
-          left="Rensselaer Polytechnic Institute" leftNav="/experience/rensselaer"
-          right="Lambda Chi Alpha" rightNav="/experience/lambdachi"
+          left="Rensselaer" leftNav="/experience/rensselaer"
+          right="Lambda Chi" rightNav="/experience/lambdachi"
         />
       </div>
     </>

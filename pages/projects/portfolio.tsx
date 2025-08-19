@@ -7,8 +7,8 @@ function Portfolio() {
       <div className="page">
         <div className="text-content">
           <Breadcrumbs />
-          <div className="header-row">
-            <h1 className="page-header">Portfolio Site</h1>
+          <div className="text-page-header-row">
+            <h1 className="text-page-header">Portfolio Site</h1>
             <button 
               className="contact-button project-contact-btn"
               onClick={() => window.open('https://github.com/JManion32/portfolio-site', '_blank')}

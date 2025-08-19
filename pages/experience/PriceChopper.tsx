@@ -7,16 +7,16 @@ function PriceChopper() {
       <div className="page">
         <div className="text-content">
           <Breadcrumbs />
-          <div className="header-row">
-            <h1 className="page-header">Price Chopper</h1>
+          <div className="text-page-header-row">
+            <h1 className="text-page-header">Price Chopper</h1>
           </div>
           <div id="text-body">
 
           </div>
         </div>
         <NavButton
-          left="Lambda Chi Alpha" leftNav="/experience/lambdachi"
-          right="Hudson Valley CC" rightNav="/experience/hudsonvalley"
+          left="Lambda Chi" leftNav="/experience/lambdachi"
+          right="Hudson Valley" rightNav="/experience/hudsonvalley"
         />
       </div>
     </>

@@ -7,7 +7,7 @@ function PSoft() {
       <div className="page">
         <div className="text-content">
           <Breadcrumbs />
-          <h1 className="page-header">Course Website</h1>
+          <h1 className="text-page-header">Course Website</h1>
           <div id="text-body">
             <p>
               Principles of Software is a core computer science class at RPI, typically taken by students in their sophomore year.

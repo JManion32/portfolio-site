@@ -30,7 +30,7 @@
   border: 2px solid var(--project-img-border);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin: 1rem 0;
-  max-width: 70%;
+  max-width: var(--text-body-max-width);
   height: auto;
 }
 

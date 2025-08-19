@@ -43,6 +43,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --detail-page-header-size: 3rem;
         --text-content-padding: .3rem .5rem;
         --text-page-header-size: 2rem;
+        --text-body-max-width: 90%;
     }
 }
 
@@ -73,6 +74,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         /* Text Content */
         --text-content-padding: 3rem 5rem;
         --text-page-header-size: 3rem;
+        --text-body-max-width: 98%;
     }
 }
 
@@ -98,6 +100,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
 
         /* Text Content */
         --text-content-padding: 3rem 5rem;
+        --text-body-max-width: 75%;
     }
 }
 
@@ -120,6 +123,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         /* Text Content */
         --text-content-padding: 3rem 5rem;
         --text-page-header-size: 3rem;
+        --text-body-max-width: 70%;
     }
 }
 

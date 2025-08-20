@@ -27,7 +27,7 @@ function SpeedRoulette() {
             </button>
           </div>
           <div id="text-body">
-            <p className="content-p">
+            <p>
               Inspired by the intensity of speed chess, Speed Roulette puts an interesting twist on the beloved 
               high-stakes casino game. Players start with 20 dollars, 10 possible spins, and just 60 seconds on the 
               clock. When bets are submitted, the winning number is revealed, earnings are paid out, and the clock 
@@ -84,49 +84,47 @@ function SpeedRoulette() {
               ]}
             />
             <hr/>
-            <h2 className="content-h2">Planning</h2>
-            <p className="content-p">The idea of building an online roulette game dates back to 2023 when the only programming language I knew was Java:</p>
+            <h2>Planning</h2>
+            <p>The idea of building an online roulette game dates back to 2023 when the only programming language I knew was Java:</p>
             <div className="content-img-container">
               <img src="../../assets/javafx-roulette.png" className="content-img"/>
             </div>
-            <p className="content-p">
+            <p>
               This was just a GUI I built using my knowledge from Programming and Data Logic 2 at Hudson Valley. It was limited 
               in functionality, and had a very bloated codebase (I didn't yet know how to utilize OOP). I knew I wanted to create 
               something more. Something I was proud of. Something I could enjoy with my friends.
             </p>
               
-            <p className="content-p">
+            <p>
               For awhile, I considered just refining what I had already built. After taking Data Structures at RPI, I refactored the
               codebase and brought the line count down from ~3,000 to ~1,000. At this point, I still didn't know enough about development 
               to understand that I could not make a website using JavaFX. It wasn't until I joined Submitty in January 2025 that I 
               was exposed to web technologies.
             </p>
 
-            <p className="content-p">
+            <p>
               The lightbulb went off on February 21st, 2025. I had been getting a lot of speed chess content in my YouTube feed and I thought, this 
               would be really cool to combine with roulette! Being halfway through my semester and having a limited skillset, I decided to take 
               my time in the planning phase. I created a full storyboard of all pages of the site, figured out my tech stack, and refined the 
-              rules of the game. While planning is important and certainly paid off in the long run, I avoided analysis paralysis and dove 
-              into the implementation.
+              rules of the game. After a few weeks, I go sick of the analysis paralysis and dove into the implementation.
             </p>
             <hr/>
-            <h2 className="content-h2">Implementation</h2>
-            <p className="content-p">With the complete storyboard, it was easy to build out the UI.</p>
+            <h2>Implementation</h2>
+            <p>With the complete storyboard, it was easy to build out the UI.</p>
             <div className="content-img-container">
               <img src="../../assets/sr-storyboard-dark-mode.png" className="content-img"/>
               <img src="../../assets/sr-home-dark-mode.png" className="content-img"/>
             </div>
-            <p className="content-p">
-              I then moved to the backend.
+            <p>
+              I then moved to the backend, which would be a bit more complex.
             </p>
             <hr/>
-            <h2 className="content-h2">Technical Challenges</h2>
+            <h2>Technical Challenges</h2>
 
             <h3>1. New Technologies</h3>
-            <p className="content-p">
-              When I started this project, I don't think I knew a single tool in the finished tech stack. Not one. 
-              It was quite overwhelming at first to day the least. I had to learn HTML, then immediately learn React. 
-              Most front end technologies are easy to figure out, but the backend was a different story.
+            <p>
+              When I started this project, I don't think I knew a single tool in the tech stack I was planning to use. Not one. 
+              It was quite overwhelming to say the least, and a mental battle from start to finish.
             </p>
             <h3>2. Grid layout</h3>
             <p>
@@ -136,23 +134,51 @@ function SpeedRoulette() {
 
             </p>
             <h3>3. Deployment</h3>
-            <p className="content-p">
+            <p>
               Out of all the blockers I had to work through on this project, deployment was by far the most time consuming. 
               Of course, this was my first time deploying anything so there was an inevitable learning curve, but that wasn't 
               the primary issue. I was using AWS, which, for a new developer's personal project, is not a good fit.
             </p>
             <h3>4. Security</h3>
-            <p className="content-p">
-              Although I am not handling any sensitive user data, I took great care in site security.
+            <p>
+              Although I am not handling any sensitive user data, I wanted to make sure that security was one of my priorities, especially 
+              since I didn't have much experience in that area. Some of the security related features I made include:
+            </p>
+            <ul id="security-list">
+              <li><p>
+                <b>Rate Limiting:</b> All pages of my site are rate limited to prevent spam, abuse, and server overload.
+              </p></li>
+              <li><p>
+                <b>User Tokens:</b> Generated each time the user presses start. Accompanies each request to the backend and expires after 3 minutes.
+              </p></li>
+              <li><p>
+                <b>Data Validation:</b> The backend validates each request to ensure the bet amount is less than or equal to the previous user balance.
+              </p></li>
+              <li><p>
+                <b>Name Filter:</b> Utilized multiple JavaScript libraries to prevent bad words from using explicit language in their nicknames.
+              </p></li>
+              <li><p>
+                <b>Privacy Policy:</b> Outlines how user data is handled, ensuring transparency and protection for both the site owner and visitors.
+              </p></li>
+            </ul>
+            <p>
+              With all the precautions I took, I still left a crucial vulnerability that didn't reveal itself until a week after deployment, when one 
+              of my users was unable to start a game. I didn't think much of it, so I rebooted the server. The site was back and working better than ever... 
+              For 5 minutes. After another reboot, same problem I had to dig deeper. I decided to reboot my server once more, then run my Docker containers with the live feed while 
+              I messed around with the site to see if I could spot anything. After several minutes of testing, I thought the the third reboot might have done the charm, until I saw 
+              a horrific site on my live feed:
+            </p>
+            <p><b>pkill pkill pkill pkill pkill</b></p>
+            <p>
+              A malicious script had found its way onto my server! But how? Well, thats how I spent the next 6 hours of my life figuring out. 
             </p>
             <hr/>
-            <h2 className="content-h2">Reflection</h2>
-            <p className="content-p">
-              Although this project was created only this year, I believe it is what truly ignited my passion for programming. 
-              Before this, I had built projects for assignments and contributed to Submitty, but I did so out of requirement 
-              rather than genuine enjoyment. From the moment I began this project to the day I deployed it, I was fully invested, 
-              and excited to make progress everyday. This project has made me level up as a developer, and I have already applied 
-              many of the lessons I've learned here to other work. I am eager to keep building on it and see how my skills evolve over time.
+            <h2>Reflection</h2>
+            <p>
+              Although this project was created only this year, I strongly believe it was the spark that ignited my real passion for programming. 
+              Before Speed Roulette, most of my work was done out of requirement, rather than genuine enjoyment. I have enjoyed every step of the 
+              process, and this feeling is now shared through my other projects as well. Being the sole architect of a 25,000+ line code base gives me 
+              a unique sense of accomplishment I've never quite felt before. I'm so excited to build more projects, and continue to level up as a developer.
             </p>
             <div className="content-img-container">
               <img src="../../assets/sr-deployment-day.png" className="project-img"/>

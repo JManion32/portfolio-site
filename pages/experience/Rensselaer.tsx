@@ -21,14 +21,30 @@ function Rensselaer() {
             <hr/>
             <h2>Fall 2024</h2>
             <p>
-
+              "It will be a big step, but I'm confident in myself and ready to do whatever it takes."
+            </p>
+            <p>
+              Those were my exact words from an old write up ahead of my first semester at RPI. I knew it was going to be a challenge, 
+              but after acheiving a 3.94 at community college, how bad could it really be? I was soon to find out...
+            </p>
+            <p>
+              My course load was fair, and I was only taking 16 credits:
+            </p>
+            <ul>
+              <li>Data Structures</li>
+              <li>Physics 1</li>
+              <li>Multivariable Calculus</li>
+              <li>Writing for Technical Communication</li>
+            </ul>
+            <p>
+              
             </p>
             <hr/>
             <h2>Spring 2025</h2>
             <hr/>
             <h2>Fall 2025</h2>
             <p>
-              I'm so excited for this semester!.
+              I'm so excited for this semester! I've learned that I can never be too prepared, but I belive I can conquer this one.
             </p>
           </div>
         </div>

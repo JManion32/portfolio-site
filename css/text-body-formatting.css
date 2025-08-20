@@ -21,6 +21,11 @@
     unicode-bidi: isolate;
 }
 
+#text-body h3 {
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
 #text-body p {
   margin: 1.2rem 0;
 }
@@ -41,6 +46,11 @@
   height: 1px;
   background: var(--content-line);
   transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+#security-list p {
+  margin: 0;
+  margin: 0.25rem 0;
 }
 
 .content-img-container {

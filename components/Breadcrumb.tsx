@@ -1,5 +1,4 @@
 // src/components/Breadcrumbs.tsx
-import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 function toTitle(s: string) {

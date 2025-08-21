@@ -1,4 +1,3 @@
-import { useNavigate } from 'react-router-dom';
 import PreviewCard from '../components/PreviewCard';
 import NavButton from '../components/NavButton';
 

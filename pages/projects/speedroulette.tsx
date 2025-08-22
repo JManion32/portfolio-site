@@ -2,6 +2,14 @@ import Breadcrumbs from '../../components/Breadcrumb';
 import TechStack from "../../components/TechStack";
 import NavButton from '../../components/NavButton';
 
+import srLogo from '../../assets/sr-logo.svg';
+import githubLight from '../../assets/github-mark.png';
+import githubDark from '../../assets/github-mark-white.png';
+import javafxProject from '../../assets/javafx-roulette.png';
+import srStoryboardDark from '../../assets/sr-storyboard-dark-mode.png';
+import srHomePageDark from '../../assets/sr-home-dark-mode.png';
+import srDeploymentDay from '../../assets/sr-deployment-day.png';
+
 function SpeedRoulette() {
   return (
     <>
@@ -14,15 +22,15 @@ function SpeedRoulette() {
               className="contact-button project-contact-btn"
               onClick={() => window.open('https://speedroulette.io/', '_blank')}
               >
-              <img src="../../assets/sr-logo.svg" className="contact-image"/>
+              <img src={srLogo} className="contact-image"/>
             </button>
             <button 
               className="contact-button project-contact-btn"
               onClick={() => window.open('https://github.com/JManion32/speed-roulette', '_blank')}
               >
               <div className="github-image-wrapper">
-                  <img src="../../assets/github-mark.png" className="github-image light" />
-                  <img src="../../assets/github-mark-white.png" className="github-image dark" />
+                  <img src={githubLight} className="github-image light" />
+                  <img src={githubDark} className="github-image dark" />
               </div>
             </button>
           </div>
@@ -87,7 +95,7 @@ function SpeedRoulette() {
             <h2>Planning</h2>
             <p>The idea of building an online roulette game dates back to 2023 when the only programming language I knew was Java:</p>
             <div className="content-img-container">
-              <img src="../../assets/javafx-roulette.png" className="content-img"/>
+              <img src={javafxProject} className="content-img"/>
             </div>
             <p>
               This was just a GUI I built using my knowledge from Programming and Data Logic 2 at Hudson Valley. It was limited 
@@ -112,8 +120,8 @@ function SpeedRoulette() {
             <h2>Implementation</h2>
             <p>With the complete storyboard, it was easy to build out the UI.</p>
             <div className="content-img-container">
-              <img src="../../assets/sr-storyboard-dark-mode.png" className="content-img"/>
-              <img src="../../assets/sr-home-dark-mode.png" className="content-img"/>
+              <img src={srStoryboardDark} className="content-img"/>
+              <img src={srHomePageDark} className="content-img"/>
             </div>
             <p>
               I then moved to the backend, which would be a bit more complex.
@@ -181,7 +189,7 @@ function SpeedRoulette() {
               a unique sense of accomplishment I've never quite felt before. I'm so excited to build more projects, and continue to level up as a developer.
             </p>
             <div className="content-img-container">
-              <img src="../../assets/sr-deployment-day.png" className="project-img"/>
+              <img src={srDeploymentDay} className="project-img"/>
               <p className="content-img-desc">Very special thank you to Geoff and Kaitlyn for making my deployment day so special!</p>
             </div>
           </div>

@@ -2,6 +2,10 @@ import Breadcrumbs from '../../components/Breadcrumb';
 import TechStack from "../../components/TechStack";
 import NavButton from '../../components/NavButton';
 
+import submittyDuck from '../../assets/submitty_duck.png';
+import githubLight from '../../assets/github-mark.png';
+import githubDark from '../../assets/github-mark-white.png';
+
 function Submitty() {
   return (
     <>
@@ -14,15 +18,15 @@ function Submitty() {
               className="contact-button project-contact-btn"
               onClick={() => window.open('https://submitty.org/index/overview', '_blank')}
               >
-              <img src="../../assets/submitty_duck.png" className="contact-image"/>
+              <img src={submittyDuck} className="contact-image"/>
             </button>
             <button 
               className="contact-button project-contact-btn"
               onClick={() => window.open('https://github.com/Submitty/Submitty', '_blank')}
               >
               <div className="github-image-wrapper">
-                  <img src="../../assets/github-mark.png" className="github-image light" />
-                  <img src="../../assets/github-mark-white.png" className="github-image dark" />
+                  <img src={githubLight} className="github-image light" />
+                  <img src={githubDark} className="github-image dark" />
               </div>
             </button>
           </div>

@@ -1,6 +1,9 @@
 import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
 
+import ogPsoftIndex from '../../assets/og-psoft-index.png';
+import newPsoftIndex from '../../assets/new-psoft-index.png';
+
 function PSoft() {
   return (
     <>
@@ -25,11 +28,11 @@ function PSoft() {
             </ol>
 
             <div className="content-img-container">
-              <img src="../../assets/og-psoft-index.png" className="project-img"/>
+              <img src={ogPsoftIndex} className="project-img"/>
               <p className="content-img-desc" style={{ marginTop: "0" }}>Before</p>
             </div>
             <div className="content-img-container">
-              <img src="../../assets/new-psoft-index.png" className="project-img"/>
+              <img src={newPsoftIndex} className="project-img"/>
               <p className="content-img-desc" style={{ marginTop: "0" }}>After</p>
             </div>
           </div>

@@ -1,6 +1,9 @@
 import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
 
+import githubLight from '../../assets/github-mark.png';
+import githubDark from '../../assets/github-mark-white.png';
+
 function Portfolio() {
   return (
     <>
@@ -14,8 +17,8 @@ function Portfolio() {
               onClick={() => window.open('https://github.com/JManion32/portfolio-site', '_blank')}
               >
               <div className="github-image-wrapper">
-                  <img src="../../assets/github-mark.png" className="github-image light" />
-                  <img src="../../assets/github-mark-white.png" className="github-image dark" />
+                  <img src={githubLight} className="github-image light" />
+                  <img src={githubDark} className="github-image dark" />
               </div>
             </button>
           </div>

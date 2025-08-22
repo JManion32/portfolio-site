@@ -5,7 +5,7 @@ import NavButton from '../../components/NavButton';
 import srLogo from '../../assets/sr-logo.svg';
 import githubLight from '../../assets/github-mark.png';
 import githubDark from '../../assets/github-mark-white.png';
-import javafxProject from '../../assets/javafx-roulette.png';
+import javafxProject from '../../assets/javafx-project.png';
 import srStoryboardDark from '../../assets/sr-storyboard-dark-mode.png';
 import srHomePageDark from '../../assets/sr-home-dark-mode.png';
 import srDeploymentDay from '../../assets/sr-deployment-day.png';

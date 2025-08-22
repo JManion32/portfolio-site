@@ -3,6 +3,10 @@ import { useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { initDarkMode } from '../utils/darkMode';
 
+import jmLogo from '../assets/jm-dark-circle.png';
+import sunBlack from '../assets/sun_black.png';
+import moonWhite from '../assets/moon_white.png';
+
 const Navbar: React.FC = () => {
 
   const navigate = useNavigate();
@@ -25,7 +29,7 @@ const Navbar: React.FC = () => {
         <ul className="nav-links">
             <li id="home-button">
                 <img
-                    src="../assets/jm-dark-circle.png"
+                    src={jmLogo}
                     onClick={() => navigate('/')}
                     className="jm-logo"
                 />
@@ -54,9 +58,9 @@ const Navbar: React.FC = () => {
                     <span className="slider">
                     <img
                         id="dark-mode-icon"
-                        src="../assets/sun_black.png"
-                        data-light="../assets/sun_black.png"
-                        data-dark="../assets/moon_white.png"
+                        src={sunBlack}
+                        data-light={sunBlack}
+                        data-dark={moonWhite}
                         alt="mode icon"
                     />
                     </span>

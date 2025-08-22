@@ -71,8 +71,8 @@ function Home() {
                         onClick={() => window.open('https://github.com/JManion32', '_blank')}
                     >
                     <div className="github-image-wrapper">
-                        <img src="../assets/github-mark.png" className="github-image light" />
-                        <img src="../assets/github-mark-white.png" className="github-image dark" />
+                        <img src={githubLight} className="github-image light" />
+                        <img src={githubDark} className="github-image dark" />
                     </div>
                     </button>
                     <button
@@ -80,7 +80,7 @@ function Home() {
                         onClick={() => window.location.href = 'mailto:jmanion32@gmail.com'}
                     >
                         <img
-                            src="../assets/gmail-logo.png"
+                            src={gmailLogo}
                             className="gmail-image"
                             alt="mail icon"
                         />
@@ -89,7 +89,7 @@ function Home() {
                         className="contact-button mobile-home-contact-button"
                         onClick={() => window.open('https://www.linkedin.com/in/jmanion32/', '_blank')}
                     >
-                        <img src="../assets/linkedin_logo.png" className="linkedin-image"/>
+                        <img src={linkedinLogo} className="linkedin-image"/>
                     </button>
                     {/*
                     <button 

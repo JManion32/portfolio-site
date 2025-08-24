@@ -7,26 +7,24 @@
     <title>justinmanion.com</title>
 
     <script>
-      try {
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const stored = localStorage.getItem('site_mode');
-        const isDark = stored === 'dark' || (stored === null && prefersDark);
-        document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+      (function () {
+        try {
+          var KEY = 'site_mode';
+          var stored = localStorage.getItem(KEY);
+          var theme = stored || 'dark';
+          if (!stored) localStorage.setItem(KEY, theme);
 
-        // Apply background color immediately to prevent white flash
-        document.documentElement.style.backgroundColor = isDark ? '#111111' : '#eceff1';
-      } catch (_) {}
+          var root = document.documentElement;
+          root.setAttribute('data-theme', theme);
+          root.style.backgroundColor = theme === 'dark' ? '#111111' : '#f4f2ee';
+        } catch (e) {}
+      })();
     </script>
 
     <style>
-      html[data-theme='dark'] {
-        background-color: #111111;
-        color: white;
-      }
-      html[data-theme='light'] {
-        background-color: #f4f2ee;
-        color: black;
-      }
+      :root { color-scheme: dark light; }
+      html[data-theme='dark']  { background-color: #111111; color: #fff; }
+      html[data-theme='light'] { background-color: #f4f2ee; color: #000; }
     </style>
   </head>
   <body>

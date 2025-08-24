@@ -58,7 +58,7 @@ html {
 /* Speed Roulette, Submitty, RPI*/
 .text-content {
   transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--text-content-bg-shadow);
   width: var(--content-width);
   margin: 0 auto;
   flex-grow: 1;

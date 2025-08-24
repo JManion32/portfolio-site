@@ -21,6 +21,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --site-font-size: 12px;
         --content-width: 90%;
         --content-padding: 0 1rem;
+        --text-content-bg-shadow: none;
 
         /* Nav Bar */
         --nav-link-gap: .75rem;
@@ -53,6 +54,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         /* Site / Index */
         --site-font-size: 13px;
         --content-width: 80%;
+        --text-content-bg-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 
         /* Nav Bar */
         --nav-link-gap: 2rem;

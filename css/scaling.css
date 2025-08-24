@@ -21,7 +21,6 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --site-font-size: 12px;
         --content-width: 90%;
         --content-padding: 0 1rem;
-        --text-content-bg-shadow: none;
 
         /* Nav Bar */
         --nav-link-gap: .75rem;
@@ -39,12 +38,17 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --main-page-header-align: center;
         --main-page-grid-columns: 1fr;
         --experience-header-flex-direction: column;
+        --project-desc-size: 1.125rem;
+        --project-date-size: 1.125rem;
 
         /* Text Content */
         --detail-page-header-size: 3rem;
         --text-content-padding: .3rem .5rem;
         --text-page-header-size: 2rem;
         --text-body-max-width: 90%;
+        --text-content-bg-shadow: none;
+        --text-content-p-size: 1.125rem;
+        --text-content-h3-size: 1.25rem;
     }
 }
 
@@ -54,7 +58,6 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         /* Site / Index */
         --site-font-size: 13px;
         --content-width: 80%;
-        --text-content-bg-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 
         /* Nav Bar */
         --nav-link-gap: 2rem;
@@ -72,11 +75,16 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --main-page-header-align: left;
         --main-page-grid-columns: repeat(2, 1fr);
         --experience-header-flex-direction: row;
+        --project-desc-size: 1rem;
+        --project-date-size: 1rem;
 
         /* Text Content */
         --text-content-padding: 3rem 5rem;
         --text-page-header-size: 3rem;
         --text-body-max-width: 98%;
+        --text-content-bg-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        --text-content-p-size: 1rem;
+        --text-content-h3-size: 1.125rem;
     }
 }
 

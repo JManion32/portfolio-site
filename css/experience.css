@@ -50,6 +50,7 @@
 }
 
 .experience-date {
+  font-size: var(--project-date-size);
   font-style: italic;
   margin: 0;
 }

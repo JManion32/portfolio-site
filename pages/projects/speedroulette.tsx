@@ -138,18 +138,23 @@ function SpeedRoulette() {
             <p>
               One issue in my original JavaFX GUI was that the user could not place a bet in between table cells (e.g., 7 and 10).
               To address that here, I created a table of the entire roulette board, and then overlayed CSS grids on top of it. This 
-              took many hours to perfect, but the final product was well worth it.
-
+              took many hours to perfect, but the final product worth it.
             </p>
+            <div className="content-img-container">
+              <img src={srDeploymentDay} className="project-img"/>
+              <p className="content-img-desc">Very special thank you to Geoff and Kaitlyn for making my deployment day so special!</p>
+            </div>
             <h3>3. Deployment</h3>
             <p>
               Out of all the blockers I had to work through on this project, deployment was by far the most time consuming. 
               Of course, this was my first time deploying anything so there was an inevitable learning curve, but that wasn't 
-              the primary issue. I was using AWS, which, for a new developer's personal project, is not a good fit.
+              the primary issue. I was using AWS, which, for a new developer's personal project, is not a good fit. I spent several 
+              days trying to figure out which of the 200+ services I needed, and how to make them work together. In the end, I decided 
+              to just go with Digital Ocean, which was much easier to use, especially since my project is dockerized.
             </p>
             <h3>4. Security</h3>
             <p>
-              Although I am not handling any sensitive user data, I wanted to make sure that security was one of my priorities, especially 
+              Although I am not handling any sensitive user data, I wanted to make sure that security was one of my top priorities, especially 
               since I didn't have much experience in that area. Some of the security related features I made include:
             </p>
             <ul id="security-list">
@@ -157,28 +162,34 @@ function SpeedRoulette() {
                 <b>Rate Limiting:</b> All pages of my site are rate limited to prevent spam, abuse, and server overload.
               </p></li>
               <li><p>
-                <b>User Tokens:</b> Generated each time the user presses start. Accompanies each request to the backend and expires after 3 minutes.
+                <b>User Tokens:</b> Generated each time the user presses start. Must accompany each request to the backend and expires after 3 minutes.
               </p></li>
               <li><p>
                 <b>Data Validation:</b> The backend validates each request to ensure the bet amount is less than or equal to the previous user balance.
               </p></li>
               <li><p>
-                <b>Name Filter:</b> Utilized multiple JavaScript libraries to prevent bad words from using explicit language in their nicknames.
+                <b>Name Filter:</b> Utilized multiple JavaScript libraries to prevent explicit nicknames.
               </p></li>
               <li><p>
                 <b>Privacy Policy:</b> Outlines how user data is handled, ensuring transparency and protection for both the site owner and visitors.
               </p></li>
             </ul>
             <p>
-              With all the precautions I took, I still left a crucial vulnerability that didn't reveal itself until a week after deployment, when one 
-              of my users was unable to start a game. I didn't think much of it, so I rebooted the server. The site was back and working better than ever... 
-              For 5 minutes. After another reboot, same problem I had to dig deeper. I decided to reboot my server once more, then run my Docker containers with the live feed while 
-              I messed around with the site to see if I could spot anything. After several minutes of testing, I thought the the third reboot might have done the charm, until I saw 
+              With all the precautions I took, I still left a crucial vulnerability that didn't reveal itself until a week after deployment, when a user reported that they were unable 
+              to start a game. I didn't think much of it, so I rebooted the server. The site was back and working better than ever... For 5 minutes. After another reboot, same 
+              problem I had to dig deeper. I decided to reboot my server once more, then run my Docker containers with the live feed while I messed around with the site to 
+              see if I could spot anything. After several minutes of testing, I thought the the third reboot might have done the charm, until I saw 
               a horrific site on my live feed:
             </p>
             <p><b>pkill pkill pkill pkill pkill</b></p>
             <p>
-              A malicious script had found its way onto my server! But how? Well, thats how I spent the next 6 hours of my life figuring out. 
+              A malicious script had found its way onto my server! But how? Well, thats how I spent the next 6 hours of figuring out.
+            </p>
+            <p>
+              The cause of this issue was a simple misconfiguration in my docker compose file. The malware is called Kinsing, and it is known for exploiting vulnerabilities 
+              in Linux servers and cloud-native environments to mine cryptocurrency. It had access to my Docker files because while everything was set up correctly, I 
+              had not bound the ports of my backend to localhost, allowing anything on the internet to access them. After adding this binding, assessing and securing a few other configurations, 
+              and migrating everything to a new Digital Ocean droplet, I haven't run into any issues since!
             </p>
             <hr/>
             <h2>Reflection</h2>

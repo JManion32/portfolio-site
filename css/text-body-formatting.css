@@ -30,6 +30,7 @@
 #text-body p {
   margin: 1.2rem 0;
   font-size: var(--text-content-p-size);
+  line-height: 1.5rem;
 }
 
 #text-body img {

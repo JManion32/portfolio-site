@@ -135,7 +135,11 @@ function SpeedRoulette() {
             <h3>1. New Technologies</h3>
             <p>
               When I started this project, I don't think I knew a single tool in the tech stack I was planning to use. Not one. 
-              It was quite overwhelming to say the least, and a mental battle from start to finish.
+              It was quite overwhelming to say the least, and a mental battle from start to finish. Something that significantly 
+              helped me along the way was ChatGPT, but not in the way you may suspect. Whenever I was driving for more that 10 minutes, 
+              I utilized the voice feature, and would have conversations about things I was unfamiliar with. It was so helpful for pushing 
+              through blockers and planning what I needed to do next, like a built-in tutor! While challenging at first, learning all of 
+              these technologies has given me a well rounded skillset that I have been able to use for Submitty, and other projects.
             </p>
             <h3>2. Grid layout</h3>
             <p>

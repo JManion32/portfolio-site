@@ -56,6 +56,14 @@
   transition: color 0.2s ease, background-color 0.2s ease;
 }
 
+#text-body a {
+  text-decoration: none;
+}
+
+#text-body a:hover {
+  text-decoration: underline;
+}
+
 #security-list p {
   margin: 0;
   margin: 0.25rem 0;

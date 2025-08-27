@@ -91,7 +91,7 @@ function Submitty() {
               I would be able to work on the project full-time for the summmer.
             </p>
             <h2>Summer 2025</h2>
-            <p>
+            <p className="p-below-header">
               With a semester of experience under my belt, it was time to go a few layers deeper into the project have a productive summer. 
               The first month was mainly cleaning up old pull requests from the last 2 semesters. We started the summer with 81 open PRs, and 
               our goal was 25 by the end. Cleaning up these old pull requests was actually quite helpful for me, as I was finally beginning 
@@ -108,7 +108,7 @@ function Submitty() {
               itself felt bare, with lots of unused space.
             </p>
             <h3>Initial PR</h3>
-            <p>
+            <p className="p-below-header">
               Since this feature is now front and center on the site, thoughtful UI/UX design was essential. We started 
               with whiteboard sketches to explore layout ideas, then moved to Figma to create a polished mockup for feedback 
               and iteration. Throughout development, I regularly demoed progress to the group to gather input and refine both 
@@ -122,11 +122,13 @@ function Submitty() {
               - Creating a new database index on `created_at` and `to_user_id`, reducing the time complexity from **O(courses × notifications)** to **O(courses)**
             </p>
             <h3>Mark as Seen</h3>
-            After the original feature was merged, it quickly became clear that users needed a way to dismiss unseen 
-            notifications without being redirected. This PR adds an envelope icon next to each unseen notification, 
-            allowing them to be marked as seen in place.
+            <p className="p-below-header">
+              After the original feature was merged, it quickly became clear that users needed a way to dismiss unseen 
+              notifications without being redirected. This PR adds an envelope icon next to each unseen notification, 
+              allowing them to be marked as seen in place.
+            </p>
             <h3>Improve Interactivity</h3>
-            <p>
+            <p className="p-below-header">
               As mentioned above, it’s critical that this feature has a clean and intuitive UI. This PR improves the design with the following changes:
               - Added a star icon next to gradeable notifications.
               - Increased the font weight of notification content for better readability.

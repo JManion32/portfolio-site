@@ -47,8 +47,8 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --text-page-header-size: 2rem;
         --text-body-max-width: 90%;
         --text-content-bg-shadow: none;
-        --text-content-p-size: 1.125rem;
-        --text-content-h3-size: 1.25rem;
+        --text-content-p-size: 1.2rem;
+        --text-content-h3-size: 1.3rem;
     }
 }
 
@@ -83,7 +83,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --text-page-header-size: 3rem;
         --text-body-max-width: 98%;
         --text-content-bg-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        --text-content-p-size: 1rem;
+        --text-content-p-size: 1.15rem;
         --text-content-h3-size: 1.125rem;
     }
 }

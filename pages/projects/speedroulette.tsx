@@ -94,21 +94,20 @@ function SpeedRoulette() {
             />
             <hr/>
             <h2>Planning</h2>
-            <p>The idea of building an online roulette game dates back to 2023 when the only programming language I knew was Java:</p>
+            <p className="p-below-header">The idea of building an online roulette game dates back to 2023 when the only programming language I knew was Java:</p>
             <div className="content-img-container">
               <img src={javafxProject} className="content-img"/>
             </div>
             <p>
               This was a GUI I built using JavaFX and what I had learned at Hudson Valley. It was limited 
-              in functionality, and had a very bloated codebase (I didn't yet know how to utilize object oriented programming). 
+              in functionality, and had a bloated codebase (I didn't yet know how to use object oriented programming). 
               I knew I wanted to create something more. Something I was proud of. Something I could enjoy with my friends.
             </p>
               
             <p>
               For awhile, I considered just refining what I had already built. After taking Data Structures at RPI, I refactored the
-              codebase bringing the line count down from ~3,000 to ~1,000 with OOP. At this point, I still didn't know enough about development 
-              to understand building a website with JavaFX wasn't feasible. It wasn't until I joined Submitty in January 2025 that I 
-              was exposed to web technologies.
+              codebase to use OOP, bringing the line count down from ~3,000 to ~1,000. At the time, I didn’t recognize that 
+              JavaFX wasn’t suitable for building websites. My perspective shifted in January 2025, when joining Submitty gave me my first real exposure to web technologies.
             </p>
 
             <p>
@@ -119,7 +118,7 @@ function SpeedRoulette() {
             </p>
             <hr/>
             <h2>Implementation</h2>
-            <p>With the complete storyboard, it was easy to build out the UI.</p>
+            <p className="p-below-header">With the complete storyboard, it was easy to build out the UI.</p>
             <div className="content-img-container">
               <img src={srStoryboardDark} className="content-img"/>
               <img src={srHomePageDark} className="content-img"/>
@@ -133,33 +132,43 @@ function SpeedRoulette() {
             <h2>Technical Challenges</h2>
 
             <h3>1. New Technologies</h3>
-            <p>
+            <p  className="p-below-header">
               When I started this project, I don't think I knew a single tool in the tech stack I was planning to use. Not one. 
               It was quite overwhelming to say the least, and a mental battle from start to finish. Something that significantly 
-              helped me along the way was ChatGPT, but not in the way you may suspect. Whenever I was driving for more that 10 minutes, 
-              I utilized the voice feature, and would have conversations about things I was unfamiliar with. It was so helpful for pushing 
-              through blockers and planning what I needed to do next, like a built-in tutor! While challenging at first, learning all of 
-              these technologies has given me a well rounded skillset that I have been able to use for Submitty, and other projects.
+              helped me along the way was ChatGPT, though not as you might expect. Whenever I was driving for more that 10 minutes, 
+              I utilized the voice feature, and would have conversations with the AI agent about things I was unfamiliar with. These 
+              conversations were invaluable for learning, pushing through blockers, and planning what I needed to do next.
+            </p>
+            <p>
+              While challenging at first, learning all of these technologies has given me a well rounded skillset that I have been 
+              able to use for Submitty, and other projects.
             </p>
             <h3>2. Grid layout</h3>
-            <p>
+            <p className="p-below-header">
               One issue in my original JavaFX GUI was that the user could not place a bet in between table cells (e.g., 7 and 10).
               To address that here, I created a table of the entire roulette board, then overlayed CSS grids on top of it.
             </p>
             <div className="content-img-container">
               <img src={srGrid} className="project-img"/>
             </div>
-            <h3>3. Deployment</h3>
             <p>
+              After overlaying the grid onto the table, the next challenge became handling bets on the backend. I identified 
+              patterns in the grid that allowed me to design solid logic, though a few off-by-one errors appeared after deployment. 
+              Once those were addressed, the code reached a stable state, and is now the one part of the project I have no plans to revisit. 
+              As the saying goes, “If it ain’t broke, don’t fix it.”
+            </p>
+            <h3>3. Deployment</h3>
+            <p className="p-below-header">
               Deployment turned out to be the most time-consuming challenge of the project. Since it was my first time, there 
-              was an inevitable learning curve, but the larger issue was choosing the right platform. I initially tried AWS, 
-              but for a personal project it was overwhelming to navigating 200+ services and configuring them to work together. 
-              Ultimately, I switched to DigitalOcean, which provided a much simpler experience, especially with my project already being dockerized.
+              was an inevitable learning curve, but the larger issue was choosing the right platform. I initially experimented 
+              with AWS, but the challenge of identifying the right services from hundreds of options and then configuring them to work together 
+              made it impractical for a personal project. Ultimately, I switched to DigitalOcean, which provided a much 
+              simpler experience, especially with my project already being dockerized.
             </p>
             <h3>4. Security</h3>
-            <p>
-              Although I am not handling any sensitive user data, I wanted to make sure that security was one of my top priorities, especially 
-              since I didn't have much experience in that area. Some of the security related features I made include:
+            <p className="p-below-header">
+              Although Speed Roulette does not handle any sensitive user data, I wanted to make sure that security was one of my top priorities, especially 
+              since I didn't have much experience in that area. Some of the security related features I added include:
             </p>
             <ul id="security-list">
               <li><p>
@@ -179,28 +188,29 @@ function SpeedRoulette() {
               </p></li>
             </ul>
             <p>
-              With all the precautions I took, I still left a crucial vulnerability that didn’t reveal itself until a week after deployment, when a user reported being unable to start a game. 
-              I didn’t think much of it at first and simply rebooted the server. The site came back, working better than ever… for about five minutes. After another reboot, the same problem occurred. 
+              With all the precautions I took, I still left a crucial vulnerability that didn’t reveal itself until a week after deployment, when a user reported they were unable to start a game. 
+              I didn’t think much of it at first and simply rebooted the server. The site came back and was stable… for about five minutes. After another reboot, the same problem occurred. 
               I rebooted the server once more, this time running my Docker containers with the live feed while I tested the site to see if I could spot anything. After several minutes, 
-              I thought the third reboot might have finally done the trick. That's when I saw a horrific sight on my live feed:
+              I thought the third reboot might have finally done the trick. That's when I saw a horrific sight on the feed:
             </p>
             <p><b>pkill pkill pkill pkill pkill</b></p>
             <p>
-              A malicious script had found its way onto my server! But how? I spent the next 6 hours figuring it out.
+              A malicious script had found its way onto my server and hundreds of commands were just executed! But how? I spent the next 6 hours figuring it out.
             </p>
             <p>
               The root cause turned out to be a simple misconfiguration in my Docker Compose file. The malware, known as Kinsing, exploits vulnerabilities 
               in Linux servers and cloud-native environments, then killing all processes to maximize resources for mining cryptocurrency. It gained access to my Docker files because, 
-              although most of my setup was correct, I had forgotten to bind the backend ports to localhost, leaving them exposed to the internet. After fixing the port bindings, 
-              reviewing and tightening a few other configurations, and migrating everything to a fresh DigitalOcean droplet, I haven’t run into any issues since!
+              although most of my setup was correct, I had forgotten to bind the backend, database, and caching ports to localhost. This left them exposed to the open internet, and 
+              rendered my reverse proxy useless. After addressing this, reviewing and tightening a few other configurations, and migrating everything to a 
+              fresh DigitalOcean droplet, I haven’t run into any issues since!
             </p>
             <hr/>
             <h2>Reflection</h2>
-            <p>
-              Although this project was created only this year, I truly believe it was the spark that ignited my real passion for programming. 
-              Before Speed Roulette, most of my work was done out of requirement, rather than genuine enjoyment. I have enjoyed every step of the 
-              process, and this feeling is now shared in my other projects as well. Being the sole architect of a 25,000+ line code base gives me 
-              a unique sense of accomplishment I've never quite felt before. I'm so excited to build more projects and continue to level up as a developer.
+            <p className="p-below-header">
+              Although this project was created only this year, I truly believe it was the spark that ignited my real passion for programming. Being 
+              the sole architect of a 25,000+ line codebase gave me a unique sense of accomplishment I’d never felt before. Prior to Speed Roulette, 
+              most of my work was driven by requirement rather than genuine enjoyment. I’ve enjoyed every step of building it, and that same excitement 
+              now carries over into my other projects. I’m excited to keep building and continue leveling up as a developer.
             </p>
             <div className="content-img-container">
               <img src={srDeploymentDay} className="project-img"/>

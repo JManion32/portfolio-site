@@ -15,7 +15,7 @@
 
 #text-body h2 {
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     font-size: 1.5rem;
     font-weight: bold;
     unicode-bidi: isolate;
@@ -29,21 +29,18 @@
 }
 
 #text-body p {
-  margin: 2rem 0;
+  margin-top: 0 !important;
+  margin-bottom: 2rem;
   font-size: var(--text-content-p-size);
   line-height: 1.55rem;
-}
-
-.p-below-header {
-  margin-top: 0 !important;
 }
 
 #text-body img {
   border-radius: 1rem;
   border: 2px solid var(--project-img-border);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  margin: 1rem 0;
-  max-width: var(--text-body-max-width);
+  margin-bottom: 2rem;
+  max-width: var(--text-body-max-img-width);
   height: auto;
 }
 
@@ -62,6 +59,11 @@
 
 #text-body a:hover {
   text-decoration: underline;
+}
+
+#text-body ul {
+  margin-top: 0 !important;
+  margin-bottom: 2rem;
 }
 
 #security-list p {

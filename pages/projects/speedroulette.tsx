@@ -94,7 +94,7 @@ function SpeedRoulette() {
             />
             <hr/>
             <h2>Planning</h2>
-            <p className="p-below-header">The idea of building an online roulette game dates back to 2023 when the only programming language I knew was Java:</p>
+            <p>The idea of building an online roulette game dates back to 2023 when the only programming language I knew was Java:</p>
             <div className="content-img-container">
               <img src={javafxProject} className="content-img"/>
             </div>
@@ -118,7 +118,7 @@ function SpeedRoulette() {
             </p>
             <hr/>
             <h2>Implementation</h2>
-            <p className="p-below-header">With the complete storyboard, it was easy to build out the UI.</p>
+            <p>With the complete storyboard, it was easy to build out the UI.</p>
             <div className="content-img-container">
               <img src={srStoryboardDark} className="content-img"/>
               <img src={srHomePageDark} className="content-img"/>
@@ -132,7 +132,7 @@ function SpeedRoulette() {
             <h2>Technical Challenges</h2>
 
             <h3>1. New Technologies</h3>
-            <p  className="p-below-header">
+            <p>
               When I started this project, I don't think I knew a single tool in the tech stack I was planning to use. Not one. 
               It was quite overwhelming to say the least, and a mental battle from start to finish. Something that significantly 
               helped me along the way was ChatGPT, though not as you might expect. Whenever I was driving for more that 10 minutes, 
@@ -144,7 +144,7 @@ function SpeedRoulette() {
               able to use for Submitty, and other projects.
             </p>
             <h3>2. Grid layout</h3>
-            <p className="p-below-header">
+            <p>
               One issue in my original JavaFX GUI was that the user could not place a bet in between table cells (e.g., 7 and 10).
               To address that here, I created a table of the entire roulette board, then overlayed CSS grids on top of it.
             </p>
@@ -158,7 +158,7 @@ function SpeedRoulette() {
               As the saying goes, “If it ain’t broke, don’t fix it.”
             </p>
             <h3>3. Deployment</h3>
-            <p className="p-below-header">
+            <p>
               Deployment turned out to be the most time-consuming challenge of the project. Since it was my first time, there 
               was an inevitable learning curve, but the larger issue was choosing the right platform. I initially experimented 
               with AWS, but the challenge of identifying the right services from hundreds of options and then configuring them to work together 
@@ -166,7 +166,7 @@ function SpeedRoulette() {
               simpler experience, especially with my project already being dockerized.
             </p>
             <h3>4. Security</h3>
-            <p className="p-below-header">
+            <p>
               Although Speed Roulette does not handle any sensitive user data, I wanted to make sure that security was one of my top priorities, especially 
               since I didn't have much experience in that area. Some of the security related features I added include:
             </p>
@@ -206,7 +206,7 @@ function SpeedRoulette() {
             </p>
             <hr/>
             <h2>Reflection</h2>
-            <p className="p-below-header">
+            <p>
               Although this project was created only this year, I truly believe it was the spark that ignited my real passion for programming. Being 
               the sole architect of a 25,000+ line codebase gave me a unique sense of accomplishment I’d never felt before. Prior to Speed Roulette, 
               most of my work was driven by requirement rather than genuine enjoyment. I’ve enjoyed every step of building it, and that same excitement 

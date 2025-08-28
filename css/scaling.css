@@ -45,7 +45,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --detail-page-header-size: 3rem;
         --text-content-padding: .3rem .5rem;
         --text-page-header-size: 2rem;
-        --text-body-max-width: 90%;
+        --text-body-max-img-width: 100%;
         --text-content-bg-shadow: none;
         --text-content-p-size: 1.2rem;
         --text-content-h3-size: 1.3rem;
@@ -81,7 +81,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         /* Text Content */
         --text-content-padding: 3rem 5rem;
         --text-page-header-size: 3rem;
-        --text-body-max-width: 98%;
+        --text-body-max-img-width: 100%;
         --text-content-bg-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         --text-content-p-size: 1.15rem;
         --text-content-h3-size: 1.125rem;
@@ -110,7 +110,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
 
         /* Text Content */
         --text-content-padding: 3rem 5rem;
-        --text-body-max-width: 75%;
+        --text-body-max-img-width: 90%;
     }
 }
 
@@ -133,7 +133,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         /* Text Content */
         --text-content-padding: 3rem 5rem;
         --text-page-header-size: 3rem;
-        --text-body-max-width: 70%;
+        --text-body-max-img-width: 80%;
     }
 }
 
@@ -156,5 +156,6 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         /* Text Content */
         --text-content-padding: 3rem 5rem;
         --text-page-header-size: 4rem;
+        --text-body-max-img-width: 70%;
     }
 }

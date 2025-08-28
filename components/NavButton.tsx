@@ -16,15 +16,21 @@ export default function NavButton({ left, leftNav, right, rightNav, className }:
 
   if (!showLeft && !showRight) return null;
 
+  const handleNavigate = (path: string) => {
+    navigate(path);
+    window.scrollTo({ top: 0, behavior: "auto" }); // or "smooth"
+  };
+
+
   return (
     <footer className={`guide-footer ${className ?? ''}`}>
       {showLeft && (
-        <button className="left-guide-button" onClick={() => navigate(leftNav!)}>
+        <button className="left-guide-button" onClick={() => handleNavigate(leftNav!)}>
           <span className="left-arrow-spacer">{'<<'}</span> {left}
         </button>
       )}
       {showRight && (
-        <button className="right-guide-button" onClick={() => navigate(rightNav!)}>
+        <button className="right-guide-button" onClick={() => handleNavigate(rightNav!)}>
           {right} <span className="right-arrow-spacer">{'>>'}</span>
         </button>
       )}

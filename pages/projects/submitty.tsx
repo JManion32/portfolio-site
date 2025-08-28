@@ -6,6 +6,7 @@ import submittyDuck from '../../assets/submitty_duck.png';
 import githubLight from '../../assets/github-mark.png';
 import githubDark from '../../assets/github-mark-white.png';
 
+import githubActions from '../../assets/github-actions-ui.png';
 import homeNotis from '../../assets/home_page_notifications.png';
 import configEditor from '../../assets/gradeable_config_editor.png';
 
@@ -37,7 +38,7 @@ function Submitty() {
             <p>
               Submitty is an open source course management, assignment submission, exam and grading 
               system from the Rensselaer Center for Open Source Software (RCOS), Department of Computer 
-              Science at Rensselaer Polytechnic Institute. Most of this writeup is from 
+              Science at Rensselaer Polytechnic Institute. Most of the content here is from 
               my <a href="https://submitty.org/developer/rensselaer_center_for_open_source/2025_Justin_Manion">summer writeup</a>.
             </p>
             <hr/>
@@ -92,17 +93,18 @@ function Submitty() {
               pull requests, troubleshooting my VM, and making small CSS changes. I was scared of JavaScript, had no idea how PHP worked, and 
               steered clear of anything that had to do with the database, Cypress, or Python. Despite this, Submitty was 
               by far my favorite course thanks to the real world experience I was gaining, and the guidance of the mentors. 
-              At the end, I was excited to find out that I would be able to work on the project full-time for the summmer.
+              At the end, I was excited to find out that I was able to join the full-time development team for the summer.
             </p>
             <hr/>
             <h2>Summer 2025</h2>
             <p>
               With a semester of experience under my belt, it was time to go a few layers deeper into the project and have a productive summer. 
-              The first month was mainly cleaning up old pull requests from the last 2 semesters. We started with 81 open PRs, and 
-              our goal was less than 25 by the end. Cleaning up these old pull requests was actually quite helpful for me, as I was finally beginning 
-              to see how these contributions were meeting the existing structure. At some point, I realized, "If I can get these PRs merged, 
-              why can't I just start making them myself?" By the end of June, the training wheels were off. Below are my key contributions to 
-              Submitty, most of which are from the summer.
+              The first month was mainly cleaning up left over pull requests from the school year. We started with 81 open PRs, and 
+              our goal was less than 25 by the end. Cleaning up these old pull requests turned out to be surprisingly valuable, 
+              as I began to understand the project’s structure by seeing how each change fit into place. At some point, I 
+              realized, “If I can get these PRs merged, why can’t I just start creating them myself?” By the end of June, 
+              the training wheels were off, and my work was becoming more impactful. Below are some of my key contributions
+              to Submitty, most of which are from the summer.
             </p>
             <hr/>
             <h2>Displaying all Notifications on the Home Page</h2>
@@ -110,22 +112,25 @@ function Submitty() {
               Submitty previously only displayed notifications on a per-course basis, meaning users had to visit each individual 
               course to view or mark notifications as read. As we’ve added more advanced notification features, this limitation 
               became increasingly cumbersome, especially for users in multiple courses. On top of that, the home page 
-              itself felt bare, with lots of unused space.
+              itself felt bare, with a lots of unused space.
             </p>
             <h3>Initial PR (<a href="https://github.com/Submitty/Submitty/pull/11914">PR#11914</a>)</h3>
             <p>
-              Since this feature is now front and center on the site, thoughtful UI/UX design was essential. We started 
+              Since this feature is now front and center on the site, thoughtful UI/UX design was essential. As a group, we started 
               with whiteboard sketches to explore layout ideas, then moved to Figma to create a polished mockup for feedback 
-              and iteration. Throughout development, I regularly demoed progress to the group to gather input and refine both 
+              and iteration. Throughout development, I regularly demoed my progress to the group to gather input and refine both 
               functionality and design.
             </p>
             <p>
-              The main challenge was efficiently aggregating notifications from multiple course databases. Since each course requires its own query and this feature now runs every time a user visits the home page, performance was crucial. To address this, I optimized the process by:
+              The main challenge was efficiently aggregating notifications from multiple course databases. 
+              Since each course requires its own query and this feature now runs every time a user visits the 
+              home page, performance was crucial. To address this, I optimized the process by:
               <ul>
                 <li>Limiting queries to only active courses</li>
                 <li>Limiting each query to the 10 most recent notifications</li>
                 <li>Sorting results server-side for efficiency</li>
-                <li>Creating a new database index on created_a` and to_user_id, reducing the time complexity from <b>O(courses × notifications)</b> to <b>O(courses)</b></li>
+                <li>Creating a new database index on created_at and to_user_id, reducing the time 
+                  complexity from <b>O(courses × notifications)</b> to <b>O(courses)</b></li>
               </ul>
             </p>
             <h3>Mark as Seen (<a href="https://github.com/Submitty/Submitty/pull/12007">PR#12007</a>)</h3>
@@ -136,13 +141,18 @@ function Submitty() {
             </p>
             <h3>Improve Interactivity (<a href="https://github.com/Submitty/Submitty/pull/12012">PR#12012</a>)</h3>
             <p>
-              As mentioned above, it’s critical that this feature has a clean and intuitive UI. This PR improves the design with the following changes:
-              - Added a star icon next to gradeable notifications.
-              - Increased the font weight of notification content for better readability.
-              - Linked each notification’s course name to that course’s notifications page.
-              - Refactored click behavior: with three clickable elements in each container, only the individual elements are now clickable (rather than the entire container). 
-              Each element also underlines on hover. This design is inspired by GitHub Actions' job design:
+              As mentioned above, it’s important that this feature has a clean and intuitive UI. This PR improves the design with the following changes:
+              <ul>
+                <li>Added a star icon next to gradeable notifications.</li>
+                <li>Increased the font weight of notification content for better readability.</li>
+                <li>Linked each notification’s course name to that course’s notifications page.</li>
+                <li>Refactored click behavior: with three clickable elements in each container, only the individual elements are now clickable (rather than the entire container). </li>
+              </ul>
+              Each element also underlines on hover. This is inspired by GitHub Actions' job design:
             </p>
+            <div className="content-img-container">
+              <img src={githubActions} className="project-img"/>
+            </div>
             <h3>The Final Product</h3>
             <div className="content-img-container">
               <img src={homeNotis} className="project-img"/>
@@ -178,13 +188,18 @@ function Submitty() {
             </p>
             <h3>Download Config as ZIP (<a href="https://github.com/Submitty/Submitty/pull/11973">PR#11973</a>)</h3>
             <p>
-              Added a button to download the entire config directory as a ZIP archive, allowing users to save edits they made on the site editor for future use.
+              Added a button to download the entire config directory as a ZIP archive, allowing users to save edits they made on the site for future use.
             </p>
             <h3>Design & UX Polish (<a href="https://github.com/Submitty/Submitty/pull/11991">PR#11991</a> and <a href="https://github.com/Submitty/Submitty/pull/12003">PR#12003</a>)</h3>
             <p>
-              Refined visual layout and interactions to feel intuitive and consistent with the rest of Submitty. Changes include highlighting selected files, adding tool tips to the 
-              customize toggles, smoothing out the transition between text files, ensuring correct file order (root-level directories first, then root-level files), and 
-              improving overall spacing for readability.
+              Refined visual layout and interactions to feel intuitive and consistent with the rest of Submitty. Changes include
+              <ul>
+                <li>highlighting selected files</li>
+                <li>adding tool tips to the customize toggles</li>
+                <li>smoothing out the transition between text files</li>
+                <li>ensuring correct file order (root-level directories first, then root-level files)</li>
+                <li>improved overall spacing for readability</li>
+              </ul>
             </p>
             <h3>Edit Directory File (Coming Soon)</h3>
             <p>
@@ -223,7 +238,7 @@ function Submitty() {
             <h3>Filter Withdrawn Students (<a href="https://github.com/Submitty/submitty.github.io/pull/11792">PR#11792</a>)</h3>
             <p>
               Initially created by GitHub user <a href="https://github.com/yanliw123">yanliw123</a>. To streamline grading, this PR adds 
-              a toggle that hides withdrawn students from the grading page, so TAs can focus only on active students.
+              a toggle that hides withdrawn students from the grading page, so TAs can focus on active students only.
             </p>
             <h3>Add Audit / Withdrawn to Sample Data (<a href="https://github.com/Submitty/submitty.github.io/pull/11882">PR#11882</a>)</h3>
             <p>
@@ -251,6 +266,13 @@ function Submitty() {
                 <li><b>Work with the database</b> – I'm taking Database Systems next semester, and am excited to apply what I learned to Submitty!</li>
                 <li><b>Explore WebSockets</b> – I still haven't worked with them much, and want to learn more!</li>
               </ul>
+            </p>
+            <hr/>
+            <h2>Reflection</h2>
+            <p>
+              Being a part of Submitty has been an invaluable experience in my journey to becoming a real-world software developer. 
+              I would like to thank Professor Cutler, my teammates, mentors, and RPI for making this happen. I’m so proud of 
+              all that we have accomplished and excited to see what we create next!
             </p>
           </div>
         </div>

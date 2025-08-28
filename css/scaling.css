@@ -156,6 +156,6 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         /* Text Content */
         --text-content-padding: 3rem 5rem;
         --text-page-header-size: 4rem;
-        --text-body-max-img-width: 70%;
+        --text-body-max-img-width: 80%;
     }
 }

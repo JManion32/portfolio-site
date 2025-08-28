@@ -17,11 +17,25 @@
     margin: 0;
 }
 
+[data-theme="dark"]
+.name-header {
+    text-shadow:
+        0 0 6px rgb(255 255 255 / 40%),
+        0 0 10px rgb(255 255 255 / 20%);
+}
+
 .name-desc {
     font-size: 1.3rem;
     width: var(--home-desc-width);
     text-align: center;
     font-weight: 600;
+}
+
+[data-theme="dark"]
+.name-desc {
+    text-shadow:
+        0 0 3px rgb(255 255 255 / 40%),
+        0 0 5px rgb(255 255 255 / 20%);
 }
 
 .contact-button-container {

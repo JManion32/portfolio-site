@@ -125,6 +125,13 @@ html, body {
   flex-grow: 1;
 }
 
+[data-theme="dark"]
+.main-page-header {
+    text-shadow:
+        0 0 3px rgb(255 255 255 / 40%),
+        0 0 5px rgb(255 255 255 / 20%);
+}
+
 .main-page-desc {
   text-align: var(--main-page-header-align);
   transition: color 0.2s ease, background-color 0.2s ease;

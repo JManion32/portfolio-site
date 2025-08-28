@@ -7,6 +7,7 @@ import githubLight from '../../assets/github-mark.png';
 import githubDark from '../../assets/github-mark-white.png';
 
 import homeNotis from '../../assets/home_page_notifications.png';
+import configEditor from '../../assets/gradeable_config_editor.png';
 
 function Submitty() {
   return (
@@ -195,7 +196,62 @@ function Submitty() {
             <p>
               View documentation page <a href="https://submitty.org/instructor/assignment_configuration/configuration_editor">here</a>.
             </p>
+            <h3>The Final Product:</h3>
+            <div className="content-img-container">
+              <img src={configEditor} className="project-img"/>
+            </div>
             <hr/>
+            <h2>Dark Mode Toggle for the Documentation Site</h2>
+            <h3>Initial PR (<a href="https://github.com/Submitty/submitty.github.io/pull/691">PR#691</a>)</h3>
+            <p>
+              To improve accessibility and match user expectations, I added a dark mode toggle to the Submitty 
+              documentation site. The site is built with Jekyll and uses auto-generated styles, so integrating 
+              theme switching required working around those constraints.
+              <ul>
+                <li><b>SCSS Theming</b> – Introduced a dedicated _colors.scss file to define color variables for both light and dark themes. 
+                  These variables are applied across components to ensure consistency and maintainability.</li>
+                <li><b>Style Overrides</b> - Since the site uses a mix of default and third-party CSS, I selectively overrode 
+                conflicting styles via dark_mode.css to support dark mode without breaking layout or readability.</li>
+                <li><b>JavaScript Toggle</b> - Implemented a lightweight JS toggle that saves user preference and dynamically applies the appropriate theme class. I actually 
+                reused toggle for this portfolio site!</li>
+                <li><b>Responsive Design</b> - Tested and refined the toggle to ensure it works seamlessly across devices, including mobile. All 
+                elements have a 0.2s transition time for a smooth, polished theme change.</li>
+              </ul>
+            </p>
+            <hr/>
+            <h2>Additional Work</h2>
+            <h3>Filter Withdrawn Students (<a href="https://github.com/Submitty/submitty.github.io/pull/11792">PR#11792</a>)</h3>
+            <p>
+              Initially created by GitHub user <a href="https://github.com/yanliw123">yanliw123</a>. To streamline grading, this PR adds 
+              a toggle that hides withdrawn students from the grading page, so TAs can focus only on active students.
+            </p>
+            <h3>Add Audit / Withdrawn to Sample Data (<a href="https://github.com/Submitty/submitty.github.io/pull/11882">PR#11882</a>)</h3>
+            <p>
+              Added two students with registration_type set to `withdrawn` and two with `audit` to the existing sample data, 
+              which uses a seeded random number generator. Modifying this data shifted all related values, requiring updates 
+              to 20+ Cypress test files to ensure the feature could be integrated.
+            </p>
+            <h3>Add Audit / Withdrawn to Sample Data (<a href="https://github.com/Submitty/submitty.github.io/pull/11882">PR#11882</a>)</h3>
+            <p>
+              Initially created by <a href="https://submitty.org/developer/rensselaer_center_for_open_source/2024_Michael_Papadopoulos">Michael Papadopoulos</a>. 
+              When overriding a grade in a team gradeable, instructors would have to process each student individually. Now, a popup listing the student’s 
+              teammates displays, notifying the instructor that they have teammates, and asking if they want to override them as well.
+            </p>
+            <hr/>
+            <h2>Future Plans</h2>
+            <p>
+              I am planning to work on Submitty in Fall 2025 and Spring 2026 (and beyond!). Here are some features I am interested in adding:
+              <ul>
+                <li><b>Mentor new developers</b> – Having experienced the challenge of learning Submitty’s large codebase as a newcomer, I’m eager to share my knowledge and help new contributors get up to speed quickly while enjoying the process along the way.</li>
+                <li><b>Enhance the Autograding Configuration page</b> – A vital tool for instructors; improving it means a better experience for everyone.</li>
+                <li><b>Transform the home page into a dashboard</b> – Adding notifications was a good start, but there is more information to centralize such as grade summaries and upcoming gradeables.</li>
+                <li><b>Refactor and modularize forum.js</b> – The forum is a favorite feature but most of its JavaScript is in a single 3,000 line file. Breaking it up will make it cleaner, faster, and easier to improve.</li>
+                <li><b>Improve site intuitiveness and maintainability</b> – Tackle tech debt with cleaner CSS, fewer inline scripts, smaller files, and stronger testing, making the platform friendlier for all developers.</li>
+                <li><b>Convert more pages to Vue</b> – The component-based approach is a joy to work with and a strong candidate to become a core part of the stack.</li>
+                <li><b>Work with the database</b> – I'm taking Database Systems next semester, and am excited to apply what I learned to Submitty!</li>
+                <li><b>Explore WebSockets</b> – I still haven't worked with them much, and want to learn more!</li>
+              </ul>
+            </p>
           </div>
         </div>
         <NavButton

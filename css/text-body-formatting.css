@@ -39,7 +39,7 @@
   border-radius: 1rem;
   border: 2px solid var(--project-img-border);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 2rem;
+  margin: 1rem 0 2rem;
   max-width: var(--text-body-max-img-width);
   height: auto;
 }
@@ -62,7 +62,7 @@
 }
 
 #text-body ul {
-  margin-top: 0 !important;
+  margin-top: 0.5rem;
   margin-bottom: 2rem;
 }
 
@@ -80,5 +80,4 @@
 
 .content-img-desc {
   font-style: italic;
-  margin-top: 0.5rem !important;
 }

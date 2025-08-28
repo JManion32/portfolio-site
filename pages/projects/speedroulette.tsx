@@ -155,7 +155,7 @@ function SpeedRoulette() {
               After overlaying the grid onto the table, the next challenge became handling bets on the backend. I identified 
               patterns in the grid that allowed me to design solid logic, though a few off-by-one errors appeared after deployment. 
               Once those were addressed, the code reached a stable state, and is now the one part of the project I have no plans to revisit. 
-              As the saying goes, “If it ain’t broke, don’t fix it.”
+              As the saying goes, <i>“If it ain’t broke, don’t fix it.”</i>
             </p>
             <h3>3. Deployment</h3>
             <p>
@@ -163,7 +163,7 @@ function SpeedRoulette() {
               was an inevitable learning curve, but the larger issue was choosing the right platform. I initially experimented 
               with AWS, but the challenge of identifying the right services from hundreds of options and then configuring them to work together 
               made it impractical for a personal project. Ultimately, I switched to DigitalOcean, which provided a much 
-              simpler experience, especially with my project already being dockerized.
+              simpler experience, especially since my project is dockerized.
             </p>
             <h3>4. Security</h3>
             <p>
@@ -198,7 +198,7 @@ function SpeedRoulette() {
               A malicious script had found its way onto my server and hundreds of commands were just executed! But how? I spent the next 6 hours figuring it out.
             </p>
             <p>
-              The root cause turned out to be a simple misconfiguration in my Docker Compose file. The malware, known as Kinsing, exploits vulnerabilities 
+              The root cause turned out to be a simple misconfiguration in my Docker Compose file. The malware, known as <code>Kinsing</code>, exploits vulnerabilities 
               in Linux servers and cloud-native environments, then killing all processes to maximize resources for mining cryptocurrency. It gained access to my Docker files because, 
               although most of my setup was correct, I had forgotten to bind the backend, database, and caching ports to localhost. This left them exposed to the open internet, and 
               rendered my reverse proxy useless. After addressing this, reviewing and tightening a few other configurations, and migrating everything to a 

@@ -101,8 +101,8 @@ function Submitty() {
               With a semester of experience under my belt, it was time to go a few layers deeper into the project and have a productive summer. 
               The first month was mainly cleaning up left over pull requests from the school year. We started with 81 open PRs, and 
               our goal was less than 25 by the end. Cleaning up these old pull requests turned out to be surprisingly valuable, 
-              as I began to understand the project’s structure by seeing how each change fit into place. At some point, I 
-              realized, “If I can get these PRs merged, why can’t I just start creating them myself?” By the end of June, 
+              as I began to understand the project’s structure by seeing how each change fit into place. At some point I 
+              realized, <i>“If I can get these PRs merged, why can’t I just start creating them myself?”</i> By the end of June, 
               the training wheels were off, and my work was becoming more impactful. Below are some of my key contributions
               to Submitty, most of which are from the summer.
             </p>
@@ -129,7 +129,7 @@ function Submitty() {
                 <li>Limiting queries to only active courses</li>
                 <li>Limiting each query to the 10 most recent notifications</li>
                 <li>Sorting results server-side for efficiency</li>
-                <li>Creating a new database index on created_at and to_user_id, reducing the time 
+                <li>Creating a new database index on <code>created_at</code> and <code>to_user_id</code>, reducing the time 
                   complexity from <b>O(courses × notifications)</b> to <b>O(courses)</b></li>
               </ul>
             </p>
@@ -146,7 +146,8 @@ function Submitty() {
                 <li>Added a star icon next to gradeable notifications.</li>
                 <li>Increased the font weight of notification content for better readability.</li>
                 <li>Linked each notification’s course name to that course’s notifications page.</li>
-                <li>Refactored click behavior: with three clickable elements in each container, only the individual elements are now clickable (rather than the entire container). </li>
+                <li>Refactored click behavior: with three clickable elements in each container, only the individual elements are now clickable 
+                  (rather than the entire container).</li>
               </ul>
               Each element also underlines on hover. This is inspired by GitHub Actions' job design:
             </p>
@@ -167,7 +168,7 @@ function Submitty() {
             <p>
               Historically, editing a gradeable’s configuration in Submitty required switching to a different 
               server directory, uploading a full config bundle, or using the limited Notebook Builder tool. 
-              There was no support for directly editing config.json or supplemental files from the web interface.
+              There was no support for directly editing a gradeable's <code>config.json</code> or supplemental files from the web interface.
             </p>
             <h3>Gradeable Config Editor (<a href="https://github.com/Submitty/Submitty/pull/10325">PR#10325</a>)</h3>
             <p>
@@ -176,7 +177,7 @@ function Submitty() {
             </p>
             <h3>Live Editing with CodeMirror (<a href="https://github.com/Submitty/Submitty/pull/11814">PR#11814</a>)</h3>
             <p>
-              Rather than just using a basic text area, I implemented Code Mirror to allow for a more customizable experience, and native tab support.
+              Rather than just using a basic text area, I implemented CodeMirror to allow for a more customizable experience, and native tab support.
             </p>
             <h3>File & Folder Management (<a href="https://github.com/Submitty/Submitty/pull/11860">PR#11860</a>)</h3>
             <p>
@@ -184,7 +185,7 @@ function Submitty() {
             </p>
             <h3>Customizable Environment (<a href="https://github.com/Submitty/Submitty/pull/11924">PR#11924</a>)</h3>
             <p>
-              Took advantages of Code Mirror's features by adding toggles for line numbers and tab size.
+              Took advantages of CodeMirror's features by adding toggles for line numbers and tab size.
             </p>
             <h3>Download Config as ZIP (<a href="https://github.com/Submitty/Submitty/pull/11973">PR#11973</a>)</h3>
             <p>
@@ -223,10 +224,10 @@ function Submitty() {
               documentation site. The site is built with Jekyll and uses auto-generated styles, so integrating 
               theme switching required working around those constraints.
               <ul>
-                <li><b>SCSS Theming</b> – Introduced a dedicated _colors.scss file to define color variables for both light and dark themes. 
+                <li><b>SCSS Theming</b> – Introduced a dedicated <code>_colors.scss</code> file to define color variables for both light and dark themes. 
                   These variables are applied across components to ensure consistency and maintainability.</li>
                 <li><b>Style Overrides</b> - Since the site uses a mix of default and third-party CSS, I selectively overrode 
-                conflicting styles via dark_mode.css to support dark mode without breaking layout or readability.</li>
+                conflicting styles via <code>dark_mode.css</code> to support dark mode without breaking layout or readability.</li>
                 <li><b>JavaScript Toggle</b> - Implemented a lightweight JS toggle that saves user preference and dynamically applies the appropriate theme class. I actually 
                 reused toggle for this portfolio site!</li>
                 <li><b>Responsive Design</b> - Tested and refined the toggle to ensure it works seamlessly across devices, including mobile. All 
@@ -242,7 +243,7 @@ function Submitty() {
             </p>
             <h3>Add Audit / Withdrawn to Sample Data (<a href="https://github.com/Submitty/submitty.github.io/pull/11882">PR#11882</a>)</h3>
             <p>
-              Added two students with registration_type set to `withdrawn` and two with `audit` to the existing sample data, 
+              Added two students with registration_type set to <code>withdrawn</code> and two with <code>audit</code> to the existing sample data, 
               which uses a seeded random number generator. Modifying this data shifted all related values, requiring updates 
               to 20+ Cypress test files to ensure the feature could be integrated.
             </p>
@@ -260,10 +261,10 @@ function Submitty() {
                 <li><b>Mentor new developers</b> – Having experienced the challenge of learning Submitty’s large codebase as a newcomer, I’m eager to share my knowledge and help new contributors get up to speed quickly while enjoying the process along the way.</li>
                 <li><b>Enhance the Autograding Configuration page</b> – A vital tool for instructors; improving it means a better experience for everyone.</li>
                 <li><b>Transform the home page into a dashboard</b> – Adding notifications was a good start, but there is more information to centralize such as grade summaries and upcoming gradeables.</li>
-                <li><b>Refactor and modularize forum.js</b> – The forum is a favorite feature but most of its JavaScript is in a single 3,000 line file. Breaking it up will make it cleaner, faster, and easier to improve.</li>
+                <li><b>Refactor and modularize <code>forum.js</code></b> – The forum is a favorite feature but most of its JavaScript is in a single 3,000 line file. Breaking it up will make it cleaner, faster, and easier to improve.</li>
                 <li><b>Improve site intuitiveness and maintainability</b> – Tackle tech debt with cleaner CSS, fewer inline scripts, smaller files, and stronger testing, making the platform friendlier for all developers.</li>
                 <li><b>Convert more pages to Vue</b> – The component-based approach is a joy to work with and a strong candidate to become a core part of the stack.</li>
-                <li><b>Work with the database</b> – I'm taking Database Systems next semester, and am excited to apply what I learned to Submitty!</li>
+                <li><b>Work with the database</b> – I'm currently taking Database Systems , and am excited to apply what I learned to Submitty!</li>
                 <li><b>Explore WebSockets</b> – I still haven't worked with them much, and want to learn more!</li>
               </ul>
             </p>

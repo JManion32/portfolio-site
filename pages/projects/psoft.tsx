@@ -91,18 +91,18 @@ function PSoft() {
               repository access.
             </p>
             <hr/>
-            <h2>Images</h2>
-            <div className="content-img-container">
-              <img src={ogPsoftIndex} className="project-img"/>
-              <p className="content-img-desc" style={{ marginTop: "0" }}>Before</p>
+            <h2 style={{ marginBottom: "2rem" }}>Images</h2>
+            <div id="content-img-container">
+              <img src={ogPsoftIndex}/>
+              <p>Before</p>
             </div>
-            <div className="content-img-container">
-              <img src={newPsoftIndex} className="project-img"/>
-              <p className="content-img-desc" style={{ marginTop: "0" }}>After</p>
+            <div id="content-img-container">
+              <img src={newPsoftIndex}/>
+              <p>After</p>
             </div>
-            <div className="content-img-container">
-              <img src={newPsoftIndexDM} className="project-img"/>
-              <p className="content-img-desc" style={{ marginTop: "0" }}>After (Dark Mode)</p>
+            <div id="content-img-container">
+              <img src={newPsoftIndexDM}/>
+              <p>After (Dark Mode)</p>
             </div>
           </div>
         </div>

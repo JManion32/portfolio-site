@@ -150,12 +150,12 @@ function Submitty() {
               </ul>
               Each element also underlines on hover. This is inspired by GitHub Actions' job design:
             </p>
-            <div className="content-img-container">
-              <img src={githubActions} className="project-img"/>
+            <div id="content-img-container">
+              <img src={githubActions}/>
             </div>
-            <h3>The Final Product</h3>
-            <div className="content-img-container">
-              <img src={homeNotis} className="project-img"/>
+            <h3 style={{ marginBottom: "2rem" }}>The Final Product</h3>
+            <div id="content-img-container">
+              <img src={homeNotis}/>
             </div>
             <p>
               This update not only streamlines how users interact with notifications, but also transforms the homepage into a more 
@@ -211,9 +211,9 @@ function Submitty() {
             <p>
               View documentation page <a href="https://submitty.org/instructor/assignment_configuration/configuration_editor">here</a>.
             </p>
-            <h3>The Final Product:</h3>
-            <div className="content-img-container">
-              <img src={configEditor} className="project-img"/>
+            <h3 style={{ marginBottom: "2rem" }}>The Final Product</h3>
+            <div id="content-img-container">
+              <img src={configEditor}/>
             </div>
             <hr/>
             <h2>Dark Mode Toggle for the Documentation Site</h2>

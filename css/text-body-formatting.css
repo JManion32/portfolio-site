@@ -35,13 +35,25 @@
   line-height: 1.55rem;
 }
 
+#content-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
 #text-body img {
   border-radius: 1rem;
   border: 2px solid var(--project-img-border);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  margin: 1rem 0 2rem;
+  margin-bottom: 1rem;
   max-width: var(--text-body-max-img-width);
   height: auto;
+}
+
+#content-img-container p {
+  font-style: italic;
 }
 
 #text-body hr {
@@ -77,15 +89,4 @@
 #security-list p {
   margin: 0;
   margin: 0.25rem 0;
-}
-
-.content-img-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.content-img-desc {
-  font-style: italic;
 }

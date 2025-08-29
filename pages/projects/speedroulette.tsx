@@ -95,8 +95,8 @@ function SpeedRoulette() {
             <hr/>
             <h2>Planning</h2>
             <p>The idea of building an online roulette game dates back to 2023 when the only programming language I knew was Java:</p>
-            <div className="content-img-container">
-              <img src={javafxProject} className="content-img"/>
+            <div id="content-img-container">
+              <img src={javafxProject}/>
             </div>
             <p>
               This was a GUI I built using JavaFX and what I had learned at Hudson Valley. It was limited 
@@ -119,14 +119,16 @@ function SpeedRoulette() {
             <hr/>
             <h2>Implementation</h2>
             <p>With the complete storyboard, it was easy to build out the UI.</p>
-            <div className="content-img-container">
-              <img src={srStoryboardDark} className="content-img"/>
-              <img src={srHomePageDark} className="content-img"/>
+            <div id="content-img-container">
+              <img src={srStoryboardDark}/>
+              <p>Storyboard</p>
+              <img src={srHomePageDark}/>
+              <p>Implementation</p>
             </div>
             <p>
               Next, I moved to the backend, which introduced more complexity. I began by building the API to handle the core game logic 
-              and get it to a playable state. I integrated Postgres to manage the leaderboard and statistics, and added Redis for caching 
-              user tokens and validating balances. Finally, I dockerized the entire system to bring all the components together.
+              and get it to a playable state. I then integrated Postgres to manage the leaderboard and statistics, and added Redis for caching 
+              user tokens and validating balances. Finally, I dockerized the entire system to bring all the components together for smooth deployment.
             </p>
             <hr/>
             <h2>Features</h2>
@@ -195,7 +197,7 @@ function SpeedRoulette() {
               One issue in my original JavaFX GUI was that the user could not place a bet in between table cells (e.g., 7 and 10).
               To address that here, I created a table of the entire roulette board, then overlayed CSS grids on top of it.
             </p>
-            <div className="content-img-container">
+            <div id="content-img-container">
               <img src={srGrid} className="project-img"/>
             </div>
             <p>
@@ -259,9 +261,9 @@ function SpeedRoulette() {
               most of my work was driven by requirement rather than genuine enjoyment. I’ve enjoyed every step of building it, and that same excitement 
               now carries over into my other projects. I’m excited to keep building and continue leveling up as a developer.
             </p>
-            <div className="content-img-container">
-              <img src={srDeploymentDay} className="project-img"/>
-              <p className="content-img-desc">Very special thank you to Geoff and Kaitlyn for making my deployment day so special!</p>
+            <div id="content-img-container">
+              <img src={srDeploymentDay}/>
+              <p>Very special thank you to Geoff and Kaitlyn for making my deployment day so special!</p>
             </div>
           </div>
         </div>

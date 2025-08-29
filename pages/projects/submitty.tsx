@@ -37,8 +37,7 @@ function Submitty() {
           <div id="text-body">
             <p>
               Submitty is an open source course management, assignment submission, exam and grading 
-              system from the Rensselaer Center for Open Source Software (RCOS), Department of Computer 
-              Science at Rensselaer Polytechnic Institute. Most of the content here is from 
+              system from the Rensselaer Center for Open Source Software (RCOS) at Rensselaer Polytechnic Institute. Most of the content here is from 
               my <a href="https://submitty.org/developer/rensselaer_center_for_open_source/2025_Justin_Manion">summer writeup</a>.
             </p>
             <hr/>

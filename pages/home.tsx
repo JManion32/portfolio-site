@@ -17,8 +17,8 @@ function Home() {
     <>
       <div className="home-page">
         <div className="home-container">
-            <h1 className="name-header constant-glow">Justin Manion</h1>
-            <p className="name-desc">
+            <h1 className="name-header constant-glow fly-in-left">Justin Manion</h1>
+            <p className="name-desc fly-in-right">
                 Dedicated computer science student with a passion for evaluating, designing, 
                 and developing software. Proficient in modern web development concepts, with 
                 hands-on experience building applications that span frontend interfaces, backend 
@@ -28,7 +28,7 @@ function Home() {
             </p>
             <div className="contact-button-container">
                 <button 
-                    className="contact-button home-contact-button"
+                    className="contact-button home-contact-button fly-in-bottom-1"
                     onClick={() => window.open('https://github.com/JManion32', '_blank')}
                 >
                 <div className="github-image-wrapper">
@@ -38,7 +38,7 @@ function Home() {
                     GitHub
                 </button>
                 <button
-                    className="contact-button home-contact-button"
+                    className="contact-button home-contact-button fly-in-bottom-2"
                     onClick={() => window.location.href = 'mailto:jmanion32@gmail.com'}
                 >
                     <img
@@ -49,7 +49,7 @@ function Home() {
                     jmanion32@gmail.com
                 </button>
                 <button 
-                    className="contact-button home-contact-button"
+                    className="contact-button home-contact-button fly-in-bottom-3"
                     onClick={() => window.open('https://www.linkedin.com/in/jmanion32/', '_blank')}
                 >
                     <img src={linkedinLogo} className="linkedin-image"/>
@@ -67,7 +67,7 @@ function Home() {
             </div>
                 <div className="contact-button-container">
                     <button 
-                        className="contact-button mobile-home-contact-button"
+                        className="contact-button mobile-home-contact-button fly-in-bottom-1"
                         onClick={() => window.open('https://github.com/JManion32', '_blank')}
                     >
                     <div className="github-image-wrapper">
@@ -76,7 +76,7 @@ function Home() {
                     </div>
                     </button>
                     <button
-                        className="contact-button mobile-home-contact-button"
+                        className="contact-button mobile-home-contact-button fly-in-bottom-2"
                         onClick={() => window.location.href = 'mailto:jmanion32@gmail.com'}
                     >
                         <img
@@ -86,7 +86,7 @@ function Home() {
                         />
                     </button>
                     <button 
-                        className="contact-button mobile-home-contact-button"
+                        className="contact-button mobile-home-contact-button fly-in-bottom-3"
                         onClick={() => window.open('https://www.linkedin.com/in/jmanion32/', '_blank')}
                     >
                         <img src={linkedinLogo} className="linkedin-image"/>

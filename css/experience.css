@@ -12,7 +12,7 @@
 
 .view-resume {
   margin: 1rem 0;
-  display: var(--view-resume-visibility);
+  display: var(--resume-button-display) !important;
 }
 
 .exp-preview-container {

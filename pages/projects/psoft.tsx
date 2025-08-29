@@ -31,13 +31,13 @@ function PSoft() {
             <p>
               After a semester of using this site in light mode, adding dark mode was one of my top priorities.
               I created a dedicated <code>colors.css</code> file so all UI components would smoothly transition on 
-              toggle, and placed the toggle in the top-right corner of the navigation bar.
+              toggle, and placed the toggle on the right side of the navigation bar.
             </p>
             <h3>Components</h3>
             <p>
-              Previously, reusable components on the site had to be copied and pasted into each HTML file, which meant every 
-              edit had to be made in multiple places. To solve this, I created a single <code>components.js</code> file to 
-              centralize them. This now manages elements such as the navigation bar and footer.
+              Previously, reused components were just copied and pasted into each HTML file, any edits, 
+              such as updating the footer date, had to be done in multiple places. To solve this, I created a single <code>components.js</code> file to 
+              centralize them. This now manages elements such as the navigation bar, dark mode toggle, and footer.
             </p>
             <h3>Reformatted Pages</h3>
             <p>
@@ -53,20 +53,15 @@ function PSoft() {
             </p>
             <h3>New Site Logo</h3>
             <p>
-              The old site logo was a turtle, which doesn't have much to do with a Principles of Software course. I changed it to 
-              a blue cogwheel to represent the content of the course, and match the theme of the site. In my search, I made sure to 
-              filter by images with a Creative Commons license.
+              The old site logo was a turtle, which doesn't have much to do with a Principles of Software course. I updated it to 
+              a blue cogwheel to better represent the subject matter and match the site’s theme. In choosing the new design, 
+              I made sure to only use images with a Creative Commons license.
             </p>
             <hr/>
             <h2>Future Plans</h2>
             <p>
               I offered to maintain this site until I graduate in Spring 2026. In this time, there are several contributions I 
               would like to make:
-            </p>
-            <h3>Revise Code / Design Patterns</h3>
-            <p>
-              Since working on this site, I have vastly expanded my web development skillset. There is 
-              plenty of room for improvement, such as:
             </p>
             <h3>Dividing CSS Files</h3>
             <p>
@@ -77,8 +72,8 @@ function PSoft() {
             <h3>Responsive Scaling</h3>
             <p>
               As a fledgling web dev, I did not take responsive scaling into consideration. After creating 
-              this portfolio site, and creating a <code>scaling.css</code> file that adjusts variables by 
-              screen width, and I’d like to bring the same solution to the course website.
+              this portfolio site and implementing a <code>scaling.css</code> file that adjusts variables by 
+              screen width, I’d like to bring the same solution to the course website.
             </p>
             <h3>UI Touchups</h3>
             <p>
@@ -88,13 +83,12 @@ function PSoft() {
             </p>
             <h3>GitHub Workflow</h3>
             <p>
-              The current workflow for maintaining this site is suboptimal. I was initially sent the site in a 
-              zip file, after which I created a private GitHub repository to manage changes. When I mark updates 
+              The current workflow for maintaining this site is suboptimal. The all the files I needed were initially sent in a 
+              zip file, after which I created a private GitHub repository to manage changes. When I mark updates to the site
               as complete, the professor pulls from that repository, but they do not push their own edits back, 
-              which often causes desynchronization and complicates deployment. My goal is to integrate GitHub 
-              into their workflow so that all changes are tracked there and contributors can simply be given 
-              repository access. The only limitation is that course documents cannot be stored in the repository, 
-              but these can and should be maintained directly on the server.
+              causing desynchronization and complicating deployment. My goal is to integrate GitHub 
+              into their workflow so that all changes are tracked and contributors can simply be given 
+              repository access.
             </p>
             <hr/>
             <h2>Images</h2>

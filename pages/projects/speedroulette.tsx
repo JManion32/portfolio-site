@@ -47,7 +47,7 @@ function SpeedRoulette() {
             <TechStack
               sections={[
                 {
-                  title: "Frontend",
+                  title: "Front-end",
                   items: [
                     { name: "Vite", className: "vite" },
                     { name: "React", className: "react" },
@@ -136,7 +136,7 @@ function SpeedRoulette() {
             <p>
               Project is fully dockerized, and split into 4 containers:
               <ul>
-                <li>Frontend</li>
+                <li>Front-end</li>
                 <li>Backend</li>
                 <li>Postgres (Database)</li>
                 <li>Redis (Caching)</li>

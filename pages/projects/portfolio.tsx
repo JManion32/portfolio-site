@@ -30,7 +30,7 @@ function Portfolio() {
             <TechStack
               sections={[
                 {
-                  title: "Frontend",
+                  title: "Front-end",
                   items: [
                     { name: "Vite", className: "vite" },
                     { name: "Twig", className: "twig" },

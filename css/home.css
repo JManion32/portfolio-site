@@ -34,6 +34,7 @@
     width: var(--home-desc-width);
     text-align: center;
     font-weight: 600;
+    opacity: 0;
     text-shadow:
         1px 1px 2px rgba(0, 0, 0, 0.12),
         0 0 4px rgba(0, 0, 0, 0.1),
@@ -95,7 +96,7 @@
 @keyframes flyInUp {
   from {
     opacity: 0;
-    transform: translateY(400px);
+    transform: translateY(200px);
   }
   to {
     opacity: 1;
@@ -109,19 +110,20 @@
 
 .fly-in-right {
   animation: flyInRight 0.6s ease-out forwards;
+  animation-delay: 0.3s;
 }
 
 .fly-in-bottom-1 {
-  animation: flyInUp 0.4s ease-out forwards;
-  animation-delay: 0.35s;
+  animation: flyInUp 0.3s ease-out forwards;
+  animation-delay: 0.75s;
 }
 
 .fly-in-bottom-2 {
-  animation: flyInUp 0.4s ease-out forwards;
-  animation-delay: 0.55s;
+  animation: flyInUp 0.3s ease-out forwards;
+  animation-delay: 0.90s;
 }
 
 .fly-in-bottom-3 {
-  animation: flyInUp 0.4s ease-out forwards;
-  animation-delay: 0.75s;
+  animation: flyInUp 0.3s ease-out forwards;
+  animation-delay: 1.05s;
 }

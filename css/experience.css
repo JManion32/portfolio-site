@@ -10,9 +10,14 @@
     flex-grow: 1;
 }
 
-.view-resume {
-  margin: 1rem 0;
-  display: var(--resume-button-display) !important;
+.view-resume-desktop {
+    margin: 1rem 0;
+    display: var(--desktop-resume-button-display) !important;
+}
+
+.view-resume-mobile {
+    margin: 1rem 0;
+    display: var(--mobile-resume-button-display) !important;
 }
 
 .exp-preview-container {

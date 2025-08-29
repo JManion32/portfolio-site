@@ -18,7 +18,10 @@ function Experience() {
         <div className="content">
           <div className="header-container">
               <h1 className="main-page-header exp-header">Experience</h1>
-              <button className="contact-button view-resume" onClick={() => navigate('/experience/Resume')}>
+              <button className="contact-button view-resume-desktop" onClick={() => navigate('/experience/Resume')}>
+                  View Resume
+              </button>
+              <button className="contact-button view-resume-mobile" onClick={() => window.location.href = "../files/resume.pdf"}>
                   View Resume
               </button>
           </div>

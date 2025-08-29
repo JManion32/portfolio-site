@@ -40,7 +40,8 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --experience-header-flex-direction: column;
         --project-desc-size: 1.125rem;
         --project-date-size: 1.125rem;
-        --resume-button-display: none;
+        --desktop-resume-button-display: none;
+        --mobile-resume-button-display: flex;
 
         /* Text Content */
         --detail-page-header-size: 3rem;
@@ -78,7 +79,8 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --experience-header-flex-direction: row;
         --project-desc-size: 1rem;
         --project-date-size: 1rem;
-        --resume-button-display: flex;
+        --desktop-resume-button-display: none;
+        --mobile-resume-button-display: flex;
 
         /* Text Content */
         --text-content-padding: 3rem 5rem;
@@ -109,6 +111,8 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         /* Main Project / Experience */
         --main-page-header-size: 3rem;
         --main-page-header-align: left;
+        --desktop-resume-button-display: flex;
+        --mobile-resume-button-display: none;
 
         /* Text Content */
         --text-content-padding: 3rem 5rem;

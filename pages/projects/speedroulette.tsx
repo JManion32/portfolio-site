@@ -129,9 +129,56 @@ function SpeedRoulette() {
               user tokens and validating balances. Finally, I dockerized the entire system to bring all the components together.
             </p>
             <hr/>
+            <h2>Features</h2>
+            <h3>Docker</h3>
+            <p>
+              Project is fully dockerized, and split into 4 containers:
+              <ul>
+                <li>Frontend</li>
+                <li>Backend</li>
+                <li>Postgres (Database)</li>
+                <li>Redis (Caching)</li>
+              </ul>
+            </p>
+            <h3>CI Pipeline</h3>
+            <p>
+              Extensive CI pipeline that includes:
+              <ul>
+                <li>Linters / Formatters</li>
+                <li>Backend Unit Tests</li>
+                <li>E2E Cypress Tests</li>
+              </ul>
+            </p>
+            <h3>Dark Mode Toggle</h3>
+            <p>
+              Found in the top right of every page on the site. All UI components transition in a smooth 0.2s.
+            </p>
+            <h3>Leaderboard Page</h3>
+              <p>
+                Daily, Weekly, Monthly, and All-Time leaderboard. Displays:
+                <ul>
+                  <li>Rank</li>
+                  <li>Nickname</li>
+                  <li>Final Balance</li>
+                  <li>Time and Spins Used</li>
+                  <li>Date and time</li>
+                </ul>
+              </p>
+            <h3>Site Statistics Page</h3>
+            <p>
+              My personal favorite page. Just like the leaderboard, it features Daily, Weekly, Monthly, and All-Time stats. 
+              Displays:
+              <ul>
+                <li>Total Spins</li>
+                <li>Games Completed</li>
+                <li>Total Won</li>
+                <li>7 Hottest / 7 Coldest Numbers</li>
+                <li>A graphs for all the winning number stats (Red/Black/Green, Even/Odd/Other, etc)</li>
+              </ul>
+            </p>
+            <hr/>
             <h2>Technical Challenges</h2>
-
-            <h3>1. New Technologies</h3>
+            <h3>New Technologies</h3>
             <p>
               When I started this project, I don't think I knew a single tool in the tech stack I was planning to use. Not one. 
               It was quite overwhelming to say the least, and a mental battle from start to finish. Something that significantly 
@@ -143,7 +190,7 @@ function SpeedRoulette() {
               While challenging at first, learning all of these technologies has given me a well rounded skillset that I have been 
               able to use for Submitty, and other projects.
             </p>
-            <h3>2. Grid layout</h3>
+            <h3>Grid layout</h3>
             <p>
               One issue in my original JavaFX GUI was that the user could not place a bet in between table cells (e.g., 7 and 10).
               To address that here, I created a table of the entire roulette board, then overlayed CSS grids on top of it.
@@ -157,7 +204,7 @@ function SpeedRoulette() {
               Once those were addressed, the code reached a stable state, and is now the one part of the project I have no plans to revisit. 
               As the saying goes, <i>“If it ain’t broke, don’t fix it.”</i>
             </p>
-            <h3>3. Deployment</h3>
+            <h3>Deployment</h3>
             <p>
               Deployment turned out to be the most time-consuming challenge of the project. Since it was my first time, there 
               was an inevitable learning curve, but the larger issue was choosing the right platform. I initially experimented 
@@ -165,7 +212,7 @@ function SpeedRoulette() {
               made it impractical for a personal project. Ultimately, I switched to DigitalOcean, which provided a much 
               simpler experience, especially since my project is dockerized.
             </p>
-            <h3>4. Security</h3>
+            <h3>Security</h3>
             <p>
               Although Speed Roulette does not handle any sensitive user data, I wanted to make sure that security was one of my top priorities, especially 
               since I didn't have much experience in that area. Some of the security related features I added include:

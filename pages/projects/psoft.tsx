@@ -29,64 +29,72 @@ function PSoft() {
             <h2>Enhancements</h2>
             <h3>Dark Mode Toggle</h3>
             <p>
-              If you haven't noticed, I like to create dark mode toggles for any project that doesn't have them. 
               After a semester of using this site in light mode, adding dark mode was one of my top priorities.
-              Added a <code>colors.css</code> file so all UI components would smoothly change color on toggle. Added 
-              the toggle to the top right of the nav bar.
+              I created a dedicated <code>colors.css</code> file so all UI components would smoothly transition on 
+              toggle, and placed the toggle in the top-right corner of the navigation bar.
             </p>
             <h3>Components</h3>
             <p>
-              Previously, all components that were reused on the site copied and pasted to each page, meaning any edits 
-              had to be made in multiple places. To solve this, I added <code>components.js</code>, a file to consolidate 
-              all of these to a single file. This includes the nav bar, footer, and 
+              Previously, reusable components on the site had to be copied and pasted into each HTML file, which meant every 
+              edit had to be made in multiple places. To solve this, I created a single <code>components.js</code> file to 
+              centralize them. This now manages elements such as the navigation bar and footer.
             </p>
             <h3>Reformatted Pages</h3>
             <p>
-              As you can see at the bottom of the page, there is a stark contrast between the original landing page, and the new one. 
-              My main focus with changes in structure of the pages was to improve readability. Text should not span the entire page on 
-              a desktop, there is no need for a large picture, and sections of the page need to be clearly separated.
+              Of all the areas the site was lacking, it was the readability that was the worst for me. The site has a lot 
+              of information about the course, and it just wasn't in a digestable format.
             </p>
             <p>
               Beyond the landing page, I fixed up others as well. One issue was the notes and assignments pages.
             </p>
-            <h3>Added grade info</h3>
+            <h3>Grade Information</h3>
             <p>
-              Adding the grade breakdown and cut offs is something students frequently look at (or at least I do), so I added 
-              it to the bottom of the home page.
+              Students frequently check the grade breakdown and cutoffs, so I placed them at the bottom of the home page where they’re easy to find.
+            </p>
+            <h3>New Site Logo</h3>
+            <p>
+              The old site logo was a turtle, which doesn't have much to do with a Principles of Software course. I changed it to 
+              a blue cogwheel to represent the content of the course, and match the theme of the site. In my search, I made sure to 
+              filter by images with a Creative Commons license.
             </p>
             <hr/>
             <h2>Future Plans</h2>
             <p>
-              I offered to maintain this site until I graduate in Spring 2026. In this time, there a few addtional contributions I 
+              I offered to maintain this site until I graduate in Spring 2026. In this time, there are several contributions I 
               would like to make:
             </p>
             <h3>Revise Code / Design Patterns</h3>
             <p>
-              I updated this site at the very beginning of my web development journey, and have since learned a lot. There is 
+              Since working on this site, I have vastly expanded my web development skillset. There is 
               plenty of room for improvement, such as:
             </p>
             <h3>Dividing CSS Files</h3>
-            <p>The original site used Bootstrap for everything. When I came in, I decided to 
-              override a lot of the set styles with my own classes. I put everything in a CSS file, which is not optimal for maintainability.
+            <p>
+              The original site used Bootstrap for everything. When I came in, I decided to 
+              override a lot of the set styles with my own classes. I put everything in a CSS file, which is not optimal for maintainability. 
+              I plan to create a CSS file for individual pages and components.
             </p>
             <h3>Responsive Scaling</h3>
             <p>
               As a fledgling web dev, I did not take responsive scaling into consideration. After creating 
-              this portfolio site, and including a <code>scaling.css</code> file to change variables based on screen width, I want to 
-              implement something similar on the course website.
+              this portfolio site, and creating a <code>scaling.css</code> file that adjusts variables by 
+              screen width, and I’d like to bring the same solution to the course website.
             </p>
             <h3>UI Touchups</h3>
             <p>
-              There are various small UI design patterns that I have picked up since the creation of this site. These 
-              include adding shadows, avoiding the use of <code>#000000</code> whenever possible in light mode, and more.
+              Since creating this site, I’ve picked up a variety of small UI design patterns, such 
+              as adding shadows in light mode, avoiding pure <code>#000000</code>, experimenting 
+              with font weights, and more.
             </p>
             <h3>GitHub Workflow</h3>
             <p>
-              The current workflow for this site is suboptimal. I was sent the original site in a zip file, 
-              I then created a private GitHub repo to push changes to, and then when I say it is done, the Professor pulls from that repo. 
-              The professor does not push any updates they make to that repo, leading to desynchronization, and making deployment a challenge. 
-              I want to incorporate GitHub into the main workflow, so all changes to the site are pushed there, and anyone who want to contribute 
-              just needs access to the repository.
+              The current workflow for maintaining this site is suboptimal. I was initially sent the site in a 
+              zip file, after which I created a private GitHub repository to manage changes. When I mark updates 
+              as complete, the professor pulls from that repository, but they do not push their own edits back, 
+              which often causes desynchronization and complicates deployment. My goal is to integrate GitHub 
+              into their workflow so that all changes are tracked there and contributors can simply be given 
+              repository access. The only limitation is that course documents cannot be stored in the repository, 
+              but these can and should be maintained directly on the server.
             </p>
             <hr/>
             <h2>Images</h2>

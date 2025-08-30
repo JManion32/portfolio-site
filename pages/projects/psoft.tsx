@@ -2,6 +2,8 @@ import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
 
 import ogPsoftIndex from '../../assets/og-psoft-index.png';
+import ogPsoftHW from '../../assets/og-psoft-hw-page-light.png';
+import newPsoftHW from '../../assets/new-psoft-hw-page-light.png';
 import newPsoftIndex from '../../assets/new-psoft-index.png';
 import newPsoftIndexDM from '../../assets/new-psoft-index-dm.png';
 
@@ -41,12 +43,31 @@ function PSoft() {
             </p>
             <h3>Reformatted Pages</h3>
             <p>
-              Of all the areas the site was lacking, it was the readability that was the worst for me. The site has a lot 
-              of information about the course, and it just wasn't in a digestable format.
+              For me, the most pressing issue was readability. Every page had its own quirks that needed to be addressed:
             </p>
+            <h4>Home Page</h4>
+            <ul>
+              <li><b>Text Width:</b> This was an issue on all of th pages, but had prevalence on the home page in particular. 
+              If the user had a screen larger than mobile, it was uncomfortable to read.</li>
+              <li><b>Structure:</b> Information as not conveyed to the user in a thoughtful way, leading to information 
+              such as lecture location being practically hidden with small text in the middle of the page.</li>
+            </ul>
+            <h4>Homework / Topics Pages</h4>
             <p>
-              Beyond the landing page, I fixed up others as well. One issue was the notes and assignments pages.
+              These pages have the same structure, but different content. The issue with these pages was there was 
+              content posted each week and it was always added to the bottom and this meant that you had to scroll 
+              a lot once you got towards the end of the semester. My solution was to implement dropdowns, so users 
+              only view what they want to view, rather than everything at a time.
             </p>
+            <div id="content-img-container">
+              <img src={ogPsoftHW}/>
+              <p>Before</p>
+            </div>
+            <div id="content-img-container">
+              <img src={newPsoftHW}/>
+              <p>After</p>
+            </div>
+
             <h3>Grade Information</h3>
             <p>
               Students frequently check the grade breakdown and cutoffs, so I placed them at the bottom of the home page where they’re easy to find.
@@ -89,6 +110,12 @@ function PSoft() {
               causing desynchronization and complicating deployment. My goal is to integrate GitHub 
               into their workflow so that all changes are tracked and contributors can simply be given 
               repository access.
+            </p>
+            <h3>Template</h3>
+            <p>
+              When I recently discussed the site with the course instructor, he mentioned that he would like a 
+              template for use in other courses. He also wants an easy way to update his current course for the next semester.
+              Once the GitHub workflow is implemented, this will be no problem to set up.
             </p>
             <hr/>
             <h2 style={{ marginBottom: "2rem" }}>Images</h2>

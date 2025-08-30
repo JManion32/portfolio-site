@@ -43,21 +43,19 @@ function PSoft() {
             </p>
             <h3>Reformatted Pages</h3>
             <p>
-              For me, the most pressing issue was readability. Every page had its own quirks that needed to be addressed:
+              The site’s most significant issue was readability. Each page had quirks that needed to be addressed:
             </p>
             <h4>Home Page</h4>
             <ul>
-              <li><b>Text Width:</b> This was an issue on all of th pages, but had prevalence on the home page in particular. 
-              If the user had a screen larger than mobile, it was uncomfortable to read.</li>
-              <li><b>Structure:</b> Information as not conveyed to the user in a thoughtful way, leading to information 
-              such as lecture location being practically hidden with small text in the middle of the page.</li>
+              <li><b>Text Width:</b> This was an issue across the site, but especially on the home page. On screens larger than mobile, stretching text edge-to-edge diminished readability.</li>
+              <li><b>Structure:</b> Information wasn’t presented in a clear or intentional way. For example, important details like the lecture location were buried in small text in the middle of the page. 
+              To solve this, I broke the page into clearly defined sections.</li>
             </ul>
-            <h4>Homework / Topics Pages</h4>
+            <h4>Homework / Topics / Resources Pages</h4>
             <p>
-              These pages have the same structure, but different content. The issue with these pages was there was 
-              content posted each week and it was always added to the bottom and this meant that you had to scroll 
-              a lot once you got towards the end of the semester. My solution was to implement dropdowns, so users 
-              only view what they want to view, rather than everything at a time.
+              All three pages followed the same structure, with new content added to the bottom each week. By the end of the semester, 
+              this created long, cumbersome pages that required excessive scrolling. To solve this, I introduced dropdowns so 
+              users can quickly access the content they need without being overwhelmed.
             </p>
             <div id="content-img-container">
               <img src={ogPsoftHW}/>

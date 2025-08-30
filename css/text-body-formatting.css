@@ -28,6 +28,13 @@
   font-size: var(--text-content-h3-size);
 }
 
+#text-body h4 {
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+  font-size: var(--text-content-h4-size);
+}
+
 #text-body p {
   margin-top: 0 !important;
   margin-bottom: 2rem;

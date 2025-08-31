@@ -76,6 +76,7 @@
 #text-body a {
   text-decoration: none;
   color: var(--anchor-link);
+  cursor: pointer;
 }
 
 #text-body a:hover {

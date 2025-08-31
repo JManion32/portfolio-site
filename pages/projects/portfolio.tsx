@@ -5,8 +5,10 @@ import githubLight from '../../assets/github-mark.png';
 import githubDark from '../../assets/github-mark-white.png';
 
 import TechStack from "../../components/TechStack";
+import useNavigateTop from "../../hooks/useNavigateTop";
 
 function Portfolio() {
+  const navigateTop = useNavigateTop();
   return (
     <>
       <div className="page">
@@ -87,13 +89,15 @@ function Portfolio() {
             <hr/>
             <h2>Implementation</h2>
             <p>
-              After weighing different options for the tech stack, I decided to use the same one as <a href="/projects/speedroulette">Speed Roulette</a>. 
+              After weighing different options for the tech stack, I decided to use the same one 
+              as <a onClick={() => navigateTop("/projects/speedroulette")}>Speed Roulette</a>. 
               I almost chose Vue, but decided React would be better for learning purposes. I also went back 
               and forth for about using Tailwind or vanilla CSS, and eventually decided on the latter. 
               This decision paid off as it was much more straightforward to handle the dark mode toggle and the responsive scaling.
             </p>
             <p>
-              While <a href="/projects/speedroulette">Speed Roulette</a> introduced me to React and large-scale CSS usage, this portfolio site 
+              While <a onClick={() => navigateTop("/projects/speedroulette")}>Speed Roulette</a> introduced 
+              me to React and large-scale CSS usage, this portfolio site 
               solidified my understanding. I feel much more confident in how I structure and use components, and I’m 
               confident this site will be easy to maintain going forward. For CSS, I thought I was already a pro, but this
               project taught me a whole lot more. Before, I didn't realize I could create variables for more than just colors, 

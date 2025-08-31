@@ -16,7 +16,8 @@ function Experience() {
     <>
       <div className="page">
         <div className="content">
-          <div className="header-container">
+          <div className="main-fly-in-bottom">
+            <div className="header-container">
               <h1 className="main-page-header exp-header">Experience</h1>
               <button className="contact-button view-resume-desktop" onClick={() => navigate('/experience/Resume')}>
                   View Resume
@@ -24,8 +25,9 @@ function Experience() {
               <button className="contact-button view-resume-mobile" onClick={() => window.location.href = "../files/resume.pdf"}>
                   View Resume
               </button>
+            </div>
+            <p className="main-page-desc">Click on an experience to learn more!</p> 
           </div>
-          <p className="main-page-desc">Click on an experience to learn more!</p> 
           <div className="project-grid">
             <PreviewCard
                 img={rpiSeal}
@@ -33,6 +35,7 @@ function Experience() {
                 date="August 2024 - May 2026"
                 desc="Pursuing a Bachelor's of Science in Computer Science."
                 nav="/experience/Rensselaer"
+                animation= "main-fly-in-bottom-1"
             />
             <PreviewCard
                 img={stewartsLogo}
@@ -40,6 +43,7 @@ function Experience() {
                 date="May 2024 - August 2024"
                 desc="On-site technician responsible for troubleshooting and maintaining hardware."
                 nav="/experience/Stewarts"
+                animation= "main-fly-in-bottom-2"
             />
             <PreviewCard
                 img={lxaLogo}
@@ -47,6 +51,7 @@ function Experience() {
                 date="August 2024 - Present"
                 desc="Secretary, Webmaster, and Brother."
                 nav="/experience/LambdaChi"
+                animation= "main-fly-in-bottom-3"
             />
             <PreviewCard
                 img={priceChopper}
@@ -54,6 +59,7 @@ function Experience() {
                 date="June 2020 - October 2024"
                 desc="Shift Supervisor, Office Teammate, Cashier, and Maintenance."
                 nav="/experience/PriceChopper"
+                animation= "main-fly-in-bottom-4"
             />
             <PreviewCard
                 img={hvccGreen}
@@ -61,6 +67,7 @@ function Experience() {
                 date="August 2022 - May 2024"
                 desc="Associates Degree in Computer Information Systems."
                 nav="/experience/HudsonValley"
+                animation= "main-fly-in-bottom-5"
             />
             <PreviewCard
                 img={twitchLogo}
@@ -68,6 +75,7 @@ function Experience() {
                 date="December 2020 - November 2023"
                 desc="Daily Dead by Daylight livestreams averaging 10+ viewers."
                 nav="/experience/Streamer"
+                animation= "main-fly-in-bottom-6"
             />
           </div>
         </div>

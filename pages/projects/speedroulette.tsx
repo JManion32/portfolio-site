@@ -175,7 +175,7 @@ function SpeedRoulette() {
                 <li>Games Completed</li>
                 <li>Total Won</li>
                 <li>7 Hottest / 7 Coldest Numbers</li>
-                <li>A graphs for all the winning number stats (Red/Black/Green, Even/Odd/Other, etc)</li>
+                <li>Graphs for all the winning number stats (Red/Black/Green, Even/Odd/Other, etc.)</li>
               </ul>
             </p>
             <hr/>

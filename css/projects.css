@@ -31,6 +31,7 @@
   min-height: 8rem;
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0;
 }
 
 .project-preview-container:hover {
@@ -39,4 +40,51 @@
 
 .project-contact-btn {
   margin-left: 1rem;
+}
+
+
+/* Project / Experience Animation */
+@keyframes mainFlyInUp {
+  from {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main-fly-in-bottom {
+  animation: mainFlyInUp 0.4s ease-out forwards;
+}
+
+.main-fly-in-bottom-1 {
+  animation: mainFlyInUp 0.4s ease-out forwards;
+  animation-delay: 0.25s;
+}
+
+.main-fly-in-bottom-2 {
+  animation: mainFlyInUp 0.4s ease-out forwards;
+  animation-delay: 0.40s;
+}
+
+.main-fly-in-bottom-3 {
+  animation: mainFlyInUp 0.4s ease-out forwards;
+  animation-delay: 0.55s;
+}
+
+.main-fly-in-bottom-4 {
+  animation: mainFlyInUp 0.4s ease-out forwards;
+  animation-delay: 0.70s;
+}
+
+.main-fly-in-bottom-5 {
+  animation: mainFlyInUp 0.4s ease-out forwards;
+  animation-delay: 0.85s;
+}
+
+.main-fly-in-bottom-6 {
+  animation: mainFlyInUp 0.4s ease-out forwards;
+  animation-delay: 1.00s;
 }

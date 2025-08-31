@@ -8,8 +8,10 @@ function Blogs() {
     <>
       <div className="page">
         <div className="content">
-          <h1 className="main-page-header">Blogs</h1>
-          <p className="main-page-desc">Coming soon!</p>
+          <div className="main-fly-in-bottom">
+            <h1 className="main-page-header">Blogs</h1>
+            <p className="main-page-desc">Coming soon!</p>
+          </div>
         </div>
         <footer className="guide-footer">
           <button className="left-guide-button" onClick={() => navigate('/experience')}>

@@ -50,6 +50,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --text-body-max-img-width: 100%;
         --text-content-bg-shadow: none;
         --text-content-p-size: 1.2rem;
+        --text-content-code-size: 1rem;
         --text-content-h3-size: 1.3rem;
     }
 }
@@ -88,6 +89,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --text-body-max-img-width: 100%;
         --text-content-bg-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         --text-content-p-size: 1.15rem;
+        --text-content-code-size: 0.95rem;
         --text-content-h3-size: 1.125rem;
     }
 }

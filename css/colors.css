@@ -10,7 +10,7 @@
     --active-nav: #dee8f3;
     --nav-border: transparent;
     --contact-border: #9c9c9c;
-    --breadcrumb-link: #3e6d8f;
+    --anchor-link: #76129e;
     --content-line: #666666;
     --code-bg: #f3f3f3;
 
@@ -23,21 +23,21 @@
     --hover-nav-text: #eef2f6;
     --hover-default-button: #f5f5f5; 
     --hover-project-preview: #f5f5f5;
-    --hover-breadcrumb-link: #294b64;
+    --hover-anchor-link: #9213a3;
 }
 
 [data-theme="dark"] {
     /* General */
     --standard-text: #ffffff;
     --site-background: #111111; /* #141415 is nice too */
-    --content-background: #202020;
+    --content-background: #1D1D1D;
     --project-preview: #222222;
     --nav-background: #222222;
     --default-button: #444444;
     --active-nav: #111111;
     --nav-border: #555555;
     --project-img-border: #9c9c9c;
-    --breadcrumb-link: #84a1c2;
+    --anchor-link: #83b1e7;
     --content-line: #444444;
     --code-bg: #353535;
     
@@ -50,5 +50,5 @@
     --hover-nav-text: #1A1A1A;
     --hover-default-button: #555555; 
     --hover-project-preview: #333333;
-    --hover-breadcrumb-link: #a0c0e5;
+    --hover-anchor-link: #a0c0e5;
 }

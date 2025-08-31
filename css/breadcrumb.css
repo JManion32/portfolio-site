@@ -24,12 +24,12 @@
 
 .breadcrumb a {
   transition: color 0.2s ease, background-color 0.2s ease;
-  color: var(--breadcrumb-link);
+  color: var(--anchor-link);
   text-decoration: none;
   font-weight: bold;
 }
 
 .breadcrumb a:hover {
   text-decoration: underline;
-  color: var(--hover-breadcrumb-link);
+  color: var(--hover-anchor-link);
 }

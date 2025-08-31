@@ -75,10 +75,12 @@
 
 #text-body a {
   text-decoration: none;
+  color: var(--anchor-link);
 }
 
 #text-body a:hover {
   text-decoration: underline;
+  color: var(--hover-anchor-link);
 }
 
 #text-body ul {
@@ -87,8 +89,10 @@
 }
 
 #text-body code {
+  font-size: var(--text-content-code-size);
+  font-weight: 600;
   background-color: var(--code-bg);
-  padding: 0.075rem 0.3rem;
+  padding: 0.1rem 0.4rem;
   border-radius: 4px;
   font-family: monospace;
   transition: color 0.2s ease, background-color 0.2s ease;

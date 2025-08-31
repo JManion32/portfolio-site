@@ -58,7 +58,7 @@ function Portfolio() {
               ]}
             />
             <p>
-              Pretty much the same as <a href="">Speed Roulette</a>, without the backend stuff.
+              Pretty much the same stack as <a href="">Speed Roulette</a>, without the backend stuff.
             </p>
             <hr/>
           </div>

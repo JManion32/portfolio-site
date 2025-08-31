@@ -19,9 +19,8 @@ function Home() {
         <div className="home-container">
             <h1 className="name-header constant-glow fly-in-left">Justin Manion</h1>
             <p className="name-desc fly-in-right">
-                Dedicated computer science student with a passion for evaluating, designing, 
-                and developing software. Proficient in modern web development concepts, with 
-                hands-on experience building applications that span front-end interfaces, backend 
+                Dedicated computer science student with a passion for full-stack software development. 
+                Proficient in building applications that span front-end interfaces, backend 
                 logic, and relational databases. Strong leadership background complemented by 
                 coachability, collaboration, and a continuous drive to learn. Seeking a challenging 
                 role that provides opportunities for both technical and professional growth.

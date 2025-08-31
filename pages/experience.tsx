@@ -22,7 +22,7 @@ function Experience() {
               <button className="contact-button view-resume-desktop" onClick={() => navigate('/experience/Resume')}>
                   View Resume
               </button>
-              <button className="contact-button view-resume-mobile" onClick={() => window.open("/files/resume.pdf", "_blank")}>
+              <button className="contact-button view-resume-mobile" onClick={() => window.location.href = "../resume.pdf"}>
                   View Resume
               </button>
             </div>

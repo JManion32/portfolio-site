@@ -10,12 +10,12 @@ function Resume() {
 
         <iframe
           className="resume-frame"
-          src="/files/resume.pdf#page=1&zoom=100"
+          src="/resume.pdf#page=1&zoom=100"
           title="Resume"
         />
         <noscript>
           <p>
-            View the resume: <a href="/files/resume.pdf">Open PDF</a>
+            View the resume: <a href="/resume.pdf">Open PDF</a>
           </p>
         </noscript>
       </div>

@@ -61,44 +61,44 @@ function LambdaChi() {
               desynchronization when not everyone had access to all of them. To solve this, I consolidated everything 
               into a single color-coded calendar called LXA Events, giving brothers one reliable source for all 
               fraternity activities. While it takes daily effort to keep it updated, this centralized hub has made 
-              staying informed easier and more consistent for everyone.
+              staying informed easier for everyone.
             </p>
             <h3>Google Drive</h3>
             <p>
               The secretary also acts as the system administrator for the fraternity, managing our shared Google Drive. 
               I created a central drive that includes individual folders for each officer, along with shared resources 
               such as meeting minutes, contact information, and other important documents. This structure keeps everything 
-              organized and ensures our leadership has easy access to the information they need.
+              organized and ensures everything our leadership needs is in one place.
             </p>
             <h3>Bid Packets</h3>
             <p>
               When someone is invited to join the fraternity, they receive a comprehensive bid packet that provides answers to common questions. 
               The packet follows a consistent template each semester, though updates are made as needed. Recent enhancements I have made include a page 
-              highlighting philanthropy efforts, another outlining risk management policies, and a letter addressed to parents. Each semester, 
+              highlight philanthropy efforts, another outlining risk management policies, and a letter addressed to parents. Each semester, I am in charge of
               20–30 packets are prepared, signed by all officers, and distributed promptly to potential members.
             </p>
             <h3>Digitizing Old Photos</h3>
             <p>
-              An aspect of the Secretary role that is often overlooked is maintaining the chapter’s historic records. Over winter break, I took 
-              on this project by scanning more than 1,000 photos from old scrapbooks and organizing them in Google Drive. It was a fun and 
+              An aspect of the Secretary role that is often overlooked is maintaining the chapter’s historic records. Over winter break, I  
+              embraced this by scanning more than 1,000 photos from old scrapbooks and organizing them in Google Drive. It was a fun and 
               rewarding effort, and I hope to see these digitized memories put to good use in the future.
             </p>
             <hr/>
             <h2>Webmaster</h2>
             <p>
-              I recently became the Webmaster so I don't have much to show, but I do have many ambitious plans to execute.
+              I recently became the Webmaster so I don't have much to show besides getting the site up to date, but I do have many ambitious plans on the horizon.
             </p>
             <h3>Improving the Role</h3>
             <p>
               In recent years, the Webmaster role has received less attention, leaving the site outdated and lacking relevant information for those interested 
-              in learning more about the fraternity. The priority now is to bring everything up to date and establish a system that ensures the site is 
-              consistently maintained moving forward. This process will be detailed in the transition document so that future webmasters can build on 
+              in learning more about the fraternity. My priority is to bring everything up to date and establish a system that ensures the site is 
+              consistently maintained moving forward. This process will be detailed in a transition document I create so that future webmasters can build on 
               the work and continue to improve the role.
             </p>
             <h3>Adding the Digitized Photos</h3>
             <p>
               After digitizing more than 1,000 photos from the chapter’s archives, the next step is to put them to 
-              good use. I am planning to feature many of these photos on the website, 
+              good use. I want to add a photo gallery page to the site, 
               giving alumni a chance to relive their time in the fraternity and allowing current members to connect with the chapter’s history.
             </p>
             <h3>Adding a History Page</h3>

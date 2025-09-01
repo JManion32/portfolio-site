@@ -25,7 +25,7 @@
   margin: 0;
   margin-top: 0.5rem;
   margin-bottom: 0.25rem;
-  font-size: var(--text-content-h3-size);
+  font-size: var(--text-content-h3-size) !important;
 }
 
 #text-body h4 {
@@ -62,6 +62,8 @@
 
 #content-img-container p {
   font-style: italic;
+  text-align: center;
+  width: 70%;
 }
 
 #text-body hr {

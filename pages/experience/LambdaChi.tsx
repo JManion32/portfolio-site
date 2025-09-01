@@ -49,28 +49,62 @@ function LambdaChi() {
             </p>
             <h3>Roster Management</h3>
             <p>
-
+              One if the most important responsibilities of the secretary is managing the fraternity's roster.
             </p>
             <h3>Calendar</h3>
             <p>
-
+              With so many different events going on throughout the course of the semester, having an up to date calendar is essential for 
+              communication and planning. Previously, we had multiple Google Calendars with different functionalities. This worked well, but 
+              led to desynchronization when users did not have all of the calendars. I decided to combine everything into one color-coded calendar 
+              called LXA Events, featuring everything a brother needs to stay up to date with the happenings of the fraternity. Going back to being 
+              consistently good rather than occasionally great, this is an example of it. In order for this calendar to work, I have to check it over 
+              on a daily basis.
             </p>
             <h3>Google Drive</h3>
             <p>
-
+              The secretary also functions as the system admin for the fraternity. There isn't much work done there besides keeping the 
+              Google Drive organized. With twelve officers, I created a shared officer drive for each officer to work out of, allowing 
+              us all to stay on the same page.
             </p>
             <h3>Bid Packets</h3>
             <p>
-
+              When we select a someone to join our fraternity, we provide them with a bid packet that answers any questions they may have. 
+              We use a template that has a similar structure each semester. While this template worked well, there was certainly room for improvement. 
+              With this as my responsibility I made several enhancements to the packet, including adding a page to highlight our philanthropy, 
+              another page to talk about risk management policies, and removed the archaic information form we used to have the new members fill 
+              out and replaced it with a QR code to a Google Form. After finalizing the bid packets, I then have to prepare them (usually around 20-30) 
+              per semester, get all of the officers to sign them, and make sure they get in the hands of potential members as soon as possible.
             </p>
             <h3>Digitizing Old Photos</h3>
             <p>
-
+              An aspect of the Secretary that is often overlooked is maintaining the chapter's historic records. During winter break, I decided to do 
+              just that when I scanned in 1,000+ photos from scrapbooks we have, and organized them neatly on our Google Drive.
             </p>
             <hr/>
             <h2>Webmaster</h2>
             <p>
-
+              I only just became the Webmaster so I don't have much to show, but I do have many ambitious plans that 
+              I am excited to execute.
+            </p>
+            <h3>Improving the Role</h3>
+            <p>
+              In recent years, the Webmaster role has been neglected. To start, the site is very outdated, 
+              and does not have much relevent information on it, at all. I want to get everything up to date, then implement 
+              a system to ensure this does not happen again. This system will include preparing a rough outline of plans that 
+              can be used at the start of each semester. My final goal before I exit this role is to create an extensive 
+              transition document, so anyone picking it up is able to flourish.
+            </p>
+            <h3>Adding the Digitized Photos</h3>
+            <p>
+              After digitizing over 1000 photos, we have yet to do anything with them. I want to get most of them 
+              onto the website, allowing alumni to relive their time in the fraternity, and everyone to see our 
+              history.
+            </p>
+            <h3>Adding a History Page</h3>
+            <p>
+              As part of the new member process, you learn a lot about our chapter's extensive, and 
+              interesting history. Unfortunately, this history has not been shared with the world, and 
+              so I want to make a page to highlight it.
             </p>
             <hr/>
             <h2>Philanthropy</h2>

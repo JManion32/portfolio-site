@@ -18,6 +18,7 @@ function Portfolio() {
             <h1 className="text-page-header">Portfolio Site</h1>
             <button 
               className="contact-button project-contact-btn"
+              title="Portfolio Repository"
               onClick={() => window.open('https://github.com/JManion32/portfolio-site', '_blank')}
               >
               <div className="github-image-wrapper">

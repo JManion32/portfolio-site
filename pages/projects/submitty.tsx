@@ -20,12 +20,14 @@ function Submitty() {
             <h1 className="text-page-header">Submitty</h1>
             <button 
               className="contact-button project-contact-btn"
+              title="Submitty Documentation Site"
               onClick={() => window.open('https://submitty.org/index/overview', '_blank')}
               >
               <img src={submittyDuck} className="contact-image"/>
             </button>
             <button 
               className="contact-button project-contact-btn"
+              title="Submitty Repository"
               onClick={() => window.open('https://github.com/Submitty/Submitty', '_blank')}
               >
               <div className="github-image-wrapper">

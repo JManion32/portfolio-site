@@ -21,12 +21,14 @@ function SpeedRoulette() {
             <h1 className="text-page-header">Speed Roulette</h1>
             <button 
               className="contact-button project-contact-btn"
+              title="Speed Roulette Website"
               onClick={() => window.open('https://speedroulette.io/', '_blank')}
               >
               <img src={srLogo} className="contact-image"/>
             </button>
             <button 
               className="contact-button project-contact-btn"
+              title="Speed Roulette Repository"
               onClick={() => window.open('https://github.com/JManion32/speed-roulette', '_blank')}
               >
               <div className="github-image-wrapper">

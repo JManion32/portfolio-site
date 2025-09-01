@@ -27,84 +27,85 @@ function LambdaChi() {
             <p>
               If I had to describe my time at &Lambda;ΧΑ in one word, it would be <i>transformative</i>. I never 
               imagined myself joining a fraternity, especially with all the negative stereotypes that surround 
-              Greek life. Yet here, I have found nothing of the sort. Instead, I’ve discovered an exceptional 
+              Greek life. Despite everything I have heard, I’ve only discovered an exceptional 
               group of young men who are always there to support me and challenge me to step outside my comfort 
-              zone. Through these experiences, I’ve grown as a person, a brother, and a leader. Below are some of 
+              zone. Through these experiences, I’ve grown as a person, brother, and leader. Below are some of 
               the responsibilities and opportunities that have shaped my journey.
             </p>
             <hr/>
             <h2>Secretary</h2>
             <p>
-              As the Secretary, I have various administrative responsibilities to ensure our chapter runs smoothly. What I 
+              As the Secretary, I have various administrative responsibilities to ensure our chapter operates smoothly. What I 
               have learned from this role is the importance of being consistently good, rather than occasionally great. I strive to 
-              stay on top of my duties so I can easily be there to support other officers, and enable them to reach their full potential.
+              stay on top of my duties so I can be there to assist other officers, and enable them to reach their full potential.
             </p>
             <h3>House Meetings Minutes / Attendance</h3>
             <p>
-              As Secretary, one of the more front-facing responsibilities is managing communication and records for our meetings. 
-              Before each meeting, I email a reminder to the brotherhood, then prepare the necessary materials, including the slideshow, 
-              officer agenda, and minutes. I take attendance at the start, record the minutes during the meeting, finalize them 
-              afterward, and send them out as soon as possible. While the workload felt overwhelming at first, routine has made it manageable, 
-              and even enjoyable. I see it as my responsibility to write the history of our chapter, and I consider it a great honor to do so.
+              One of the more front-facing responsibilities is managing communication and records for our meetings. 
+              Before each meeting, I email a reminder to the brotherhood, then prepare the slideshow, 
+              officer agenda, and meeting minutes. I take attendance at the start, record the minutes during the meeting, finalize them 
+              afterward, and send them out as soon as possible. While the workload was overwhelming at first, routine has made it manageable, 
+              and even enjoyable. I see it as my responsibility to write the history of our chapter, and consider it a great honor to do so.
             </p>
             <h3>Roster Management</h3>
             <p>
-              One if the most important responsibilities of the secretary is managing the fraternity's roster.
+              One of my key responsibilities as secretary is managing the fraternity’s roster. Keeping it accurate ensures that 
+              both RPI’s governing body for fraternities and our national office remain properly informed. To simplify this 
+              process, I created and actively maintain a master sheet that consolidates all the information these organizations 
+              need. This makes deadlines easier to meet and streamlines other administrative tasks.
             </p>
             <h3>Calendar</h3>
             <p>
-              With so many different events going on throughout the course of the semester, having an up to date calendar is essential for 
-              communication and planning. Previously, we had multiple Google Calendars with different functionalities. This worked well, but 
-              led to desynchronization when users did not have all of the calendars. I decided to combine everything into one color-coded calendar 
-              called LXA Events, featuring everything a brother needs to stay up to date with the happenings of the fraternity. Going back to being 
-              consistently good rather than occasionally great, this is an example of it. In order for this calendar to work, I have to check it over 
-              on a daily basis.
+              With so many events happening each semester, an up-to-date calendar is essential for clear communication and 
+              planning. In the past, we relied on multiple Google Calendars with different purposes, which often caused 
+              desynchronization when not everyone had access to all of them. To solve this, I consolidated everything 
+              into a single color-coded calendar called LXA Events, giving brothers one reliable source for all 
+              fraternity activities. While it takes daily effort to keep it updated, this centralized hub has made 
+              staying informed easier and more consistent for everyone.
             </p>
             <h3>Google Drive</h3>
             <p>
-              The secretary also functions as the system admin for the fraternity. There isn't much work done there besides keeping the 
-              Google Drive organized. With twelve officers, I created a shared officer drive for each officer to work out of, allowing 
-              us all to stay on the same page.
+              The secretary also acts as the system administrator for the fraternity, managing our shared Google Drive. 
+              I created a central drive that includes individual folders for each officer, along with shared resources 
+              such as meeting minutes, contact information, and other important documents. This structure keeps everything 
+              organized and ensures our leadership has easy access to the information they need.
             </p>
             <h3>Bid Packets</h3>
             <p>
-              When we select a someone to join our fraternity, we provide them with a bid packet that answers any questions they may have. 
-              We use a template that has a similar structure each semester. While this template worked well, there was certainly room for improvement. 
-              With this as my responsibility I made several enhancements to the packet, including adding a page to highlight our philanthropy, 
-              another page to talk about risk management policies, and removed the archaic information form we used to have the new members fill 
-              out and replaced it with a QR code to a Google Form. After finalizing the bid packets, I then have to prepare them (usually around 20-30) 
-              per semester, get all of the officers to sign them, and make sure they get in the hands of potential members as soon as possible.
+              When someone is invited to join the fraternity, they receive a comprehensive bid packet that provides answers to common questions. 
+              The packet follows a consistent template each semester, though updates are made as needed. Recent enhancements I have made include a page 
+              highlighting philanthropy efforts, another outlining risk management policies, and a letter addressed to parents. Each semester, 
+              20–30 packets are prepared, signed by all officers, and distributed promptly to potential members.
             </p>
             <h3>Digitizing Old Photos</h3>
             <p>
-              An aspect of the Secretary that is often overlooked is maintaining the chapter's historic records. During winter break, I decided to do 
-              just that when I scanned in 1,000+ photos from scrapbooks we have, and organized them neatly on our Google Drive.
+              An aspect of the Secretary role that is often overlooked is maintaining the chapter’s historic records. Over winter break, I took 
+              on this project by scanning more than 1,000 photos from old scrapbooks and organizing them in Google Drive. It was a fun and 
+              rewarding effort, and I hope to see these digitized memories put to good use in the future.
             </p>
             <hr/>
             <h2>Webmaster</h2>
             <p>
-              I only just became the Webmaster so I don't have much to show, but I do have many ambitious plans that 
-              I am excited to execute.
+              I recently became the Webmaster so I don't have much to show, but I do have many ambitious plans to execute.
             </p>
             <h3>Improving the Role</h3>
             <p>
-              In recent years, the Webmaster role has been neglected. To start, the site is very outdated, 
-              and does not have much relevent information on it, at all. I want to get everything up to date, then implement 
-              a system to ensure this does not happen again. This system will include preparing a rough outline of plans that 
-              can be used at the start of each semester. My final goal before I exit this role is to create an extensive 
-              transition document, so anyone picking it up is able to flourish.
+              In recent years, the Webmaster role has received less attention, leaving the site outdated and lacking relevant information for those interested 
+              in learning more about the fraternity. The priority now is to bring everything up to date and establish a system that ensures the site is 
+              consistently maintained moving forward. This process will be detailed in the transition document so that future webmasters can build on 
+              the work and continue to improve the role.
             </p>
             <h3>Adding the Digitized Photos</h3>
             <p>
-              After digitizing over 1000 photos, we have yet to do anything with them. I want to get most of them 
-              onto the website, allowing alumni to relive their time in the fraternity, and everyone to see our 
-              history.
+              After digitizing more than 1,000 photos from the chapter’s archives, the next step is to put them to 
+              good use. I am planning to feature many of these photos on the website, 
+              giving alumni a chance to relive their time in the fraternity and allowing current members to connect with the chapter’s history.
             </p>
             <h3>Adding a History Page</h3>
             <p>
-              As part of the new member process, you learn a lot about our chapter's extensive, and 
-              interesting history. Unfortunately, this history has not been shared with the world, and 
-              so I want to make a page to highlight it.
+              As part of the new member process, much is taught about the chapter’s rich and interesting history. 
+              Unfortunately, this history has not been shared beyond the fraternity. I plan to create a 
+              history page, preserving the chapter’s legacy while making it accessible to alumni, potential members, and the broader community.
             </p>
             <hr/>
             <h2>Philanthropy</h2>
@@ -125,7 +126,8 @@ function LambdaChi() {
               </p>
             </div>
             <p>
-              Another event we hold each fall is Pumpkin Bash, where we smash pumpkins while raising money for a charitable cause.
+              Another event we hold each fall is Pumpkin Bash, a community event where we smash pumpkins while 
+              raising money for local charities.
             </p>
             <div id="content-img-container">
               <img src={smashingPumpkin} className="project-img"/>
@@ -141,8 +143,8 @@ function LambdaChi() {
             </div>
             <p>
               Our chapter participates in a number of other initiatives such as volunteering at Hope 7, a local 
-              community center. We also hold an events such as "Bowls on Sunset" and "Phat Sandos", a late-night 
-              fundraiser where we cook, package, and deliver food to people on campus, and donate all proceeds to charity.
+              community center. We also hold events such as "Bowls on Sunset" and "Phat Sandos", late-night 
+              fundraisers where we cook, package, and deliver food to people on campus, then donate all proceeds to charity.
             </p>
             <hr/>
             <h2>Reflection</h2>

@@ -29,7 +29,7 @@ function LambdaChi() {
               imagined myself joining a fraternity, especially with all the negative stereotypes that surround 
               Greek life. Despite everything I have heard, I’ve only discovered an exceptional 
               group of young men who are always there to support me and challenge me to step outside my comfort 
-              zone. Through these experiences, I’ve grown as a person, brother, and leader. Below are some of 
+              zone. Through my experiences here, I’ve grown as a person, brother, and leader. Below are some of 
               the responsibilities and opportunities that have shaped my journey.
             </p>
             <hr/>
@@ -50,9 +50,9 @@ function LambdaChi() {
             <h3>Roster Management</h3>
             <p>
               One of my key responsibilities as secretary is managing the fraternity’s roster. Keeping it accurate ensures that 
-              both RPI’s governing body for fraternities and our national office remain properly informed. To simplify this 
+              both RPI’s governing body for Greek life and our national office remain properly informed. To simplify this 
               process, I created and actively maintain a master sheet that consolidates all the information these organizations 
-              need. This makes deadlines easier to meet and streamlines other administrative tasks.
+              need. This makes deadlines easier to meet and streamlines other administrative tasks cas well.
             </p>
             <h3>Calendar</h3>
             <p>
@@ -68,14 +68,14 @@ function LambdaChi() {
               The secretary also acts as the system administrator for the fraternity, managing our shared Google Drive. 
               I created a central drive that includes individual folders for each officer, along with shared resources 
               such as meeting minutes, contact information, and other important documents. This structure keeps everything 
-              organized and ensures everything our leadership needs is in one place.
+              organized and ensures our leadership is coordinated.
             </p>
             <h3>Bid Packets</h3>
             <p>
               When someone is invited to join the fraternity, they receive a comprehensive bid packet that provides answers to common questions. 
-              The packet follows a consistent template each semester, though updates are made as needed. Recent enhancements I have made include a page 
-              highlight philanthropy efforts, another outlining risk management policies, and a letter addressed to parents. Each semester, I am in charge of
-              20–30 packets are prepared, signed by all officers, and distributed promptly to potential members.
+              We use a template each semester, though updates are made as needed. Recent enhancements I have made include a page to
+              highlight our philanthropy efforts, another outlining risk management policies, and a letter addressed to parents. 
+              Each semester, I prepare 20–30 of these packets, collect officer signatures, and ensure they are promptly delivered to potential members.
             </p>
             <h3>Digitizing Old Photos</h3>
             <p>
@@ -90,22 +90,22 @@ function LambdaChi() {
             </p>
             <h3>Improving the Role</h3>
             <p>
-              In recent years, the Webmaster role has received less attention, leaving the site outdated and lacking relevant information for those interested 
-              in learning more about the fraternity. My priority is to bring everything up to date and establish a system that ensures the site is 
-              consistently maintained moving forward. This process will be detailed in a transition document I create so that future webmasters can build on 
-              the work and continue to improve the role.
+              In recent years, the Webmaster role has been neglected, leaving the site outdated and lacking relevant information. My priority is to 
+              bring everything up to date and establish a system that ensures the site is consistently maintained moving forward. This process will 
+              be detailed in an extensive transition document I create so future webmasters can build on the work and continue to improve the role.
             </p>
             <h3>Adding the Digitized Photos</h3>
             <p>
               After digitizing more than 1,000 photos from the chapter’s archives, the next step is to put them to 
-              good use. I want to add a photo gallery page to the site, 
-              giving alumni a chance to relive their time in the fraternity and allowing current members to connect with the chapter’s history.
+              good use. I want to add a photo gallery page to the site, giving alumni a chance to relive their 
+              time in the fraternity and allowing current members to connect with the chapter’s history.
             </p>
             <h3>Adding a History Page</h3>
             <p>
               As part of the new member process, much is taught about the chapter’s rich and interesting history. 
               Unfortunately, this history has not been shared beyond the fraternity. I plan to create a 
-              history page, preserving the chapter’s legacy while making it accessible to alumni, potential members, and the broader community.
+              history page, preserving the chapter’s legacy while making it accessible to alumni, 
+              potential members, and the broader community.
             </p>
             <hr/>
             <h2>Philanthropy</h2>
@@ -126,8 +126,8 @@ function LambdaChi() {
               </p>
             </div>
             <p>
-              Another event we hold each fall is Pumpkin Bash, a community event where we smash pumpkins while 
-              raising money for local charities.
+              Another event we hold each fall is Pumpkin Bash, Another tradition we hold each fall is Pumpkin Bash, 
+              a community fundraiser where we smash pumpkins to support local charities.
             </p>
             <div id="content-img-container">
               <img src={smashingPumpkin} className="project-img"/>
@@ -144,14 +144,14 @@ function LambdaChi() {
             <p>
               Our chapter participates in a number of other initiatives such as volunteering at Hope 7, a local 
               community center. We also hold events such as "Bowls on Sunset" and "Phat Sandos", late-night 
-              fundraisers where we cook, package, and deliver food to people on campus, then donate all proceeds to charity.
+              fundraisers where we cook, package, and deliver food to people on campus, with all proceeds going to charity.
             </p>
             <hr/>
             <h2>Reflection</h2>
             <p>
               Making impactful contributions to something greater than myself has turned the grind of
               college into a unique and enjoyable experience. I am so grateful to be a part of this 
-              amzing brotherhood, and excited for all of the fun moments that lie ahead.
+              amazing brotherhood, and excited for the fun that lies ahead.
             </p>
           </div>
         </div>

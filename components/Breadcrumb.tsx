@@ -1,5 +1,6 @@
 // src/components/Breadcrumbs.tsx
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import useNavigateTop from "../hooks/useNavigateTop";
 
 function toTitle(s: string) {
   return s
@@ -22,6 +23,7 @@ function toTitle(s: string) {
 export default function Breadcrumbs({ labelMap = {} }: { labelMap?: Record<string, string> }) {
   const { pathname } = useLocation();
   const segments = pathname.split('/').filter(Boolean);
+  const navigateTop = useNavigateTop();
 
   const crumbs = segments.map((seg, i) => {
     const href = '/' + segments.slice(0, i + 1).join('/');
@@ -40,9 +42,19 @@ export default function Breadcrumbs({ labelMap = {} }: { labelMap?: Record<strin
           {isLast ? (
             <span className="breadcrumb-current">{label}</span>
           ) : (
-            <Link to={href} className="breadcrumb-link">{label}</Link>
+            <a
+              className="breadcrumb-link"
+              role="link"
+              tabIndex={0}
+              onClick={() => navigateTop(href)}
+              onKeyDown={(e) => e.key === "Enter" && navigateTop(href)}
+            >
+              {label}
+            </a>
           )}
-          {index < crumbs.length - 1 && <span className="breadcrumb-sep"> &gt; </span>}
+          {index < crumbs.length - 1 && (
+            <span className="breadcrumb-sep"> &gt; </span>
+          )}
         </span>
       ))}
     </nav>

@@ -19,12 +19,14 @@ function Stewarts() {
             <hr/>
             <h2>Overview</h2>
             <p>
-
+              With over 400 stores across New York, Vermont, and New Hampshire, Stewart's Shops is one of the 
+              largest gas station chains in the Northeast. All of the shops are centered around Saratoga, NY (~40 
+              minutes north of Albany), where the main office and distribution center is located.
             </p>
             <hr/>
             <h2>Responsibilities</h2>
             <p>
-              
+
             </p>
             <hr/>
             <h2>Reflection</h2>

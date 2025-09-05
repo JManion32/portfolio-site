@@ -33,7 +33,7 @@ function Experience() {
                 img={stewartsLogo}
                 header="IT Field Technician Intern"
                 date="May 2024 - August 2024"
-                desc="On-site technician responsible for troubleshooting and maintaining hardware."
+                desc="On-site technician responsible for troubleshooting and maintaining hardware in fast-paced environments."
                 nav="/experience/Stewarts"
                 animation= "main-fly-in-bottom-2"
             />

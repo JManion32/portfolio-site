@@ -73,7 +73,7 @@ function Experience() {
         </div>
         <NavButton
           left="Projects" leftNav="/projects"
-          right="Blogs" rightNav="/blogs"
+          right="Resume" rightNav="/resume"
         />
       </div>
     </>

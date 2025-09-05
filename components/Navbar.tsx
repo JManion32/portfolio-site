@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
             </li>
             <li id="last-link">
                 <a onClick={() => navigate('/resume')}
-                    className={`nav-link-text ${isActive('/blogs') ? 'active-page' : ''}`}>
+                    className={`nav-link-text ${isActive('/resume') ? 'active-page' : ''}`}>
                     Resume
                 </a>
             </li>

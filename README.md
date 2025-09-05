@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Website to showcase my work, experience, and blogs.
+Website to showcase my projects and experience.
 
 ```
 git clone https://github.com/JManion32/portfolio-site.git

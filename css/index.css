@@ -48,7 +48,7 @@ html {
     background-clip: content-box;
 }
 
-/* Projects, Experience, Blogs */
+/* Projects, Experience */
 .content {
   width: var(--content-width);
   margin: 0 auto;

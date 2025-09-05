@@ -1,4 +1,4 @@
-import Breadcrumbs from "../../components/Breadcrumb";
+import Breadcrumbs from "../components/Breadcrumb";
 
 function Resume() {
   return (

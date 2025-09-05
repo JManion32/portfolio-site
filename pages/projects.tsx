@@ -40,7 +40,7 @@ function Projects() {
                 <PreviewCard
                     img= {jmLogo}
                     header= "Portfolio Site"
-                    desc= "Website to showcase my projects, experience, and blogs."
+                    desc= "Website to showcase my projects and experience."
                     nav= "/projects/portfolio"
                     animation= "main-fly-in-bottom-4"
                 />

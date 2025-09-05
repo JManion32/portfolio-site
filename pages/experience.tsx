@@ -1,4 +1,3 @@
-import { useNavigate } from 'react-router-dom';
 import PreviewCard from '../components/PreviewCard';
 import NavButton from '../components/NavButton';
 
@@ -10,7 +9,6 @@ import hvccGreen from '../assets/hvcc-green.png';
 import twitchLogo from '../assets/twitch-logo.png';
 
 function Experience() {
-  const navigate = useNavigate();
 
   return (
     <>
@@ -19,12 +17,6 @@ function Experience() {
           <div className="main-fly-in-bottom">
             <div className="header-container">
               <h1 className="main-page-header exp-header">Experience</h1>
-              <button className="contact-button view-resume-desktop" onClick={() => navigate('/experience/Resume')}>
-                  View Resume
-              </button>
-              <button className="contact-button view-resume-mobile" onClick={() => window.location.href = "../resume.pdf"}>
-                  View Resume
-              </button>
             </div>
             <p className="main-page-desc">Click on an experience to learn more!</p> 
           </div>

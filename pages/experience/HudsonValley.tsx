@@ -12,29 +12,32 @@ function HudsonValley() {
         </div>
         <div id="text-body">
           <p>
-            When I first enrolled in community college, I entered the undecided program. Throughout 
+            When I enrolled in community college, I entered the undecided program. Throughout 
             the next two years, I would discover my interest in programming, and lay a strong foundation 
             for my transfer to university.
-          </p>
+        </p>
           <hr/>
           <h2>Freshman Year</h2>
           <p>
             The only interest I had that could be a valid study in college was building computers. Because of 
             this and the fact that my dad is a software engineer, I decided to take an introductory computer science 
-            course. I enjoyed the hardware side of things, and struggled with the software since it was all 
-            brand new. After this semester, I switched from undecided to computer science, and truly began my journey. 
-            I still didn't know what part of computer science, but at least I had narrowed it down.
+            course. I enjoyed the hardware side of things, but struggled with the software since it was all brand 
+            new to me. By the end of that semester, I switched my major from undecided to computer science and truly 
+            began my journey. I still wasn’t sure which area of computer science I would focus on, but at least I had 
+            found a direction.
           </p>
           <p>
-            In my second semester, I took an introductory programming course in Python. I took it online, and didn't really maximize 
-            what I learned, instead taking every possible shortcut to get an A. I still thought the material was interesting, I 
-            just had the mindset that good grades were more important than actual learning. I especially liked that programming was a 
-            skill I could develop over time, like levelling up in a video game, but unfortunately I didn't do much levelling up here.
+            In my second semester, I took an introductory programming course in Python. The course was online, so 
+            I negelcted the learning process, instead opting to take shortcuts to secure an A. 
+            I still found the material interesting, and especially liked the idea that programming is a skill 
+            you can continually build, like leveling up in a video game. Unfortunately, I didn’t do much 
+            “leveling up” during this course.
           </p>
           <p>
-            After my first 2 semesters, the 4.0 was intact, and I was all in on computer science. Despite this, 
-            I struggled with discipline, especially in online courses. It hadn't caught up to me yet, but sophomore 
-            year was looming...
+            After my first two semesters, my 4.0 GPA was still intact, and I was fully committed to computer 
+            science. Even so, I struggled with discipline, especially in online courses. The consequences 
+            hadn’t caught up to me yet, but with sophomore year on the horizon, I knew they eventually would if 
+            I didn't focus up.
           </p>
           <hr/>
           <h2>Sophomore Year</h2>
@@ -53,14 +56,12 @@ function HudsonValley() {
             If I wanted to succeed, I had to dig deep and have rock solid study habits.
           </p>
           <p>
-            I received an 82 on the first exam, which wasn't a bad start. I wasn't too worried about losing my 4.0 here since math is tough, 
-            but I wanted to get a B or higher. Unfortunately, the next few exams didn't go so well, dropping my average to 
-            the low 70s heading into the final. since Hudson Valley is generally considered an easier school and they don't use 
-            +/- grades, you have to get at least a C to receive credit for a course. I just needed above a 70 on the final to make it 
-            through and receive credit. This was the last notification I received from the course:
+            I received an 82 on the first exam, which wasn't a bad start. Unfortunately, the next few exams didn't go so well, dropping my average to 
+            the low 70s heading into the final. I needed at least a C to receive credit for this course, so there was a lot of pressure heading into the final. 
+            This was the last notification I received from the course:
           </p>
           <p>
-            I failed a class for the first time, and would have to take Calc 1 once again. That is what I thought until I checked DegreeWorks. Since I already had 
+            I failed. I had to take Calc 1 a third time. It was devastating. That is what I thought until I checked DegreeWorks. Since I already had 
             credit for the course and HVCC has a forgiving retake policy, my transcript took the old grade, rather than the new one. Somehow, I 
             still had a 4.0, and all of my struggles were in vain. Despite all this, I still learned a good amount, and promised myself that I would 
             never fall so far behind again, especially with Calc 2 next semester.

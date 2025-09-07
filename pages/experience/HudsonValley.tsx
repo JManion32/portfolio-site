@@ -43,9 +43,9 @@ function HudsonValley() {
           <h2>Sophomore Year</h2>
           <p>
             With all of the introductory courses out of the way, it was time to get to the good stuff. In my first semester, 
-            the main courses on the radar was Calc 2, and Programming and Data Logic 2 (HVCC's version of data structures). After 
-            the first week, I realized there was no way I could pass Calc 2, so I switched to Calc 1, despite already having credit for 
-            it in high school. These two courses would turn out to be a driving force in what made me take school seriously.
+            the main courses on the radar was Calc 2, and Programming and Data Logic 2 (HVCC's version of data structures). It 
+            wasn't a great start as I quickly realized there was no way I could pass Calc 2, and switched to Calc 1 despite already having credit 
+            from high school. These two courses would ultimately the driving force that made me take school seriously.
           </p>
           <h3>Calculus 1</h3>
           <p>
@@ -74,7 +74,7 @@ function HudsonValley() {
           <h3>The Final Semester</h3>
           <p>
             After making it through my third semester with the 4.0 still intact, it was time to finish strong. I was taking 20 credits, with the 
-            key courses being Calc 2, Assembly Language, and Discrete Mathematics. 
+            key courses being Calc 2, Assembly Language, and Discrete Mathematics. I felt confident going in, but new I had my work cut out for me.
           </p>
           <hr/>
           <h2>Reflection</h2>

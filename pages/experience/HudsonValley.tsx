@@ -23,7 +23,7 @@ function HudsonValley() {
           <hr/>
           <h2>Freshman Year</h2>
           <p>
-            The only interest I had that could be a valid study in college was building computers. Because of 
+            One of my favorite hobbies at the time was building computers. Because of 
             this and the fact that my dad is a software engineer, I decided to take an introductory computer science 
             course. I found enjoyment in the hardware side of things, but struggled with the software since it was brand 
             new to me. By the end of that semester, I switched my major from undecided to computer science and truly 

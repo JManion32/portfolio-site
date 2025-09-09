@@ -1,11 +1,9 @@
 import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
 
-import useNavigateTop from "../../hooks/useNavigateTop";
 import failingCalc from '../../assets/failing-calc-1.png';
 
 function HudsonValley() {
-  const navigateTop = useNavigateTop();
   return (
     <>
       <div className="page">
@@ -23,7 +21,7 @@ function HudsonValley() {
           <hr/>
           <h2>Freshman Year</h2>
           <p>
-            One of my favorite hobbies at the time was building computers. Because of 
+            The main interest I had that seemed like a valid field of study in college was building computers. Because of 
             this and the fact that my dad is a software engineer, I decided to take an introductory computer science 
             course. I found enjoyment in the hardware side of things, but struggled with the software since it was brand 
             new to me. By the end of that semester, I switched my major from undecided to computer science and truly 
@@ -31,12 +29,12 @@ function HudsonValley() {
             found a direction.
           </p>
           <p>
-            In my second semester, I took an introductory programming course in Python. I enjoyed 
-            learning the basic concepts, and completing assignments was rewarding. I was especially 
-            drawn to the idea that programming is a skill that can be continually developed, much 
-            like leveling up in a video game. Unfortunately, I did not do much "leveling up" during this 
-            course. Because it was fully online, I struggled to learn the material, instead taking 
-            shortcuts to secure an A.
+            In my second semester, I took an introductory programming course in Python. I enjoyed learning the basic concepts, 
+            and completing assignments was rewarding. Because it was fully online, I struggled to stay engaged with the 
+            material and often relied on shortcuts to secure an A. Even so, I was able to narrow down my field of 
+            interest: I wanted to write code. I just loved the idea that programming is a skill that can be continually 
+            developed, much like leveling up in a video game. While I didn’t do much “leveling up” in this course, 
+            I was eager for what lay ahead.
           </p>
           <p>
             After my first two semesters, my 4.0 was still intact, and I was fully committed to computer 
@@ -83,7 +81,7 @@ function HudsonValley() {
             end of the course, I had finally developed a coding skill set. It had only taken 3 semesters, but I could now solve 
             problems on my own with code, and that felt pretty awesome. 
           </p>
-          <h3>Calculus 1</h3>
+          <h3>Calculus I</h3>
           <p>
             "I already took this in high school so its going to be a breeze, right?" Perhaps, but it was going 
             to take substantial effort. Here was the course's grade breakdown:
@@ -97,15 +95,15 @@ function HudsonValley() {
             the low 70s heading into the final. I needed at least a C to receive credit for this course, so the pressure was on. 
           </p>
           <p>
-            I went into the final exam room confident, and composed. I had a massive double sided crib sheet with just about every 
-            topic I could possibly need on it. I started off strong, still having a solid grasp on the exam 1 concepts. This 
-            confidence dwindled as I dove further into the packet. I skipped a page, only to skip the next one, and so on until 
-            I realized that I was only able to do half of the packet. By the end, I had lost all confidence. I had come up short, and I knew it.
+            I went into the final exam room confident and composed. I had prepared a massive double sided crib sheet with just about every 
+            topic I could possibly need on it. Even if I didn’t know the material, it was on the papaer. I started off strong, still having 
+            a solid grasp on the exam 1 concepts. This confidence dwindled as I dove further into the packet. I skipped a page, only to skip the 
+            next one, and so on until I realized that I was only able to do half of the packet. By the end, I had lost all confidence. 
+            I had come up short, and I knew it.
           </p>
           <p>
-            I failed, and would have to take Calc 1 for a third time. I was devastated. My drive home was quiet. I had 
-            nobody to blame but myself for this lack of preparation. It was a true reality check. In the following week, 
-            I received the dreaded notification:
+            It was a true reality check. In the following week, 
+            I received the dreaded confirmation:
           </p>
           <div id="content-img-container">
             <img src={failingCalc}/>
@@ -114,7 +112,7 @@ function HudsonValley() {
             It was official. I had failed. The 4.0 was no more. I went to DegreeWorks to see the damage, only to make a shocking revelation. 
             Since I already had credit for the course, the transcript just took the better score. All of my struggles were in vain, 
             or were they? I had still learned 68% of the material, and received the reality check that I so desparately needed. 
-            It was now up to me to conquer the looming 20 credit spring semester that included Calc 2.
+            It was now up to me to conquer the looming 20 credit spring semester that included Calculus II.
           </p>
           <h3>The Final Semester</h3>
           <p>
@@ -122,15 +120,19 @@ function HudsonValley() {
             and Discrete Mathematics. I wouldn't describe myself as confident going in, I was just envigorated by the chance to prove to myself 
             that I could rise to the challenge.
           </p>
+          <p>
+            With new study habits in place and a continuous drive to learn, this semester was a victory lap. I received an A in four of 
+            my five courses. The only course I missed was Calculus II, where I received a B, which was an amazing result.
+          </p>
           <hr/>
           <h2>Reflection</h2>
           <p>
-            Hudson Valley Community College laid the foundation for my academic journey at RPI. Looking back, I sometimes 
-            wonder how things might have turned out if I had attended RPI from the very beginning. While the outcome could 
-            have been better or worse, I wouldn’t change a thing. During my time there, I saved a significant amount of 
-            money, discovered my interests, gained valuable lessons, and worked 20–30 hours per week 
-            at <a onClick={() => navigateTop("/experience/pricechopper")}>Price Chopper</a>. In the end, 
-            HVCC was exactly where I needed to be to grow both academically and personally. Go Vikings!
+            Hudson Valley Community College played a crucial role in laying the foundation for my academic journey at RPI. 
+            During my first year, I explored my interests, moving from an undecided high schooler to a computer science 
+            student with aspirations in software development. In my second year, I strengthened my study 
+            habits, developed academic discipline, and leveled up my skills. As great as my time at RPI has been, I wouldn’t change a thing 
+            about my experience at HVCC; it was exactly where I needed to be to grow both academically and personally. 
+            Go Vikings!
           </p>
         </div>
         </div>

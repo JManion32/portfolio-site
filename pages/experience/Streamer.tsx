@@ -1,5 +1,6 @@
 import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
+import ComingSoon from '../../components/ComingSoon';
 
 function Streamer() {
   return (
@@ -10,6 +11,7 @@ function Streamer() {
           <div className="text-page-header-row">
             <h1 className="text-page-header">Twitch Streamer</h1>
           </div>
+          <ComingSoon/>
           <div id="text-body">
 
           </div>

@@ -1,5 +1,6 @@
 import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
+import ComingSoon from '../../components/ComingSoon';
 
 function Stewarts() {
   return (
@@ -10,6 +11,7 @@ function Stewarts() {
           <div className="text-page-header-row">
             <h1 className="text-page-header">IT Field Technician Intern</h1>
           </div>
+          <ComingSoon/>
           <div id="text-body">
             <p>
               During the summer of 2024, I had an internship as an Information Technology Field Technician for 

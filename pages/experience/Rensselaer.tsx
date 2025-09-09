@@ -1,5 +1,6 @@
 import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
+import ComingSoon from '../../components/ComingSoon';
 
 function Rensselaer() {
   return (
@@ -10,6 +11,7 @@ function Rensselaer() {
           <div className="text-page-header-row">
             <h1 className="text-page-header">Rensselaer Polytechnic Institute</h1>
           </div>
+          <ComingSoon/>
           <div id="text-body">
             <p>
               If I had to describe my experience at RPI in one word, it would be transformative. I try to live without regrets and 

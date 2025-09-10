@@ -28,15 +28,14 @@ function LambdaChi() {
               If I had to describe my time at &Lambda;ΧΑ in one word, it would be <i>transformative</i>. I never 
               imagined myself joining a fraternity, especially with all the negative stereotypes that surround 
               Greek life. Despite everything I have heard, I’ve only discovered an exceptional 
-              group of young men who are always there to support me and challenge me to step outside my comfort 
-              zone. Through my experiences here, I’ve grown as a person, brother, and leader. Below are some of 
+              group of men who support each other unconditionally. Through my experiences here, I’ve grown as a person, brother, and leader. Below are some of 
               the responsibilities and opportunities that have shaped my journey.
             </p>
             <hr/>
             <h2>Secretary</h2>
             <p>
-              As the Secretary, I have various administrative responsibilities to ensure our chapter operates smoothly. What I 
-              have learned from this role is the importance of being consistently good, rather than occasionally great. I strive to 
+              As the Secretary, I have various administrative responsibilities to ensure our chapter operates smoothly. This role 
+              has taught me the importance of being consistently good, rather than occasionally great. I strive to 
               stay on top of my duties so I can be there to assist other officers, and enable them to reach their full potential.
             </p>
             <h3>House Meetings Minutes / Attendance</h3>
@@ -44,8 +43,8 @@ function LambdaChi() {
               One of the more front-facing responsibilities is managing communication and records for our meetings. 
               Before each meeting, I email a reminder to the brotherhood, then prepare the slideshow, 
               officer agenda, and meeting minutes. I take attendance at the start, record the minutes during the meeting, finalize them 
-              afterward, and send them out as soon as possible. While the workload was overwhelming at first, routine has made it manageable, 
-              and even enjoyable. I see it as my responsibility to write the history of our chapter, and consider it a great honor to do so.
+              afterward, and send them out as soon as possible. This aspect of my role was intimidating at first, but I have come to enjoy it. 
+              I see it as my responsibility to write the history of our chapter, and consider it a great honor to do so.
             </p>
             <h3>Roster Management</h3>
             <p>
@@ -59,29 +58,14 @@ function LambdaChi() {
               With so many events happening each semester, an up-to-date calendar is essential for clear communication and 
               planning. In the past, we relied on multiple Google Calendars with different purposes, which often caused 
               desynchronization when not everyone had access to all of them. To solve this, I consolidated everything 
-              into a single color-coded calendar called LXA Events, giving brothers one reliable source for all 
+              into a single color-coded calendar, giving brothers one reliable source for all 
               fraternity activities. While it takes daily effort to keep it updated, this centralized hub has made 
               staying informed easier for everyone.
-            </p>
-            <h3>Google Drive</h3>
-            <p>
-              The secretary also acts as the system administrator for the fraternity, managing our shared Google Drive. 
-              I created a central drive that includes individual folders for each officer, along with shared resources 
-              such as meeting minutes, contact information, and other important documents. This structure keeps everything 
-              organized and ensures our leadership is coordinated.
-            </p>
-            <h3>Bid Packets</h3>
-            <p>
-              When someone is invited to join the fraternity, they receive a comprehensive bid packet that provides answers to common questions. 
-              We use a template each semester, though updates are made as needed. Recent enhancements I have made include a page to
-              highlight our philanthropy efforts, another outlining risk management policies, and a letter addressed to parents. 
-              Each semester, I prepare 20–30 of these packets, collect officer signatures, and ensure they are promptly delivered to potential members.
             </p>
             <h3>Digitizing Old Photos</h3>
             <p>
               An aspect of the Secretary role that is often overlooked is maintaining the chapter’s historic records. Over winter break, I  
-              embraced this by scanning more than 1,000 photos from old scrapbooks and organizing them in Google Drive. It was a fun and 
-              rewarding effort, and I hope to see these digitized memories put to good use in the future.
+              embraced this by scanning more than 1,000 photos from old scrapbooks and organizing them on our Google Drive.
             </p>
             <hr/>
             <h2>Webmaster</h2>
@@ -90,21 +74,20 @@ function LambdaChi() {
             </p>
             <h3>Improving the Role</h3>
             <p>
-              In recent years, the Webmaster role has been neglected, leaving the site outdated and lacking relevant information. My priority is to 
+              In recent years, the Webmaster role has been neglected, which has left the site outdated and lacking relevant information. My priority is to 
               bring everything up to date and establish a system that ensures the site is consistently maintained moving forward. This process will 
-              be detailed in an extensive transition document I create so future webmasters can build on the work and continue to improve the role.
+              be detailed in an extensive transition document I plan to create so future webmasters can build on the work and continue to improve the role.
             </p>
             <h3>Adding the Digitized Photos</h3>
             <p>
-              After digitizing more than 1,000 photos from the chapter’s archives, the next step is to put them to 
-              good use. I want to add a photo gallery page to the site, giving alumni a chance to relive their 
+              After digitizing more than 1,000 photos from the chapter’s archives, the next step is to make them 
+              accessible. I want to add a photo gallery page to the site, giving alumni a chance to relive their 
               time in the fraternity and allowing current members to connect with the chapter’s history.
             </p>
             <h3>Adding a History Page</h3>
             <p>
               As part of the new member process, much is taught about the chapter’s rich and interesting history. 
-              Unfortunately, this history has not been shared beyond the fraternity. I plan to create a 
-              history page, preserving the chapter’s legacy while making it accessible to alumni, 
+              I plan to create a history page, preserving the chapter’s legacy while making it accessible to alumni, 
               potential members, and the broader community.
             </p>
             <hr/>
@@ -126,7 +109,7 @@ function LambdaChi() {
               </p>
             </div>
             <p>
-              Another event we hold each fall is Pumpkin Bash, Another tradition we hold each fall is Pumpkin Bash, 
+              Another event we hold each fall is Pumpkin Bash, 
               a community fundraiser where we smash pumpkins to support local charities.
             </p>
             <div id="content-img-container">

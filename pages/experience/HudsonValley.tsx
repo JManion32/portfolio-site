@@ -24,16 +24,16 @@ function HudsonValley() {
             One of my favorite hobbies at the time was building computers. Because of 
             this and the fact that my dad is a software engineer, I decided to take an introductory computer science 
             course. I found enjoyment in the hardware side of things, but struggled with the software since it was brand 
-            new to me. By the end of that semester, I switched my major from undecided to computer science and truly 
-            began my journey. I still wasn’t sure which area I would focus on, but at least I had 
+            new to me. By the end of that semester, I switched my major from undecided to computer science, marking 
+            the true beginning of my journey. I still wasn’t sure which area I would focus on, but at least I had 
             found a direction.
           </p>
           <p>
-            In my second semester, I took an introductory programming course in Python. I enjoyed learning the basic concepts, 
-            and completing assignments was rewarding. Because it was fully online, I struggled to stay engaged with the 
-            material and often relied on shortcuts to secure an A. Even so, I was able to narrow down my field of 
-            interest: I wanted to write code. I just loved the idea that programming is a skill that can be continually 
-            developed, much like leveling up in a video game. While I didn’t do much “leveling up” in this course, 
+            In my second semester, I took an introductory programming course in Python. It was fully online, 
+            I struggled to find the discipline to stay engaged with the material, instead relying on shortcuts 
+            to secure an A. Even so, I was able to narrow down my field of interest: I wanted to write code. 
+            I just loved the idea that programming is a skill that is continually 
+            developed, like leveling up in a video game. While I didn’t do much “leveling up” this semester, 
             I was eager for what lay ahead.
           </p>
           <p>
@@ -52,24 +52,23 @@ function HudsonValley() {
           </p>
           <h3>Programming and Data Logic 2</h3>
           <p>
-            Seventy percent of Programming and Logic was our weekly projects, and they were challenging. Everything built off 
+            Seventy percent of this course was our weekly assignments, and they were challenging. Everything built off 
             of the course I had taken previously, yet nothing seemed to make sense. It was frustrating. 
             Why hadn't I taken this seriously before? What was I thinking? I had been foolish, but 
             there was no time to dwell. The assignments were due on Mondays, and I struggled through them each weekend, staying 
-            up late and trying to understand what I was doing while making zero progress. It just wouldn’t click for me, but this was the price 
-            I payed for not taking the introductory course seriously. If I wanted this to be my career, being lazy was no longer an option. Thankfully my 
-            Dad would spend hours working with me every Monday, helping me through my assignments while making sure I 
+            up late trying to understand what I was doing while making zero progress. It just wouldn’t click for me, but this was the price 
+            I payed for not taking the introductory course seriously. Thankfully, my Dad would spend hours working with me every Monday, helping me through my assignments while making sure I 
             understood them. I am beyond thankful for his efforts during this time. If it wasn’t for him, I probably would have given up.
           </p>
           <p>
-            After spending the first half of the semester handing in assignments on the day they were due and attempting to learn 
-            what I should’ve already known, things started to click. New topics were becoming easier to grasp 
-            and I was no longer depending on my Dad to help me with the work. The course covered loads of core concepts each 
+            After spending the first half of the semester submitting assignments on the day they were due and attempting to learn 
+            what I should’ve already known, things started to click. New topics were becoming easier to grasp ,
+            and I was no longer depending on my Dad to help me with the work. The course covered a variety of core concepts each 
             week including data structures, generics, recursion, exception handling, inheritance, abstraction, encapsulation, 
             polymorphism, and more. These topics were cool and all, but my favorite by far was JavaFX. JavaFX is a toolkit 
-            for Java that allows you to create a Graphical User Interface. This was my first taste of front end development, but definitely not the last. By the 
+            for Java that allows you to create GUIs. This was my first taste of front end development, and I absolutely loved it. By the 
             end of the course, I had finally developed the foundation of my coding skill set. It had taken 3 semesters, but I could finally solve 
-            problems on my own with code, and that felt pretty awesome. 
+            problems on my own with code, and that felt pretty awesome.
           </p>
           <h3>Calculus I</h3>
           <p>
@@ -85,14 +84,14 @@ function HudsonValley() {
             the low 70s heading into the final. I needed at least a C to receive credit for this course, so the pressure was on. 
           </p>
           <p>
-            I walked into the final exam confident and composed, armed with a massive double-sided crib sheet packed with nearly every topic 
+            I walked into the final exam confident and composed, armed with a massive double-sided crib sheet packed with every topic 
             I could think of. Even if I didn’t know the material, I had it written down. At first, things went smoothly; I still had a solid 
             grasp of the exam one concepts. But as I moved deeper into the packet, my confidence began to fade. I skipped one page, then another, 
             until I realized I could only answer about half the exam. By the end, I had lost all confidence. I had come up short, and I knew it.
           </p>
           <p>
             This was my exact issue with school. I spend an entire day making a crib sheet, rather than actually studying. It was the easy way out. 
-            Looking back, I'm glad that the consequences caught up with me here.
+            An excuse to not study the material. 
           </p>
           <p>
             It was a true reality check. In the following week, 

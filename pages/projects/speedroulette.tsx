@@ -130,7 +130,8 @@ function SpeedRoulette() {
             <p>
               Next, I moved to the backend, which introduced more complexity. I began by building the API to handle the core game logic 
               and get it to a playable state. I then integrated Postgres to manage the leaderboard and statistics, and added Redis for caching 
-              user tokens and validating balances. Finally, I dockerized the entire system to bring all the components together for smooth deployment.
+              user tokens and validating balances. Finally, I dockerized the entire system to bring all the components together for smooth deployment 
+              and developer experience.
             </p>
             <hr/>
             <h2>Features</h2>
@@ -213,8 +214,8 @@ function SpeedRoulette() {
               Deployment turned out to be the most time-consuming challenge of the project. Since it was my first time, there 
               was an inevitable learning curve, but the larger issue was choosing the right platform. I initially experimented 
               with AWS, but the challenge of identifying the right services from hundreds of options and then configuring them to work together 
-              made it impractical for a personal project. Ultimately, I switched to DigitalOcean, which provided a much 
-              simpler experience, especially since my project is dockerized.
+              made it impractical for a small personal project. Ultimately, I switched to DigitalOcean, which provided a much 
+              simpler experience.
             </p>
             <h3>Security</h3>
             <p>

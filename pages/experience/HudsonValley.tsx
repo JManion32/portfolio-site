@@ -1,8 +1,6 @@
 import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
 
-import failingCalc from '../../assets/failing-calc-1.png';
-
 function HudsonValley() {
   return (
     <>

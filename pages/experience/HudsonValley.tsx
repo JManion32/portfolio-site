@@ -14,7 +14,7 @@ function HudsonValley() {
         </div>
         <div id="text-body">
           <p>
-            When I enrolled in community college, I entered the undecided program. Throughout 
+            When I enrolled in community college, I was unsure of what to pursue. Throughout 
             the next two years, I would discover my interest in programming, and lay a strong foundation 
             for my transfer to university.
           </p>
@@ -25,7 +25,7 @@ function HudsonValley() {
           </p>
           <h3>Intro CS Courses</h3>
           <p>
-            One of my favorite hobbies at the time was building computers. Because of 
+            Initially, I enrolled in the undecided program. One of my favorite hobbies at the time was building computers. Because of 
             this and the fact that my dad is a software engineer, I decided to take an introductory computer science 
             course. I found enjoyment in the hardware side of things, but struggled with the software since it was brand 
             new to me. By the end of that semester, I switched my major from undecided to computer science, marking 
@@ -33,16 +33,36 @@ function HudsonValley() {
             found a direction.
           </p>
           <p>
-            In my second semester, I took an introductory programming course in Python. It was fully online, 
-            I struggled to find the discipline to stay engaged with the material, instead relying on shortcuts 
-            to secure an A. Even so, I was able to narrow down my field of interest: I wanted to write code. 
-            I just loved the idea that programming is a skill that is continually 
-            developed, like leveling up in a video game. While I didn’t do much “leveling up” this semester, 
-            I was eager for what lay ahead.
+            In my second semester, I took an introductory programming course in Python. This helped to narrow 
+            down my field of interest: I wanted to write code. I just loved the idea that programming is a skill that is continually 
+            developed, like leveling up in a video game. This along with many other courses I was taking were 
+            completely online. While I enjoyed the material, I struggled to stay disciplined enough to maximize my learning. 
+            Despite my lack of "leveling up", I was excited for what lied ahead, and determined to change my habits.
+          </p>
+          <h3>Programming & Data Logic II</h3>
+          <p>
+            Like Python Programming, this course was fully online. However, there would be no shortcuts, as the assignments were far more complex.
+          </p>
+          <p>
+            The assignments were due on Mondays, and I struggled through them each weekend, staying 
+            up late trying to understand what I was doing while making zero progress. It just wouldn’t click for me, but this was the price 
+            I payed for not taking the prerequisite seriously. Thankfully, my Dad would spend hours working with me every Monday, 
+            helping me through my assignments while making sure I understood them. I am beyond thankful for his efforts 
+            during this time. If it wasn’t for him, I probably would have given up.
+          </p>
+          <p>
+            After spending the first half of the semester submitting assignments on the day they were due and attempting to learn 
+            what I should’ve already known, things started to click. The course covered a variety of core concepts each 
+            week including data structures, generics, recursion, exception handling, inheritance, abstraction, encapsulation, 
+            polymorphism, and more. These topics were cool and all, but my favorite by far was JavaFX. JavaFX is a toolkit 
+            for Java that allows you to create GUIs. This was my first taste of front end development, and I absolutely loved it. By the 
+            end of the course, I had finally developed the foundation of my coding skill set. It had taken 3 semesters, but I could finally solve 
+            problems on my own with code, and that felt pretty awesome.
           </p>
           <h3>Calculus I & II</h3>
           <p>
-            "I already took this in high school so its going to be a breeze, right?" Perhaps, but it was going 
+            I entered HVCC with credit for Calculus I, but after failing a review quiz in Calculus II, I decided it was best 
+            to retake Calculus I first. "I already took this in high school so its going to be a breeze, right?" Perhaps, but it was going 
             to take substantial effort. Here was the course's grade breakdown:
             <ul>
               <li><b>Exams:</b> 100%</li>
@@ -50,61 +70,25 @@ function HudsonValley() {
             If I wanted to succeed, I had to find the discipline I had been searching for.
           </p>
           <p>
-            I received an 82 on the first exam, which wasn't a bad start. Unfortunately, the next few exams didn't go so well, dropping my average to 
-            the low 70s heading into the final. I needed at least a C to receive credit for this course, so the pressure was on. 
+            The semester’s struggles meant I needed a 70+ on the final. I walked in confident, armed with a double-sided 
+            crib sheet crammed with everything I could think of. At first, I felt steady, cruising through the early 
+            questions. But as the exam pressed on, my confidence slipped. I skipped one page, then another, until I 
+            realized I could only answer about half. Before I left the room, I knew I had come up short, and sure enough, I ended with a 68,
+            which was a D in the course.
           </p>
-          <p>
-            I walked into the final exam confident and composed, armed with a massive double-sided crib sheet packed with every topic 
-            I could think of. Even if I didn’t know the material, I had it written down. At first, things went smoothly; I still had a solid 
-            grasp of the exam one concepts. But as I moved deeper into the packet, my confidence began to fade. I skipped one page, then another, 
-            until I realized I could only answer about half the exam. By the end, I had lost all confidence. I had come up short, and I knew it.
-          </p>
-          <p>
-            This was my exact issue with school. I spend an entire day making a crib sheet, rather than actually studying. It was the easy way out. 
-            An excuse to not study the material. 
-          </p>
-          <p>
-            It was a true reality check. In the following week, 
-            I received the dreaded confirmation:
-          </p>
-          <div id="content-img-container">
-            <img src={failingCalc}/>
-          </div>
           <p>
             It was official. I had failed. The 4.0 was no more. I went to DegreeWorks to see the damage, only to make a shocking revelation. 
             Since I already had credit for the course, the transcript just took the better score. All of my struggles were in vain, 
             or were they? I had still learned 68% of the material, and received the reality check that I so desparately needed. 
-            With a clean slate, it was now up to me to conquer the looming 20 credit spring semester that included Calculus II.
-          </p>
-          <p>
-            It is said that this course is the hardest of the calcs, and throughout this semester, I learned why. On the first day, 
-            my professor said that students usually get one letter grade lower in Calc 2 than calc 1 which, in my case, was an F. 
-            That was a little scary to hear, but there was no more safetly nets, I just had to do it. When the dust settled, 
-            I had just barely scraped a B, a result that I was beyond content with.
-          </p>
-
-          <h3>Programming & Data Logic II</h3>
-          <p>
-            Seventy percent of this course was our weekly assignments. Everything built off 
-            of the course I had taken previously, yet nothing seemed to make sense. It was frustrating. 
-            Why hadn't I taken this seriously before? What was I thinking? I had been foolish, but 
-            there was no time to dwell. The assignments were due on Mondays, and I struggled through them each weekend, staying 
-            up late trying to understand what I was doing while making zero progress. It just wouldn’t click for me, but this was the price 
-            I payed for not taking the introductory course seriously. Thankfully, my Dad would spend hours working with me every Monday, helping me through my assignments while making sure I 
-            understood them. I am beyond thankful for his efforts during this time. If it wasn’t for him, I probably would have given up.
-          </p>
-          <p>
-            After spending the first half of the semester submitting assignments on the day they were due and attempting to learn 
-            what I should’ve already known, things started to click. New topics were becoming easier to grasp ,
-            and I was no longer depending on my Dad to help me with the work. The course covered a variety of core concepts each 
-            week including data structures, generics, recursion, exception handling, inheritance, abstraction, encapsulation, 
-            polymorphism, and more. These topics were cool and all, but my favorite by far was JavaFX. JavaFX is a toolkit 
-            for Java that allows you to create GUIs. This was my first taste of front end development, and I absolutely loved it. By the 
-            end of the course, I had finally developed the foundation of my coding skill set. It had taken 3 semesters, but I could finally solve 
-            problems on my own with code, and that felt pretty awesome.
+            This result floored me so hard, I ended up receiving a B in Calculus II the following semester.
           </p>
           <h3>Honorable Mentions</h3>
-          <p>Discrete Mathematics, Biology, Assembly Language</p>
+          <ul>
+            <li><b>Discrete Mathematics:</b> Covered a variety of interesting topics that prepared me for RPI's Intro to Algorithms course</li>
+            <li><b>Assembly Language:</b> One of the few in-person CS courses I took at HVCC. It was fun, and a great intro to low-level programming.</li>
+            <li><b>History of Media and Culture in the US:</b> I took this course in my freshman fall. It had nothing to do with CS, but it remains as one of the best courses I have ever taken.</li>
+            <li><b>Biology:</b> To earn my Associate’s at HVCC, I had to take Biology I and II. Sure, I struggled to figure ou how dissecting rats and memorizing flower anatomy had anything to do with CS, but it was fun.</li>
+          </ul>
           <hr/>
           <h2>Reflection</h2>
           <p>

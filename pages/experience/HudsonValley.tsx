@@ -16,6 +16,7 @@ function HudsonValley() {
             the next two years, I would discover my interest in programming, and lay a strong foundation 
             for my transfer to university.
           </p>
+          <h3>Cumulative GPA: 3.94</h3>
           <hr/>
           <h2>Notable Courses</h2>
           <p>
@@ -39,7 +40,8 @@ function HudsonValley() {
           </p>
           <h3>Programming & Data Logic II</h3>
           <p>
-            Like Python Programming, this course was fully online. However, there would be no shortcuts, as the assignments were far more complex.
+            HVCC's Data Structures course. Like Python Programming, it was fully online. However, the assignments were 
+            far more complex, so there would be no shortcuts this time.
           </p>
           <p>
             The assignments were due on Mondays, and I struggled through them each weekend, staying 

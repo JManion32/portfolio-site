@@ -83,8 +83,8 @@ function Portfolio() {
             </p>
             <h3>Show Personality</h3>
             <p>
-              This site is an opportunity to be personable rather than bland, or AI generated. I 
-              have been telling myself since the start that this is <code>justinmanion.com</code>, 
+              This site is an opportunity to be personable rather than bland, or AI generated. I've 
+              told myself since the start that this is <code>justinmanion.com</code>, 
               and I am not going to be afraid to let it reflect who I am.
             </p>
             <hr/>
@@ -92,15 +92,14 @@ function Portfolio() {
             <p>
               After weighing different options for the tech stack, I decided to use the same one 
               as <a onClick={() => navigateTop("/projects/speedroulette")}>Speed Roulette</a>. 
-              I almost chose Vue, but decided React would be better for learning purposes. I also went back 
-              and forth for about using Tailwind or vanilla CSS, and eventually decided on the latter. 
-              This decision paid off as it was much more straightforward to handle the dark mode toggle and the responsive scaling.
+              “I almost chose Vue, but decided React would be better for learning purposes. I also went back and forth on whether 
+              to use Tailwind or vanilla CSS, and eventually decided to stick with the latter for (in my opinion) a better developer experience.
             </p>
             <p>
               While <a onClick={() => navigateTop("/projects/speedroulette")}>Speed Roulette</a> introduced 
               me to React and large-scale CSS usage, this portfolio site 
-              solidified my understanding. I feel much more confident in how I structure and use components, and I’m 
-              confident this site will be easy to maintain going forward. For CSS, I thought I was already a pro, but this
+              solidified my understanding. I feel more confident in how I structure and use components, and I think I've done a good 
+              job of keeping this site as maintainable as possible. For CSS, I thought I was already a pro, but this
               project taught me a whole lot more. Before, I didn't realize I could create variables for more than just colors, 
               but now I don't know how I lived without it. The variables were especially useful for the dark 
               mode toggle and responsive scaling. I now feel like I have to go back through my other projects and 
@@ -109,7 +108,7 @@ function Portfolio() {
             <hr/>
             <h2>Reflection</h2>
             <p>
-              Overall, building this site was fun and gave me a chance to solidify my knowledge of front-end 
+              Overall, building this site was a worthwhile undertaking that solidified my knowledge of front-end 
               technologies. Honestly, the hardest part was writing all of these pages! I hope you’ve enjoyed 
               the experience so far!
             </p>

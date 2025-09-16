@@ -86,7 +86,7 @@ function HudsonValley() {
           <ul>
             <li><b>Discrete Mathematics:</b> Covered a variety of interesting topics that prepared me for RPI's Intro to Algorithms course.</li>
             <li><b>Assembly Language:</b> One of the few in-person CS courses I took at HVCC. It was fun, and a great intro to low-level programming.</li>
-            <li><b>History of Media and Culture in the US:</b> I took this course in my freshman fall. It had nothing to do with CS, but it remains as one of the best courses I have ever taken.</li>
+            <li><b>History of Media and Culture in the US:</b> I took this course in my freshman fall. It had nothing to do with CS, but remains as one of the best courses I've ever taken.</li>
             <li><b>Biology:</b> To earn my Associate’s at HVCC, I had to take Biology I and II. Sure, I struggled to figure out how dissecting rats and memorizing flower anatomy had anything to do with CS, but it was fun.</li>
           </ul>
           <hr/>

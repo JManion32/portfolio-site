@@ -83,7 +83,7 @@ function PriceChopper() {
               This was by far my favorite role. My daily customers were nice, I could do my own thing, and at this point I really felt 
               like I had mastered all aspects of the sales floor.
             </p>
-            <h3>Takeaway: Master the fine details.</h3>
+            <h3>Takeaway: Master the details.</h3>
             <p>
               Mistakes in the office carried far greater consequences than anything 
               that could happen on the sales floor. Even once I had a routine, I made a habit of double- and 

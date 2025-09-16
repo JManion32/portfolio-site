@@ -24,8 +24,7 @@ function PSoft() {
               material engaging and valuable, but its website did not reflect the same level of quality. Wanting to 
               improve the student experience while gaining web development experience myself, I put together a 
               storyboard for a revamped version of the site and brought it to office hours. The professor was enthusiastic about my initiative 
-              and granted the opportunity to contribute directly, allowing me to transform the website into something 
-              more functional and user-friendly.
+              and granted the opportunity to take full creative control of a site revamp.
             </p>
             <hr/>
             <h2>Enhancements</h2>
@@ -39,7 +38,7 @@ function PSoft() {
             <p>
               Previously, reused components were just copied and pasted into each HTML file. This meant that any edits, 
               such as updating the date on the footer, had to be done in multiple places. To solve this, I created a single <code>components.js</code> file to 
-              centralize them. This file manages reused elements such as the navigation bar, dark mode toggle, and footer, all in one place.
+              centralize them. This file manages reused elements such as the navigation bar, dark mode toggle, footer, and more all in one place.
             </p>
             <h3>Reformatted Pages</h3>
             <p>
@@ -48,16 +47,16 @@ function PSoft() {
             <h4>Home Page</h4>
             <ul>
               <li><b>Text Width:</b> This was an issue across the site, but especially on the home page. Page content had no margins, 
-              which diminished readability on laptops and desktops.</li>
+              which diminished readability on larger screens.</li>
               <li><b>Structure:</b> Information wasn’t presented in a clear or intentional way. For example, important details 
-              like the lecture location were buried in small text in the middle of the page. To solve this, I broke the page 
-              into clearly defined sections so nothing is missed.</li>
+              like the lecture location were buried in small text in the middle of the page. To solve this, I removed unnecessary bloat, and broke the page 
+              into clearly defined sections to ensure nothing is missed.</li>
             </ul>
             <h4>Homework / Topics / Resources Pages</h4>
             <p>
               All three pages followed the same structure, with new content added to the bottom each week. By the end of the semester, 
               this created long, cumbersome pages that required excessive scrolling. To solve this, I introduced dropdowns so 
-              users can quickly access the content they need without being overwhelmed.
+              users can quickly access only the content they need without being overwhelmed.
             </p>
             <div id="content-img-container">
               <img src={ogPsoftHW}/>
@@ -70,7 +69,7 @@ function PSoft() {
 
             <h3>Grade Information</h3>
             <p>
-              Students frequently check the grade breakdown and cutoffs, so I placed them at the bottom of the home page where they’re easy to find.
+              Students frequently check the grade breakdown and cutoffs, so I placed them at the bottom of the home page where they’d be easy to find.
             </p>
             <h3>New Site Logo</h3>
             <p>
@@ -87,7 +86,7 @@ function PSoft() {
             <h3>Dividing CSS Files</h3>
             <p>
               The original site used Bootstrap for everything. When I started developing, I decided to 
-              override a much of this with my own classes. I put most of these classes in a CSS file, which is not optimal for maintainability. 
+              override a much of this with my own classes. I put all of these new classes in a CSS file, which is not optimal for maintainability. 
               I plan to create multiple CSS files for individual pages and components.
             </p>
             <h3>Responsive Scaling</h3>

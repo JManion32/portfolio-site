@@ -40,24 +40,17 @@ function HudsonValley() {
           </p>
           <h3>Programming & Data Logic II</h3>
           <p>
-            HVCC's Data Structures course. Like Python Programming, it was fully online. However, the assignments were 
-            far more complex, so there would be no shortcuts this time.
+            HVCC's Data Structures course was fully online like Python Programming, but the assignments were far more complex. 
+            Each weekend I stayed up late struggling to make progress, paying the price for not taking the prerequisite seriously. 
+            I was putting in the work, but I struggling with the assignments. Thankfully, my dad would spend time with me, helping 
+            me understand the material and reason about assignments. I am beyond grateful for his support. Without it, I probably would 
+            have given up.
           </p>
           <p>
-            The assignments were due on Mondays, and I struggled through them each weekend, staying 
-            up late trying to understand what I was doing while making zero progress. It just wouldn’t click for me, but this was the price 
-            I payed for not taking the prerequisite seriously. Thankfully, my Dad would spend hours working with me every Monday, 
-            helping me through my assignments while making sure I understood them. I am beyond thankful for his efforts 
-            during this time. If it wasn’t for him, I probably would have given up.
-          </p>
-          <p>
-            After spending the first half of the semester submitting assignments on the day they were due and attempting to learn 
-            what I should’ve already known, things started to click. The course covered a variety of core concepts each 
-            week including data structures, generics, recursion, exception handling, inheritance, abstraction, encapsulation, 
-            polymorphism, and more. These topics were cool and all, but my favorite by far was JavaFX. JavaFX is a toolkit 
-            for Java that allows you to create GUIs. This was my first taste of front end development, and I absolutely loved it. By the 
-            end of the course, I had finally developed the foundation of my coding skill set. It had taken 3 semesters, but I could finally solve 
-            problems on my own with code, and that felt pretty awesome.
+            Midway through the semester, things began to come together. Each week introduced new core concepts like data structures, 
+            generics, recursion, exception handling, inheritance, abstraction, encapsulation, and polymorphism. My favorite, 
+            however, was JavaFX, which gave me my first (and certainly not my last) taste of front-end development. By the end of the course, I had built a 
+            foundation of real coding skills, and for the first time, I could solve problems on my own with code which felt pretty awesome.
           </p>
           <h3>Calculus I & II</h3>
           <p>
@@ -80,7 +73,7 @@ function HudsonValley() {
             It was official. I had failed. The 4.0 was no more. I went to DegreeWorks to see the damage, only to make a shocking revelation. 
             Since I already had credit for the course, the transcript just took the better score. All of my struggles were in vain, 
             or were they? I had still learned 68% of the material, and received the reality check that I so desparately needed. 
-            This result floored me so hard, I ended up receiving a B in Calculus II the following semester.
+            This result put a chip on my shoulder, and I ended up receiving a B in Calculus II the following semester.
           </p>
           <h3>Honorable Mentions</h3>
           <ul>

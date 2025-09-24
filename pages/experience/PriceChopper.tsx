@@ -46,14 +46,14 @@ function PriceChopper() {
               I specifically remember a summer shift early in my time as a supervisor when we were short-staffed across the board. 
               We were short on cashiers, and to make matters worse, maintenance called out, leaving me without support inside or outside the 
               store. For several hours, I rotated between pushing carts, running a register, covering breaks, and leading 
-              the team. By the end, I was exhausted. The thing is, I didn't get a medal of honor for my work that 
-              day. To me, it was such a big deal. To others, it was another Tuesday. It really put things into perspective for me. A 
-              good leader doesn't panic in the waves, they stay above the tide, steering the ship in the right direction.
+              the team. By the end, I was exhausted. To me, it was such a big deal. To my replacement, it was another Tuesday. This 
+              really put things into perspective for me. I wasn't there for the smooth sailing, I was there because 
+              I was trusted to guide the ship when the waves got rocky.
             </p>
             <p>
               The original title for this takeaway was "It is what it is." Things can, and will go wrong. People don't show up, customers 
-              can be rude, the list goes on. The thing is, no amount of complaining or worrying will make the situation any better. As the 
-              one in charge of the front end, it was my responsibility to do my very best with what I had.
+              can be rude, the list goes on. The thing is, no amount of complaining or panic will make the situation any better. As the 
+              one in charge, it was my responsibility to do my very best with what I had, and that's what leadership means to me.
             </p>
             <hr/>
             <h2>Maintenance</h2>
@@ -87,8 +87,8 @@ function PriceChopper() {
             <p>
               Mistakes in the office carried far greater consequences than anything 
               that could happen on the sales floor. Even once I had a routine, I made a habit of double- and 
-              triple-checking my work to ensure accuracy. The last thing I wanted was to put the wrong coin 
-              in the money processor or lose track of $500 while balancing my till at the end of the day.
+              triple-checking my work to ensure accuracy. Not only did this allow me succeed, but it also 
+              made the lives of my team easier.
             </p>
             <hr/>
             <h2>Reflection</h2>

@@ -7,7 +7,7 @@ import githubLight from '../../assets/github-mark.png';
 import githubDark from '../../assets/github-mark-white.png';
 
 import githubActions from '../../assets/github-actions-ui.png';
-import homeNotis from '../../assets/home_page_notifications.png';
+import homeNotis from '../../assets/all_notifications_unread_light_mode.png';
 import configEditor from '../../assets/gradeable_config_editor.png';
 
 function Submitty() {

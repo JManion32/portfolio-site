@@ -2,6 +2,8 @@ import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
 import ComingSoon from '../../components/ComingSoon';
 
+import stewartsLogo from '../../assets/stewarts-logo.png';
+
 function Stewarts() {
   return (
     <>
@@ -10,6 +12,13 @@ function Stewarts() {
           <Breadcrumbs />
           <div className="text-page-header-row">
             <h1 className="text-page-header">IT Field Technician Intern</h1>
+            <button 
+              className="contact-button project-contact-btn"
+              title="About Stewart's Shops"
+              onClick={() => window.open('https://www.stewartsshops.com/who-we-are/', '_blank')}
+              >
+              <img src={stewartsLogo} className="contact-image" style={{ borderRadius: "0.25rem" }} />
+            </button>
           </div>
           <ComingSoon/>
           <div id="text-body">

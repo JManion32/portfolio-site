@@ -8,22 +8,27 @@
 
 .breadcrumb-item {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
   transition: color 0.2s ease;
   font-weight: bold !important;
 }
 
 .breadcrumb-sep {
   opacity: 0.6;
+  font-size: 1.1rem;
+  margin: 0 0.20rem 0 0.30rem;
 }
 
 .breadcrumb-current {
   transition: color 0.2s ease, background-color 0.2s ease;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--standard-text);
 }
 
 .breadcrumb a {
   transition: color 0.2s ease, background-color 0.2s ease;
+  font-size: 1.1rem;
   color: var(--anchor-link);
   text-decoration: none;
   font-weight: bold;

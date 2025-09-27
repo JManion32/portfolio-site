@@ -65,7 +65,7 @@ html {
   flex-grow: 1;
   background-color: var(--content-background);
   padding: var(--text-content-padding);
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 html, body {

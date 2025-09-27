@@ -92,7 +92,7 @@ function Portfolio() {
             <p>
               After weighing different options for the tech stack, I decided to use the same one 
               as <a onClick={() => navigateTop("/projects/speedroulette")}>Speed Roulette</a>. 
-              “I almost chose Vue, but decided React would be better for learning purposes. I also went back and forth on whether 
+              I almost chose Vue, but decided React would be better for learning purposes. I also went back and forth on whether 
               to use Tailwind or vanilla CSS, and eventually decided to stick with the latter for (in my opinion) a better developer experience.
             </p>
             <p>

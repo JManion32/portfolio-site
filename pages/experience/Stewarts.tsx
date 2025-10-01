@@ -45,19 +45,17 @@ function Stewarts() {
               </p>
             </div>
             <p>
-              I worked in the Technology Center, which functioned as the company’s primary help desk. Our team 
+              I worked in the Technology Center, which functioned as the company’s primary help desk. Our 16 person team 
               troubleshooted hardware issues both over the phone and in person, with all requests managed through 
-              a ticketing system. We supported and maintained more than 400 stores across New York and Vermont, 
-              which kept our 16-person team consistently busy.
+              a ticketing system.
             </p>
             <hr/>
             <h2>Onsite Responsibilities</h2>
             <p>
               Since I was only around for 3 and a half months, I was not set up with a phone, instead 
-              spending most of my time onsite. This was fun because I was able to enjoy the beauty of 
+              spending most of my time onsite. This meant I was able to enjoy the beauty of 
               New York and Vermont throughout the summer. Somedays were to Lake Placid, others to Syracuse. 
-              Beyond location, each shop had its own personality, making every trip, including the ones that 
-              were just down te road, memorable.
+              Beyond location, each shop had its own personality, making every trip a memorable experience.
             </p>
             <div id="content-img-container">
               <img src={tupperLunch} className="project-img"/>
@@ -68,20 +66,23 @@ function Stewarts() {
             <h3>Preventative Maintenance</h3>
             <p>
               One of my key responsibilities as an intern was preventative maintenance (also called PMs). This 
-              involved cleaning register and networking equipment at shops to address issues before they occured.
-            </p>
-            <p>  
+              involved cleaning register and networking equipment at shops to address issues before they occured. 
               In my three and a half month tenure, I was able to clean around 40 shops, or 10% of the entire chain.
+            </p>
+            <p> 
+              The tasks included cleaning, organizing, replacing, and repairing network equipment. I would blow dust out of 
+              POS registers, fix broken cables, and replace any out of date equipment. Overall, it was simple, but when working with 
+              networking equipment, it was important to be cautious as one mistake could take the store's entire credit line down.
             </p>
             <h3>Service Calls</h3>
             <p>
-              While we Stewart's strives to address issues before they occur, things inevitably go wrong.
+              While we Stewart's strives to address issues before they occur, hardware will inevitably give out.
             </p>
             <hr/>
             <h2>Office Days</h2>
             <p>
-              I spent most of my time on the road, but also had my share of office days. With no phone and a busy office, it 
-              was up to me to create work to do.
+              I spent most of my time on the road, but also had my share of office days. With no phone to answer and an
+              office full of busy technicians, it was up to me to create work to do.
             </p>
             <h3>Shipping</h3>
             <p>

@@ -22,11 +22,11 @@
 }
 
 .project-preview-container {
-  transition: color 0.2s ease, background-color 0.2s ease, border 0.2s ease;
+  transition: all 0.2s ease;
   background-color: var(--project-preview);
   padding: 1.5rem;
   border-radius: 0.5rem;
-  border: 2px solid var(--hover-project-preview);
+  border: 2px solid var(--border-project-preview);
   text-align: center;
   min-height: 8rem;
   cursor: pointer;
@@ -35,7 +35,7 @@
 }
 
 .project-preview-container:hover {
-  background-color: var(--hover-project-preview);
+  box-shadow: 0 0 1.5rem 0.65rem var(--hover-project-preview);
 }
 
 .project-contact-btn {

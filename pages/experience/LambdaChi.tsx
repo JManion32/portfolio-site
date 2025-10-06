@@ -34,11 +34,10 @@ function LambdaChi() {
             <hr/>
             <h2>Secretary</h2>
             <p>
-              As the Secretary, I have various administrative responsibilities to ensure our chapter operates smoothly. This role 
+              As Secretary, I handle the administrative operations that keep our chapter running smoothly.This role 
               has taught me the importance of being consistently good, rather than occasionally great. I strive to 
-              stay on top of my duties so I can be there to assist other officers, and enable them to reach their full potential.
+              stay on top of my duties so I can be there to assist other officers, and enable them to reach their full potential. 
             </p>
-            <h3>House Meetings Minutes / Attendance</h3>
             <p>
               One of the more front-facing responsibilities is managing communication and records for our meetings. 
               Before each meeting, I email a reminder to the brotherhood, then prepare the slideshow, 
@@ -46,49 +45,33 @@ function LambdaChi() {
               afterward, and send them out as soon as possible. This aspect of my role was intimidating at first, but I have come to enjoy it. 
               I see it as my responsibility to write the history of our chapter, and consider it a great honor to do so.
             </p>
-            <h3>Roster Management</h3>
             <p>
-              One of my key responsibilities as secretary is managing the fraternity’s roster. Keeping it accurate ensures that 
-              both RPI’s governing body for Greek life and our national office remain properly informed. To simplify this 
-              process, I created and actively maintain a master sheet that consolidates all the information these organizations 
-              need. This makes deadlines easier to meet and streamlines other administrative tasks cas well.
+              Other responsibilities include managing the fraternity’s official roster and maintaining the chapter calendar. 
+              To make these operational tasks more efficient, I developed systems that simplify and streamline them. Rather than managing 
+              the roster in various places, I created a Google Sheet, that I update as soon as anything changes. Rather than having four different 
+              Google Calendars, I consolidated them into a single color-coded one.
             </p>
-            <h3>Calendar</h3>
             <p>
-              With so many events happening each semester, an up-to-date calendar is essential for clear communication and 
-              planning. In the past, we relied on multiple Google Calendars with different purposes, which often caused 
-              desynchronization when not everyone had access to all of them. To solve this, I consolidated everything 
-              into a single color-coded calendar, giving brothers one reliable source for all 
-              fraternity activities. While it takes daily effort to keep it updated, this centralized hub has made 
-              staying informed easier for everyone.
-            </p>
-            <h3>Digitizing Old Photos</h3>
-            <p>
-              An aspect of the Secretary role that is often overlooked is maintaining the chapter’s historic records. Over winter break, I  
-              embraced this by scanning more than 1,000 photos from old scrapbooks and organizing them on our Google Drive.
+              Additionally, I maintain the mailing lists, 
+              mailboxes, and Google Drive, and prepare bid packets for new members.
             </p>
             <hr/>
             <h2>Webmaster</h2>
             <p>
-              I recently became the Webmaster so I don't have much to show besides getting the site up to date, but I do have many ambitious plans on the horizon.
+              As Webmaster, I am responsible for maintaining and updating our <a href='https://www.lambdachiehz.com'>website</a>, 
+              ensuring it stays current with event posts, chapter news, and brotherhood achievements.
             </p>
-            <h3>Improving the Role</h3>
             <p>
-              In recent years, the Webmaster role has been neglected, which has left the site outdated and lacking relevant information. My priority is to 
-              bring everything up to date and establish a system that ensures the site is consistently maintained moving forward. This process will 
-              be detailed in an extensive transition document I plan to create so future webmasters can build on the work and continue to improve the role.
+              In recent years, the Webmaster role has been neglected, leaving the site outdated and lacking relevant information. 
+              I have worked to bring everything up to date, and establish a system to prevent this from happening again. Before I transition 
+              out of the role, I intend to create a document that will give the inheritor everything necessary to succeed.
             </p>
-            <h3>Adding the Digitized Photos</h3>
             <p>
-              After digitizing more than 1,000 photos from the chapter’s archives, the next step is to make them 
-              accessible. I want to add a photo gallery page to the site, giving alumni a chance to relive their 
-              time in the fraternity and allowing current members to connect with the chapter’s history.
-            </p>
-            <h3>Adding a History Page</h3>
-            <p>
-              As part of the new member process, much is taught about the chapter’s rich and interesting history. 
-              I plan to create a history page, preserving the chapter’s legacy while making it accessible to alumni, 
-              potential members, and the broader community.
+              Beyond the usual duties, there are several projects I want to complete 
+              during my tenure as Webmaster. These include adding a gallery page with the 
+              thousands of old photos we have lying around, and adding a chapter history page. 
+              My goal here is to preserve the chapter’s legacy and ensure it is accessible to all 
+              brothers, new and old.
             </p>
             <hr/>
             <h2>Philanthropy</h2>

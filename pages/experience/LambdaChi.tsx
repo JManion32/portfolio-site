@@ -34,44 +34,33 @@ function LambdaChi() {
             <hr/>
             <h2>Secretary</h2>
             <p>
-              As Secretary, I handle the administrative operations that keep our chapter running smoothly.This role 
+              As Secretary, I handle the administrative operations that keep our chapter running smoothly. This role 
               has taught me the importance of being consistently good, rather than occasionally great. I strive to 
               stay on top of my duties so I can be there to assist other officers, and enable them to reach their full potential. 
             </p>
             <p>
-              One of the more front-facing responsibilities is managing communication and records for our meetings. 
+              One of the more front-facing responsibilities I have is managing our weekly house meetings. 
               Before each meeting, I email a reminder to the brotherhood, then prepare the slideshow, 
               officer agenda, and meeting minutes. I take attendance at the start, record the minutes during the meeting, finalize them 
-              afterward, and send them out as soon as possible. This aspect of my role was intimidating at first, but I have come to enjoy it. 
-              I see it as my responsibility to write the history of our chapter, and consider it a great honor to do so.
+              afterward, and send them out promptly. This aspect of my role was intimidating at first, but I have come to enjoy it. 
+              I see it as my duty to write the history of our chapter, and consider it a great honor to do so.
             </p>
             <p>
-              Other responsibilities include managing the fraternity’s official roster and maintaining the chapter calendar. 
-              To make these operational tasks more efficient, I developed systems that simplify and streamline them. Rather than managing 
-              the roster in various places, I created a Google Sheet, that I update as soon as anything changes. Rather than having four different 
-              Google Calendars, I consolidated them into a single color-coded one.
-            </p>
-            <p>
-              Additionally, I maintain the mailing lists, 
-              mailboxes, and Google Drive, and prepare bid packets for new members.
+              Other duties include managing the fraternity’s official roster, preparing bid packets for new 
+              members, and maintaining the Google Calendar, mailing lists, mailboxes, and Google Drive.
             </p>
             <hr/>
             <h2>Webmaster</h2>
-            <p>
-              As Webmaster, I am responsible for maintaining and updating our <a href='https://www.lambdachiehz.com'>website</a>, 
-              ensuring it stays current with event posts, chapter news, and brotherhood achievements.
-            </p>
             <p>
               In recent years, the Webmaster role has been neglected, leaving the site outdated and lacking relevant information. 
               I have worked to bring everything up to date, and establish a system to prevent this from happening again. Before I transition 
               out of the role, I intend to create a document that will give the inheritor everything necessary to succeed.
             </p>
             <p>
-              Beyond the usual duties, there are several projects I want to complete 
-              during my tenure as Webmaster. These include adding a gallery page with the 
-              thousands of old photos we have lying around, and adding a chapter history page. 
-              My goal here is to preserve the chapter’s legacy and ensure it is accessible to all 
-              brothers, new and old.
+              My ongoing priority is repopulating the site with new event posts, chapter news, and brotherhood 
+              achievements. Beyond this, I aim to add a gallery page showcasing thousands of digitized photos from 
+              our archives and a dedicated history page celebrating our chapter’s legacy. My goal is to preserve our story 
+              and make it easily accessible to all brothers—past, present, and future.
             </p>
             <hr/>
             <h2>Philanthropy</h2>

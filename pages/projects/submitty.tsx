@@ -94,18 +94,10 @@ function Submitty() {
               pull requests, troubleshooting my VM, and making small CSS changes. I was scared of JavaScript, had no idea how PHP worked, and 
               steered clear of anything that had to do with the database, Cypress, or Python. Despite this, Submitty was 
               by far my favorite course thanks to the real world experience I was gaining, and the guidance of the mentors. 
-              At the end, I was excited to find out that I was able to join the full-time development team for the summer.
             </p>
-            <hr/>
-            <h2>Summer 2025</h2>
             <p>
-              With a semester of experience under my belt, it was time to go a few layers deeper into the project and have a productive summer. 
-              The first month was mainly cleaning up left over pull requests from the school year. We started with 81 open PRs, and 
-              our goal was less than 25 by the end. Cleaning up these old pull requests turned out to be surprisingly valuable, 
-              as I began to understand the project’s structure by seeing how each change fit into place. At some point I 
-              realized, <i>“If I can get these PRs merged, why can’t I just start creating them myself?”</i> By the end of June, 
-              the training wheels were off, and my work was becoming more impactful. Below are some of my key contributions
-              to Submitty, most of which are from the summer.
+              At the end of the spring semester, I was excited to learn that I would be joining the full-time development 
+              team for the summer. This is where I found my footing, and started to make more impactful contributions.
             </p>
             <hr/>
             <h2>Displaying all Notifications on the Home Page</h2>

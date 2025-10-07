@@ -32,7 +32,7 @@
 .techStack__section {
     transition: color 0.2s ease, background-color 0.2s ease, border 0.2s ease;
     background: var(--tech-stack-section);
-    border: 0.0625rem solid var(--tech-stack-border);
+    border: 0.15rem solid var(--tech-stack-border);
     border-radius: 0.625rem;
     padding: 0.75rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);

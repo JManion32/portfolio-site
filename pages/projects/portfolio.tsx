@@ -72,7 +72,7 @@ function Portfolio() {
               bullet points and offer a more detailed view of what I’ve been working on. 
               In addition to showcasing my experience, the site also serves as a personal 
               record of my progress. Most of all, it’s something I created for my father, 
-              a fellow software engineer, who always enjoys seeing what I’ve been building.
+              a fellow software engineer, who always likes to see what I’ve been building.
             </p>
             <h3>Responsive / Interactive Experience</h3>
             <p>
@@ -83,9 +83,8 @@ function Portfolio() {
             </p>
             <h3>Show Personality</h3>
             <p>
-              This site is an opportunity to be personable rather than bland, or AI generated. I've 
-              told myself since the start that this is <code>justinmanion.com</code>, 
-              and I am not going to be afraid to let it reflect who I am.
+              This site is an opportunity to be personable rather than bland, or AI generated. 
+              It's literally <code>justinmanion.com</code>, and I want it to reflect who I am.
             </p>
             <hr/>
             <h2>Implementation</h2>
@@ -99,16 +98,14 @@ function Portfolio() {
               While <a onClick={() => navigateTop("/projects/speedroulette")}>Speed Roulette</a> introduced 
               me to React and large-scale CSS usage, this portfolio site 
               solidified my understanding. I feel more confident in how I structure and use components, and I think I've done a good 
-              job of keeping this site as maintainable as possible. For CSS, I thought I was already a pro, but this
-              project taught me a whole lot more. Before, I didn't realize I could create variables for more than just colors, 
-              but now I don't know how I lived without it. The variables were especially useful for the dark 
-              mode toggle and responsive scaling. I now feel like I have to go back through my other projects and 
-              add a <code>scaling.css</code> to them!
+              job of keeping this site as maintainable for future me as possible. For CSS, I thought I was already a pro, but this
+              project taught me a whole lot more. I didn't realize how much was possible with CSS variables until I created 
+              <code>scaling.css</code> for this project. Its completely changed the way I think about front-end design.
             </p>
             <hr/>
             <h2>Reflection</h2>
             <p>
-              Overall, building this site was a worthwhile undertaking that solidified my knowledge of front-end 
+              Overall, building this site was a worthwhile undertaking that has solidified my knowledge of front-end 
               technologies. Honestly, the hardest part was writing all of these pages! I hope you’ve enjoyed 
               the experience so far!
             </p>

@@ -4,7 +4,9 @@ import NavButton from '../../components/NavButton';
 import ogPsoftIndex from '../../assets/og-psoft-index.png';
 import ogPsoftHW from '../../assets/og-psoft-hw-page-light.png';
 import newPsoftHW from '../../assets/new-psoft-hw-page-light.png';
+import mobilePsoft from '../../assets/mobile-psoft-scaling.png';
 import newPsoftIndex from '../../assets/new-psoft-index.png';
+import newPsoftIndex2 from '../../assets/new-psoft-index2.png';
 import newPsoftIndexDM from '../../assets/new-psoft-index-dm.png';
 
 function PSoft() {
@@ -24,22 +26,10 @@ function PSoft() {
               material engaging and valuable, but its website did not reflect the same level of quality. Wanting to 
               improve the student experience while gaining web development experience myself, I put together a 
               storyboard for a revamped version of the site and brought it to office hours. The professor was enthusiastic about my initiative 
-              and granted the opportunity to take full creative control of a site revamp.
+              and granted the opportunity to take full creative control of the website.
             </p>
             <hr/>
             <h2>Enhancements</h2>
-            <h3>Dark Mode Toggle</h3>
-            <p>
-              After a semester of using this site in light mode, adding dark mode was one of my top priorities.
-              I created a dedicated <code>colors.css</code> file so the color of all UI components would 
-              smoothly transition, and placed the toggle on the right side of the navigation bar.
-            </p>
-            <h3>Components</h3>
-            <p>
-              Previously, reused components were just copied and pasted into each HTML file. This meant that any edits, 
-              such as updating the date on the footer, had to be done in multiple places. To solve this, I created a single <code>components.js</code> file to 
-              centralize them. This file manages reused elements such as the navigation bar, dark mode toggle, footer, and more all in one place.
-            </p>
             <h3>Reformatted Pages</h3>
             <p>
               The site’s most significant issue was readability. Each page had quirks that needed to be addressed:
@@ -52,6 +42,14 @@ function PSoft() {
               like the lecture location were buried in small text in the middle of the page. To solve this, I removed unnecessary bloat, and broke the page 
               into clearly defined sections to ensure nothing is missed.</li>
             </ul>
+            <div id="content-img-container">
+              <img src={ogPsoftIndex}/>
+              <p>Before</p>
+            </div>
+            <div id="content-img-container">
+              <img src={newPsoftIndex2}/>
+              <p>After</p>
+            </div>
             <h4>Homework / Topics / Resources Pages</h4>
             <p>
               All three pages followed the same structure, with new content added to the bottom each week. By the end of the semester, 
@@ -66,10 +64,53 @@ function PSoft() {
               <img src={newPsoftHW}/>
               <p>After</p>
             </div>
-
-            <h3>Grade Information</h3>
+            <h3>Dark Mode Toggle</h3>
             <p>
-              Students frequently check the grade breakdown and cutoffs, so I placed them at the bottom of the home page where they’d be easy to find.
+              After a semester of using this site in light mode, adding dark mode was one of my top priorities.
+              I created a dedicated <code>colors.css</code> file so the color of all UI components would 
+              smoothly transition, and placed the toggle on the right side of the navigation bar.
+            </p>
+            <div id="content-img-container">
+              <img src={newPsoftIndexDM}/>
+              <p>Home page in dark mode</p>
+            </div>
+            <h3>Components</h3>
+            <p>
+              In the original implementation, reused components were duplicated across multiple HTML files, 
+              requiring repetitive edits for even minor changes such as updating the footer date. I resolved 
+              this by modularizing each component into a dedicated JavaScript file, streamlining maintenance 
+              and improving consistency across the site.
+            </p>
+            <h3>Replaced Bootstrap</h3>
+            <p>
+              The original site was built entirely with Bootstrap and didn’t include a single custom CSS file, which 
+              left the codebase A MESS. Since maintainers frequently interact with the code to reveal new content—and 
+              with plans to add dark mode and responsive scaling—a full transition was necessary, despite the initial 
+              pain of gutting the old design. The CSS layout is now thoughtfully structured and far less cluttered, 
+              improving the experience for everyone.
+            </p>
+            <h3>Responsive Scaling</h3>
+            <p>
+              Bootstrap is great because it takes a mobile-first approach. Without it, I would have to design the scaling 
+              myself. I did this by creating <code>scaling.css</code>, a file with width-based media queries that altered 
+              CSS variables. It is the same approach I took with this portfolio site.
+            </p>
+            <div id="content-img-container">
+              <img src={mobilePsoft}/>
+              <p>Home page featuring a mobile nav bar!</p>
+            </div>
+            <h3>GitHub Workflow</h3>
+            <p>
+              The previous workflow for maintaining this site was inefficient. Edits were made from zip archives, 
+              making version tracking impossible and causing fragmented copies of the site. To resolve this, I 
+              established a private GitHub repository to manage all changes and streamline collaboration. Now, 
+              all updates are tracked through version control, instructors have controlled repository access, 
+              and deployment is consistent and reliable.
+            </p>
+            <h3>Template</h3>
+            <p>
+              With the GitHub workflow, I made the main branch a template, allowing instructors to create separate 
+              instances of the site for each of their courses.
             </p>
             <h3>New Site Logo</h3>
             <p>
@@ -78,59 +119,26 @@ function PSoft() {
               I made sure to only use images with a Creative Commons license.
             </p>
             <hr/>
-            <h2>Future Plans</h2>
+            <h2>Reflection</h2>
             <p>
-              I offered to maintain this site until I graduate in Spring 2026. In this time, there are several contributions I 
-              would like to make:
+              This project was a solid benchmark for my growth as a front-end developer. I actually <i>finished</i> the project twice: 
+              once at the start of the summer, and again four months later after picking up a bunch of skills along the way. Here was 
+              my first finished product:
             </p>
-            <h3>Dividing CSS Files</h3>
-            <p>
-              The original site used Bootstrap for everything. When I started developing, I decided to 
-              override a much of this with my own classes. I put all of these new classes in a CSS file, which is not optimal for maintainability. 
-              I plan to create multiple CSS files for individual pages and components.
-            </p>
-            <h3>Responsive Scaling</h3>
-            <p>
-              As a fledgling web dev, I did not take responsive scaling into consideration. An example is 
-              the margins I added. While the site now looks good on laptops, the margins are far too big on mobile. After creating 
-              this portfolio site and implementing a <code>scaling.css</code> file that adjusts variables by 
-              screen width, I’d like to bring the same solution to the course website.
-            </p>
-            <h3>UI Touchups</h3>
-            <p>
-              Since working on this site, I’ve picked up a variety of small UI design patterns, such 
-              as adding shadows in light mode, avoiding pure <code>#000000</code>, experimenting 
-              with font weights, and more.
-            </p>
-            <h3>GitHub Workflow</h3>
-            <p>
-              “The current workflow for maintaining this site is suboptimal. Anyone making edits must work from a zip 
-              archive of files, which prevents version tracking and creates fragmented copies of the site. To improve 
-              this process, I created a private GitHub repository to manage changes. Now, when I mark updates as 
-              complete, the professor can pull from that repository, but because they do not push their own edits back, 
-              desynchronization still occurs and deployment remains complicated. My goal is to integrate GitHub fully 
-              into the workflow so that all changes are tracked and contributors can simply be granted repository access.
-            </p>
-            <h3>Template</h3>
-            <p>
-              When I recently discussing the site with the instructor, he mentioned that he would like a 
-              template for use in other courses. This template would also be nice for resetting the site for a 
-              new semester. Once the GitHub workflow is implemented, this will be no problem to set up.
-            </p>
-            <hr/>
-            <h2 style={{ marginBottom: "2rem" }}>Images</h2>
-            <div id="content-img-container">
-              <img src={ogPsoftIndex}/>
-              <p>Before</p>
-            </div>
             <div id="content-img-container">
               <img src={newPsoftIndex}/>
-              <p>After</p>
             </div>
+            <p>
+              Certainly an improvement, but nowhere near what I have now:
+            </p>
             <div id="content-img-container">
-              <img src={newPsoftIndexDM}/>
-              <p>After (Dark Mode)</p>
+              <img src={newPsoftIndex2}/>
             </div>
+            <p>
+              Overall, it’s been exciting to contribute to a website used by so many students (including myself!) each semester. 
+              Though it was a large undertaking, I’m proud to have helped improve the experience of future computer science students 
+              at RPI.
+            </p>
           </div>
         </div>
         <NavButton

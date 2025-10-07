@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
 import Navbar from './components/Navbar';
 import Projects from './pages/projects';
+import CookieCoder from './pages/projects/CookieCoder';
 import SpeedRoulette from './pages/projects/speedroulette';
 import Submitty from './pages/projects/submitty';
 import PSoft from './pages/projects/psoft';
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/CookieCoder" element={<CookieCoder />} />
         <Route path="/projects/speedroulette" element={<SpeedRoulette />} />
         <Route path="/projects/submitty" element={<Submitty />} />
         <Route path="/projects/psoft" element={<PSoft />} />

@@ -36,7 +36,6 @@ function Portfolio() {
                   title: "Front-end",
                   items: [
                     { name: "Vite", className: "vite" },
-                    { name: "Twig", className: "twig" },
                     { name: "React", className: "react" },
                     { name: "TypeScript", className: "ts" }
                   ]

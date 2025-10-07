@@ -52,7 +52,7 @@
 }
 
 #text-body img {
-  border-radius: 1rem;
+  border-radius: 0.75rem;
   border: 2px solid var(--project-img-border);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;

@@ -46,6 +46,7 @@ function SpeedRoulette() {
               decisions, taking bold risks, and hitting big payouts.
             </p>
             <hr/>
+            <h2>Tech Stack</h2>
             <TechStack
               sections={[
                 {

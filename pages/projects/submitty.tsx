@@ -43,6 +43,7 @@ function Submitty() {
               my <a href="https://submitty.org/developer/rensselaer_center_for_open_source/2025_Justin_Manion">summer writeup</a>.
             </p>
             <hr/>
+            <h2>Tech Stack</h2>
             <TechStack
               sections={[
                 {

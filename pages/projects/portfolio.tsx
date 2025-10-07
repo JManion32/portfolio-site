@@ -30,6 +30,7 @@ function Portfolio() {
           <div id="text-body">
             <p>The site you are on right now, for showcasing my experience. I hope you are enjoying it!</p>
             <hr/>
+            <h2>Tech Stack</h2>
             <TechStack
               sections={[
                 {

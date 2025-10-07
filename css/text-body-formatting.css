@@ -106,3 +106,16 @@
   margin: 0;
   margin: 0.25rem 0;
 }
+
+.display-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+  gap: 12px; /* adjust spacing */
+}
+.display-grid-cell {
+  min-height: 80px;            /* placeholder height */
+  border: 1px dashed #ccc;     /* visual placeholder */
+  border-radius: 8px;
+  /* add padding/background/etc. as needed */
+}

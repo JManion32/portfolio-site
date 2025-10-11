@@ -29,7 +29,6 @@ function PSoft() {
               and granted the opportunity to take full creative control of the website.
             </p>
             <hr/>
-            <h2>Enhancements</h2>
             <h3>Reformatted Pages</h3>
             <p>
               The site’s most significant issue was readability. Each page had quirks that needed to be addressed:
@@ -129,7 +128,7 @@ function PSoft() {
               <img src={newPsoftIndex}/>
             </div>
             <p>
-              Certainly an improvement, but nowhere near what I have now:
+              Certainly an improvement, but nowhere near the second iteration:
             </p>
             <div id="content-img-container">
               <img src={newPsoftIndex2}/>

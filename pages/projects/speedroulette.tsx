@@ -72,7 +72,7 @@ function SpeedRoulette() {
                   ]
                 },
                 {
-                  title: "Infrastructure & DevOps",
+                  title: "Infrastructure",
                   items: [
                     { name: "Docker", className: "docker" },
                     { name: "DigitalOcean", className: "digitalocean" },

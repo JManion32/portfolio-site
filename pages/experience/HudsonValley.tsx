@@ -16,7 +16,6 @@ function HudsonValley() {
             the next two years, I would discover my interest in programming, and lay a strong foundation 
             for my transfer to university.
           </p>
-          <h3>Cumulative GPA: 3.94</h3>
           <hr/>
           <h2>Notable Courses</h2>
           <p>
@@ -52,31 +51,10 @@ function HudsonValley() {
             however, was JavaFX, which gave me my first (and certainly not my last) taste of front-end development. By the end of the course, I had built a 
             foundation of real coding skills, and for the first time, I could solve problems on my own with code which felt pretty awesome.
           </p>
-          <h3>Calculus I & II</h3>
-          <p>
-            I entered HVCC with credit for Calculus I, but after failing a review quiz in Calculus II, I decided it was best 
-            to retake Calculus I first. "I already took this in high school so its going to be a breeze, right?" Perhaps, but it was going 
-            to take substantial effort. Here was the course's grade breakdown:
-            <ul>
-              <li><b>Exams:</b> 100%</li>
-            </ul>
-            If I wanted to succeed, I had to find the discipline I had been searching for.
-          </p>
-          <p>
-            The semester’s struggles meant I needed a 70+ on the final. I walked in confident, armed with a double-sided 
-            crib sheet crammed with everything I could think of. At first, I felt steady, cruising through the early 
-            questions. But as the exam pressed on, my confidence slipped. I skipped one page, then another, until I 
-            realized I could only answer about half. Before I left the room, I knew I had come up short, and sure enough, I ended with a 68,
-            which was a D in the course.
-          </p>
-          <p>
-            It was official. I had failed. The 4.0 was no more. I went to DegreeWorks to see the damage, only to make a shocking revelation. 
-            Since I already had credit for the course, the transcript just took the better score. All of my struggles were in vain, 
-            or were they? I had still learned 68% of the material, and received the reality check that I so desparately needed. 
-            This result put a chip on my shoulder, and I ended up receiving a B in Calculus II the following semester.
-          </p>
           <h3>Honorable Mentions</h3>
           <ul>
+            <li><b>Calculus I:</b> I decided to retake despite already having credit before advancing to Calculus II. This experience taught me, through trial and error, what truly works in my studies and what doesn’t.</li>
+            <li><b>Calculus II:</b> Often touted as the hardest course at HVCC, I was apprehensive going into it, especially with my struggles in Calculus I. Despite this, I was able to achieve a B, a result I was quite proud of and proof of my ability to adjust and improve.</li>
             <li><b>Discrete Mathematics:</b> Covered a variety of interesting topics that prepared me for RPI's Intro to Algorithms course.</li>
             <li><b>Assembly Language:</b> One of the few in-person CS courses I took at HVCC. It was fun, and a great intro to low-level programming.</li>
             <li><b>History of Media and Culture in the US:</b> I took this course in my freshman fall. It had nothing to do with CS, but remains as one of the best courses I've ever taken.</li>

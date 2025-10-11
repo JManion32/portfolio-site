@@ -35,7 +35,7 @@
 }
 
 .project-preview-container:hover {
-  box-shadow: 0.25rem 0.25rem 1.25rem var(--hover-project-preview);
+  box-shadow: 0 0 1.25rem var(--hover-project-preview);
   scale: 1.025;
 }
 

@@ -62,8 +62,7 @@ function CookieCoder() {
                     title: "Infrastructure & DevOps",
                     items: [
                     { name: "Docker", className: "docker" },
-                    { name: "DigitalOcean", className: "digitalocean" },
-                    { name: "AWS Route 53", className: "route53" },
+                    { name: "AWS", className: "route53" },
                     { name: "Nginx", className: "nginx" },
                     { name: "Certbot", className: "certbot" }
                     ]

@@ -28,7 +28,7 @@ function Portfolio() {
             </button>
           </div>
           <div id="text-body">
-            <p>The site you are on right now, for showcasing my experience. I hope you are enjoying it!</p>
+            <p>The site you are on right now, for showcasing my experience. I hope you're enjoying it!</p>
             <hr/>
             <h2>Tech Stack</h2>
             <TechStack
@@ -48,14 +48,6 @@ function Portfolio() {
                     { name: "AWS Route 53", className: "route53" },
                     { name: "Nginx", className: "nginx" },
                     { name: "Certbot", className: "certbot" }
-                  ]
-                },
-                {
-                  title: "Tooling",
-                  items: [
-                    { name: "ESLint", className: "eslint" },
-                    { name: "Stylelint", className: "stylelint" },
-                    { name: "Prettier", className: "prettier" },
                   ]
                 }
               ]}
@@ -81,10 +73,10 @@ function Portfolio() {
               a smooth dark mode toggle, responsive scaling, fun animations, and 
               interactive buttons, all crafted with care to make the UX both engaging and memorable.
             </p>
-            <h3>Show Personality</h3>
+            <h3>Personality</h3>
             <p>
               This site is an opportunity to be personable rather than bland, or AI generated. 
-              It's literally <code>justinmanion.com</code>, and I want it to reflect who I am.
+              It's <code>justinmanion.com</code>, and it should reflect who Justin Manion is.
             </p>
             <hr/>
             <h2>Implementation</h2>

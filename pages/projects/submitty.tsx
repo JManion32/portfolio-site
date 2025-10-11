@@ -60,19 +60,14 @@ function Submitty() {
                   title: "Backend",
                   items: [
                     { name: "PHP", className: "php" },
-                    { name: "Python", className: "python" }
-                  ]
-                },
-                {
-                  title: "Infrastructure & DevOps",
-                  items: [
-                    { name: "Docker", className: "docker" },
+                    { name: "Python", className: "python" },
                     { name: "PostgreSQL", className: "postgres" }
                   ]
                 },
                 {
-                  title: "Tooling",
+                  title: "DevOps",
                   items: [
+                    { name: "Docker", className: "docker" },
                     { name: "ESLint", className: "eslint" },
                     { name: "Stylelint", className: "stylelint" },
                     { name: "Prettier", className: "prettier" },

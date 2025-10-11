@@ -79,6 +79,7 @@
   text-decoration: none;
   color: var(--anchor-link);
   cursor: pointer;
+  transition: color 0.2s ease, background-color 0.2s ease;
 }
 
 #text-body a:hover {

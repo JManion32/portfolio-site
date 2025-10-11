@@ -253,7 +253,7 @@ function Submitty() {
                 <li><b>Refactor and modularize <code>forum.js</code></b> – The forum is a favorite feature but most of its JavaScript is in a single 3,000 line file. Breaking it up will make it cleaner, faster, and easier to improve.</li>
                 <li><b>Improve site intuitiveness and maintainability</b> – Tackle tech debt with cleaner CSS, fewer inline scripts, smaller files, and stronger testing, making the platform friendlier for all developers.</li>
                 <li><b>Convert more pages to Vue</b> – The component-based approach is a joy to work with and a strong candidate to become a core part of the stack if we continue to port existing Twig files.</li>
-                <li><b>Work with the database</b> – I'm currently taking Database Systems , and am excited to apply what I learned to Submitty!</li>
+                <li><b>Work with the database</b> – I'm currently taking Database Systems, and am excited to apply what I learned to Submitty!</li>
                 <li><b>Explore WebSockets</b> – I still haven't worked with them much, and want to learn more!</li>
               </ul>
             </p>

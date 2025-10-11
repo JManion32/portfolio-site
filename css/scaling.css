@@ -19,7 +19,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         /* Site / Index */
         --content-background: var(--site-background);
         --site-font-size: 12px;
-        --content-width: 90%;
+        --content-width: 95%;
         --content-padding: 0 1rem;
 
         /* Nav Bar */
@@ -60,7 +60,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
     :root {
         /* Site / Index */
         --site-font-size: 13px;
-        --content-width: 80%;
+        --content-width: 85%;
 
         /* Nav Bar */
         --nav-link-gap: 2rem;
@@ -99,7 +99,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
     :root {
         /* Site / Index */
         --site-font-size: 14px;
-        --content-width: 70%;
+        --content-width: 75%;
 
         /* Nav Bar */
 
@@ -128,7 +128,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
     :root {
         /* Site / Index */
         --site-font-size: 16px;
-        --content-width: 60%;
+        --content-width: 65%;
 
         /* Nav Bar */
 
@@ -152,7 +152,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
     :root {
         /* Site / Index */
         --site-font-size: 18px;
-        --content-width: 50%;
+        --content-width: 55%;
 
         /* Nav Bar */
 

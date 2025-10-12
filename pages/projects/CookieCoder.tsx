@@ -21,12 +21,13 @@ function CookieCoder() {
                 This project is currently in its planning stages. If you have any input, please reach out!
             </p>
             <p>
-                Cookie Coder is the site I wish I had when I was first learning to program. It will feature a 
-                wide range of languages including Python, Java, C++, JavaScript, PHP, SQL, and more—and take 
-                a fresh approach to traditional module-based learning. Instead of rigid lessons, users will 
-                progress through interactive, flashcard-style problem sets. As they answer questions correctly, 
-                they’ll earn “bits,” an in-game currency that tracks progress and ranks players on global leaderboards. 
-                The more bits they accumulate, the larger their question pool grows.
+                Cookie Coder is the site I wish I had when I was first learning to program. It 
+                will feature a wide range of languages including Python, Java, C++, JavaScript, 
+                PHP, SQL, and more, and take a fresh approach to traditional module-based learning. 
+                Instead of rigid lessons, users will progress through interactive, flashcard-style 
+                problem sets. As they answer questions correctly, they’ll earn “bits,” an in-game 
+                currency that tracks progress and ranks players on global leaderboards. The more 
+                bits they accumulate, the larger their question pool grows.
             </p>
             <hr/>
             <h2>Tentative Tech Stack</h2>
@@ -59,7 +60,7 @@ function CookieCoder() {
                     ]
                 },
                 {
-                    title: "Infrastructure & DevOps",
+                    title: "Infrastructure",
                     items: [
                     { name: "Docker", className: "docker" },
                     { name: "AWS", className: "route53" },
@@ -68,7 +69,7 @@ function CookieCoder() {
                     ]
                 },
                 {
-                    title: "Tooling / Dev Dependencies",
+                    title: "Tooling / DevOps",
                     items: [
                     { name: "ESLint", className: "eslint" },
                     { name: "Stylelint", className: "stylelint" },
@@ -84,19 +85,22 @@ function CookieCoder() {
             <hr/>
             <h2>Core Idea: Learning Code through Repetition</h2>
             <p>
-                Learning is continuous, and often occurs over an extended period of time. 
-                Think about studying for an exam. Cramming the night before <b>does not work</b>. 
-                Instead, it is far more effective to study the material over a week. In the same way, learning how to 
-                code isn't possible from just one online course. You need to build a foundation of knowledge, then reinforce 
-                it through repetition. This is what Cookie Coder aims to do through fluid modularized learning.
+                Learning is continuous, occurring as a culmination of multiple instances. Think about studying 
+                for an exam. Cramming all the material the night before <b>does not work</b>. It is far more effective 
+                to study multiple times over a week. In the same way, learning a programming language isn't 
+                possible from just a single online course. You need to build a foundation of knowledge, then 
+                reinforce it through repetition. This is what Cookie Coder aims to do through <i>fluid</i> modular learning.
             </p>
             <h3>Interactive Flashcard-Style Questions</h3>
             <p>
-                
+                The standard gamplay. These questions will be simple, enabling the user to rapid-fire cycle through them. 
+                For each programming language, the user will start with 300 of these questions, and accumulate more, higher level 
+                ones as they advance in the game. Rather than having set modules, questions will be from the entire pool, and 
+                pulled based on percentages.
             </p>
             <h3>Coding Challenges</h3>
             <p>
-                
+                Users 
             </p>
             <hr/>
             <h2>Inspirations:</h2>

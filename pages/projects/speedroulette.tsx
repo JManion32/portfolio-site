@@ -272,6 +272,7 @@ function SpeedRoulette() {
           </div>
         </div>
         <NavButton
+          left="Cookie Coder" leftNav="/projects/cookiecoder"
           right="Submitty" rightNav="/projects/submitty"
         />
       </div>

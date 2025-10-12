@@ -1,10 +1,11 @@
 import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
-import ComingSoon from '../../components/ComingSoon';
 
 import stewartsFleet from '../../assets/stewarts-fleet.jpeg';
 import stewartsLogo from '../../assets/stewarts-logo.png';
+import stewartsStation from '../../assets/stewarts-gas-station.webp';
 import stewartsPlant from '../../assets/stewarts-plant.png';
+import apcBackup from '../../assets/apc-backup.avif';
 import tupperLunch from '../../assets/tupper-lake-lunch.png';
 
 function Stewarts() {
@@ -23,20 +24,24 @@ function Stewarts() {
               <img src={stewartsLogo} className="contact-image" style={{ borderRadius: "0.25rem" }} />
             </button>
           </div>
-          <ComingSoon/>
           <div id="text-body">
             <p>
-              During summer 2024, I worked as an IT Technician Intern for Stewart's Shops, a 
-              gas station chain in the Northeast. This role was hardware-focused, with emphasis on maintenance 
-              and troubleshooting.
+              During summer 2024, I worked as an IT Technician Intern for Stewart's Shops. 
+              This role was hardware-focused, with emphasis on maintenance and troubleshooting.
             </p>
             <hr/>
             <h2>Overview</h2>
             <p>
-              With over 400 stores across New York, Vermont, and New Hampshire, Stewart's Shops is one 
+              With over 400 shops across New York, Vermont, and New Hampshire, Stewart's Shops is one 
               of the largest, most popular gas station chains in the Northeast. All of the shops are centered around 
-              Saratoga, NY, where the main office and distribution center is located.
+              Saratoga NY, where the main office and distribution center is located.
             </p>
+            <div id="content-img-container">
+              <img src={stewartsStation} className="project-img"/>
+              <p>
+                Stewart's Shop
+              </p>
+            </div>
             <div id="content-img-container">
               <img src={stewartsPlant} className="project-img"/>
               <p>
@@ -44,16 +49,17 @@ function Stewarts() {
               </p>
             </div>
             <p>
-              I worked in the Technology Center, which functions as the company’s help desk. With aan 18 person team, 
-              there was never a shortage of hardware issues to address both over the phone, and in person.
+              I worked in the Technology Center, which functions as the company’s help desk. With an 18 person team, 
+              there was never a shortage of hardware issues to address both over the phone, and onsite.
             </p>
             <hr/>
             <h2>Onsite Responsibilities</h2>
             <p>
               Since I was a temporary employee, I was not set up with a phone, instead 
               spending most of my days on the road. This gave me the unique opportunity to see 
-              New York and Vermont throughout the summer. Some days were to Lake Placid, others to Vermont, I was all over the place. 
-              Beyond location, each shop had its own personality, making every trip a memorable experience.
+              New York and Vermont throughout the summer. Some days were to Lake Placid, others to Vermont, Syracuse, 
+              Cooperstown, my home town, I was all over the place. Beyond location, each shop had its own 
+              personality, making every trip a memorable experience.
             </p>
             <div id="content-img-container">
               <img src={tupperLunch} className="project-img"/>
@@ -63,53 +69,70 @@ function Stewarts() {
             </div>
             <h3>Preventative Maintenance</h3>
             <p>
-              One of my key responsibilities as an intern was preventative maintenance (also called PMs). This involved addressing potential 
-              issues in networking equipment before they occurred. In my three and a half month tenure, I was able to clean 
-              40 shops, or about 10% of the entire chain.
+              One of my key responsibilities was preventative maintenance (also called PMs). This involved addressing 
+              issues in networking equipment before they occurred. In my three and a half month tenure, I completed 40 PMs, 
+              or about 10% of the entire chain.
             </p>
             <p> 
-              For each PM, I was given a checklist of tasks. This included cleaning and repairing POS registers, organizing cables, 
-              and replacing faulty hardware. Though the tasks weren't complex, diligence was essential. The networking infrastructure 
-              of these shops was fragile, so any careless mistake could lead to a high-stress situation. To mitigate this, I took a 
-              business-first approach. Rather than rushing through my tasks, I coordinated verything with shop personnel, ensuring 
-              we were all on the same page, and business flowed as usual.
+              For each PM, there was a checklist of tasks to complete. This list included cleaning and repairing POS registers and the ATM, 
+              organizing cables, and replacing any faulty hardware. Though the tasks weren't complex, diligence was essential. The 
+              networking infrastructure of these shops is fragile, so any careless mistake could lead to a high-stress situation. 
+              To mitigate this, I took a business-first approach. Rather than focusing on efficiency, I proactively communicated 
+              with shop personnel to understand their workflows, ensuring my work didn’t disrupt their operations.
             </p>
             <h3>New System Implementation</h3>
             <p>
-              New system.
+              Throughout the summer, the tech center was in the process of preparing shops for a new register POS system. 
+              This implementation would require the addition of two new switches to the shop's networking cage. Unfortunately, 
+              this wouldn't be a simple plugin and play, since most networking cages were a mess.
+            </p>
+            <p>
+              To address this, there was an ongoing project where technicians would go to shops, and do a "cleanup". This was 
+              pretty much a PM, with the addition of organizing the networking cage. I was mainly brought to these to do the PM side 
+              of things, while they tampered with the cage. It was a collaborative effort, and I had the crucial role of being available 
+              to the shop employees incase anything went wrong.
+            </p>
+            <p>
+              These were some of the highlights of my internship. Collaborating with other technicians is what I miss most from 
+              the whole experience. Through this project, we prepared many stores for the new system, converting them from networking 
+              disaster to plugin and play.
             </p>
             <h3>Service Calls</h3>
             <p>
-              Stewart's strives to address issues before they occur, but hardware is never that simple. This was 
-              especially true during the summer, where frequent thunderstorms wreaked havoc on our networking 
-              equipment. Sometimes it was just a pinpad, other times an entire register.
+              Although we strived to address issues before they occurred, hardware is never that simple. Sometimes it was just a 
+              pinpad, other times an entire register. These were the best kind of days. I was given a sticky note of shops 
+              to visit, then spent 95% of the day driving, and the rest being the hero.
             </p>
             <hr/>
             <h2>Office Days</h2>
             <p>
-              I spent most of my time on the road, but also had my share of office days. With no phone to answer and an
-              office full of busy technicians, it was up to me to create work to do.
+              Though most days were on the road, I had my share of office time. With no phone to answer and an
+              room full of busy technicians, it was up to me to create work to do.
             </p>
             <h3>Shipping</h3>
             <p>
-              When far away shops required equipment replacements, we would often trade parts via shipments. Each 
+              When distant shops required equipment replacements, we often traded parts via shipments. Each 
               day I processed the returned equipment, assessing any damage, fixing what I could, and documenting the results.
             </p>
             <h3>Battery Backups</h3>
             <p>
-              If there's one thing my time in the Stewart's tech center taught me, its how to handle battery backups.
-            </p>
-            <p>
               All of Stewart's Shops' networking equipment is hooked up to battery backups, and for good reason. 
               Frequent storms throughout the summer leave entire areas without power, potentially halting shop 
-              operations in their tracks. With these, shops can function for several hours with no power.
+              operations in their tracks. With these, shops can function for several hours with no power. If 
+              there's one thing my time in the Stewart's tech center taught me, its how to handle them.
             </p>
-            <p>
-
-            </p>
+            <div id="content-img-container">
+              <img src={apcBackup} className="project-img"/>
+              <p>
+                Battery Backup
+              </p>
+            </div>
             <p>
               With over 400 shops each equipped with a handful of these backups, they piled up <b>fast</b> in 
-              our office. 
+              our office. It was a job to do when there was downtime, so I took it over. For each one, I cleaned it, 
+              <b>thoroughly</b> tested the receptacles, replaced the battery, and labelled it with the date. I must've 
+              processed over 100 throughout the summer, all of which are out on the field now. Its cool to think that
+              when I walk into a Stewart's Shop, there's a decent chance its being supported by one of my battery backups.
             </p>
             <h3>Organizing Vehicles</h3>
             <p>

@@ -65,7 +65,7 @@ function Rensselaer() {
           </div>
         </div>
         <NavButton
-          right="It Field Technician" rightNav="/experience/stewarts"
+          right="IT Technician" rightNav="/experience/stewarts"
         />
       </div>
     </>

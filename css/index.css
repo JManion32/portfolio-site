@@ -12,7 +12,7 @@
 /* This stylesheet contains everything shared by more than 1 page / component. */
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: var(--site-font);
   line-height: 1.5;
   font-weight: 400;
   --nav-h: 6rem;
@@ -102,7 +102,7 @@ html, body {
 
 .left-guide-button, .right-guide-button {
   position: absolute; 
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: var(--site-font);
   transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
   bottom: 2.25rem;
   height: 2.25rem;
@@ -163,7 +163,7 @@ html, body {
 
 .contact-button {
   transition: color 0.2s ease, background-color 0.2s ease;
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: var(--site-font);
   position: relative;
   background-color: var(--default-button);
   color: var(--standard-text);

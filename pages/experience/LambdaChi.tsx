@@ -111,7 +111,7 @@ function LambdaChi() {
           </div>
         </div>
         <NavButton
-          left="Field Technician" leftNav="/experience/stewarts"
+          left="IT Technician" leftNav="/experience/stewarts"
           right="Price Chopper" rightNav="/experience/pricechopper"
         />
       </div>

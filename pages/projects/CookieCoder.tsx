@@ -5,6 +5,15 @@ import TechStack from "../../components/TechStack";
 import ComingSoon from '../../components/ComingSoon';
 import useNavigateTop from "../../hooks/useNavigateTop";
 
+import quizletLogo from '../../assets/quizlet-logo.webp';
+import makeItRain from '../../assets/make-it-rain.jpg';
+import gimkit from '../../assets/gimkit-logo.jpg';
+import duolingo from '../../assets/duolingo-logo.webp';
+import sololearn from '../../assets/sololearn-logo.png';
+import submittyDuck from '../../assets/submitty_duck.png';
+import geometryDash from '../../assets/geometry-dash.png';
+import cookieClicker from '../../assets/clicker-cookie.webp';
+
 function CookieCoder() {
   const navigateTop = useNavigateTop();
   return (
@@ -107,40 +116,64 @@ function CookieCoder() {
             <p>This site combines different aspects from many of my favorite applications to create a unique learning experience.</p>
             <div className="display-grid">
               <div className="display-grid-cell">
+                <img
+                  src={quizletLogo}
+                />
                 <h3>Quizlet</h3>
                 <p>Similar tycoon-style gameplay, and its the namesake!</p>
               </div>
               <div className="display-grid-cell">
+                <img
+                  src={makeItRain}
+                />
                 <h3>Make it Rain!</h3>
                 <p>Similar tycoon-style gameplay, and its the namesake!</p>
               </div>
               <div className="display-grid-cell">
+                <img
+                  src={gimkit}
+                />
                 <h3>Gimkit</h3>
                 <p>Similar tycoon-style gameplay, and its the namesake!</p>
               </div>
               <div className="display-grid-cell">
+                <img
+                  src={duolingo}
+                />
                 <h3>Duolingo</h3>
                 <p>Similar tycoon-style gameplay, and its the namesake!</p>
               </div>
               <div className="display-grid-cell">
+                <img
+                  src={sololearn}
+                />
                 <h3>SoloLearn</h3>
                 <p>
-                  I used this module-based site frequently when learning how to code. It features 
-                  interactive flashcard-style questions as well coding challenges.
+                  This was my go-to website when I was learning how to code. It features 
+                  interactive flashcard-style questions as well as coding challenges.
                 </p>
               </div>
               <div className="display-grid-cell">
+                <img
+                  src={submittyDuck}
+                />
                 <h3>Submitty</h3>
                 <p>
-                  This site always inspires my projects in one way or another. I'm going to use the multi-language 
-                  backend where one is for general stuff and the other is for workers like Submitty does.
+                  This always inspires my projects in one way or another. I plan to adopt a similar multi-language backend architecture 
+                  where one language is for general application logic and the other is for dedicated to worker processes.
                 </p>
               </div>
               <div className="display-grid-cell">
+                <img
+                  src={geometryDash}
+                />
                 <h3>Geometry Dash</h3>
-                <p>Scrolling between languages to play will be similar to scrolling between levels in this game.</p>
+                <p>I want to implement a similar menu where the user can scroll between languages.</p>
               </div>
               <div className="display-grid-cell">
+                <img
+                  src={cookieClicker}
+                />
                 <h3>Cookie Clicker</h3>
                 <p>Similar tycoon-style gameplay, and its the namesake!</p>
               </div>

@@ -30,13 +30,13 @@ function CookieCoder() {
                 This project is currently in its planning stages. If you have any input, please reach out!
             </p>
             <p>
-                Cookie Coder is the site I wish I had when I was first learning to program. It 
+                Cookie Coder is the site I wish I had when I was first learning how to code. It 
                 will feature a wide range of languages including Python, Java, C++, JavaScript, 
                 PHP, SQL, and more, and take a fresh approach to traditional module-based learning. 
-                Instead of rigid lessons, users will progress through interactive, flashcard-style 
-                problem sets. As they answer questions correctly, they’ll earn “bits,” an in-game 
+                Instead of rigid lessons, users will answer questions from a large pool of interactive, flashcard-style 
+                questions. As they answer orrectly, they’ll earn “bits,” an in-game 
                 currency that tracks progress and ranks players on global leaderboards. The more 
-                bits they accumulate, the larger their question pool grows.
+                bits they accumulate, the larger their pool grows, and the harder their questions become.
             </p>
             <hr/>
             <h2>Tentative Tech Stack</h2>
@@ -120,28 +120,38 @@ function CookieCoder() {
                   src={quizletLogo}
                 />
                 <h3>Quizlet</h3>
-                <p>Similar tycoon-style gameplay, and its the namesake!</p>
+                <p>
+                  The cornerstone of my studies. The reptition it offers has prepared me 
+                  for countless exams throughout college.
+                </p>
               </div>
               <div className="display-grid-cell">
                 <img
                   src={makeItRain}
                 />
                 <h3>Make it Rain!</h3>
-                <p>Similar tycoon-style gameplay, and its the namesake!</p>
+                <p>
+                  Features repetitive, tycoon-style gameplay, as well as a risk component where 
+                  users have to solve puzzles to multiply their earnings.
+                </p>
               </div>
               <div className="display-grid-cell">
                 <img
                   src={gimkit}
                 />
                 <h3>Gimkit</h3>
-                <p>Similar tycoon-style gameplay, and its the namesake!</p>
+                <p>
+                  If you haven't heard of this site, I would describe it as competitive flashcards. 
+                  Many instructors at my high school used it to help students prepare for exams. It features 
+                  the same tycoon-style gameplay, which made learning fun, and effective.
+                </p>
               </div>
               <div className="display-grid-cell">
                 <img
                   src={duolingo}
                 />
                 <h3>Duolingo</h3>
-                <p>Similar tycoon-style gameplay, and its the namesake!</p>
+                <p>Modular learning, with plenty of questions to give users repetition.</p>
               </div>
               <div className="display-grid-cell">
                 <img
@@ -175,7 +185,7 @@ function CookieCoder() {
                   src={cookieClicker}
                 />
                 <h3>Cookie Clicker</h3>
-                <p>Similar tycoon-style gameplay, and its the namesake!</p>
+                <p>An internet classic. Similar tycoon-style gameplay, and its the namesake!</p>
               </div>
             </div>
             <hr/>

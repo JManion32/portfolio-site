@@ -56,9 +56,9 @@ function Stewarts() {
             <h2>Onsite Responsibilities</h2>
             <p>
               Since I was a temporary employee, I was not set up with a phone, instead 
-              spending most of my days on the road. This gave me the unique opportunity to see 
+              spending most of my days on the road. This gave me the unique opportunity to see enjoy 
               New York and Vermont throughout the summer. Some days were to Lake Placid, others to Vermont, Syracuse, 
-              Cooperstown, my home town, I was all over the place. Beyond location, each shop had its own 
+              Cooperstown, even my home town, I was all over the place. Beyond location, each shop had its own 
               personality, making every trip a memorable experience.
             </p>
             <div id="content-img-container">
@@ -70,15 +70,15 @@ function Stewarts() {
             <h3>Preventative Maintenance</h3>
             <p>
               One of my key responsibilities was preventative maintenance (also called PMs). This involved addressing 
-              issues in networking equipment before they occurred. In my three and a half month tenure, I completed 40 PMs, 
-              or about 10% of the entire chain.
+              issues in networking equipment before they occurred. In my three and a half month tenure, I completed 40 
+              of these PMs, or about 10% of the entire chain.
             </p>
             <p> 
               For each PM, there was a checklist of tasks to complete. This list included cleaning and repairing POS registers and the ATM, 
               organizing cables, and replacing any faulty hardware. Though the tasks weren't complex, diligence was essential. The 
               networking infrastructure of these shops is fragile, so any careless mistake could lead to a high-stress situation. 
               To mitigate this, I took a business-first approach. Rather than focusing on efficiency, I proactively communicated 
-              with shop personnel to understand their workflows, ensuring my work didn’t disrupt their operations.
+              with shop personnel so we were all on the same page, ensuring my work didn’t disrupt their operations.
             </p>
             <h3>New System Implementation</h3>
             <p>
@@ -88,19 +88,18 @@ function Stewarts() {
             </p>
             <p>
               To address this, there was an ongoing project where technicians would go to shops, and do a "cleanup". This was 
-              pretty much a PM, with the addition of organizing the networking cage. I was mainly brought to these to do the PM side 
-              of things, while they tampered with the cage. It was a collaborative effort, and I had the crucial role of being available 
+              pretty much a PM, with the addition of organizing the networking cage. I was mainly brought along to do the usual sales floor side 
+              of things, while they tampered with the cage in the back. It was a collaborative effort, and I had the crucial role of being available 
               to the shop employees incase anything went wrong.
             </p>
             <p>
-              These were some of the highlights of my internship. Collaborating with other technicians is what I miss most from 
-              the whole experience. Through this project, we prepared many stores for the new system, converting them from networking 
+              Through this project, we prepared many stores for the new system, converting them from networking 
               disaster to plugin and play.
             </p>
             <h3>Service Calls</h3>
             <p>
-              Although we strived to address issues before they occurred, hardware is never that simple. Sometimes it was just a 
-              pinpad, other times an entire register. These were the best kind of days. I was given a sticky note of shops 
+              Although we strived to address issues before they occurred, hardware is never that simple. Sometimes a printer stopped printing, 
+              other times an entire register died. These were the best kind of days. I was given a sticky note of shops 
               to visit, then spent 95% of the day driving, and the rest being the hero.
             </p>
             <hr/>
@@ -129,7 +128,7 @@ function Stewarts() {
             </div>
             <p>
               With over 400 shops each equipped with a handful of these backups, they piled up <b>fast</b> in 
-              our office. It was a job to do when there was downtime, so I took it over. For each one, I cleaned it, 
+              our office. For each one, I cleaned it, 
               <b>thoroughly</b> tested the receptacles, replaced the battery, and labelled it with the date. I must've 
               processed over 100 throughout the summer, all of which are out on the field now. Its cool to think that
               when I walk into a Stewart's Shop, there's a decent chance its being supported by one of my battery backups.
@@ -156,8 +155,8 @@ function Stewarts() {
             <h3>Misc Work</h3>
             <p>
               Sometimes, there were too many guys out of the office, no returns to process, and no battery backups to fix up. 
-              This was the real challenge of my productivity. Tasks I completed on these days include crimping new cables, sorting through 
-              boxes of miscellaneous equipment, and on one occasion, attempting to open digital locks that we lost the combinations to.
+              This was the real challenge of my productivity. On these days, I crimped new cables, sorted through 
+              boxes of miscellaneous equipment, and on one occasion, attempted to open digital locks that we lost the combinations to.
             </p>
             <hr/>
             <h2>Reflection</h2>

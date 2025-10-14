@@ -19,7 +19,7 @@ function PriceChopper() {
             <hr/>
             <h2>Cashier</h2>
             <p>
-              The first 2 years of my Price Chopper journey was spent cashiering. I showed up, I scanned groceries, 
+              I spent the first two year of my Price Chopper journey as a cashier. I showed up, I scanned groceries, 
               and of course, I got the produce codes down.
             </p>
             <h3>Takeaway: Appreciate the experience.</h3>
@@ -37,8 +37,8 @@ function PriceChopper() {
             </p>
             <h3>Takeaway: Lead by example.</h3>
             <p>
-              Respect is earned, not given. During my closing shifts, there was a list of tasks to complete in preparation for thr next day. 
-              It wasn’t easy to motivate cashiers to take on more after hours of scanning groceries. Instead of simply telling them what to do, I 
+              Respect is earned, not given. During my closing shifts, there was a list of tasks to complete in preparation for the next day. 
+              It wasn’t easy to motivate cashiers to take on more work after hours of scanning groceries. Instead of simply telling them what to do, I 
               did the tasks alongside them, creating a positive environment and getting the results we needed.
             </p>
             <h3>Takeaway: Level heads prevail.</h3>
@@ -58,7 +58,7 @@ function PriceChopper() {
             <hr/>
             <h2>Maintenance</h2>
             <p>
-              Throughout my time at Price Chopper, I occasionally helped out with maintenance shifts as needed. This involved pushing carts, cleaning 
+              Throughout my time at Price Chopper, I occasionally took on maintenance shifts. This involved pushing carts, cleaning 
               bathrooms, emptying garbages, and maintaining the bottle return room.
             </p>
             <h3>Takeaway: Taking pride in my work.</h3>
@@ -66,8 +66,8 @@ function PriceChopper() {
               The tasks were straightforward — emptying garbages, 
               cleaning bathrooms, keeping things in order. I could have gone through the motions, done an average job, and left half-full 
               bins or “clean enough” bathrooms for the morning crew. Instead, I found real satisfaction in giving that extra effort, maybe 
-              staying an extra 15 minutes to finish everything and not leave someone else hanging. This mindset has carried over to 
-              development work too. Sure, I might spend a whole day perfecting my site’s mobile scaling, but in the end, it’s always worth it.
+              staying an extra 15 minutes to finish everything so I didn't leave someone else hanging. This mindset has carried over to 
+              development work too. Sure, I might spend a whole day perfecting a site’s mobile scaling, but in the end, it’s always worth it.
             </p>
             <hr/>
             <h2>Customer Service Teammate</h2>
@@ -80,8 +80,8 @@ function PriceChopper() {
                 <li>Processing Money Orders</li>
                 <li>Handling Customer Returns / Complaints</li>
               </ul>
-              This was by far my favorite role. My daily customers were nice, I could do my own thing, and at this point I really felt 
-              like I had mastered all aspects of the sales floor.
+              This was by far my favorite role. My developed relationships with the daily customers, 
+              had downtime to do my own thing, and truly felt like I had mastered the Front End department.
             </p>
             <h3>Takeaway: Master the details.</h3>
             <p>

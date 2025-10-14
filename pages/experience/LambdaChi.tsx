@@ -27,8 +27,8 @@ function LambdaChi() {
             <p>
               If I had to describe my time at &Lambda;ΧΑ in one word, it would be <i>transformative</i>. I never 
               imagined myself joining a fraternity, especially with all the negative stereotypes that surround 
-              Greek life. Despite everything I have heard, I’ve only discovered an exceptional 
-              group of men who support each other unconditionally. Through my experiences here, I’ve grown as a person, brother, and leader. Below are some of 
+              Greek life. Despite everything I have heard, I’ve only found a support network of exceptional people. 
+              Through my experiences here, I’ve grown as a person, brother, and leader. Below are some of 
               the responsibilities and opportunities that have shaped my journey.
             </p>
             <hr/>
@@ -42,7 +42,7 @@ function LambdaChi() {
               One of the more front-facing responsibilities I have is managing our weekly house meetings. 
               Before each meeting, I email a reminder to the brotherhood, then prepare the slideshow, 
               officer agenda, and meeting minutes. I take attendance at the start, record the minutes during the meeting, finalize them 
-              afterward, and send them out promptly. This aspect of my role was intimidating at first, but I have come to enjoy it. 
+              afterward, and send them out promptly. This workflow was intimidating at first, but I have come to enjoy it. 
               I see it as my duty to write the history of our chapter, and consider it a great honor to do so.
             </p>
             <p>

@@ -23,16 +23,16 @@ function HudsonValley() {
           </p>
           <h3>Intro CS Courses</h3>
           <p>
-            Initially, I enrolled in the undecided program. One of my favorite hobbies at the time was building computers. Because of 
-            this and the fact that my dad is a software engineer, I decided to take an introductory computer science 
+            Initially, I enrolled in the undecided program. One of my favorite hobbies at the time was building computers. 
+            This and my Dad being a software engineer led to my decision to take an introductory computer science 
             course. I found enjoyment in the hardware side of things, but struggled with the software since it was brand 
             new to me. By the end of that semester, I switched my major from undecided to computer science, marking 
-            the true beginning of my journey. I still wasn’t sure which area I would focus on, but at least I had 
-            found a direction.
+            the true beginning of my journey. I still wasn’t sure where my focus would be, but at least I had 
+            found direction.
           </p>
           <p>
-            In my second semester, I took an introductory programming course in Python. This helped to narrow 
-            down my field of interest: I wanted to write code. I just loved the idea that programming is a skill that is continually 
+            In my second semester, I took an introductory programming course in Python. This helped narrow 
+            down my field of interest: I wanted to write code. I just loved the idea that programming is a skill to be continually 
             developed, like leveling up in a video game. This along with many other courses I was taking were 
             completely online. While I enjoyed the material, I struggled to stay disciplined enough to maximize my learning. 
             Despite my lack of "leveling up", I was excited for what lied ahead, and determined to change my habits.
@@ -54,7 +54,7 @@ function HudsonValley() {
           <h3>Honorable Mentions</h3>
           <ul>
             <li><b>Calculus I:</b> I decided to retake despite already having credit before advancing to Calculus II. This experience taught me, through trial and error, what truly works in my studies and what doesn’t.</li>
-            <li><b>Calculus II:</b> Often touted as the hardest course at HVCC, I was apprehensive going into it, especially with my struggles in Calculus I. Despite this, I was able to achieve a B, a result I was quite proud of and proof of my ability to adjust and improve.</li>
+            <li><b>Calculus II:</b> Often touted as the hardest course at HVCC, I was apprehensive going into it, especially with my struggles in Calculus I. Despite this, I was able to achieve a B, a result I was quite proud of and proof of the adjustments I made from the prior semester.</li>
             <li><b>Discrete Mathematics:</b> Covered a variety of interesting topics that prepared me for RPI's Intro to Algorithms course.</li>
             <li><b>Assembly Language:</b> One of the few in-person CS courses I took at HVCC. It was fun, and a great intro to low-level programming.</li>
             <li><b>History of Media and Culture in the US:</b> I took this course in my freshman fall. It had nothing to do with CS, but remains as one of the best courses I've ever taken.</li>

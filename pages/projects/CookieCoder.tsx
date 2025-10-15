@@ -88,24 +88,25 @@ function CookieCoder() {
             <hr/>
             <h2>Core Idea: Learning Code through Repetition</h2>
             <p>
-                Learning is continuous, occurring as a culmination of multiple instances. Think about studying 
+                Learning is continuous, occurring over time. Think about studying 
                 for an exam. Cramming all the material the night before <b>does not work</b>. It is far more effective 
                 to study multiple times over a week. In the same way, learning a programming language isn't 
-                possible from just a single online course. You need to build a foundation of knowledge, then 
-                reinforce it through repetition. This is what Cookie Coder aims to do through <i>fluid</i> modular learning.
+                possible from just a single online course. A foundation of knowledge needs to be established, and 
+                reinforced with repetition. This is what Cookie Coder aims to do through <i>fluid</i> modular learning.
             </p>
             <h3>Interactive Flashcard-Style Questions</h3>
             <p>
-                The standard gamplay. These questions will be simple, enabling the user to rapid-fire cycle through them. 
-                For each programming language, the user will start with 300 of these questions, and accumulate more, higher level 
+                The standard gamplay. These questions will be simple (multiple choice, true/false, fill in the blank, etc), 
+                enabling the user to rapid-fire cycle through them. 
+                For each programming language, the user will start with 300 of these questions and accumulate more, higher level 
                 ones as they advance in the game. Rather than having set modules, questions will be from the entire pool, and 
-                pulled based on percentages.
+                their bits will determine the chance they have of being pulled.
             </p>
             <h3>Coding Challenges</h3>
             <p>
-                After accumulating a number of bits, the user will be able to risk them on coding challenges. They will face an open-ended question 
+                After accumulating bits, the user will be able to risk them on coding challenges. They will face an open-ended question 
                 and have to write code that passes all test cases before the timer runs out. Each correct answer will double their winnings, 
-                but if they fail, they lose everything!
+                but if they fail, they lose it all!
             </p>
             <hr/>
             <h2>Inspirations:</h2>

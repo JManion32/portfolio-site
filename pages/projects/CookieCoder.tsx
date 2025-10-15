@@ -2,7 +2,6 @@ import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
 
 import TechStack from "../../components/TechStack";
-import ComingSoon from '../../components/ComingSoon';
 import useNavigateTop from "../../hooks/useNavigateTop";
 
 import quizletLogo from '../../assets/quizlet-logo.webp';
@@ -24,7 +23,6 @@ function CookieCoder() {
           <div className="text-page-header-row">
             <h1 className="text-page-header">Cookie Coder</h1>
           </div>
-          <ComingSoon/>
           <div id="text-body">
             <p>
                 This project is currently in its planning stages. If you have any input, please reach out!
@@ -34,16 +32,12 @@ function CookieCoder() {
                 will feature a wide range of languages including Python, Java, C++, JavaScript, 
                 PHP, SQL, and more, and take a fresh approach to traditional module-based learning. 
                 Instead of rigid lessons, users will answer questions from a large pool of interactive, flashcard-style 
-                questions. As they answer orrectly, they’ll earn “bits,” an in-game 
+                questions. As they answer correctly, they’ll earn “bits,” an in-game 
                 currency that tracks progress and ranks players on global leaderboards. The more 
                 bits they accumulate, the larger their pool grows, and the harder their questions become.
             </p>
             <hr/>
             <h2>Tentative Tech Stack</h2>
-            <p>
-              Pretty much the same as <a onClick={() => navigateTop("/projects/speedroulette")}>Speed Roulette</a> without 
-              Tailwind CSS, and with the addition of Node.js. Go's use in this project is for the workers.
-            </p>
             <TechStack
                 sections={[
                 {
@@ -109,11 +103,13 @@ function CookieCoder() {
             </p>
             <h3>Coding Challenges</h3>
             <p>
-                Users 
+                After accumulating a number of bits, the user will be able to risk them on coding challenges. They will face an open-ended question 
+                and have to write code that passes all test cases before the timer runs out. Each correct answer will double their winnings, 
+                but if they fail, they lose everything!
             </p>
             <hr/>
             <h2>Inspirations:</h2>
-            <p>This site combines different aspects from many of my favorite applications to create a unique learning experience.</p>
+            <p>This site will combine many of my favorite applications to create a unique learning experience.</p>
             <div className="display-grid">
               <div className="display-grid-cell">
                 <img
@@ -132,7 +128,8 @@ function CookieCoder() {
                 <h3>Make it Rain!</h3>
                 <p>
                   Features repetitive, tycoon-style gameplay, as well as a risk component where 
-                  users have to solve puzzles to multiply their earnings.
+                  users have to solve puzzles to multiply their earnings. Growing up, I spent hundreds 
+                  of hours playing this.
                 </p>
               </div>
               <div className="display-grid-cell">
@@ -142,8 +139,7 @@ function CookieCoder() {
                 <h3>Gimkit</h3>
                 <p>
                   If you haven't heard of this site, I would describe it as competitive flashcards. 
-                  Many instructors at my high school used it to help students prepare for exams. It features 
-                  the same tycoon-style gameplay, which made learning fun, and effective.
+                  It features the same tycoon-style gameplay that made learning fun and effective.
                 </p>
               </div>
               <div className="display-grid-cell">
@@ -151,7 +147,7 @@ function CookieCoder() {
                   src={duolingo}
                 />
                 <h3>Duolingo</h3>
-                <p>Modular learning, with plenty of questions to give users repetition.</p>
+                <p>Proof that modular learning with repetition is effective and marketable.</p>
               </div>
               <div className="display-grid-cell">
                 <img
@@ -178,21 +174,29 @@ function CookieCoder() {
                   src={geometryDash}
                 />
                 <h3>Geometry Dash</h3>
-                <p>I want to implement a similar menu where the user can scroll between languages.</p>
+                <p>I want to take inspiration from the menu where the user selects levels and sees their stats.</p>
               </div>
               <div className="display-grid-cell">
                 <img
                   src={cookieClicker}
                 />
                 <h3>Cookie Clicker</h3>
-                <p>An internet classic. Similar tycoon-style gameplay, and its the namesake!</p>
+                <p>An internet classic. Features similar tycoon-style gameplay, and its the namesake!</p>
               </div>
             </div>
             <hr/>
             <h2>Implementation</h2>
             <p>
                 There is much to consider with this project. How large do I want to scale the MVP? Should I 
-                integrate AI? What will deployment look like? 
+                integrate AI? What will deployment look like? For now, I am going to stick to the core question 
+                structure, tycoon gameplay, and leaderboard integration. With this, I can gauge interest, and decide 
+                where to go next.
+            </p>
+            <p>
+              As for the technologies I plan to use, they are similar to <a onClick={() => navigateTop("/projects/speedroulette")}>Speed Roulette</a>, 
+              but with a few exceptions. I'm no longer a fan of Tailwind and Bootstrap, so I am going to just use vanilla CSS. I’ve also decided to use 
+              two backend languages: Node.js for handling general application logic and Go for performance-critical worker processes. Lastly, I'm saying 
+              goodbye to Digital Ocean in favor of AWS since this will be a more complex application, and I need the experience.
             </p>
             <hr/>
             <p>

@@ -91,8 +91,8 @@ function Portfolio() {
               me to React and large-scale CSS usage, this portfolio site 
               solidified my understanding. I feel more confident in how I structure and use components, and I think I've done a good 
               job of keeping this site as maintainable for future me as possible. For CSS, I thought I was already a pro, but this
-              project taught me a whole lot more. I didn't realize how much was possible with CSS variables until I created 
-              <code>scaling.css</code> for this project. Its completely changed the way I think about front-end design.
+              project taught me a whole lot more. I didn't realize how much was possible with CSS variables until I 
+              created <code>scaling.css</code> for this project. Its completely changed the way I think about front-end design.
             </p>
             <hr/>
             <h2>Reflection</h2>

@@ -78,6 +78,7 @@
   color: var(--anchor-link);
   cursor: pointer;
   transition: color 0.2s ease, background-color 0.2s ease;
+  font-weight: 600;
 }
 
 #text-body a:hover {
@@ -108,17 +109,26 @@
 
 .display-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: var(--main-page-grid-columns);
   grid-template-rows: repeat(4, auto);
   gap: 12px;
 }
 .display-grid-cell {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
   min-height: 80px;
-  border: 1px solid #ccc;
+  border: 2px solid var(--project-img-border);
   border-radius: 8px;
-  padding: 0.5rem;
+  padding: 1rem;
+}
+
+.display-grid-cell p {
+  font-size: 1rem !important;
 }
 
 .display-grid-cell img {
   height: 5rem !important;
+  border: none !important;
 }

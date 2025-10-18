@@ -1,5 +1,6 @@
 import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
+import useNavigateTop from "../../hooks/useNavigateTop";
 
 import ogPsoftIndex from '../../assets/og-psoft-index.png';
 import ogPsoftHW from '../../assets/og-psoft-hw-page-light.png';
@@ -10,6 +11,7 @@ import newPsoftIndex2 from '../../assets/new-psoft-index2.png';
 import newPsoftIndexDM from '../../assets/new-psoft-index-dm.png';
 
 function PSoft() {
+  const navigateTop = useNavigateTop();
   return (
     <>
       <div className="page">
@@ -26,12 +28,12 @@ function PSoft() {
               material engaging and valuable, but its website did not reflect the same level of quality. Wanting to 
               improve the student experience while gaining web development experience myself, I put together a 
               storyboard for a revamped version of the site and brought it to office hours. The professor was enthusiastic about my initiative 
-              and granted the opportunity to take full creative control of the website.
+              and granted the opportunity to take full creative control.
             </p>
             <hr/>
             <h3>Reformatted Pages</h3>
             <p>
-              The site’s most significant issue was readability. Each page had quirks that needed to be addressed:
+              The site’s most pressing issue was readability. Each page had quirks that needed to be addressed:
             </p>
             <h4>Home Page</h4>
             <ul>
@@ -39,7 +41,7 @@ function PSoft() {
               which diminished readability on larger screens.</li>
               <li><b>Structure:</b> Information wasn’t presented in a clear or intentional way. For example, important details 
               like the lecture location were buried in small text in the middle of the page. To solve this, I removed unnecessary bloat, and broke the page 
-              into clearly defined sections to ensure nothing is missed.</li>
+              into clearly defined sections.</li>
             </ul>
             <div id="content-img-container">
               <img src={ogPsoftIndex}/>
@@ -52,7 +54,7 @@ function PSoft() {
             <h4>Homework / Topics / Resources Pages</h4>
             <p>
               All three pages followed the same structure, with new content added to the bottom each week. By the end of the semester, 
-              this created long, cumbersome pages that required excessive scrolling. To solve this, I introduced dropdowns so 
+              this created long, cumbersome pages that required excessive scrolling to get to the newest content. To solve this, I introduced dropdowns so 
               users can quickly access only the content they need without being overwhelmed.
             </p>
             <div id="content-img-container">
@@ -65,7 +67,7 @@ function PSoft() {
             </div>
             <h3>Dark Mode Toggle</h3>
             <p>
-              After a semester of using this site in light mode, adding dark mode was one of my top priorities.
+              After a semester of lowering my brightness every time I opened the site, adding dark mode was a top priority.
               I created a dedicated <code>colors.css</code> file so the color of all UI components would 
               smoothly transition, and placed the toggle on the right side of the navigation bar.
             </p>
@@ -76,23 +78,23 @@ function PSoft() {
             <h3>Components</h3>
             <p>
               In the original implementation, reused components were duplicated across multiple HTML files, 
-              requiring repetitive edits for even minor changes such as updating the footer date. I resolved 
-              this by modularizing each component into a dedicated JavaScript file, streamlining maintenance 
-              and improving consistency across the site.
+              requiring repetitive edits for even minor changes such as updating the footer date. To solve this.
+              I modularized each component into a dedicated JavaScript file where edits propogate to all pages of the site.
             </p>
             <h3>Replaced Bootstrap</h3>
             <p>
-              The original site was built entirely with Bootstrap and didn’t include a single custom CSS file, which 
-              left the codebase A MESS. Since maintainers frequently interact with the code to reveal new content—and 
-              with plans to add dark mode and responsive scaling—a full transition was necessary, despite the initial 
-              pain of gutting the old design. The CSS layout is now thoughtfully structured and far less cluttered, 
-              improving the experience for everyone.
+              The original site was built entirely with Bootstrap and didn’t include a single custom CSS file,  
+              leaving the codebase <b>A MESS</b>. Since maintainers frequently interact with the code to reveal new content, and 
+              with plans to add features that required custom CSS, a full transition was necessary, despite the initial 
+              pain of gutting the old design. This was one of my best decisions, as the CSS layout is now thoughtfully 
+              structured and far less cluttered.
             </p>
             <h3>Responsive Scaling</h3>
             <p>
-              Bootstrap is great because it takes a mobile-first approach. Without it, I would have to design the scaling 
-              myself. I did this by creating <code>scaling.css</code>, a file with width-based media queries that altered 
-              CSS variables. It is the same approach I took with this portfolio site.
+              Bootstrap was great because it took a mobile-first approach, and bad for this same reason on larger screens. 
+              Without it, I would have to design the scaling myself, and finally make it work for all screens. I achieved this 
+              by creating <code>scaling.css</code>, a file with width-based media queries that altered CSS variables. 
+              It is the same approach I took with this <a onClick={() => navigateTop("/projects/portfolio")}>portfolio site</a>.
             </p>
             <div id="content-img-container">
               <img src={mobilePsoft}/>
@@ -101,9 +103,9 @@ function PSoft() {
             <h3>GitHub Workflow</h3>
             <p>
               The previous workflow for maintaining this site was inefficient. Edits were made from zip archives, 
-              making version tracking impossible and causing fragmented copies of the site. To resolve this, I 
+              making version tracking impossible and causing fragmented copies of the code. To solve this, I 
               established a private GitHub repository to manage all changes and streamline collaboration. Now, 
-              all updates are tracked through version control, instructors have controlled repository access, 
+              <b>all</b> updates are tracked, instructors have controlled repository access, 
               and deployment is consistent and reliable.
             </p>
             <h3>Template</h3>
@@ -115,7 +117,7 @@ function PSoft() {
             <p>
               The old site logo was a turtle, which doesn't have much to do with a Principles of Software course. I updated it to 
               a blue cogwheel to better represent the subject matter and match the site’s theme. In choosing the new design, 
-              I made sure to only use images with a Creative Commons license.
+              I made sure to use an image with a Creative Commons license.
             </p>
             <hr/>
             <h2>Reflection</h2>
@@ -128,13 +130,13 @@ function PSoft() {
               <img src={newPsoftIndex}/>
             </div>
             <p>
-              Certainly an improvement, but nowhere near the second iteration:
+              Certainly an improvement, but I'm much happier with the second iteration:
             </p>
             <div id="content-img-container">
               <img src={newPsoftIndex2}/>
             </div>
             <p>
-              Overall, it’s been exciting to contribute to a website used by so many students (including myself!) each semester. 
+              Overall, it’s been exciting to overhaul a website used by so many students (including myself!) each semester. 
               Though it was a large undertaking, I’m proud to have helped improve the experience of future computer science students 
               at RPI.
             </p>

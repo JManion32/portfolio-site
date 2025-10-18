@@ -28,13 +28,13 @@ function CookieCoder() {
                 This project is currently in its planning stages. If you have any input, please reach out!
             </p>
             <p>
-                Cookie Coder is the site I wish I had when I was first learning how to code. It 
-                will feature a wide range of languages including Python, Java, C++, JavaScript, 
-                PHP, SQL, and more, and take a fresh approach to traditional module-based learning. 
-                Instead of rigid lessons, users will answer questions from a large pool of interactive, flashcard-style 
-                questions. As they answer correctly, they’ll earn “bits,” an in-game 
-                currency that tracks progress and ranks players on global leaderboards. The more 
-                bits they accumulate, the larger their pool grows, and the harder their questions become.
+                Cookie Coder is the site I wish I had when I first started learning to code. It will 
+                support a wide range of languages—Python, Java, C++, JavaScript, PHP, SQL, and more—and 
+                take a fresh approach to traditional module-based learning. Instead of rigid lessons, 
+                users will work through a massive pool of interactive, flashcard-style questions. Each 
+                correct answer earns “bits,” an in-game currency that tracks progress and ranks players 
+                on global leaderboards. The more bits a user collects, the larger their question pool 
+                grows, and the more difficult they become.
             </p>
             <hr/>
             <h2>Tentative Tech Stack</h2>
@@ -99,8 +99,8 @@ function CookieCoder() {
                 The standard gamplay. These questions will be simple (multiple choice, true/false, fill in the blank, etc), 
                 enabling the user to rapid-fire cycle through them. 
                 For each programming language, the user will start with 300 of these questions and accumulate more, higher level 
-                ones as they advance in the game. Rather than having set modules, questions will be from the entire pool, and 
-                their bits will determine the chance they have of being pulled.
+                ones as they advance in the game. Rather than having set modules, questions will be pulled from a pool, and 
+                their frequency will be determined by how many bits the user has.
             </p>
             <h3>Coding Challenges</h3>
             <p>
@@ -128,7 +128,7 @@ function CookieCoder() {
                 />
                 <h3>Make it Rain!</h3>
                 <p>
-                  Features repetitive, tycoon-style gameplay, as well as a risk component where 
+                  Features repetitive tycoon gameplay, as well as a risk component where 
                   users have to solve puzzles to multiply their earnings. Growing up, I spent hundreds 
                   of hours playing this.
                 </p>
@@ -140,7 +140,8 @@ function CookieCoder() {
                 <h3>Gimkit</h3>
                 <p>
                   If you haven't heard of this site, I would describe it as competitive flashcards. 
-                  It features the same tycoon-style gameplay that made learning fun and effective.
+                  We used to play this a lot in high school, and its interactive tycoon gameplay 
+                  made learning fun and effective.
                 </p>
               </div>
               <div className="display-grid-cell">
@@ -167,7 +168,7 @@ function CookieCoder() {
                 <h3>Submitty</h3>
                 <p>
                   This always inspires my projects in one way or another. I plan to adopt a similar multi-language backend architecture 
-                  where one language is for general application logic and the other is for dedicated to worker processes.
+                  where one language is for general application logic and the other is dedicated to worker processes.
                 </p>
               </div>
               <div className="display-grid-cell">
@@ -175,14 +176,14 @@ function CookieCoder() {
                   src={geometryDash}
                 />
                 <h3>Geometry Dash</h3>
-                <p>I want to take inspiration from the menu where the user selects levels and sees their stats.</p>
+                <p>I like the menu where the user chooses between levels. I imagine Cookie Coder's menu will be similar.</p>
               </div>
               <div className="display-grid-cell">
                 <img
                   src={cookieClicker}
                 />
                 <h3>Cookie Clicker</h3>
-                <p>An internet classic. Features similar tycoon-style gameplay, and its the namesake!</p>
+                <p>An internet classic. Features tycoon gameplay, and its the namesake!</p>
               </div>
             </div>
             <hr/>

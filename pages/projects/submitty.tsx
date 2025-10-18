@@ -6,7 +6,6 @@ import submittyDuck from '../../assets/submitty_duck.png';
 import githubLight from '../../assets/github-mark.png';
 import githubDark from '../../assets/github-mark-white.png';
 
-import githubActions from '../../assets/github-actions-ui.png';
 import homeNotis from '../../assets/all_notifications_unread_light_mode.png';
 import configEditor from '../../assets/gradeable_config_editor.png';
 
@@ -80,7 +79,7 @@ function Submitty() {
             <p>
               Each semester, the Rensselaer Center for Open Source is home to dozens of exciting and innovative projects. 
               While there’s no shortage of opportunities, one stands out above the rest. Created in 2014 and now used 
-              in every computer science course at RPI, Submitty is a large-scale project with endless opportunities 
+              in every computer science course at RPI, Submitty is a massive project with endless opportunities 
               for growth and contribution.
             </p>
             <p>
@@ -93,7 +92,7 @@ function Submitty() {
             </p>
             <p>
               At the end of the spring semester, I was excited to learn that I would be joining the full-time development 
-              team for the summer. This is where I found my footing, and started to make more impactful contributions.
+              team for the summer. This is where I really found my footing, and started to make impactful contributions.
             </p>
             <hr/>
             <h2>Displaying all Notifications on the Home Page</h2>
@@ -105,7 +104,7 @@ function Submitty() {
             </p>
             <h3>Initial PR (<a href="https://github.com/Submitty/Submitty/pull/11914">PR#11914</a>)</h3>
             <p>
-              Since this feature is now front and center on the site, thoughtful UI/UX design was essential. As a group, we started 
+              Since this feature was going to be front and center on the site for all to see, thoughtful UI/UX design was essential. As a group, we started 
               with whiteboard sketches to explore layout ideas, then moved to Figma to create a polished mockup for feedback 
               and iteration. Throughout development, I regularly demoed my progress to the group to gather input and refine both 
               functionality and design.
@@ -135,14 +134,8 @@ function Submitty() {
                 <li>Added a star icon next to gradeable notifications.</li>
                 <li>Increased the font weight of notification content for better readability.</li>
                 <li>Linked each notification’s course name to that course’s notifications page.</li>
-                <li>Refactored click behavior: with three clickable elements in each container, only the individual elements are now clickable 
-                  (rather than the entire container).</li>
               </ul>
-              Each element also underlines on hover. This is inspired by GitHub Actions' job design:
             </p>
-            <div id="content-img-container">
-              <img src={githubActions}/>
-            </div>
             <h3 style={{ marginBottom: "2rem" }}>The Final Product</h3>
             <div id="content-img-container">
               <img src={homeNotis}/>
@@ -161,8 +154,8 @@ function Submitty() {
             </p>
             <h3>Gradeable Config Editor (<a href="https://github.com/Submitty/Submitty/pull/10325">PR#10325</a>)</h3>
             <p>
-              I inherited this PR from <a href="https://github.com/DarthNyan">Tate Whiteberg</a> and completed the implementation 
-              of the initial text editor for editing gradeable configuration files.
+              I inherited this PR from <a href="https://github.com/DarthNyan">Tate Whiteberg</a>, picking up where it was 
+              left off, and completing it.
             </p>
             <h3>Live Editing with CodeMirror (<a href="https://github.com/Submitty/Submitty/pull/11814">PR#11814</a>)</h3>
             <p>
@@ -191,15 +184,9 @@ function Submitty() {
                 <li>improved overall spacing for readability</li>
               </ul>
             </p>
-            <h3>Edit Directory File (Coming Soon)</h3>
-            <p>
-              Allows users who pull from Submitty's private course repository to use the gradeable config editor. Before I can create this, there is a 
-              security vulnerability that must to be addressed. Currently, there are no checks to ensure that the user pulling from the repository 
-              owns the file. This means that anyone with SSH access would be able to edit any autograding configuration on the web app.
-            </p>
             <h3>Documentation (<a href="https://github.com/Submitty/submitty.github.io/pull/707">PR#707</a>)</h3>
             <p>
-              View documentation page <a href="https://submitty.org/instructor/assignment_configuration/configuration_editor">here</a>.
+              <a href="https://submitty.org/instructor/assignment_configuration/configuration_editor">Documentation page</a>.
             </p>
             <h3 style={{ marginBottom: "2rem" }}>The Final Product</h3>
             <div id="content-img-container">
@@ -243,18 +230,17 @@ function Submitty() {
               teammates displays, notifying the instructor that they have teammates, and asking if they want to override them as well.
             </p>
             <hr/>
-            <h2>Future Plans</h2>
+            <h2>Future Plans / Work in Progress</h2>
             <p>
-              I am planning to work on Submitty in Fall 2025 and Spring 2026 (and beyond!). Here are some features I am interested in adding:
+              I am currently working of Submitty for the Fall 2025 semester, and hopefully Spring 2026 (and beyond!) as well. 
+              Here is my to-do list:
               <ul>
                 <li><b>Mentor new developers</b> – Having experienced the challenge of learning Submitty’s large codebase as a newcomer, I’m eager to share my knowledge and help new contributors get up to speed quickly while enjoying the process along the way.</li>
-                <li><b>Enhance the Autograding Configuration page</b> – A vital tool for instructors; improving it means a better experience for everyone.</li>
-                <li><b>Transform the home page into a dashboard</b> – Adding notifications was a good start, but there is more information to centralize such as grade summaries and upcoming gradeables.</li>
-                <li><b>Refactor and modularize <code>forum.js</code></b> – The forum is a favorite feature but most of its JavaScript is in a single 3,000 line file. Breaking it up will make it cleaner, faster, and easier to improve.</li>
-                <li><b>Improve site intuitiveness and maintainability</b> – Tackle tech debt with cleaner CSS, fewer inline scripts, smaller files, and stronger testing, making the platform friendlier for all developers.</li>
+                <li><b>Create a cloud instance</b> - Submitty currently requires self-hosting. By putting it on the cloud, anyone who is interested will be able to use it! I am in the process of setting up the cloud infrastructure for this.</li>
+                <li><b>Enhance the Autograding Configuration page</b> – A vital tool for instructors; improving it means a better experience for everyone especially future cloud users since they won't have SSH access.</li>
+                <li><b>Transform the home page into a dashboard</b> – Adding notifications was a good start, but there is more information to centralize such as grade summaries, upcoming gradeables, and an update feed.</li>
                 <li><b>Convert more pages to Vue</b> – The component-based approach is a joy to work with and a strong candidate to become a core part of the stack if we continue to port existing Twig files.</li>
-                <li><b>Work with the database</b> – I'm currently taking Database Systems, and am excited to apply what I learned to Submitty!</li>
-                <li><b>Explore WebSockets</b> – I still haven't worked with them much, and want to learn more!</li>
+                <li><b>Work with the database</b> – I'm currently taking Database Systems, and am excited to apply what I learn to Submitty!</li>
               </ul>
             </p>
             <hr/>

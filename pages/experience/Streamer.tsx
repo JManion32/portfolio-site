@@ -26,8 +26,8 @@ function Streamer() {
             <h2>Charity Stream</h2>
             <p>
               During the 2022 holiday season, my coworker’s home was lost to a fire. To support him and 
-              his family, I organized a charity stream with all proceeds directed to them. The response 
-              blew away my expectations, with $1,200 being raised in just six hours.
+              his family, I organized a charity stream. The response 
+              blew away my expectations, with $1,200 being raised in just six hours!
             </p>
             <div id="content-img-container">
               <img src={charityStream} className="project-img"/>

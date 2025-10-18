@@ -27,7 +27,7 @@ function LambdaChi() {
             <p>
               If I had to describe my time at &Lambda;ΧΑ in one word, it would be <i>transformative</i>. I never 
               imagined myself joining a fraternity, especially with all the negative stereotypes that surround 
-              Greek life. Despite everything I have heard, I’ve only found a support network of exceptional people. 
+              Greek life. Despite everything heard, I’ve only found a support network of exceptional people. 
               Through my experiences here, I’ve grown as a person, brother, and leader. Below are some of 
               the responsibilities and opportunities that have shaped my journey.
             </p>
@@ -58,8 +58,8 @@ function LambdaChi() {
             </p>
             <p>
               My ongoing priority is repopulating the site with new event posts, chapter news, and brotherhood 
-              achievements. Beyond this, I aim to add a gallery page showcasing thousands of digitized photos from 
-              our archives and a dedicated history page celebrating our chapter’s legacy. My goal is to preserve our story 
+              achievements. Beyond this, I aim to add a gallery page showcasing the thousands of digitized photos from 
+              our archives as well as a dedicated history page celebrating our chapter’s legacy. My goal is to preserve our story 
               and make it easily accessible to all brothers—past, present, and future.
             </p>
             <hr/>

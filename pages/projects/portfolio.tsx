@@ -64,19 +64,19 @@ function Portfolio() {
               bullet points and offer a more detailed view of what I’ve been working on. 
               In addition to showcasing my experience, the site also serves as a personal 
               record of my progress. Most of all, it’s something I created for my father, 
-              a fellow software engineer, who always likes to see what I’ve been building.
+              a fellow software engineer, who is always interested in what I've been up to.
             </p>
             <h3>Responsive / Interactive Experience</h3>
             <p>
-              Since this site is static with a focus on text content rather than defining 
+              Since this site is static with a focus on text content rather than cool 
               features, I wanted to ensure it was thoughtfully designed. You'll find 
               a smooth dark mode toggle, responsive scaling, fun animations, and 
-              interactive buttons, all crafted with care to make the UX both engaging and memorable.
+              interactive buttons, all crafted with care to make the UX seamless, engaging, and memorable.
             </p>
             <h3>Personality</h3>
             <p>
               This site is an opportunity to be personable rather than bland, or AI generated. 
-              It's <code>justinmanion.com</code>, and it should reflect who Justin Manion is.
+              It's <b>justinmanion.com</b>, and I want it to reflect who Justin Manion really is.
             </p>
             <hr/>
             <h2>Implementation</h2>

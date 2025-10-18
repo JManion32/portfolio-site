@@ -1,5 +1,6 @@
 import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
+import pcStore from '../../assets/price-chopper-store.webp';
 import pcRetired from '../../assets/price-chopper-retirement.jpeg';
 
 function PriceChopper() {
@@ -16,15 +17,21 @@ function PriceChopper() {
               This was my first job, held from June 2020 to October 2024. Along the way, I advanced 
               from high school to college, and from cashier to dependable leader.
             </p>
+            <div id="content-img-container">
+              <img src={pcStore} className="project-img"/>
+              <p>
+                I spent thousands of hours in this store.
+              </p>
+            </div>
             <hr/>
             <h2>Cashier</h2>
             <p>
-              I spent the first two year of my Price Chopper journey as a cashier. I showed up, I scanned groceries, 
-              and of course, I got the produce codes down.
+              I spent the first two years of my Price Chopper journey as a cashier. I showed up, scanned groceries, 
+              and of course, got the produce codes down.
             </p>
             <h3>Takeaway: Appreciate the experience.</h3>
             <p>
-              Yeah, it was repetitive, and would I rather have been doing something else? Of course. But it was a job, not a source 
+              Yeah, it was repetitive, and I would have rather been doing something else. But it was a job, not a source 
               of entertainment. If I wanted to enjoy it, I had to create that experience myself. Everyday, I put my best effort 
               forward to be personable, and find things to be happy about. At some point, I no longer had to make an effort, 
               I just enjoyed being there. This takeaway extends far beyond my time at Price Chopper. There is joy to be found in 
@@ -65,8 +72,8 @@ function PriceChopper() {
             <p>
               The tasks were straightforward — emptying garbages, 
               cleaning bathrooms, keeping things in order. I could have gone through the motions, done an average job, and left half-full 
-              bins or “clean enough” bathrooms for the morning crew. Instead, I found real satisfaction in giving that extra effort, maybe 
-              staying an extra 15 minutes to finish everything so I didn't leave someone else hanging. This mindset has carried over to 
+              bins or “clean enough” bathrooms for the morning crew. Instead, I found real satisfaction in giving that extra effort, 
+              never leaving until the job was finished so I didn't leave someone else hanging. This mindset has carried over to 
               development work too. Sure, I might spend a whole day perfecting a site’s mobile scaling, but in the end, it’s always worth it.
             </p>
             <hr/>
@@ -80,26 +87,26 @@ function PriceChopper() {
                 <li>Processing Money Orders</li>
                 <li>Handling Customer Returns / Complaints</li>
               </ul>
-              This was by far my favorite role. My developed relationships with the daily customers, 
+              This was by far my favorite role. I developed relationships with the daily customers, 
               had downtime to do my own thing, and truly felt like I had mastered the Front End department.
             </p>
             <h3>Takeaway: Master the details.</h3>
             <p>
               Mistakes in the office carried far greater consequences than anything 
-              that could happen on the sales floor. Even once I had a routine, I made a habit of double- and 
-              triple-checking my work to ensure accuracy. Not only did this allow me succeed, but it also 
+              that could happen on the sales floor. Even once I had a routine, I made a habit of double, even 
+              triple-checking my work to ensure accuracy, and organization. Not only did this enable me succeed, but it  
               made the lives of my team easier.
             </p>
             <hr/>
             <h2>Reflection</h2>
             <p>
-              My time at Price Chopper was invaluable in shaping who I am today. Though that chapter of my life is over, 
-              I will always cherish the experiences I had there.
+              My time at Price Chopper was invaluable in shaping who I am today. Though that extended 
+              chapter of my life is now over, I will always cherish the experiences I had there.
             </p>
             <div id="content-img-container">
               <img src={pcRetired} className="project-img"/>
               <p>
-                Me and my coworker on my last day of work.
+                Me and my coworker on my "retirement" day.
               </p>
             </div>
           </div>

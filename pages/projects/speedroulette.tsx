@@ -1,6 +1,7 @@
 import Breadcrumbs from '../../components/Breadcrumb';
 import TechStack from "../../components/TechStack";
 import NavButton from '../../components/NavButton';
+import useNavigateTop from "../../hooks/useNavigateTop";
 
 import srLogo from '../../assets/sr-logo.svg';
 import githubLight from '../../assets/github-mark.png';
@@ -12,6 +13,7 @@ import srDeploymentDay from '../../assets/sr-deployment-day.png';
 import srGrid from '../../assets/srGrid.png';
 
 function SpeedRoulette() {
+  const navigateTop = useNavigateTop();
   return (
     <>
       <div className="page">
@@ -102,21 +104,15 @@ function SpeedRoulette() {
               <img src={javafxProject}/>
             </div>
             <p>
-              This was a GUI I built using JavaFX and what I had learned at Hudson Valley. It was limited 
-              in functionality, and had a bloated codebase (I didn't yet know how to use object oriented programming). 
+              This was a GUI I built using JavaFX and what I had learned at <a onClick={() => navigateTop("/experience/HudsonValley")}>Hudson Valley</a>. 
+              It was limited in functionality, and had a bloated codebase (I didn't yet know how to use object oriented programming). 
               I knew I wanted to create something more. Something I was proud of. Something I could enjoy with my friends.
-            </p>
-              
-            <p>
-              For awhile, I considered just refining what I had already built. After taking Data Structures at RPI, I refactored the
-              codebase to use OOP, bringing the line count down from ~3,000 to ~1,000. At the time, I didn’t recognize that 
-              JavaFX wasn’t suitable for building websites. My perspective shifted in January 2025, when joining Submitty gave me my first real exposure to web technologies.
             </p>
 
             <p>
               The lightbulb went off on February 21st, 2025. I had been seeing a lot of speed chess content in my YouTube feed and I thought, this 
               would be really cool to combine with roulette! Being halfway through my semester and having a limited skillset, I decided to take 
-              my time in the planning phase. I created a full storyboard of all pages of the site, figured out my tech stack, and refined the 
+              my time in the planning phase. I created a full storyboard of all pages of the site in light and dark mode, figured out the tech stack, and refined the 
               rules of the game. After a few weeks, it was time to push the analysis paralysis aside and dive into the implementation.
             </p>
             <hr/>
@@ -179,7 +175,7 @@ function SpeedRoulette() {
                 <li>Games Completed</li>
                 <li>Total Won</li>
                 <li>7 Hottest / 7 Coldest Numbers</li>
-                <li>Graphs for all the winning number stats (Red/Black/Green, Even/Odd/Other, etc.)</li>
+                <li>Visualization of all the winning number stats (Red/Black/Green, Even/Odd/Other, etc.)</li>
               </ul>
             </p>
             <hr/>
@@ -194,7 +190,7 @@ function SpeedRoulette() {
             </p>
             <p>
               While challenging at first, learning all of these technologies has given me a well rounded skillset that I have been 
-              able to use for Submitty, and other projects.
+              able to use for <a onClick={() => navigateTop("/projects/Submitty")}>Submitty</a>, and other projects.
             </p>
             <h3>Grid layout</h3>
             <p>
@@ -212,7 +208,7 @@ function SpeedRoulette() {
             </p>
             <h3>Deployment</h3>
             <p>
-              Deployment turned out to be the most time-consuming challenge of the project. Since it was my first time, there 
+              Deployment turned out to be the worst blocker of the project. Since it was my first time, there 
               was an inevitable learning curve, but the larger issue was choosing the right platform. I initially experimented 
               with AWS, but the challenge of identifying the right services from hundreds of options and then configuring them to work together 
               made it impractical for a small personal project. Ultimately, I switched to DigitalOcean, which provided a much 
@@ -234,26 +230,29 @@ function SpeedRoulette() {
                 <b>Data Validation:</b> The backend validates each request to ensure the bet amount is less than or equal to the previous user balance.
               </p></li>
               <li><p>
-                <b>Name Filter:</b> Utilized multiple JavaScript libraries to prevent explicit nicknames.
+                <b>Name Filter:</b> Utilized multiple JavaScript libraries to identify and prevent explicit nicknames.
               </p></li>
               <li><p>
                 <b>Privacy Policy:</b> Outlines how user data is handled, ensuring transparency and protection for both the site owner and visitors.
               </p></li>
             </ul>
             <p>
-              With all the precautions I took, I still left a crucial vulnerability that didn’t reveal itself until a week after deployment, when a user reported they were unable to start a game. 
-              I didn’t think much of it at first and simply rebooted the server. The site came back and was stable… for about five minutes. After another reboot, the same problem occurred. 
-              I rebooted the server once more, this time running my Docker containers with the live feed while I tested the site to see if I could spot anything. After several minutes, 
-              I thought the third reboot might have finally done the trick. That's when I saw a horrific sight on the feed:
+              With all the precautions I took, I still left a crucial vulnerability that didn’t reveal itself until a week after deployment, 
+              when a user reported they were unable to start a game. I didn’t think much of it at first and simply rebooted the server. 
+              The site came back and was stable… for about five minutes. After another reboot, the same problem occurred. I rebooted 
+              the server once more, this time running my Docker containers with the live feed while I tested the site to see if I could 
+              spot anything. After several minutes, I thought the third reboot might have finally done the trick. That's when I saw 
+              a horrific sight on the feed:
             </p>
             <p><b>pkill pkill pkill pkill pkill</b></p>
             <p>
-              A malicious script had found its way onto my server and hundreds of commands were just executed! But how? I spent the next 6 hours figuring it out.
+              A malicious script had found its way onto my server and hundreds of commands were just executed! 
+              But how? I spent the next 6 hours figuring it out.
             </p>
             <p>
               The root cause turned out to be a simple misconfiguration in my Docker Compose file. The malware, known as <code>Kinsing</code>, exploits vulnerabilities 
-              in Linux servers and cloud-native environments, then killing all processes to maximize resources for mining cryptocurrency. It gained access to my Docker files because, 
-              although most of my setup was correct, I had forgotten to bind the backend, database, and caching ports to localhost. This left them exposed to the open internet, and 
+              in Linux servers and cloud-native environments, then killing all processes to maximize resources for mining cryptocurrency. It gained access to my Docker files because 
+              I had forgotten to bind the backend, database, and caching ports to localhost. This left them exposed to the open internet, and 
               rendered my reverse proxy useless. After addressing this, reviewing and tightening a few other configurations, and migrating everything to a 
               fresh DigitalOcean droplet, I haven’t run into any issues since!
             </p>
@@ -261,9 +260,9 @@ function SpeedRoulette() {
             <h2>Reflection</h2>
             <p>
               Although this project was created only this year, I truly believe it was the spark that ignited my real passion for programming. Being 
-              the sole architect of a 25,000+ line codebase gave me a unique sense of accomplishment I’d never felt before. Prior to Speed Roulette, 
-              most of my work was driven by requirement rather than genuine enjoyment. I’ve enjoyed every step of building it, and that same excitement 
-              now carries over into my other projects. I’m excited to keep building and continue leveling up as a developer.
+              the sole architect of a 25,000+ line codebase that does something cool gave me a unique sense of accomplishment I’d never felt before. Prior to Speed Roulette, 
+              most of my work was driven by requirement rather than genuine enjoyment, but I’ve enjoyed every step of this, and that same excitement 
+              has carried into other projects.
             </p>
             <div id="content-img-container">
               <img src={srDeploymentDay}/>

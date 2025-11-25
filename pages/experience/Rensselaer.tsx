@@ -60,19 +60,19 @@ function Rensselaer() {
             <h2>Fall 2025</h2>
             <p>
               The current semester. From now on, I have to take exclusively CS courses. This semester is, as usual, 4 courses totalling 16 credits. 
-              The courses are: Database Systems, Programming Languages, Software Analysis and Debugging, and 
-              <a onClick={() => navigateTop("/projects/Submitty")}>Submitty</a> (RCOS). So far, good!
+              The courses are: Database Systems, Programming Languages, Software Analysis and Debugging, 
+              and <a onClick={() => navigateTop("/projects/Submitty")}>Submitty</a> (RCOS). So far, good!
             </p>
             <h3>Key Course: Database Systems</h3>
             <p>
-              Before this course, I was knowledgeable with databases. Now, I am becoming proficient. Few courses 
-              have material that I am confident I will apply in the real world, but this is certainly one of them.
+              Before this course, I was knowledgeable with databases. Now, I am proficient. This is one of the best courses I have ever taken. 
+              The material is practical, databases are interesting, and I have learned so much.
             </p>
             <hr/>
             <h2>Spring 2026</h2>
             <p>
-              My final semester of college. Courses I am interesting in taking here include Operating Systems, Software Design and Documentation, 
-              Distributed Systems, and <a onClick={() => navigateTop("/projects/Submitty")}>Submitty</a> for the third time. Stay tuned!
+              My final semester of college. I am taking Operating Systems, Software Design and Documentation, 
+              Distributed Systems, and <a onClick={() => navigateTop("/projects/Submitty")}>Submitty</a> for the third time.
             </p>
             <hr/>
             <h2>Reflection</h2>

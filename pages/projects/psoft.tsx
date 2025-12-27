@@ -1,3 +1,6 @@
+import { useState } from 'react';
+import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
+
 import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
 import useNavigateTop from "../../hooks/useNavigateTop";
@@ -11,6 +14,7 @@ import newPsoftIndex2 from '../../assets/new-psoft-index2.png';
 import newPsoftIndexDM from '../../assets/new-psoft-index-dm.png';
 
 function PSoft() {
+  const [readMore, setReadMore] = useState(false);
   const navigateTop = useNavigateTop();
   return (
     <>

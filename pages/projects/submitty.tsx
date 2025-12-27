@@ -1,3 +1,6 @@
+import { useState } from 'react';
+import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
+
 import Breadcrumbs from '../../components/Breadcrumb';
 import TechStack from "../../components/TechStack";
 import NavButton from '../../components/NavButton';
@@ -10,6 +13,7 @@ import homeNotis from '../../assets/all_notifications_unread_light_mode.png';
 import configEditor from '../../assets/gradeable_config_editor.png';
 
 function Submitty() {
+  const [readMore, setReadMore] = useState(false);
   return (
     <>
       <div className="page">

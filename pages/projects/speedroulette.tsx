@@ -1,3 +1,6 @@
+import { useState } from 'react';
+import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
+
 import Breadcrumbs from '../../components/Breadcrumb';
 import TechStack from "../../components/TechStack";
 import NavButton from '../../components/NavButton';
@@ -14,6 +17,7 @@ import srGrid from '../../assets/srGrid.png';
 
 function SpeedRoulette() {
   const navigateTop = useNavigateTop();
+  const [readMore, setReadMore] = useState(false);
   return (
     <>
       <div className="page">

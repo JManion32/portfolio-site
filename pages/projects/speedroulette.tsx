@@ -61,14 +61,9 @@ function SpeedRoulette() {
                   ]
                 },
                 {
-                  title: "Backend",
+                  title: "Backend & Storage",
                   items: [
-                    { name: "Go", className: "go" }
-                  ]
-                },
-                {
-                  title: "Database & Caching",
-                  items: [
+                    { name: "Go", className: "go" },
                     { name: "PostgreSQL", className: "postgres" },
                     { name: "Redis", className: "redis" }
                   ]

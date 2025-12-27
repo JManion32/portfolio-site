@@ -1,4 +1,3 @@
-// src/components/NavButton.tsx
 import { useNavigate } from 'react-router-dom';
 
 type Props = {
@@ -6,24 +5,24 @@ type Props = {
   leftNav?: string;
   right?: string;
   rightNav?: string;
-  className?: string;
 };
 
-export default function NavButton({ left, leftNav, right, rightNav, className }: Props) {
+export default function NavButton({ left, leftNav, right, rightNav }: Props) {
   const navigate = useNavigate();
   const showLeft = !!left && !!leftNav;
   const showRight = !!right && !!rightNav;
 
   if (!showLeft && !showRight) return null;
 
+  // Always navigate to the top of the page.
   const handleNavigate = (path: string) => {
     navigate(path);
-    window.scrollTo({ top: 0, behavior: "auto" }); // or "smooth"
+    window.scrollTo({ top: 0, behavior: "auto" });
   };
 
 
   return (
-    <footer className={`guide-footer ${className ?? ''}`}>
+    <footer className={`guide-footer`}>
       {showLeft && (
         <button className="left-guide-button" onClick={() => handleNavigate(leftNav!)}>
           <span className="left-arrow-spacer">{'<<'}</span> {left}

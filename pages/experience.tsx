@@ -31,7 +31,7 @@ function Experience() {
             />
             <PreviewCard
                 img={stewartsLogo}
-                header="IT Field Technician Intern"
+                header="IT Technician Intern"
                 date="May 2024 - August 2024"
                 desc="On-site technician responsible for troubleshooting and maintaining hardware in fast-paced environments."
                 nav="/experience/Stewarts"

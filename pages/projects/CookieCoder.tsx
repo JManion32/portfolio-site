@@ -1,3 +1,18 @@
+/*
+import { useState } from 'react';
+import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
+
+const [readMore, setReadMore] = useState(false);
+
+<div className={`${readMore ? '' : 'hide-read-more-container'}`}>
+
+<ReadMoreBtn
+  readMore={readMore}
+  setReadMore={setReadMore}
+/>
+*/
+
+
 import { useState } from 'react';
 import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
 

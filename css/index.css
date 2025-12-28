@@ -123,6 +123,7 @@ html, body {
 .left-guide-button:hover, .right-guide-button:hover {
   background-color: var(--hover-default-button);
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 .main-page-header {

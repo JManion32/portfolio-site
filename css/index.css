@@ -66,8 +66,7 @@ html {
   transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
   box-shadow: var(--text-content-bg-shadow);
   width: var(--content-width);
-  margin: 0 auto;
-  flex-grow: 1;
+  margin: 0 auto 4rem auto;
   background-color: var(--content-background);
   padding: var(--text-content-padding);
   border-radius: 1rem;
@@ -87,7 +86,7 @@ html, body {
 }
 
 .guide-footer {
-  margin-top: 4rem;
+  margin-top: auto;
   position: relative;
   height: 4.5rem;
 }

@@ -22,7 +22,7 @@ export default function NavButton({ left, leftNav, right, rightNav }: Props) {
 
 
   return (
-    <footer className={`guide-footer`}>
+    <footer className="guide-footer">
       {showLeft && (
         <button className="left-guide-button" onClick={() => handleNavigate(leftNav!)}>
           <span className="left-arrow-spacer">{'<<'}</span> {left}

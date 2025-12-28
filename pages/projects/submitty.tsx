@@ -202,9 +202,9 @@ function Submitty() {
                 <img src={homeNotis}/>
               </div>
               <p>
-                This update not only streamlines how users interact with notifications, but also transforms the homepage into a more 
-                dynamic and informative landing experience. Looking ahead, I hope to expand this space further by adding upcoming 
-                gradeables, grade summaries, and other personalized insights to evolve the homepage into a true dashboard.
+                These updates have transformed the student experience of my peers and I this past semester. Taking four CS courses, combined 
+                notification feed made it easy to stay organized and up to date. In the future, I hope to add more to both the notification 
+                system and the home page, maximizing quality of life for the best user experience possible!
               </p>
               <hr/>
               <h2>Configuration Text Editor</h2>

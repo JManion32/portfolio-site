@@ -19,7 +19,7 @@ function PriceChopper() {
           <div id="text-body">
             <p>
               This was my first job, held from June 2020 to October 2024. Along the way, I advanced 
-              from high school to college, and from cashier to dependable leader.
+              from high school to college, and from novice cashier to dependable leader.
             </p>
             <div id="content-img-container">
               <img src={pcStore} className="project-img"/>

@@ -9,7 +9,7 @@
     --content-background: #ffffff;
     --project-preview: #ffffff;
     --border-project-preview: #f5f5f5;
-    --nav-background: #ffffff;
+    --nav-background: linear-gradient(to right, #ffffff, #c9d8e7);
     --default-button: #ffffff;
     --active-nav: #dee8f3;
     --nav-border: transparent;
@@ -37,7 +37,7 @@
     --content-background: #1D1D1D;
     --project-preview: #222222;
     --border-project-preview: #333333;
-    --nav-background: #222222;
+    --nav-background: linear-gradient(to right, #363636, #0f0f0f);
     --default-button: #444444;
     --active-nav: #111111;
     --nav-border: #555555;

@@ -41,9 +41,28 @@ function Submitty() {
           </div>
           <div id="text-body">
             <p>
-              Submitty is an open source course management, assignment submission, exam and grading 
-              system from the Rensselaer Center for Open Source Software (RCOS) at Rensselaer Polytechnic Institute. Most of the content here is from 
-              my <a href="https://submitty.org/developer/rensselaer_center_for_open_source/2025_Justin_Manion">summer writeup</a>.
+              Created in 2014, Submitty is an open source course management, assignment submission, exam and grading 
+              system from the Rensselaer Center for Open Source Software (RCOS). In 11 years, it has evolved from a simple
+              homework submission server, to the default learning management system used by all computer science courses at
+              Rensselaer Polytechnic Institute. With 11 years of history, Submitty presents endless opportunities 
+              for growth and contributions.
+            </p>
+            <p>
+              I began my journey with Submitty in January of 2025, taking it as a course for the spring semester. 
+              I didn't have much experience with large projects, GitHub, or any of the technologies used, but 
+              I knew I was in the right place to learn. I spent most of that semester finding my footing, reviewing 
+              pull requests, troubleshooting my VM, and making small CSS changes. I was scared of JavaScript, had no idea how PHP worked, and 
+              steered clear of anything that had to do with the database, Cypress, or Python. Despite this, Submitty was 
+              by far my favorite course thanks to the real world experience I was gaining, and the guidance of the mentors. 
+            </p>
+            <p>
+              At the end of the spring semester, I was excited to learn that I would be joining the full-time development 
+              team for the summer. This is where I really found my footing, and started to make impactful contributions.
+            </p>
+            <p>
+              I continued with Submitty in the Fall semester. We had a smaller group with many of the experienced developers 
+              moving on, so I began to take a leadership role. This spring, I am once again doing Submitty, this time as 
+              the official project leader.
             </p>
             <hr/>
             <h2>Tech Stack</h2>
@@ -80,25 +99,6 @@ function Submitty() {
               ]}
             />
             <div className={`${readMore ? '' : 'hide-read-more-container'}`}>
-              <hr/>
-              <p>
-                Each semester, the Rensselaer Center for Open Source is home to dozens of exciting and innovative projects. 
-                While there’s no shortage of opportunities, one stands out above the rest. Created in 2014 and now used 
-                in every computer science course at RPI, Submitty is a massive project with endless opportunities 
-                for growth and contribution.
-              </p>
-              <p>
-                I began my journey with Submitty in January of 2025, taking it as a course for the spring semester. 
-                I didn't have much experience with large projects, version control, or any of the technologies used, but 
-                I knew I was in the right place to learn. I spent most of that semester finding my footing, reviewing 
-                pull requests, troubleshooting my VM, and making small CSS changes. I was scared of JavaScript, had no idea how PHP worked, and 
-                steered clear of anything that had to do with the database, Cypress, or Python. Despite this, Submitty was 
-                by far my favorite course thanks to the real world experience I was gaining, and the guidance of the mentors. 
-              </p>
-              <p>
-                At the end of the spring semester, I was excited to learn that I would be joining the full-time development 
-                team for the summer. This is where I really found my footing, and started to make impactful contributions.
-              </p>
               <hr/>
               <h2>Displaying all Notifications on the Home Page</h2>
               <p>

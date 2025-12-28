@@ -6,6 +6,7 @@ import NavButton from '../../components/NavButton';
 import useNavigateTop from "../../hooks/useNavigateTop";
 
 import rpiFall from '../../assets/rpi-fall.png';
+import summerSage from '../../assets/summer-sage.jpg';
 
 function Rensselaer() {
   const navigateTop = useNavigateTop();
@@ -22,16 +23,18 @@ function Rensselaer() {
             <p>
               Rensselaer Polytechnic Institute has provided me with countless opportunities for both personal and professional growth. 
               The challenging coursework, real-world experience from <a onClick={() => navigateTop("/projects/Submitty")}>Submitty</a>, 
-              and the brotherhood I found at <a onClick={() => navigateTop("/experience/lambdachi")}>Lambda Chi Alpha</a> has made tuition worth every penny. 
-              Below are recaps from each of my academic semesters.
+              and the brotherhood I found at <a onClick={() => navigateTop("/experience/lambdachi")}>Lambda Chi Alpha</a> has made tuition worth every penny.
             </p>
+            <div id="content-img-container">
+              <img src={summerSage} className="project-img"/>
+            </div>
             <div className={`${readMore ? '' : 'hide-read-more-container'}`}>
               <hr/>
               <h2>Fall 2024</h2>
               <p>
-                Transferring from community college to RPI was a big adjustment. My first semester was 
-                exciting, but stressful. I was finding my footing on campus, rushing a fraternity, and adjusting to the rigor that 
-                defines the institution. I took four courses totaling 16 credits. They were: Physics I, Multivariable Calculus, Writing 
+                Transferring from community college to RPI was a massive adjustment. My first semester was 
+                exciting, but stressful. I was finding my footing on campus, rushing <a onClick={() => navigateTop("/experience/lambdachi")}>Lambda Chi Alpha</a>, 
+                and commuting from home all while trying to keep up with the rigor of my courses. I took four courses totaling 16 credits. They were: Physics I, Multivariable Calculus, Writing 
                 for Technical Communication, and the most impactful of all:
               </p>
               <h3>Data Structures</h3>
@@ -64,20 +67,24 @@ function Rensselaer() {
               <hr/>
               <h2>Fall 2025</h2>
               <p>
-                The current semester. From now on, I have to take exclusively CS courses. This semester is, as usual, 4 courses totalling 16 credits. 
-                The courses are: Database Systems, Programming Languages, Software Analysis and Debugging, 
+                This semester was, as usual, 4 courses totalling 16 credits. 
+                The courses were: Database Systems, Programming Languages, Software Analysis and Debugging, 
                 and <a onClick={() => navigateTop("/projects/Submitty")}>Submitty</a> (RCOS). So far, good!
               </p>
               <h3>Key Course: Database Systems</h3>
               <p>
-                Before this course, I was knowledgeable with databases. Now, I am proficient. This is one of the best courses I have ever taken. 
-                The material is practical, databases are interesting, and I have learned so much.
+                This is one of the best courses I have ever taken.  Before this, I was knowledgeable with databases, having worked with them on 
+                both <a onClick={() => navigateTop("/projects/speedroulette")}>Speed Roulette</a> and <a onClick={() => navigateTop("/projects/Submitty")}>Submitty</a>. Now, 
+                I am proficient. The material included relational algebra, normal forms, ER diagrams, SQL, PGSQL, optimization, and more. 
+                I received an A in the course, a testament to my newfound proficiency with the material. A special thank you to 
+                Professor <a href="https://en.wikipedia.org/wiki/Sibel_Adal%C4%B1" target="_blank">Sibel Adali</a>. I wish she could teach all of my courses!
               </p>
               <hr/>
               <h2>Spring 2026</h2>
               <p>
                 My final semester of college. I am taking Operating Systems, Software Design and Documentation, 
-                Distributed Systems, and <a onClick={() => navigateTop("/projects/Submitty")}>Submitty</a> for the third time.
+                Distributed Systems, and once again <a onClick={() => navigateTop("/projects/Submitty")}>Submitty</a>, but this time as the 
+                project lead. It will be a busy semester, but I am super excited for all 4 of these courses, and the journey that lies beyond them!
               </p>
               <hr/>
               <h2>Reflection</h2>

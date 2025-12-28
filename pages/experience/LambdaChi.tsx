@@ -9,6 +9,7 @@ import newFoodDrive from '../../assets/new-lxa-food-drive.png';
 import smashingPumpkin from '../../assets/smashing-pumpkin.png';
 import patioPumpkin from '../../assets/patio-pumpkin.png';
 import lxaLogo from '../../assets/lxa-logo.webp';
+import lxaGroupPhoto from '../../assets/lxa-group-photo.jpg';
 
 function LambdaChi() {
   const [readMore, setReadMore] = useState(false);
@@ -32,9 +33,11 @@ function LambdaChi() {
               If I had to describe my time at &Lambda;ΧΑ in one word, it would be <i>transformative</i>. I never 
               imagined myself joining a fraternity, especially with all the negative stereotypes that surround 
               Greek life. Despite everything heard, I’ve only found a support network of exceptional people. 
-              Through my experiences here, I’ve grown as a person, brother, and leader. Below are some of 
-              the responsibilities and opportunities that have shaped my journey.
+              Through my experiences here, I’ve grown as a person, brother, and leader.
             </p>
+            <div id="content-img-container">
+              <img src={lxaGroupPhoto} className="project-img"/>
+            </div>
             <div className={`${readMore ? '' : 'hide-read-more-container'}`}>
               <hr/>
               <h2>Secretary</h2>
@@ -53,6 +56,14 @@ function LambdaChi() {
               <p>
                 Other duties include managing the fraternity’s official roster, preparing bid packets for new 
                 members, and maintaining the Google Calendar, mailing lists, mailboxes, and Google Drive.
+              </p>
+              <hr/>
+              <h2>Director of Recruitment Logistics</h2>
+              <p>
+                Recruitment is a vital component of every fraternity. Without new members, our chapter cannot live on. For the Spring 2026 
+                semester, I will be working under our Recruitment Chairman to take care of the logistical side of our recruitment processes. 
+                The responsibilities are similar to that of the secretary's, but I am now fully focused on our recruitment efforts, rather than 
+                fraternity operations as a whole.
               </p>
               <hr/>
               <h2>Webmaster</h2>

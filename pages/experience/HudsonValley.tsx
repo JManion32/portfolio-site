@@ -5,6 +5,8 @@ import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
 import useNavigateTop from "../../hooks/useNavigateTop";
 
+import hudsonValleyAerial from '../../assets/hudson-valley-aerial.jpg';
+
 function HudsonValley() {
   const navigateTop = useNavigateTop();
   const [readMore, setReadMore] = useState(false);
@@ -19,9 +21,12 @@ function HudsonValley() {
         <div id="text-body">
           <p>
             When I enrolled in community college, I was unsure of what to pursue. Throughout 
-            the next two years, I would discover my interest in programming, and lay a strong foundation 
+            the next two years, I would discover my interest in computer science, and lay a strong foundation 
             for my transfer to university.
           </p>
+          <div id="content-img-container">
+            <img src={hudsonValleyAerial} className="project-img"/>
+          </div>
           <div className={`${readMore ? '' : 'hide-read-more-container'}`}>
             <hr/>
             <h2>Notable Courses</h2>

@@ -144,6 +144,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         /* Main Project / Experience */
         --main-page-header-size: 3rem;
         --main-page-header-align: left;
+        --rpi-collage-img-height: 13rem;
 
         /* Text Content */
         --text-content-padding: 3rem 5rem;
@@ -169,6 +170,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         /* Main Project / Experience */
         --main-page-header-size: 4rem;
         --main-page-header-align: left;
+        --rpi-collage-img-height: 14rem;
 
         /* Text Content */
         --text-content-padding: 3rem 5rem;

@@ -48,7 +48,7 @@ function CookieCoder() {
             </p>
             <p>
                 Cookie Coder is the site I wish I had when I first started learning to code. It will 
-                support a wide range of languages—Python, Java, C++, JavaScript, PHP, SQL, and more—and 
+                support a wide range of languages, and 
                 take a fresh approach to traditional module-based learning. Instead of rigid lessons, 
                 users will work through a massive pool of interactive, flashcard-style questions. Each 
                 correct answer earns “bits,” an in-game currency that tracks progress and ranks players 

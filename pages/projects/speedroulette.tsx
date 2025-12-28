@@ -13,6 +13,7 @@ import javafxProject from '../../assets/javafx-project.png';
 import srStoryboardDark from '../../assets/sr-storyboard-dark-mode.png';
 import srHomePageDark from '../../assets/sr-home-dark-mode.png';
 import srDeploymentDay from '../../assets/sr-deployment-day.png';
+import srGameplay from '../../assets/sr-gameplay.png';
 import srGrid from '../../assets/srGrid.png';
 
 function SpeedRoulette() {
@@ -48,9 +49,12 @@ function SpeedRoulette() {
               Inspired by the intensity of speed chess, Speed Roulette puts an interesting twist on the beloved 
               high-stakes casino game. Players start with 20 dollars, 10 possible spins, and just 60 seconds on the 
               clock. When bets are submitted, the winning number is revealed, earnings are paid out, and the clock 
-              starts ticking again 2.5 seconds later. Compete for a spot on the daily leaderboard by making quick 
-              decisions, taking bold risks, and hitting big payouts.
+              starts ticking again just 2.5 seconds later. Compete for a spot on the leaderboard by making quick 
+              decisions, taking bold risks, and hitting big payouts!
             </p>
+            <div id="content-img-container">
+              <img src={srGameplay} className="project-img"/>
+            </div>
             <hr/>
             <h2>Tech Stack</h2>
             <TechStack
@@ -104,7 +108,7 @@ function SpeedRoulette() {
                 <img src={javafxProject}/>
               </div>
               <p>
-                This was a GUI I built using JavaFX and what I had learned at <a onClick={() => navigateTop("/experience/HudsonValley")}>Hudson Valley</a>. 
+                This was a GUI I built with JavaFX and the skills I had learned at <a onClick={() => navigateTop("/experience/HudsonValley")}>Hudson Valley</a>. 
                 It was limited in functionality, and had a bloated codebase (I didn't yet know how to use object oriented programming). 
                 I knew I wanted to create something more. Something I was proud of. Something I could enjoy with my friends.
               </p>

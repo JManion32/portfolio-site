@@ -165,7 +165,7 @@
 
 .read-more-btn:hover {
   background: var(--anchor-link);
-  color: var(--always-black);
+  color: var(--hover-read-more-text);
   transform: scale(1.05);
   cursor: pointer;
 }

@@ -42,6 +42,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --project-date-size: 1.125rem;
         --desktop-resume-button-display: none;
         --mobile-resume-button-display: flex;
+        --rpi-collage-img-height: 8rem;
 
         /* Text Content */
         --detail-page-header-size: 3rem;
@@ -83,6 +84,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --project-date-size: 1rem;
         --desktop-resume-button-display: none;
         --mobile-resume-button-display: flex;
+        --rpi-collage-img-height: 10rem;
 
         /* Text Content */
         --text-content-padding: 3rem 5rem;
@@ -117,6 +119,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --main-page-header-align: left;
         --desktop-resume-button-display: flex;
         --mobile-resume-button-display: none;
+        --rpi-collage-img-height: 12rem;
 
         /* Text Content */
         --text-content-padding: 3rem 5rem;

@@ -72,3 +72,19 @@
   border-radius: 0.75rem;
   height: 4.25rem !important;
 }
+
+.rpi-collage-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.rpi-collage-img {
+  max-height: var(--rpi-collage-img-height) !important;
+  margin: 0.25rem !important;
+  padding: 0;
+  border: none !important;
+}

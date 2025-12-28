@@ -153,7 +153,7 @@ function PSoft() {
           />
         </div>
         <NavButton
-          left="Submitty" leftNav="/projects/submitty"
+          left="Cookie Coder" leftNav="/projects/cookiecoder"
           right="Portfolio Site" rightNav="/projects/portfolio"
         />
       </div>

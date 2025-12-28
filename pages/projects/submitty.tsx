@@ -337,8 +337,7 @@ function Submitty() {
           />
         </div>
         <NavButton
-          left="Speed Roulette" leftNav="/projects/speedroulette"
-          right="Course Website" rightNav="/projects/psoft"
+          right="Speed Roulette" rightNav="/projects/speedroulette"
         />
       </div>
     </>

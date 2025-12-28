@@ -99,16 +99,16 @@ function CookieCoder() {
                 }
                 ]}
             />
-            <hr/>
-            <h2>Core Idea: Learning Code through Repetition</h2>
-            <p>
-                Learning is continuous, occurring over time. Think about studying 
-                for an exam. Cramming all the material the night before <b>does not work</b>. It is far more effective 
-                to study multiple times over a week. In the same way, learning a programming language isn't 
-                possible from just a single online course. A foundation of knowledge needs to be established, and 
-                reinforced with repetition. This is what Cookie Coder aims to do through <i>fluid</i> modular learning.
-            </p>
             <div className={`${readMore ? '' : 'hide-read-more-container'}`}>
+              <hr/>
+              <h2>Core Idea: Learning Code through Repetition</h2>
+              <p>
+                  Learning is continuous, occurring over time. Think about studying 
+                  for an exam. Cramming all the material the night before <b>does not work</b>. It is far more effective 
+                  to study multiple times over a week. In the same way, learning a programming language isn't 
+                  possible from just a single online course. A foundation of knowledge needs to be established, and 
+                  reinforced with repetition. This is what Cookie Coder aims to do through <i>fluid</i> modular learning.
+              </p>
               <h3>Interactive Flashcard-Style Questions</h3>
               <p>
                   The standard gamplay. These questions will be simple (multiple choice, true/false, fill in the blank, etc), 

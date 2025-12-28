@@ -34,6 +34,14 @@ function PSoft() {
               storyboard for a revamped version of the site and brought it to office hours. The professor was enthusiastic about my initiative 
               and granted the opportunity to take full creative control.
             </p>
+            <div id="content-img-container">
+              <img src={ogPsoftIndex}/>
+              <p>Before</p>
+            </div>
+            <div id="content-img-container">
+              <img src={newPsoftIndex2}/>
+              <p>After</p>
+            </div>
             <div className={`${readMore ? '' : 'hide-read-more-container'}`}>
               <hr/>
               <h3>Reformatted Pages</h3>
@@ -48,14 +56,6 @@ function PSoft() {
                 like the lecture location were buried in small text in the middle of the page. To solve this, I removed unnecessary bloat, and broke the page 
                 into clearly defined sections.</li>
               </ul>
-              <div id="content-img-container">
-                <img src={ogPsoftIndex}/>
-                <p>Before</p>
-              </div>
-              <div id="content-img-container">
-                <img src={newPsoftIndex2}/>
-                <p>After</p>
-              </div>
               <h4>Homework / Topics / Resources Pages</h4>
               <p>
                 All three pages followed the same structure, with new content added to the bottom each week. By the end of the semester, 

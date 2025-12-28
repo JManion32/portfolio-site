@@ -79,14 +79,14 @@ function Submitty() {
                 }
               ]}
             />
-            <hr/>
-            <p>
-              Each semester, the Rensselaer Center for Open Source is home to dozens of exciting and innovative projects. 
-              While there’s no shortage of opportunities, one stands out above the rest. Created in 2014 and now used 
-              in every computer science course at RPI, Submitty is a massive project with endless opportunities 
-              for growth and contribution.
-            </p>
             <div className={`${readMore ? '' : 'hide-read-more-container'}`}>
+              <hr/>
+              <p>
+                Each semester, the Rensselaer Center for Open Source is home to dozens of exciting and innovative projects. 
+                While there’s no shortage of opportunities, one stands out above the rest. Created in 2014 and now used 
+                in every computer science course at RPI, Submitty is a massive project with endless opportunities 
+                for growth and contribution.
+              </p>
               <p>
                 I began my journey with Submitty in January of 2025, taking it as a course for the spring semester. 
                 I didn't have much experience with large projects, version control, or any of the technologies used, but 

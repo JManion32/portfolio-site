@@ -2,6 +2,7 @@
     --site-font: Helvetica, Arial, sans-serif;
 
     /* General */
+    --always-black: #000000;
     --standard-text: #1A1A1A;
     --always-white: #ffffff;
     --site-background: #eceff1;

@@ -9,14 +9,15 @@
     --content-background: #ffffff;
     --project-preview: #ffffff;
     --border-project-preview: #f5f5f5;
-    --nav-background: linear-gradient(to right, #ffffff, #c9d8e7);
+    --nav-background: linear-gradient(to right, #ffffff, #bfd5ec);
     --default-button: #ffffff;
-    --active-nav: #dee8f3;
-    --nav-border: transparent;
+    --active-nav: #ccdff7;
+    --nav-border: #bfd5ec;
     --contact-border: #9c9c9c;
     --anchor-link: #3366CC;
     --content-line: #666666;
     --code-bg: #f3f3f3;
+    --experience-date: #444444;
 
     --toggle-thumb: #ffffff;
     --toggle-track: #ccc;
@@ -24,7 +25,7 @@
     --tech-stack-section: #dddddd85;
     --tech-stack-border: #1A1A1A;
 
-    --hover-nav-text: #eef2f6;
+    --hover-nav-text: #dee8f3;
     --hover-default-button: #f5f5f5; 
     --hover-anchor-link: #274d99;
     --hover-project-preview: #22222290;
@@ -45,6 +46,7 @@
     --anchor-link: #83b1e7;
     --content-line: #444444;
     --code-bg: #353535;
+    --experience-date: #BBBBBB;
     
     --toggle-thumb: #000000;
     --toggle-track:  #4d4d4d;
@@ -52,8 +54,8 @@
     --tech-stack-section: #13131370;
     --tech-stack-border: #383838;
 
-    --hover-nav-text: #1A1A1A;
+    --hover-nav-text: #1F1F1F;
     --hover-default-button: #555555; 
     --hover-anchor-link: #a0c0e5;
-    --hover-project-preview: #ffffff50;
+    --hover-project-preview: #ffffff70;
 }

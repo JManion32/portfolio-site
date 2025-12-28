@@ -57,7 +57,10 @@
 .experience-date {
   font-size: var(--project-date-size);
   font-style: italic;
+  font-weight: bold;
+  color: var(--experience-date);
   margin: 0;
+  transition: color 0.2s ease, background-color 0.2s ease;
 }
 
 .stewarts-img {

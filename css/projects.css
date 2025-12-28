@@ -9,10 +9,12 @@
   padding: 0;
   margin: 0;
   font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .project-preview-desc {
   font-size: var(--project-desc-size);
+  font-weight: 600;
 }
 
 .project-grid {
@@ -35,7 +37,7 @@
 }
 
 .project-preview-container:hover {
-  box-shadow: 0 0 1.25rem var(--hover-project-preview);
+  box-shadow: 0 0 1.75rem var(--hover-project-preview);
   scale: 1.025;
 }
 

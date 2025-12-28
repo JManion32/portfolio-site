@@ -65,7 +65,7 @@ function Experience() {
                 img={twitchLogo}
                 header="Twitch Streamer"
                 date="December 2020 - November 2023"
-                desc="Daily livestreams averaging 10+ concurrent viewers."
+                desc="Daily livestreams averaging 11 concurrent viewers across 928 hours streamed."
                 nav="/experience/Streamer"
                 animation= "main-fly-in-bottom-6"
             />

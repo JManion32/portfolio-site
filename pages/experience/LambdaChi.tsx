@@ -31,8 +31,8 @@ function LambdaChi() {
           <div id="text-body">
             <p>
               If I had to describe my time at &Lambda;ΧΑ in one word, it would be <i>transformative</i>. I never 
-              imagined myself joining a fraternity, especially with all the negative stereotypes that surround 
-              Greek life. Despite everything heard, I’ve only found a support network of exceptional people. 
+              imagined myself joining a fraternity, especially with the negative stereotypes that surround 
+              Greek life. Despite everything I've heard, I’ve only found a network of talented, supportive, and exceptional people. 
               Through my experiences here, I’ve grown as a person, brother, and leader.
             </p>
             <div id="content-img-container">

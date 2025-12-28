@@ -18,10 +18,10 @@ function Projects() {
             </div>
             <div className="project-grid">
                 <PreviewCard
-                    img= {cookieCoder}
-                    header= "Cookie Coder"
-                    desc= "Combining coding lessons with tycoon-style gameplay to facilitate learning through repetition."
-                    nav= "/projects/cookiecoder"
+                    img= {submittyDuck}
+                    header= "Submitty"
+                    desc= "Rensselaer Polytechnic Institute's open source homework submission server for computer science courses."
+                    nav= "/projects/submitty"
                     animation= "main-fly-in-bottom-1"
                 />
                 <PreviewCard
@@ -32,10 +32,10 @@ function Projects() {
                     animation= "main-fly-in-bottom-2"
                 />
                 <PreviewCard
-                    img= {submittyDuck}
-                    header= "Submitty"
-                    desc= "Rensselaer Polytechnic Institute's open source homework submission server for computer science courses."
-                    nav= "/projects/submitty"
+                    img= {cookieCoder}
+                    header= "Cookie Coder"
+                    desc= "Combining coding lessons with tycoon-style gameplay to facilitate learning through repetition."
+                    nav= "/projects/cookiecoder"
                     animation= "main-fly-in-bottom-3"
                 />
                 <PreviewCard

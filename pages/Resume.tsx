@@ -1,3 +1,5 @@
+import NavButton from '../components/NavButton';
+
 function Resume() {
   return (
     <div className="page">
@@ -13,6 +15,9 @@ function Resume() {
           </p>
         </noscript>
       </div>
+      <NavButton
+        left="Experience" leftNav="/experience"
+      />
     </div>
   );
 }

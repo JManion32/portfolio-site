@@ -114,7 +114,7 @@ function Submitty() {
                 became increasingly cumbersome, especially for users in multiple courses. Additionally, the UI was built with Twig, and 
                 lacked crucial quality of life features.
               </p>
-              <h3>Vue Notifications on the Home Page (<a href="https://github.com/Submitty/Submitty/pull/11914">PR#11914</a>)</h3>
+              <h3>Vue Notifications on the Home Page (<a href="https://github.com/Submitty/Submitty/pull/11914" target="_blank">PR#11914</a>)</h3>
               <p>
                 Since this feature was going to be front and center on the site for all to see, thoughtful UI/UX design was essential. As a group, we started 
                 with whiteboard sketches to explore layout ideas, then moved to Figma to create a polished mockup for feedback 
@@ -133,13 +133,13 @@ function Submitty() {
                     complexity from <b>O(courses × notifications)</b> to <b>O(courses)</b></li>
                 </ul>
               </p>
-              <h3>Mark as Seen (<a href="https://github.com/Submitty/Submitty/pull/12007">PR#12007</a>)</h3>
+              <h3>Mark as Seen (<a href="https://github.com/Submitty/Submitty/pull/12007" target="_blank">PR#12007</a>)</h3>
               <p>
                 After the original feature was merged, it quickly became clear that users needed a way to dismiss unseen 
                 notifications without being redirected. This PR adds an envelope icon next to each unseen notification, 
                 allowing them to be marked as seen in place.
               </p>
-              <h3>Improve Interactivity (<a href="https://github.com/Submitty/Submitty/pull/12012">PR#12012</a>)</h3>
+              <h3>Improve Interactivity (<a href="https://github.com/Submitty/Submitty/pull/12012" target="_blank">PR#12012</a>)</h3>
               <p>
                 As mentioned above, it’s important that this feature has a clean and intuitive UI. This PR improves the design with the following changes:
                 <ul>
@@ -148,7 +148,7 @@ function Submitty() {
                   <li>Linked each notification’s course name to that course’s notifications page.</li>
                 </ul>
               </p>
-              <h3>Individual Notification Component (<a href="https://github.com/Submitty/Submitty/pull/12137">PR#12137</a>)</h3>
+              <h3>Individual Notification Component (<a href="https://github.com/Submitty/Submitty/pull/12137" target="_blank">PR#12137</a>)</h3>
               <p>
                 With new features continuously being added to the notifications UI, we were losing the benefits of modularizing code with 
                 Vue components. To address this, I created a Notification component that would be used for each individual notification inside 
@@ -159,7 +159,7 @@ function Submitty() {
                 <img src={individualNotification}/>
                 <p>Individual Notification Component</p>
               </div>
-              <h3>Convert Course Notifications to Vue (<a href="https://github.com/Submitty/Submitty/pull/12159">PR#12159</a>)</h3>
+              <h3>Convert Course Notifications to Vue (<a href="https://github.com/Submitty/Submitty/pull/12159" target="_blank">PR#12159</a>)</h3>
               <p>
                 With Vue being used for the home page and Twig still being used on course pages, it was time to convert the rest of the UI to Vue. 
                 Since the prior PR nicely modularized the Vue code, this transition was seamless aside from a few tweaks to the props.
@@ -172,7 +172,7 @@ function Submitty() {
                 <img src={courseNotisAfter}/>
                 <p>After</p>
               </div>
-              <h3>Home Page Mark All Seen Popup (<a href="https://github.com/Submitty/Submitty/pull/12219">PR#12219</a>)</h3>
+              <h3>Home Page Mark All Seen Popup (<a href="https://github.com/Submitty/Submitty/pull/12219" target="_blank">PR#12219</a>)</h3>
               <p>
                 Despite the design of the course notification page's mark seen button where a single click of a button marks all notifications as seen, 
                 the home page could not be so simple.  After much deliberation about a safedesign, we settled on a popup that displays the counts of 
@@ -182,7 +182,7 @@ function Submitty() {
               <div id="content-img-container">
                 <img src={markSeenPopup}/>
               </div>
-              <h3>Home Page Additional Unseen Count (<a href="https://github.com/Submitty/Submitty/pull/12227">PR#12227</a>)</h3>
+              <h3>Home Page Additional Unseen Count (<a href="https://github.com/Submitty/Submitty/pull/12227" target="_blank">PR#12227</a>)</h3>
               <p>
                 Since the notifications display is on the home page, performance is essential. For this reason, only the 10 most recent 
                 notifications from each of the user's courses are brought here. This means if the user has 11 unseen notifications in a course, they 
@@ -213,28 +213,28 @@ function Submitty() {
                 server directory, uploading a full config bundle, or using the limited Notebook Builder tool. 
                 There was no support for directly editing a gradeable's <code>config.json</code> or supplemental files from the web interface.
               </p>
-              <h3>Gradeable Config Editor (<a href="https://github.com/Submitty/Submitty/pull/10325">PR#10325</a>)</h3>
+              <h3>Gradeable Config Editor (<a href="https://github.com/Submitty/Submitty/pull/10325" target="_blank">PR#10325</a>)</h3>
               <p>
                 I inherited this PR from <a href="https://github.com/DarthNyan">Tate Whiteberg</a>, picking up where it was 
                 left off, and completing it.
               </p>
-              <h3>Live Editing with CodeMirror (<a href="https://github.com/Submitty/Submitty/pull/11814">PR#11814</a>)</h3>
+              <h3>Live Editing with CodeMirror (<a href="https://github.com/Submitty/Submitty/pull/11814" target="_blank">PR#11814</a>)</h3>
               <p>
                 Rather than just using a basic text area, I implemented CodeMirror to allow for a more customizable experience, and native tab support.
               </p>
-              <h3>File & Folder Management (<a href="https://github.com/Submitty/Submitty/pull/11860">PR#11860</a>)</h3>
+              <h3>File & Folder Management (<a href="https://github.com/Submitty/Submitty/pull/11860" target="_blank">PR#11860</a>)</h3>
               <p>
                 Added UI components to allow adding and deleting files and directories from the gradeable configuration.
               </p>
-              <h3>Customizable Environment (<a href="https://github.com/Submitty/Submitty/pull/11924">PR#11924</a>)</h3>
+              <h3>Customizable Environment (<a href="https://github.com/Submitty/Submitty/pull/11924" target="_blank">PR#11924</a>)</h3>
               <p>
                 Took advantages of CodeMirror's features by adding toggles for line numbers and tab size.
               </p>
-              <h3>Download Config as ZIP (<a href="https://github.com/Submitty/Submitty/pull/11973">PR#11973</a>)</h3>
+              <h3>Download Config as ZIP (<a href="https://github.com/Submitty/Submitty/pull/11973" target="_blank">PR#11973</a>)</h3>
               <p>
                 Added a button to download the entire config directory as a ZIP archive, allowing users to save edits they made on the site for future use.
               </p>
-              <h3>Design & UX Polish (<a href="https://github.com/Submitty/Submitty/pull/11991">PR#11991</a>, <a href="https://github.com/Submitty/Submitty/pull/12003">PR#12003</a>, and <a href="https://github.com/Submitty/Submitty/pull/12218">PR#12218</a>)</h3>
+              <h3>Design & UX Polish (<a href="https://github.com/Submitty/Submitty/pull/11991" target="_blank">PR#11991</a>, <a href="https://github.com/Submitty/Submitty/pull/12003">PR#12003</a>, and <a href="https://github.com/Submitty/Submitty/pull/12218">PR#12218</a>)</h3>
               <p>
                 Refined visual layout and interactions to feel intuitive and consistent with the rest of Submitty. Changes include
                 <ul>
@@ -248,9 +248,9 @@ function Submitty() {
                   <li>trivial binary file check</li>
                 </ul>
               </p>
-              <h3>Documentation (<a href="https://github.com/Submitty/submitty.github.io/pull/707">PR#707</a>)</h3>
+              <h3>Documentation (<a href="https://github.com/Submitty/submitty.github.io/pull/707" target="_blank">PR#707</a>)</h3>
               <p>
-                <a href="https://submitty.org/instructor/assignment_configuration/configuration_editor">Documentation page</a>.
+                <a href="https://submitty.org/instructor/assignment_configuration/configuration_editor" target="_blank">Documentation page</a>.
               </p>
               <h3 style={{ marginBottom: "2rem" }}>The Final Product</h3>
               <div id="content-img-container">
@@ -263,7 +263,7 @@ function Submitty() {
               </p>
               <hr/>
               <h2>Dark Mode Toggle for the Documentation Site</h2>
-              <h3>Initial PR (<a href="https://github.com/Submitty/submitty.github.io/pull/691">PR#691</a>)</h3>
+              <h3>Initial PR (<a href="https://github.com/Submitty/submitty.github.io/pull/691" target="_blank">PR#691</a>)</h3>
               <p>
                 To improve accessibility and match user expectations, I added a dark mode toggle to the Submitty 
                 documentation site. The site is built with Jekyll and uses auto-generated styles, so integrating 
@@ -282,24 +282,24 @@ function Submitty() {
               </p>
               <hr/>
               <h2>Additional Work</h2>
-              <h3>Team Grade Override (<a href="https://github.com/Submitty/Submitty/pull/10677">PR#10677</a>)</h3>
+              <h3>Team Grade Override (<a href="https://github.com/Submitty/Submitty/pull/10677" target="_blank">PR#10677</a>)</h3>
               <p>
-                Initially created by <a href="https://submitty.org/developer/rensselaer_center_for_open_source/2024_Michael_Papadopoulos">Michael Papadopoulos</a>. 
+                Initially created by <a href="https://submitty.org/developer/rensselaer_center_for_open_source/2024_Michael_Papadopoulos" target="_blank">Michael Papadopoulos</a>. 
                 When overriding a grade in a team gradeable, instructors would have to process each student individually. Now, a popup listing the student’s 
                 teammates displays, notifying the instructor that they have teammates, and asking if they want to override them as well.
               </p>
-              <h3>Filter Withdrawn Students (<a href="https://github.com/Submitty/submitty.github.io/pull/11792">PR#11792</a>)</h3>
+              <h3>Filter Withdrawn Students (<a href="https://github.com/Submitty/submitty.github.io/pull/11792" target="_blank">PR#11792</a>)</h3>
               <p>
                 Initially created by GitHub user <a href="https://github.com/yanliw123">yanliw123</a>. To streamline grading, this PR adds 
                 a toggle that hides withdrawn students from the grading page, so TAs can focus on active students only.
               </p>
-              <h3>Add Audit / Withdrawn to Sample Data (<a href="https://github.com/Submitty/submitty.github.io/pull/11882">PR#11882</a>)</h3>
+              <h3>Add Audit / Withdrawn to Sample Data (<a href="https://github.com/Submitty/submitty.github.io/pull/11882" target="_blank">PR#11882</a>)</h3>
               <p>
                 [IN PROGRESS] Added two students with registration_type set to <code>withdrawn</code> and two with <code>audit</code> to the existing sample data, 
                 which uses a seeded random number generator. Modifying this data shifted all related values, requiring updates 
                 to 20+ Cypress test files to ensure the feature could be integrated.
               </p>
-              <h3>TA Grading Bugfixes (<a href="https://github.com/Submitty/Submitty/pull/12224">PR#12224</a> and <a href="https://github.com/Submitty/Submitty/pull/12227">PR#12227</a>)</h3>
+              <h3>TA Grading Bugfixes (<a href="https://github.com/Submitty/Submitty/pull/12224" target="_blank">PR#12224</a> and <a href="https://github.com/Submitty/Submitty/pull/12227" target="_blank">PR#12227</a>)</h3>
               <p>
                 In Summer 2025, there was rapid progress on the conversion of the TA Grading interface from Twig to Vue. With so much 
                 legacy code being refactored, bugs were inevitable. Both of these PRs aim to address bugs that were affecting the workflow 

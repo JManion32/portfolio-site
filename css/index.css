@@ -57,7 +57,7 @@ html {
 /* Projects, Experience */
 .content {
   width: var(--content-width);
-  margin: 0 auto;
+  margin: 0 auto 4rem auto;
   flex-grow: 1;
 }
 

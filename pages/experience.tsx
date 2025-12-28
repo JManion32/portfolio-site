@@ -55,7 +55,7 @@ function Experience() {
             />
             <PreviewCard
                 img={hvccGreen}
-                header="Hudson Valley CC"
+                header="Hudson Valley Community College"
                 date="August 2022 - May 2024"
                 desc="Associates Degree in Computer Information Systems."
                 nav="/experience/HudsonValley"

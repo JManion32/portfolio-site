@@ -8,6 +8,8 @@ function toTitle(s: string) {
     .replace(/-/g, ' ')                  // kebab-case → kebab case
     .replace(/([a-z])(?=[A-Z])/g, '$1 ') // optional extra split
     .replace(/cookiecoder/i, 'Cookie Coder')
+    .replace(/securechatroom/i, 'Secure Chatroom')
+    .replace(/superstrikers/i, 'Super Strikers')
     .replace(/speedroulette/i, 'Speed Roulette')
     .replace(/psoft/i, 'Course Website')
     .replace(/portfolio/i, 'Portfolio Site')

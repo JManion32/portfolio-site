@@ -228,8 +228,8 @@ function CookieCoder() {
           />
         </div>
         <NavButton
-          left="Speed Roulette" leftNav="/projects/speedroulette"
-          right="Course Website" rightNav="/projects/psoft"
+          left="Super Strikers" leftNav="/projects/superstrikers"
+          right="Portfolio Site" rightNav="/projects/portfolio"
         />
       </div>
     </>

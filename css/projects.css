@@ -90,3 +90,8 @@
   animation: mainFlyInUp 0.4s ease-out forwards;
   animation-delay: 1.00s;
 }
+
+.main-fly-in-bottom-7 {
+  animation: mainFlyInUp 0.4s ease-out forwards;
+  animation-delay: 1.15s;
+}

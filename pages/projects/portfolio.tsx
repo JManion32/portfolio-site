@@ -114,7 +114,7 @@ function Portfolio() {
           />
         </div>
         <NavButton
-          left="Course Website" leftNav="/projects/psoft"
+          left="Cookie Coder" leftNav="/projects/cookiecoder"
         />
       </div>
     </>

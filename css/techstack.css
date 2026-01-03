@@ -59,9 +59,11 @@
 .twig { background: #ff7f00; color: #fff; }
 .vue { background: #42b883; color: #fff; }
 .javascript { background: #f7df1e; color: #000; }
+.qt { background: #2CDE85; color: #000; }
 
 /* Backend */
 .go { background: #00add8; color: #032027; }
+.cpp { background: #00599c; color: #ffffff; }
 .php { background: #777bb3; color: #fff; }
 .python { background: #3776ab; color: #ffdf76; }
 .nodejs { background: #68a063; color: #fff; }

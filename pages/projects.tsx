@@ -1,10 +1,12 @@
 import PreviewCard from '../components/PreviewCard';
 import NavButton from '../components/NavButton';
 
-import cookieCoder from '../assets/cookie_coder_logo.svg';
-import srPreview from '../assets/sr-preview.png';
 import submittyDuck from '../assets/submitty_duck.png';
+import srPreview from '../assets/sr-preview.png';
+import chatLogo from '../assets/secure_chat_logo.svg';
 import psoftLogo from '../assets/psoft-logo.png';
+import ssLogo from '../assets/ss.svg';
+import cookieCoder from '../assets/cookie_coder_logo.svg';
 import jmLogo from '../assets/jm-dark-circle.png';
 
 function Projects() {
@@ -32,10 +34,10 @@ function Projects() {
                     animation= "main-fly-in-bottom-2"
                 />
                 <PreviewCard
-                    img= {cookieCoder}
-                    header= "Cookie Coder"
-                    desc= "Combining coding lessons with tycoon-style gameplay to facilitate learning through repetition."
-                    nav= "/projects/cookiecoder"
+                    img= {chatLogo}
+                    header= "Secure Chatroom"
+                    desc= "Encrypted chatroom supporting multiple users, real-time updates, and a reward system."
+                    nav= "/projects/securechatroom"
                     animation= "main-fly-in-bottom-3"
                 />
                 <PreviewCard
@@ -46,11 +48,25 @@ function Projects() {
                     animation= "main-fly-in-bottom-4"
                 />
                 <PreviewCard
+                    img= {ssLogo}
+                    header= "Super Strikers"
+                    desc= "A 2D, fast-paced, multiplayer browser game that combines soccer and air hockey. Play against real opponents, outscoring them to win."
+                    nav= "/projects/superstrikers"
+                    animation= "main-fly-in-bottom-5"
+                />
+                <PreviewCard
+                    img= {cookieCoder}
+                    header= "Cookie Coder"
+                    desc= "Combining coding lessons with tycoon-style gameplay to facilitate learning through repetition."
+                    nav= "/projects/cookiecoder"
+                    animation= "main-fly-in-bottom-6"
+                />
+                <PreviewCard
                     img= {jmLogo}
                     header= "Portfolio Site"
                     desc= "Website to showcase my projects and experience."
                     nav= "/projects/portfolio"
-                    animation= "main-fly-in-bottom-5"
+                    animation= "main-fly-in-bottom-7"
                 />
             </div>
         </div>

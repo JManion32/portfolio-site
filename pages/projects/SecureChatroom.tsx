@@ -17,7 +17,7 @@ function SecureChatroom() {
           </div>
           <div id="text-body">
             <p>
-                More info coming soon!
+                Client - server architecture with 
             </p>
             <hr/>
             <h2>Tech Stack</h2>

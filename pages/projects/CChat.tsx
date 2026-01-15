@@ -2,10 +2,11 @@ import { useState } from 'react';
 import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
 import Breadcrumbs from '../../components/Breadcrumb.tsx';
 import NavButton from '../../components/NavButton.tsx';
+import ComingSoon from '../../components/ComingSoon.tsx';
 
 import TechStack from "../../components/TechStack.tsx";
 
-function SecureChatroom() {
+function CChat() {
   const [readMore, setReadMore] = useState(false);
   return (
     <>
@@ -13,8 +14,9 @@ function SecureChatroom() {
         <div className="text-content">
           <Breadcrumbs />
           <div className="text-page-header-row">
-            <h1 className="text-page-header">Secure Chatroom</h1>
+            <h1 className="text-page-header">CChat</h1>
           </div>
+	  <ComingSoon/>
           <div id="text-body">
             <p>
                 Client - server architecture with 
@@ -32,7 +34,7 @@ function SecureChatroom() {
                     ]
                 },
                 {
-                    title: "Client (Executable)",
+                    title: "Client (GUI)",
                     items: [
                     { name: "QT", className: "qt" }
                     ]
@@ -70,4 +72,4 @@ function SecureChatroom() {
   );
 }
 
-export default SecureChatroom;
+export default CChat;

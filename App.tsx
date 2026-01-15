@@ -5,7 +5,7 @@ import Projects from './pages/projects';
 import CookieCoder from './pages/projects/CookieCoder';
 import SpeedRoulette from './pages/projects/speedroulette';
 import Submitty from './pages/projects/submitty';
-import SecureChatroom from './pages/projects/SecureChatroom';
+import CChat from './pages/projects/CChat';
 import SuperStrikers from './pages/projects/SuperStrikers';
 import PSoft from './pages/projects/psoft';
 import Portfolio from './pages/projects/portfolio';
@@ -28,7 +28,7 @@ function App() {
         <Route path="/projects/CookieCoder" element={<CookieCoder />} />
         <Route path="/projects/speedroulette" element={<SpeedRoulette />} />
         <Route path="/projects/submitty" element={<Submitty />} />
-        <Route path="/projects/securechatroom" element={<SecureChatroom />} />
+        <Route path="/projects/cchat" element={<CChat />} />
         <Route path="/projects/superstrikers" element={<SuperStrikers />} />
         <Route path="/projects/psoft" element={<PSoft />} />
         <Route path="/projects/portfolio" element={<Portfolio />} />

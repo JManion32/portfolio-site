@@ -2,6 +2,7 @@ import { useState } from 'react';
 import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
 import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
+import ComingSoon from '../../components/ComingSoon.tsx';
 
 import TechStack from "../../components/TechStack";
 
@@ -15,6 +16,7 @@ function SuperStrikers() {
           <div className="text-page-header-row">
             <h1 className="text-page-header">Super Strikers</h1>
           </div>
+	  <ComingSoon/>
           <div id="text-body">
             <p>
                 More info coming soon!

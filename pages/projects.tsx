@@ -3,7 +3,7 @@ import NavButton from '../components/NavButton';
 
 import submittyDuck from '../assets/submitty_duck.png';
 import srPreview from '../assets/sr-preview.png';
-import chatLogo from '../assets/secure_chat_logo.svg';
+import chatLogo from '../assets/cchat-logo.svg';
 import psoftLogo from '../assets/psoft-logo.png';
 import ssLogo from '../assets/ss.svg';
 import cookieCoder from '../assets/cookie_coder_logo.svg';
@@ -35,9 +35,9 @@ function Projects() {
                 />
                 <PreviewCard
                     img= {chatLogo}
-                    header= "Secure Chatroom"
-                    desc= "Encrypted chatroom supporting multiple users, real-time updates, and a reward system."
-                    nav= "/projects/securechatroom"
+                    header= "CChat"
+                    desc= "A real-time chat application that supports concurrent clients from the web, and a native GUI."
+                    nav= "/projects/cchat"
                     animation= "main-fly-in-bottom-3"
                 />
                 <PreviewCard

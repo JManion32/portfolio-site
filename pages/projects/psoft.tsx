@@ -153,7 +153,7 @@ function PSoft() {
           />
         </div>
         <NavButton
-          left="Secure Chatroom" leftNav="/projects/securechatroom"
+          left="CChat" leftNav="/projects/cchat"
           right="Super Strikers" rightNav="/projects/superstrikers"
         />
       </div>

@@ -36,7 +36,7 @@ function Projects() {
                 <PreviewCard
                     img= {chatLogo}
                     header= "CChat"
-                    desc= "A real-time chat application that supports concurrent clients from the web, and a native GUI."
+                    desc= "A real-time chat application that supports web and GUI clients."
                     nav= "/projects/cchat"
                     animation= "main-fly-in-bottom-3"
                 />
@@ -50,7 +50,7 @@ function Projects() {
                 <PreviewCard
                     img= {ssLogo}
                     header= "Super Strikers"
-                    desc= "A 2D, fast-paced, multiplayer browser game that combines soccer and air hockey. Play against real opponents, outscoring them to win."
+                    desc= "A 2D, fast-paced, multiplayer browser game that combines soccer and air hockey."
                     nav= "/projects/superstrikers"
                     animation= "main-fly-in-bottom-5"
                 />

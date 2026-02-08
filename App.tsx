@@ -1,15 +1,15 @@
 import { Routes, Route } from 'react-router-dom';
-import Home from './pages/home';
+import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Projects from './pages/projects';
 import CookieCoder from './pages/projects/CookieCoder';
-import SpeedRoulette from './pages/projects/speedroulette';
-import Submitty from './pages/projects/submitty';
+import SpeedRoulette from './pages/projects/SpeedRoulette';
+import Submitty from './pages/projects/Submitty';
 import CChat from './pages/projects/CChat';
 import SuperStrikers from './pages/projects/SuperStrikers';
-import PSoft from './pages/projects/psoft';
-import Portfolio from './pages/projects/portfolio';
-import Experience from './pages/experience';
+import PSoft from './pages/projects/PSoft';
+import Portfolio from './pages/projects/Portfolio';
+import Experience from './pages/Experience';
 import Resume from './pages/Resume';
 import Rensselaer from './pages/experience/Rensselaer';
 import HudsonValley from './pages/experience/HudsonValley';
@@ -25,7 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/projects/CookieCoder" element={<CookieCoder />} />
+        <Route path="/projects/cookiecoder" element={<CookieCoder />} />
         <Route path="/projects/speedroulette" element={<SpeedRoulette />} />
         <Route path="/projects/submitty" element={<Submitty />} />
         <Route path="/projects/cchat" element={<CChat />} />
@@ -33,12 +33,12 @@ function App() {
         <Route path="/projects/psoft" element={<PSoft />} />
         <Route path="/projects/portfolio" element={<Portfolio />} />
         <Route path="/experience" element={<Experience />} />
-        <Route path="/experience/Rensselaer" element={<Rensselaer />} />
-        <Route path="/experience/HudsonValley" element={<HudsonValley />} />
-        <Route path="/experience/PriceChopper" element={<PriceChopper />} />
-        <Route path="/experience/LambdaChi" element={<LambdaChi />} />
-        <Route path="/experience/Stewarts" element={<Stewarts />} />
-        <Route path="/experience/Streamer" element={<Streamer />} />
+        <Route path="/experience/rensselaer" element={<Rensselaer />} />
+        <Route path="/experience/hudsonvalley" element={<HudsonValley />} />
+        <Route path="/experience/pricechopper" element={<PriceChopper />} />
+        <Route path="/experience/lambdachi" element={<LambdaChi />} />
+        <Route path="/experience/stewarts" element={<Stewarts />} />
+        <Route path="/experience/streamer" element={<Streamer />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
     </>

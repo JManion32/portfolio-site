@@ -4,9 +4,9 @@ import useNavigateTop from "../hooks/useNavigateTop";
 
 function toTitle(s: string) {
   return s
-    .replace(/([a-z])([A-Z])/g, '$1 $2') // camelCase → camel Case
-    .replace(/-/g, ' ')                  // kebab-case → kebab case
-    .replace(/([a-z])(?=[A-Z])/g, '$1 ') // optional extra split
+    .replace(/([a-z])([A-Z])/g, '$1 $2')
+    .replace(/-/g, ' ')
+    .replace(/([a-z])(?=[A-Z])/g, '$1 ')
     .replace(/cookiecoder/i, 'Cookie Coder')
     .replace(/cchat/i, 'CChat')
     .replace(/superstrikers/i, 'Super Strikers')

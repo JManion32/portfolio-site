@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
 
-import Breadcrumbs from '../../components/Breadcrumb';
-import TechStack from "../../components/TechStack";
-import NavButton from '../../components/NavButton';
-import useNavigateTop from "../../hooks/useNavigateTop";
+import Breadcrumbs from '../../components/Breadcrumb.tsx';
+import TechStack from "../../components/TechStack.tsx";
+import NavButton from '../../components/NavButton.tsx';
+import useNavigateTop from "../../hooks/useNavigateTop.ts";
 
 import srLogo from '../../assets/sr-logo.svg';
 import githubLight from '../../assets/github-mark.png';

@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
 
-import Breadcrumbs from '../../components/Breadcrumb';
-import NavButton from '../../components/NavButton';
+import Breadcrumbs from '../../components/Breadcrumb.tsx';
+import NavButton from '../../components/NavButton.tsx';
 
 import githubLight from '../../assets/github-mark.png';
 import githubDark from '../../assets/github-mark-white.png';
 
-import TechStack from "../../components/TechStack";
-import useNavigateTop from "../../hooks/useNavigateTop";
+import TechStack from "../../components/TechStack.tsx";
+import useNavigateTop from "../../hooks/useNavigateTop.ts";
 
 function Portfolio() {
   const [readMore, setReadMore] = useState(false);

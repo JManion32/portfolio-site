@@ -16,10 +16,11 @@
     --toggle-track: #ccc;
 
     /* Navbar */
-    --nav-background: linear-gradient(to right, #ffffff, #bfd5ec);
-    --active-nav: #bad8ff;
-    --hover-nav-text: #d0e8ff;
-    --nav-border: #bfd5ec;
+    /*--nav-background: linear-gradient(to right, #ffffff, #bfd5ec);*/
+    --nav-background: white;
+    --active-nav: #d6ebff;
+    --hover-nav-text: #e8f4ff;
+    --nav-border: transparent;
 
     /* Project / Experience */
     --hover-project-preview: #22222290;

@@ -26,13 +26,7 @@ function PSoft() {
           </div>
           <div id="text-body">
             <p>
-              Principles of Software is a core computer science course at RPI, typically taken during the sophomore year. 
-              The course provides a foundation in software engineering, covering topics such as requirements gathering, 
-              design, reasoning, implementation, testing, and long-term maintenance. As a student in the course, I found the 
-              material engaging and valuable, but its website did not reflect the same level of quality. Wanting to 
-              improve the student experience while gaining web development experience myself, I put together a 
-              storyboard for a revamped version of the site and brought it to office hours. The professor was enthusiastic about my initiative 
-              and granted the opportunity to take full creative control.
+              Revamped the course website for Principles of Software, a core computer science course at Rensselaer Polytechnic Institute.
             </p>
             <div id="content-img-container">
               <img src={ogPsoftIndex}/>

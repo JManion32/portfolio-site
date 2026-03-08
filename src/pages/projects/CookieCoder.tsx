@@ -1,26 +1,11 @@
-/*
 import { useState } from 'react';
 import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
 
-const [readMore, setReadMore] = useState(false);
+import Breadcrumbs from '../../components/Breadcrumb.tsx';
+import NavButton from '../../components/NavButton.tsx';
 
-<div className={`${readMore ? '' : 'hide-read-more-container'}`}>
-
-<ReadMoreBtn
-  readMore={readMore}
-  setReadMore={setReadMore}
-/>
-*/
-
-
-import { useState } from 'react';
-import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
-
-import Breadcrumbs from '../../components/Breadcrumb';
-import NavButton from '../../components/NavButton';
-
-import TechStack from "../../components/TechStack";
-import useNavigateTop from "../../hooks/useNavigateTop";
+import TechStack from "../../components/TechStack.tsx";
+import useNavigateTop from "../../hooks/useNavigateTop.ts";
 
 import quizletLogo from '../../assets/quizlet-logo.webp';
 import makeItRain from '../../assets/make-it-rain.jpg';

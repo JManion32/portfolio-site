@@ -1,4 +1,3 @@
-// TechStack.tsx
 type Badge = string | { name: string; className?: string };
 type Section = { title: string; items: Badge[] };
 

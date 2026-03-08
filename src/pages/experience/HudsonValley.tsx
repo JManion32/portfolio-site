@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
 
-import Breadcrumbs from '../../components/Breadcrumb';
-import NavButton from '../../components/NavButton';
-import useNavigateTop from "../../hooks/useNavigateTop";
+import Breadcrumbs from '../../components/Breadcrumb.tsx';
+import NavButton from '../../components/NavButton.tsx';
+import useNavigateTop from "../../hooks/useNavigateTop.ts";
 
 import hudsonValleyAerial from '../../assets/hudson-valley-aerial.jpg';
 

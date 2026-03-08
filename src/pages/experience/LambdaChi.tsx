@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
 
-import Breadcrumbs from '../../components/Breadcrumb';
-import NavButton from '../../components/NavButton';
+import Breadcrumbs from '../../components/Breadcrumb.tsx';
+import NavButton from '../../components/NavButton.tsx';
 
 import oldFoodDrive from '../../assets/old-lxa-food-drive.png';
 import newFoodDrive from '../../assets/new-lxa-food-drive.png';

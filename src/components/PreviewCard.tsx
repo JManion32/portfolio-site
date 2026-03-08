@@ -1,4 +1,3 @@
-// src/components/PreviewCard.tsx
 import useNavigateTop from "../hooks/useNavigateTop";
 
 type Props = {

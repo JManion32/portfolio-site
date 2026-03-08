@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
-import Breadcrumbs from '../../components/Breadcrumb';
-import NavButton from '../../components/NavButton';
+import Breadcrumbs from '../../components/Breadcrumb.tsx';
+import NavButton from '../../components/NavButton.tsx';
 import ComingSoon from '../../components/ComingSoon.tsx';
-import TechStack from "../../components/TechStack";
+import TechStack from "../../components/TechStack.tsx";
 
 import githubLight from '../../assets/github-mark.png';
 import githubDark from '../../assets/github-mark-white.png';

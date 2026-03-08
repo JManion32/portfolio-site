@@ -1,11 +1,3 @@
-// src/components/ComingSoon.tsx
-
-/*
-type Props = {
-  title: string;
-};
-*/
-
 export default function ComingSoon() {
   return (
     <div className="coming-soon-container">

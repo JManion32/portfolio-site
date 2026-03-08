@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import ReadMoreBtn from '../../components/ReadMoreBtn.tsx'
 
-import Breadcrumbs from '../../components/Breadcrumb';
-import NavButton from '../../components/NavButton';
+import Breadcrumbs from '../../components/Breadcrumb.tsx';
+import NavButton from '../../components/NavButton.tsx';
 import pcStore from '../../assets/price-chopper-store.webp';
 import pcRetired from '../../assets/price-chopper-retirement.jpeg';
 

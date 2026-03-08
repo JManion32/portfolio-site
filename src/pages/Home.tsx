@@ -19,11 +19,10 @@ function Home() {
                 <div className="home-container">
                     <h1 className="name-header constant-glow fly-in-left">Justin Manion</h1>
                     <p className="name-desc fly-in-right">
-                        Dedicated computer science student with a passion for full-stack software development.
-                        Proficient in building applications that span front-end interfaces, backend logic, and
-                        relational databases. Strong leadership background complemented by coachability, collaboration,
-                        and a continuous drive to learn. Seeking a challenging role that provides opportunities for both
-                        technical and professional growth.
+                        Systems-minded computer science student with proven leadership experience and proficiency
+                        building applications that span front-end interfaces, backend logic, and relational databases.
+                        Seeking a challenging role that provides opportunities for both technical and professional
+                        growth.
                     </p>
                     <div className="contact-button-container">
                         <button

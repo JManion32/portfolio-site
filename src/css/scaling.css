@@ -27,7 +27,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
 
         /* Home */
         --name-header-size: 4rem;
-        --home-desc-width: 85%;
+        --home-desc-width: 80%;
         --full-contact-button-visibility: none;
         --contact-button-icon-visibility: flex;
         --home-contact-margin-top: 1rem;
@@ -69,7 +69,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
 
         /* Home */
         --name-header-size: 5rem;
-        --home-desc-width: 80%;
+        --home-desc-width: 75%;
         --full-contact-button-visibility: none;
         --contact-button-icon-visibility: flex;
         --home-contact-margin-top: 1.5rem;
@@ -109,7 +109,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
 
         /* Home */
         --name-header-size: 6rem;
-        --home-desc-width: 65%;
+        --home-desc-width: 60%;
         --full-contact-button-visibility: flex;
         --contact-button-icon-visibility: none;
         --home-contact-margin-top: 3rem;
@@ -139,7 +139,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         /* Nav Bar */
 
         /* Home */
-        --home-desc-width: 60%;
+        --home-desc-width: 55%;
 
         /* Main Project / Experience */
         --main-page-header-size: 3rem;
@@ -165,7 +165,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         /* Nav Bar */
 
         /* Home */
-        --home-desc-width: 45%;
+        --home-desc-width: 40%;
 
         /* Main Project / Experience */
         --main-page-header-size: 4rem;

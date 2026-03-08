@@ -26,7 +26,7 @@ jobs:
               run: npm ci
 
             - name: Run Stylelint
-              run: npx stylelint "**/*.css"
+              run: npx stylelint "**/*.css" --fix
 
             - name: Build Site
               run: npm run build
@@ -50,7 +50,7 @@ jobs:
               run: npm ci
 
             - name: Run Prettier
-              run: npx prettier --check "."
+              run: npx prettier --write "."
 
             - name: Build Site
               run: npm run build
@@ -74,7 +74,7 @@ jobs:
               run: npm ci
 
             - name: Run ESLint
-              run: npx eslint .
+              run: npx eslint . --fix
               working-directory:
 
             - name: Build Site

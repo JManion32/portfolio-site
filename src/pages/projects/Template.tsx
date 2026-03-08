@@ -24,20 +24,15 @@ function Template() {
                         ghLink="https://github.com/JManion32"
                     />
                     <div id="text-body">
-
                         <TechStack
                             sections={[
                                 {
                                     title: 'Front-end',
-                                    items: [
-                                        { name: 'Vite', className: 'vite' },
-                                    ],
+                                    items: [{ name: 'Vite', className: 'vite' }],
                                 },
                             ]}
                         />
-                        <div className={`${readMore ? '' : 'hide-read-more-container'}`}>
-                            
-                        </div>
+                        <div className={`${readMore ? '' : 'hide-read-more-container'}`}></div>
                     </div>
                     <ReadMoreBtn readMore={readMore} setReadMore={setReadMore} />
                 </div>

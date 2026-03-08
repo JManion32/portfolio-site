@@ -129,25 +129,19 @@ jobs:
                   tags: ghcr.io/jmanion32/portfolio-site:latest
 
     deploy:
-        name: Deploy to Droplet
-        runs-on: ubuntu-latest
-        needs: docker-publish
-
-        steps:
-            - name: Deploy via SSH
-              uses: appleboy/ssh-action@v1
-              with:
-                  host: ${{ secrets.DROPLET_IP }}
-                  username: ${{ secrets.DROPLET_USER }}
-                  key: ${{ secrets.DROPLET_SSH_KEY }}
-                  script: |
-                      docker pull ghcr.io/jmanion32/portfolio-site:latest
-                      docker stop portfolio || true
-                      docker rm portfolio || true
-                      docker run -d \
-                      -p 80:80 \
-                      -p 443:443 \
-                      -v /etc/letsencrypt:/etc/nginx/certs:ro \
-                      --name portfolio \
-                      --restart always \
-                      ghcr.io/jmanion32/portfolio-site:latest
+      - name: Deploy to droplet
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.DROPLET_IP }}
+          username: root
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            docker pull ghcr.io/jmanion32/portfolio:latest
+            docker stop portfolio || true
+            docker rm portfolio || true
+            docker run -d \
+              --name portfolio \
+              -p 80:80 \
+              -p 443:443 \
+              -v /etc/letsencrypt:/etc/letsencrypt:ro \
+              ghcr.io/jmanion32/portfolio:latest

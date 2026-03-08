@@ -144,4 +144,4 @@ jobs:
               docker pull ghcr.io/jmanion32/portfolio-site:latest
               docker stop portfolio || true
               docker rm portfolio || true
-              docker run -d -p 80:80 --name portfolio ghcr.io/jmanion32/portfolio-site:latest
+              docker run -d -p 80:80 --name portfolio --restart always ghcr.io/jmanion32/portfolio-site:latest

@@ -6,7 +6,6 @@
 }
 
 .breadcrumb-item {
-    font-family: var(--site-font);
     font-size: 1.1rem;
     transition: color 0.2s ease;
     font-weight: bold !important;

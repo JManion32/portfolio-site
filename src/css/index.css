@@ -107,7 +107,6 @@ body {
 .left-guide-button,
 .right-guide-button {
     position: absolute;
-    font-family: var(--site-font);
     transition:
         color 0.2s ease,
         background-color 0.2s ease,
@@ -173,7 +172,6 @@ body {
     transition:
         color 0.2s ease,
         background-color 0.2s ease;
-    font-family: var(--site-font);
     position: relative;
     background-color: var(--contact-button);
     color: var(--standard-text);

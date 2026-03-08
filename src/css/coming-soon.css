@@ -17,6 +17,5 @@
     transition: color 0.2s ease;
     color: var(--standard-text);
     font-weight: bold;
-    font-family: var(--site-font);
     margin: 0;
 }

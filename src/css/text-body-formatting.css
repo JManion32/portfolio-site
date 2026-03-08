@@ -151,7 +151,6 @@
 }
 
 .read-more-btn {
-    font-family: var(--site-font);
     transition:
         color 0.2s ease,
         background-color 0.2s ease,

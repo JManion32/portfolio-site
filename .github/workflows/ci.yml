@@ -126,4 +126,4 @@ jobs:
               with:
                   context: .
                   push: true
-                  tags: ghcr.io/${{ github.repository }}:latest
+                  tags: ghcr.io/jmanion32/portfolio-site:latest

@@ -141,7 +141,7 @@ jobs:
           with:
             host: ${{ secrets.DROPLET_IP }}
             username: root
-            key: ${{ secrets.SSH_KEY }}
+            key: ${{ secrets.DROPLET_SSH_KEY }}
             script: |
               docker pull ghcr.io/jmanion32/portfolio-site:latest
               docker stop portfolio 2>/dev/null || true

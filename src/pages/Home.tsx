@@ -13,48 +13,44 @@ function Home() {
         initDarkMode();
     }, []);
 
-  return (
-    <>
-      <div className="home-page">
-        <div className="home-container">
-            <h1 className="name-header constant-glow fly-in-left">Justin Manion</h1>
-            <p className="name-desc fly-in-right">
-                Dedicated computer science student with a passion for full-stack software development. 
-                Proficient in building applications that span front-end interfaces, backend 
-                logic, and relational databases. Strong leadership background complemented by 
-                coachability, collaboration, and a continuous drive to learn. Seeking a challenging 
-                role that provides opportunities for both technical and professional growth.
-            </p>
-            <div className="contact-button-container">
-                <button 
-                    className="contact-button home-contact-button fly-in-bottom-1"
-                    onClick={() => window.open('https://github.com/JManion32', '_blank')}
-                >
-                <div className="github-image-wrapper">
-                    <img src={githubLight} className="github-image light" />
-                    <img src={githubDark} className="github-image dark" />
-                </div>
-                    GitHub
-                </button>
-                <button
-                    className="contact-button home-contact-button fly-in-bottom-2"
-                    onClick={() => window.location.href = 'mailto:jmanion32@gmail.com'}
-                >
-                    <img
-                        src={gmailLogo}
-                        className="gmail-image"
-                        alt="mail icon"
-                    />
-                    jmanion32@gmail.com
-                </button>
-                <button 
-                    className="contact-button home-contact-button fly-in-bottom-3"
-                    onClick={() => window.open('https://www.linkedin.com/in/jmanion32/', '_blank')}
-                >
-                    <img src={linkedinLogo} className="linkedin-image"/>
-                    LinkedIn
-                </button>
-                {/*
+    return (
+        <>
+            <div className="home-page">
+                <div className="home-container">
+                    <h1 className="name-header constant-glow fly-in-left">Justin Manion</h1>
+                    <p className="name-desc fly-in-right">
+                        Dedicated computer science student with a passion for full-stack software development.
+                        Proficient in building applications that span front-end interfaces, backend logic, and
+                        relational databases. Strong leadership background complemented by coachability, collaboration,
+                        and a continuous drive to learn. Seeking a challenging role that provides opportunities for both
+                        technical and professional growth.
+                    </p>
+                    <div className="contact-button-container">
+                        <button
+                            className="contact-button home-contact-button fly-in-bottom-1"
+                            onClick={() => window.open('https://github.com/JManion32', '_blank')}
+                        >
+                            <div className="github-image-wrapper">
+                                <img src={githubLight} className="github-image light" />
+                                <img src={githubDark} className="github-image dark" />
+                            </div>
+                            GitHub
+                        </button>
+                        <button
+                            className="contact-button home-contact-button fly-in-bottom-2"
+                            onClick={() => (window.location.href = 'mailto:jmanion32@gmail.com')}
+                        >
+                            <img src={gmailLogo} className="gmail-image" alt="mail icon" />
+                            jmanion32@gmail.com
+                        </button>
+                        <button
+                            className="contact-button home-contact-button fly-in-bottom-3"
+                            onClick={() => window.open('https://www.linkedin.com/in/jmanion32/', '_blank')}
+                        >
+                            <img src={linkedinLogo} className="linkedin-image" />
+                            LinkedIn
+                        </button>
+                        {/*
                 <button 
                     className="contact-button home-contact-button"
                     onClick={() => window.open('https://www.youtube.com/@JManCodes', '_blank')}
@@ -63,34 +59,30 @@ function Home() {
                     YouTube
                 </button>
                 */}
-            </div>
-                <div className="contact-button-container">
-                    <button 
-                        className="contact-button mobile-home-contact-button fly-in-bottom-1"
-                        onClick={() => window.open('https://github.com/JManion32', '_blank')}
-                    >
-                    <div className="github-image-wrapper">
-                        <img src={githubLight} className="github-image light" />
-                        <img src={githubDark} className="github-image dark" />
                     </div>
-                    </button>
-                    <button
-                        className="contact-button mobile-home-contact-button fly-in-bottom-2"
-                        onClick={() => window.location.href = 'mailto:jmanion32@gmail.com'}
-                    >
-                        <img
-                            src={gmailLogo}
-                            className="gmail-image"
-                            alt="mail icon"
-                        />
-                    </button>
-                    <button 
-                        className="contact-button mobile-home-contact-button fly-in-bottom-3"
-                        onClick={() => window.open('https://www.linkedin.com/in/jmanion32/', '_blank')}
-                    >
-                        <img src={linkedinLogo} className="linkedin-image"/>
-                    </button>
-                    {/*
+                    <div className="contact-button-container">
+                        <button
+                            className="contact-button mobile-home-contact-button fly-in-bottom-1"
+                            onClick={() => window.open('https://github.com/JManion32', '_blank')}
+                        >
+                            <div className="github-image-wrapper">
+                                <img src={githubLight} className="github-image light" />
+                                <img src={githubDark} className="github-image dark" />
+                            </div>
+                        </button>
+                        <button
+                            className="contact-button mobile-home-contact-button fly-in-bottom-2"
+                            onClick={() => (window.location.href = 'mailto:jmanion32@gmail.com')}
+                        >
+                            <img src={gmailLogo} className="gmail-image" alt="mail icon" />
+                        </button>
+                        <button
+                            className="contact-button mobile-home-contact-button fly-in-bottom-3"
+                            onClick={() => window.open('https://www.linkedin.com/in/jmanion32/', '_blank')}
+                        >
+                            <img src={linkedinLogo} className="linkedin-image" />
+                        </button>
+                        {/*
                     <button 
                         className="contact-button mobile-home-contact-button"
                         onClick={() => window.open('https://www.youtube.com/@JManCodes', '_blank')}
@@ -98,14 +90,14 @@ function Home() {
                         <img src="../assets/youtube_logo.png" className="yt-image"/>
                     </button>
                     */}
+                    </div>
+                </div>
+                <button className="right-guide-button" onClick={() => navigate('/projects')}>
+                    Projects <span className="right-arrow-spacer">{'>>'}</span>
+                </button>
             </div>
-        </div>
-        <button className="right-guide-button" onClick={() => navigate('/projects')}>
-            Projects <span className="right-arrow-spacer">{'>>'}</span>
-        </button>
-      </div>
-    </>
-  );
+        </>
+    );
 }
 
 export default Home;

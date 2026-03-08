@@ -2,7 +2,7 @@
     background: var(--tech-stack-section);
     border: 0.15rem solid var(--tech-stack-border);
     border-radius: 0.5rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
     padding: 1rem;
     margin-bottom: 2rem;
 }
@@ -20,70 +20,174 @@
     background: #ffffff0f;
 }
 
-.techStack__heading {
+.techstack-heading {
     font-size: 1.25rem;
     letter-spacing: 0.0125rem;
 }
 
-.techStack__section {
-    transition: color 0.2s ease, background-color 0.2s ease, border 0.2s ease;
+.techstack-section {
+    transition:
+        color 0.2s ease,
+        background-color 0.2s ease,
+        border 0.2s ease;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     align-items: center;
-    flex-wrap: wrap;
     gap: 0.375rem;
 }
 
-.techStack__section:not(:first-child) {
-  margin-top: 0.70rem;
+.techstack-section:not(:first-child) {
+    margin-top: 0.7rem;
 }
 
-
-.techStack__title {
+.techstack-title {
     font-size: 1.25rem !important;
     font-weight: 700;
     padding: 0 !important;
     margin: 0 0.5rem 0 0 !important;
 }
 
-.techStack__badges {
-  display: flex;
-  flex-wrap: wrap;
+.techstack-badges {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Front-end */
-.vite { background: #646cff; color: #fff; }
-.react { background: #61dafb; color: #0b0f14; }
-.ts { background: #3178c6; color: #fff; }
-.tailwind { background: #06b6d4; color: #051923; }
-.twig { background: #ff7f00; color: #fff; }
-.vue { background: #42b883; color: #fff; }
-.javascript { background: #f7df1e; color: #000; }
-.qt { background: #2CDE85; color: #000; }
+.vite {
+    background: #646cff;
+    color: #fff;
+}
+
+.react {
+    background: #61dafb;
+    color: #0b0f14;
+}
+
+.ts {
+    background: #3178c6;
+    color: #fff;
+}
+
+.tailwind {
+    background: #06b6d4;
+    color: #051923;
+}
+
+.twig {
+    background: #ff7f00;
+    color: #fff;
+}
+
+.vue {
+    background: #42b883;
+    color: #fff;
+}
+
+.javascript {
+    background: #f7df1e;
+    color: #000;
+}
+
+.qt {
+    background: #2cde85;
+    color: #000;
+}
 
 /* Backend */
-.go { background: #00add8; color: #032027; }
-.cpp { background: #00599c; color: #ffffff; }
-.php { background: #777bb3; color: #fff; }
-.python { background: #3776ab; color: #ffdf76; }
-.nodejs { background: #68a063; color: #fff; }
+.go {
+    background: #00add8;
+    color: #032027;
+}
+
+.cpp {
+    background: #00599c;
+    color: #fff;
+}
+
+.php {
+    background: #777bb3;
+    color: #fff;
+}
+
+.python {
+    background: #3776ab;
+    color: #ffdf76;
+}
+
+.nodejs {
+    background: #68a063;
+    color: #fff;
+}
 
 /* Database / Caching */
-.postgres { background: #336791; color: #fff; }
-.redis { background: #d82c20; color: #fff; }
+.postgres {
+    background: #336791;
+    color: #fff;
+}
+
+.redis {
+    background: #d82c20;
+    color: #fff;
+}
 
 /* Deployment / Dev Ops */
-.docker { background: #0db7ed; color: #03121a; }
-.digitalocean { background: #0080ff; color: #fff; }
-.route53 { background: #ff9900; color: #211a00; }
-.nginx { background: #009639; color: #00170a; }
-.certbot { background: #2dce89; color: #041711; }
+.docker {
+    background: #0db7ed;
+    color: #03121a;
+}
+
+.digitalocean {
+    background: #0080ff;
+    color: #fff;
+}
+
+.route53 {
+    background: #f90;
+    color: #211a00;
+}
+
+.nginx {
+    background: #009639;
+    color: #00170a;
+}
+
+.certbot {
+    background: #2dce89;
+    color: #041711;
+}
 
 /* Dependencies / Tooling */
-.eslint { background: #4b32c3; color: #fff; }
-.stylelint { background: #263238; color: #e6f1f5; }
-.prettier { background: #f7b93e; color: #1a1400; }
-.cypress { background: #2e2e2e; color: #fff; }
-.golangci { background: #00add8; color: #032027; }
-.gofmt { background: #00add8; color: #032027; }
-.gotest { background: #00add8; color: #032027; }
+.eslint {
+    background: #4b32c3;
+    color: #fff;
+}
+
+.stylelint {
+    background: #263238;
+    color: #e6f1f5;
+}
+
+.prettier {
+    background: #f7b93e;
+    color: #1a1400;
+}
+
+.cypress {
+    background: #2e2e2e;
+    color: #fff;
+}
+
+.golangci {
+    background: #00add8;
+    color: #032027;
+}
+
+.gofmt {
+    background: #00add8;
+    color: #032027;
+}
+
+.gotest {
+    background: #00add8;
+    color: #032027;
+}

@@ -1,0 +1,11 @@
+nodes_modules
+
+.prettierrc.json
+eslint.config.js
+package-lock.json
+package.json
+README.md
+stylelint.config.mjs
+tsconfig.app.json
+tsconfig.node.json
+vite.config.ts

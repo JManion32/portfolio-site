@@ -1,22 +1,23 @@
 :root {
-    --site-font: Helvetica, Arial, sans-serif;
+    --site-font: helvetica, arial, sans-serif;
     --site-transition: 0.4s;
 
     /* General */
-    --standard-text: #1A1A1A;
-    --always-white: #ffffff;
+    --standard-text: #1a1a1a;
+    --always-white: #fff;
     --standard-purple: #464ea0;
     --site-background: #f3f6fb;
-    --content-background: #ffffff;
-    --default-button: #ffffff;
-    --contact-button: #ffffff;
+    --content-background: #fff;
+    --default-button: #fff;
+    --contact-button: #fff;
     --hover-default-button: #f3f9ff;
     --contact-border: #9c9c9c;
-    --toggle-thumb: #ffffff;
+    --toggle-thumb: #fff;
     --toggle-track: #ccc;
 
     /* Navbar */
-    /*--nav-background: linear-gradient(to right, #ffffff, #bfd5ec);*/
+
+    /* --nav-background: linear-gradient(to right, #ffffff, #bfd5ec); */
     --nav-background: white;
     --active-nav: #d6ebff;
     --hover-nav-text: #e8f4ff;
@@ -24,51 +25,51 @@
 
     /* Project / Experience */
     --hover-project-preview: #22222290;
-    --project-preview: #ffffff;
+    --project-preview: #fff;
     --border-project-preview: #f5f5f5;
-    --experience-date: #444444;
+    --experience-date: #444;
 
     /* Text Formatting */
     --tech-stack-section: #dddddd85;
-    --tech-stack-border: #1A1A1A;
-    --content-line: #666666;
-    --anchor-link: #3366CC;
+    --tech-stack-border: #1a1a1a;
+    --content-line: #666;
+    --anchor-link: #36c;
     --hover-anchor-link: #274d99;
     --code-bg: #f3f3f3;
-    --hover-read-more-text: #ffffff;
+    --hover-read-more-text: #fff;
 }
 
-[data-theme="dark"] {
+[data-theme='dark'] {
     /* General */
-    --standard-text: #ffffff;
+    --standard-text: #fff;
     --site-background: #09090900;
-    --content-background: #1D1D1D;
+    --content-background: #1d1d1d;
     --default-button: #343434;
     --contact-button: #343434;
     --hover-default-button: #444;
-    --toggle-thumb: #000000;
-    --toggle-track:  #4d4d4d;
+    --toggle-thumb: #000;
+    --toggle-track: #4d4d4d;
     --contact-border: #6d78e7;
 
     /* Navbar */
     --hover-nav-text: #6069ca50;
     --active-nav: var(--standard-purple);
-    --nav-border: #555555;
+    --nav-border: #555;
     --nav-background: linear-gradient(to right, #363636, #0f0f0f);
 
     /* Project / Experience */
-    --project-preview: #1D1D1D;
+    --project-preview: #1d1d1d;
     --project-img-border: #9c9c9c;
     --border-project-preview: #444;
-    --experience-date: #BBBBBB;
+    --experience-date: #bbb;
     --hover-project-preview: #6d78e790;
 
     /* Text Formatting */
     --tech-stack-section: #13131370;
     --tech-stack-border: #383838;
-    --content-line: #444444;
+    --content-line: #444;
     --code-bg: #353535;
     --anchor-link: #87bcf1;
     --hover-anchor-link: #9ac7f4;
-    --hover-read-more-text: #000000;
+    --hover-read-more-text: #000;
 }

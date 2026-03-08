@@ -1,7 +1,6 @@
 .header-container {
     display: flex;
-    flex-direction: var(--experience-header-flex-direction);
-    flex-wrap: wrap;
+    flex-flow: var(--experience-header-flex-direction) wrap;
     align-items: center;
     justify-content: center;
 }
@@ -23,13 +22,16 @@
 .exp-preview-container {
     padding: 2rem;
     margin-top: 1.5rem;
-    transition: color 0.2s ease, background-color 0.2s ease, border 0.2s ease;
+    transition:
+        color 0.2s ease,
+        background-color 0.2s ease,
+        border 0.2s ease;
     background-color: var(--project-preview);
     border-radius: 0.5rem;
     border: 2px solid var(--hover-project-preview);
     min-height: 8rem;
     cursor: pointer;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
 }
 
 .exp-preview-container:hover {
@@ -41,50 +43,51 @@
 }
 
 .resume-content {
-  margin-bottom: 3rem !important;
+    margin-bottom: 3rem !important;
 }
 
 .resume-frame {
-  width: 100%;
-  height: calc(100vh - 160px); /* adjust for your header/breadcrumb height */
-  border: none;
+    width: 100%;
+    height: calc(100vh - 160px); /* adjust for your header/breadcrumb height */
+    border: none;
 }
 
 .resume-actions {
-  margin: 0.5rem 0 1rem;
+    margin: 0.5rem 0 1rem;
 }
 
 .experience-date {
-  font-size: var(--project-date-size);
-  font-style: italic;
-  font-weight: bold;
-  color: var(--experience-date);
-  margin: 0;
-  transition: color 0.2s ease, background-color 0.2s ease;
+    font-size: var(--project-date-size);
+    font-style: italic;
+    font-weight: bold;
+    color: var(--experience-date);
+    margin: 0;
+    transition:
+        color 0.2s ease,
+        background-color 0.2s ease;
 }
 
 .stewarts-img {
-  border-radius: 0.75rem;
+    border-radius: 0.75rem;
 }
 
 .price-chopper-img {
-  border: 8px solid white;
-  border-radius: 0.75rem;
-  height: 4.25rem !important;
+    border: 8px solid white;
+    border-radius: 0.75rem;
+    height: 4.25rem !important;
 }
 
 .rpi-collage-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .rpi-collage-img {
-  max-height: var(--rpi-collage-img-height) !important;
-  margin: 0.25rem !important;
-  padding: 0;
-  border: none !important;
+    max-height: var(--rpi-collage-img-height) !important;
+    margin: 0.25rem !important;
+    padding: 0;
+    border: none !important;
 }

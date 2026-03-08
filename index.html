@@ -1,54 +1,71 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="./assets/jm-dark-circle.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>justinmanion.com</title>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/png" href="./assets/jm-dark-circle.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>justinmanion.com</title>
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/assets/jm-dark-circle.png" />
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/assets/jm-dark-circle.png" />
 
-    <!-- SEO Meta -->
-    <meta name="description" content="Dedicated CS student with a passion for full-stack software development. Seeking a challenging role that provides opportunities for both technical and professional growth."/>
+        <!-- SEO Meta -->
+        <meta
+            name="description"
+            content="Dedicated CS student with a passion for full-stack software development. Seeking a challenging role that provides opportunities for both technical and professional growth."
+        />
 
-    <!-- Open Graph (for Discord, Facebook, etc.) -->
-    <meta property="og:title" content="justinmanion.com" />
-    <meta property="og:description" content="Dedicated CS student with a passion for full-stack software development. Seeking a challenging role that provides opportunities for both technical and professional growth."/>
-    <meta property="og:url" content="https://justinmanion.com/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://justinmanion.com/preview.png" />
-    <meta property="og:image:alt" content="justinmanion.com Preview Image" />
+        <!-- Open Graph (for Discord, Facebook, etc.) -->
+        <meta property="og:title" content="justinmanion.com" />
+        <meta
+            property="og:description"
+            content="Dedicated CS student with a passion for full-stack software development. Seeking a challenging role that provides opportunities for both technical and professional growth."
+        />
+        <meta property="og:url" content="https://justinmanion.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://justinmanion.com/preview.png" />
+        <meta property="og:image:alt" content="justinmanion.com Preview Image" />
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="justinmanion.com" />
-    <meta name="twitter:description" content="Dedicated CS student with a passion for full-stack software development. Seeking a challenging role that provides opportunities for both technical and professional growth."/>
-    <meta name="twitter:image" content="https://justinmanion.com/preview.png" />
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="justinmanion.com" />
+        <meta
+            name="twitter:description"
+            content="Dedicated CS student with a passion for full-stack software development. Seeking a challenging role that provides opportunities for both technical and professional growth."
+        />
+        <meta name="twitter:image" content="https://justinmanion.com/preview.png" />
 
-    <script>
-      (function () {
-        try {
-          var KEY = 'site_mode';
-          var stored = localStorage.getItem(KEY);
-          var theme = stored || 'dark';
-          if (!stored) localStorage.setItem(KEY, theme);
+        <script>
+            (function () {
+                try {
+                    var KEY = 'site_mode';
+                    var stored = localStorage.getItem(KEY);
+                    var theme = stored || 'dark';
+                    if (!stored) localStorage.setItem(KEY, theme);
 
-          var root = document.documentElement;
-          root.setAttribute('data-theme', theme);
-          root.style.backgroundColor = theme === 'dark' ? '#111111' : '#f4f2ee';
-        } catch (e) {}
-      })();
-    </script>
+                    var root = document.documentElement;
+                    root.setAttribute('data-theme', theme);
+                    root.style.backgroundColor = theme === 'dark' ? '#111111' : '#f4f2ee';
+                } catch (e) {}
+            })();
+        </script>
 
-    <style>
-      :root { color-scheme: dark light; }
-      html[data-theme='dark']  { background-color: #111111; color: #fff; }
-      html[data-theme='light'] { background-color: #f4f2ee; color: #000; }
-    </style>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+        <style>
+            :root {
+                color-scheme: dark light;
+            }
+            html[data-theme='dark'] {
+                background-color: #111111;
+                color: #fff;
+            }
+            html[data-theme='light'] {
+                background-color: #f4f2ee;
+                color: #000;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
+    </body>
 </html>

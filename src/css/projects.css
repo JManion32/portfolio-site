@@ -1,97 +1,99 @@
 .project-image {
-  height: 5rem;
-  margin-bottom: .75rem;
-  border-radius: 0.5rem;
+    height: 5rem;
+    margin-bottom: 0.75rem;
+    border-radius: 0.5rem;
 }
 
 .project-preview-header {
-  transition: color 0.2s ease, background-color 0.2s ease;
-  padding: 0;
-  margin: 0;
-  font-size: 1.8rem;
-  font-weight: bold;
+    transition:
+        color 0.2s ease,
+        background-color 0.2s ease;
+    padding: 0;
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 .project-preview-desc {
-  font-size: var(--project-desc-size);
+    font-size: var(--project-desc-size);
 }
 
 .project-grid {
-  display: grid;
-  grid-template-columns: var(--main-page-grid-columns);
-  gap: 2rem;
+    display: grid;
+    grid-template-columns: var(--main-page-grid-columns);
+    gap: 2rem;
 }
 
 .project-preview-container {
-  transition: all 0.2s ease;
-  background-color: var(--project-preview);
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  border: 2px solid var(--border-project-preview);
-  text-align: center;
-  min-height: 8rem;
-  cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  opacity: 0;
+    transition: all 0.2s ease;
+    background-color: var(--project-preview);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--border-project-preview);
+    text-align: center;
+    min-height: 8rem;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+    opacity: 0;
 }
 
 .project-preview-container:hover {
-  box-shadow: 0 0 1.75rem var(--hover-project-preview);
-  scale: 1.025;
+    box-shadow: 0 0 1.75rem var(--hover-project-preview);
+    scale: 1.025;
 }
 
 .project-contact-btn {
-  margin-left: 1rem;
+    margin-left: 1rem;
 }
 
-
 /* Project / Experience Animation */
-@keyframes mainFlyInUp {
-  from {
-    opacity: 0;
-    transform: translateY(200px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+@keyframes main-fly-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .main-fly-in-bottom {
-  animation: mainFlyInUp 0.4s ease-out forwards;
+    animation: main-fly-in-up 0.4s ease-out forwards;
 }
 
 .main-fly-in-bottom-1 {
-  animation: mainFlyInUp 0.4s ease-out forwards;
-  animation-delay: 0.25s;
+    animation: main-fly-in-up 0.4s ease-out forwards;
+    animation-delay: 0.25s;
 }
 
 .main-fly-in-bottom-2 {
-  animation: mainFlyInUp 0.4s ease-out forwards;
-  animation-delay: 0.40s;
+    animation: main-fly-in-up 0.4s ease-out forwards;
+    animation-delay: 0.4s;
 }
 
 .main-fly-in-bottom-3 {
-  animation: mainFlyInUp 0.4s ease-out forwards;
-  animation-delay: 0.55s;
+    animation: main-fly-in-up 0.4s ease-out forwards;
+    animation-delay: 0.55s;
 }
 
 .main-fly-in-bottom-4 {
-  animation: mainFlyInUp 0.4s ease-out forwards;
-  animation-delay: 0.70s;
+    animation: main-fly-in-up 0.4s ease-out forwards;
+    animation-delay: 0.7s;
 }
 
 .main-fly-in-bottom-5 {
-  animation: mainFlyInUp 0.4s ease-out forwards;
-  animation-delay: 0.85s;
+    animation: main-fly-in-up 0.4s ease-out forwards;
+    animation-delay: 0.85s;
 }
 
 .main-fly-in-bottom-6 {
-  animation: mainFlyInUp 0.4s ease-out forwards;
-  animation-delay: 1.00s;
+    animation: main-fly-in-up 0.4s ease-out forwards;
+    animation-delay: 1s;
 }
 
 .main-fly-in-bottom-7 {
-  animation: mainFlyInUp 0.4s ease-out forwards;
-  animation-delay: 1.15s;
+    animation: main-fly-in-up 0.4s ease-out forwards;
+    animation-delay: 1.15s;
 }

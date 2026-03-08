@@ -2,27 +2,31 @@ type Badge = string | { name: string; className?: string };
 type Section = { title: string; items: Badge[] };
 
 type Props = {
-  heading?: string;
-  sections: Section[];
-  id?: string;
+    heading?: string;
+    sections: Section[];
+    id?: string;
 };
 
-export default function TechStack({ sections, id = "tech-stack-title" }: Props) {
-  const getName  = (b: Badge) => (typeof b === "string" ? b : b.name);
-  const getClass = (b: Badge) => (typeof b === "string" ? "" : (b.className ?? ""));
+export default function TechStack({ sections, id = 'tech-stack-title' }: Props) {
+    const getName = (b: Badge) => (typeof b === 'string' ? b : b.name);
+    const getClass = (b: Badge) => (typeof b === 'string' ? '' : (b.className ?? ''));
 
-  return (
-    <section aria-labelledby={id} className="tech-stack">
-      {sections.map((sec) => (
-        <div key={sec.title} className="techStack__section">
-          <h3 className="techStack__title">{sec.title}:</h3>
-          {sec.items.map((b) => {
-            const name = getName(b);
-            const cls  = getClass(b);
-            return <span key={name} className={["badge", cls].filter(Boolean).join(" ")}>{name}</span>;
-          })}
-        </div>
-      ))}
-    </section>
-  );
+    return (
+        <section aria-labelledby={id} className="tech-stack">
+            {sections.map((sec) => (
+                <div key={sec.title} className="techstack-section">
+                    <h3 className="techstack-title">{sec.title}:</h3>
+                    {sec.items.map((b) => {
+                        const name = getName(b);
+                        const cls = getClass(b);
+                        return (
+                            <span key={name} className={['badge', cls].filter(Boolean).join(' ')}>
+                                {name}
+                            </span>
+                        );
+                    })}
+                </div>
+            ))}
+        </section>
+    );
 }

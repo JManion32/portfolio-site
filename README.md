@@ -7,7 +7,7 @@ git clone https://github.com/JManion32/portfolio-site.git
 ```
 
 
-# Tech Stack
+## Tech Stack
 
 ### Front-end  
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -22,3 +22,28 @@ git clone https://github.com/JManion32/portfolio-site.git
 ![Route 53](https://img.shields.io/badge/AWS_Route_53-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)  
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Certbot](https://img.shields.io/badge/Certbot-003A70?style=for-the-badge&logo=letsencrypt&logoColor=white)
+
+## Linters / Formatters
+#### Check Lint Script
+
+```bash
+npm run lint-check
+```
+
+#### Fix Lint Script
+
+```bash
+npm run lint-fix
+```
+
+## Docker
+#### Start
+```bash
+docker build -t portfolio-site:test .
+docker run -d --name portfolio -p 5173:80 portfolio-site:test
+```
+#### Stop
+```bash
+docker stop portfolio
+docker rm portfolio
+```

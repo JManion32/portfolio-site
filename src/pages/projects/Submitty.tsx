@@ -4,10 +4,9 @@ import ReadMoreBtn from '../../components/ReadMoreBtn.tsx';
 import Breadcrumbs from '../../components/Breadcrumb.tsx';
 import TechStack from '../../components/TechStack.tsx';
 import NavButton from '../../components/NavButton.tsx';
+import TextContentHeader from '../../components/TextContentHeader.tsx';
 
 import submittyDuck from '../../assets/submitty_duck.png';
-import githubLight from '../../assets/github-mark.png';
-import githubDark from '../../assets/github-mark-white.png';
 
 import homeNotis from '../../assets/submitty-noti-ui.png';
 import individualNotification from '../../assets/individual-notification-component.png';
@@ -24,26 +23,12 @@ function Submitty() {
             <div className="page">
                 <div className="text-content">
                     <Breadcrumbs />
-                    <div className="text-page-header-row">
-                        <h1 className="text-page-header">Submitty</h1>
-                        <button
-                            className="contact-button project-contact-btn"
-                            title="Submitty Documentation Site"
-                            onClick={() => window.open('https://submitty.org/index/overview', '_blank')}
-                        >
-                            <img src={submittyDuck} className="contact-image" />
-                        </button>
-                        <button
-                            className="contact-button project-contact-btn"
-                            title="Submitty Repository"
-                            onClick={() => window.open('https://github.com/Submitty/Submitty', '_blank')}
-                        >
-                            <div className="github-image-wrapper">
-                                <img src={githubLight} className="github-image light" />
-                                <img src={githubDark} className="github-image dark" />
-                            </div>
-                        </button>
-                    </div>
+                    <TextContentHeader
+                        title="Submitty"
+                        siteImg={submittyDuck}
+                        siteLink="https://submitty.org/index/overview"
+                        ghLink="https://github.com/Submitty/Submitty"
+                    />
                     <div id="text-body">
                         <p>
                             Created in 2014, Submitty is an open source course management, assignment submission, exam

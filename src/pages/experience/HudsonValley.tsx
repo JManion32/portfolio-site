@@ -3,6 +3,7 @@ import ReadMoreBtn from '../../components/ReadMoreBtn.tsx';
 
 import Breadcrumbs from '../../components/Breadcrumb.tsx';
 import NavButton from '../../components/NavButton.tsx';
+import TextContentHeader from '../../components/TextContentHeader.tsx';
 import useNavigateTop from '../../hooks/useNavigateTop.ts';
 
 import hudsonValleyAerial from '../../assets/hudson-valley-aerial.jpg';
@@ -15,9 +16,7 @@ function HudsonValley() {
             <div className="page">
                 <div className="text-content">
                     <Breadcrumbs />
-                    <div className="text-page-header-row">
-                        <h1 className="text-page-header">Hudson Valley Community College</h1>
-                    </div>
+                    <TextContentHeader title="Hudson Valley Community College" />
                     <div id="text-body">
                         <p>
                             When I enrolled in community college, I was unsure of what to pursue. Throughout the next

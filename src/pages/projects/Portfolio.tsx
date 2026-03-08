@@ -3,9 +3,7 @@ import ReadMoreBtn from '../../components/ReadMoreBtn.tsx';
 
 import Breadcrumbs from '../../components/Breadcrumb.tsx';
 import NavButton from '../../components/NavButton.tsx';
-
-import githubLight from '../../assets/github-mark.png';
-import githubDark from '../../assets/github-mark-white.png';
+import TextContentHeader from '../../components/TextContentHeader.tsx';
 
 import TechStack from '../../components/TechStack.tsx';
 import useNavigateTop from '../../hooks/useNavigateTop.ts';
@@ -18,19 +16,7 @@ function Portfolio() {
             <div className="page">
                 <div className="text-content">
                     <Breadcrumbs />
-                    <div className="text-page-header-row">
-                        <h1 className="text-page-header">Portfolio Site</h1>
-                        <button
-                            className="contact-button project-contact-btn"
-                            title="Portfolio Repository"
-                            onClick={() => window.open('https://github.com/JManion32/portfolio-site', '_blank')}
-                        >
-                            <div className="github-image-wrapper">
-                                <img src={githubLight} className="github-image light" />
-                                <img src={githubDark} className="github-image dark" />
-                            </div>
-                        </button>
-                    </div>
+                    <TextContentHeader title="Portfolio Site" ghLink="https://github.com/JManion32/portfolio-site" />
                     <div id="text-body">
                         <p>The site you are on right now, for showcasing my experience. I hope you're enjoying it!</p>
                         <hr />

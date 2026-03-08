@@ -4,6 +4,7 @@ import ReadMoreBtn from '../../components/ReadMoreBtn.tsx';
 import Breadcrumbs from '../../components/Breadcrumb.tsx';
 import NavButton from '../../components/NavButton.tsx';
 import useNavigateTop from '../../hooks/useNavigateTop.ts';
+import TextContentHeader from '../../components/TextContentHeader.tsx';
 
 import ogPsoftIndex from '../../assets/og-psoft-index.png';
 import ogPsoftHW from '../../assets/og-psoft-hw-page-light.png';
@@ -21,9 +22,7 @@ function PSoft() {
             <div className="page">
                 <div className="text-content">
                     <Breadcrumbs />
-                    <div className="text-page-header-row">
-                        <h1 className="text-page-header">Course Website</h1>
-                    </div>
+                    <TextContentHeader title="Course Website" />
                     <div id="text-body">
                         <p>
                             Revamped the course website for Principles of Software, a core computer science course at

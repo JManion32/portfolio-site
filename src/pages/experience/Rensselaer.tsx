@@ -3,6 +3,7 @@ import ReadMoreBtn from '../../components/ReadMoreBtn.tsx';
 
 import Breadcrumbs from '../../components/Breadcrumb.tsx';
 import NavButton from '../../components/NavButton.tsx';
+import TextContentHeader from '../../components/TextContentHeader.tsx';
 import useNavigateTop from '../../hooks/useNavigateTop.ts';
 
 import summerSage from '../../assets/summer-sage.jpg';
@@ -45,9 +46,7 @@ function Rensselaer() {
             <div className="page">
                 <div className="text-content">
                     <Breadcrumbs />
-                    <div className="text-page-header-row">
-                        <h1 className="text-page-header">Rensselaer Polytechnic Institute</h1>
-                    </div>
+                    <TextContentHeader title="Course Website" />
                     <div id="text-body">
                         <p>
                             Rensselaer Polytechnic Institute has provided me with countless opportunities for both

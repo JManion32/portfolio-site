@@ -3,6 +3,7 @@ import ReadMoreBtn from '../../components/ReadMoreBtn.tsx';
 
 import Breadcrumbs from '../../components/Breadcrumb.tsx';
 import NavButton from '../../components/NavButton.tsx';
+import TextContentHeader from '../../components/TextContentHeader.tsx';
 
 import oldFoodDrive from '../../assets/old-lxa-food-drive.png';
 import newFoodDrive from '../../assets/new-lxa-food-drive.png';
@@ -18,16 +19,11 @@ function LambdaChi() {
             <div className="page">
                 <div className="text-content">
                     <Breadcrumbs />
-                    <div className="text-page-header-row">
-                        <h1 className="text-page-header">Lambda Chi Alpha</h1>
-                        <button
-                            className="contact-button project-contact-btn"
-                            title="LXA EHZ Website"
-                            onClick={() => window.open('https://www.lambdachiehz.com', '_blank')}
-                        >
-                            <img src={lxaLogo} className="contact-image" />
-                        </button>
-                    </div>
+                    <TextContentHeader
+                        title="Lambda Chi Alpha"
+                        siteImg={lxaLogo}
+                        siteLink="https://www.lambdachiehz.com"
+                    />
                     <div id="text-body">
                         <p>
                             If I had to describe my time at &Lambda;ΧΑ in one word, it would be <i>transformative</i>. I

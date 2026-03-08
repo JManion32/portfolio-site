@@ -6,6 +6,7 @@ import NavButton from '../../components/NavButton.tsx';
 
 import TechStack from '../../components/TechStack.tsx';
 import useNavigateTop from '../../hooks/useNavigateTop.ts';
+import TextContentHeader from '../../components/TextContentHeader.tsx';
 
 import quizletLogo from '../../assets/quizlet-logo.webp';
 import makeItRain from '../../assets/make-it-rain.jpg';
@@ -24,9 +25,7 @@ function CookieCoder() {
             <div className="page">
                 <div className="text-content">
                     <Breadcrumbs />
-                    <div className="text-page-header-row">
-                        <h1 className="text-page-header">Cookie Coder</h1>
-                    </div>
+                    <TextContentHeader title="Cookie Coder" />
                     <div id="text-body">
                         <p>
                             This project is currently in its planning stages. If you have any input, please reach out!

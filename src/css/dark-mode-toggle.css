@@ -1,0 +1,52 @@
+#dark-mode-item {
+    margin-left: auto;
+}
+
+.dark-mode-switch {
+    position: relative;
+    display: inline-block;
+    width: 3.59375rem;
+    height: 2.0125rem;
+    align-self: center;
+    margin-left: auto;
+}
+
+.dark-mode-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.dark-mode-switch .slider {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    background-color: var(--toggle-track);
+    border-radius: 34px;
+    transition: background-color 0.2s ease;
+}
+
+.dark-mode-switch .slider img {
+    position: absolute;
+    left: 0.21625rem;
+    top: 0.21625rem;
+    width: 1.58125rem;
+    height: 1.58125rem;
+    border-radius: 50%;
+    background-color: var(--toggle-thumb);
+    box-shadow: 0 0.071875rem 0.215625rem rgb(0 0 0 / 30%);
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease;
+    user-select: none;
+    -webkit-user-drag: none;
+    display: none;
+}
+
+.dark-mode-switch .slider img[src] {
+    display: block;
+}
+
+.dark-mode-switch input:checked ~ .slider img {
+    transform: translateX(1.58125rem);
+}

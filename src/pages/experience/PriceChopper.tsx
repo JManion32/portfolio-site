@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import ReadMoreBtn from '../../components/ReadMoreBtn.tsx';
-
+import TextContentHeader from '../../components/TextContentHeader.tsx';
 import Breadcrumbs from '../../components/Breadcrumb.tsx';
 import NavButton from '../../components/NavButton.tsx';
 import pcStore from '../../assets/price-chopper-store.webp';
@@ -13,9 +13,7 @@ function PriceChopper() {
             <div className="page">
                 <div className="text-content">
                     <Breadcrumbs />
-                    <div className="text-page-header-row">
-                        <h1 className="text-page-header">Price Chopper</h1>
-                    </div>
+                    <TextContentHeader title="Price Chopper" />
                     <div id="text-body">
                         <p>
                             This was my first job, held from June 2020 to October 2024. Along the way, I advanced from

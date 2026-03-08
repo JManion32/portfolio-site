@@ -2,10 +2,9 @@ import React from 'react';
 import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { initDarkMode } from '../utils/darkMode';
+import DarkModeToggle from './DarkModeToggle.tsx';
 
 import jmLogo from '../assets/jm-dark-circle.png';
-import sunBlack from '../assets/sun_black.png';
-import moonWhite from '../assets/moon_white.png';
 
 const Navbar: React.FC = () => {
     useEffect(() => {
@@ -40,18 +39,7 @@ const Navbar: React.FC = () => {
                 <NavLink to={'/resume'} className={({ isActive }) => `nav-link-text ${isActive ? 'active-page' : ''}`}>
                     Resume
                 </NavLink>
-                <label className="dark-mode-switch">
-                    <input type="checkbox" id="dark-mode-toggle" />
-                    <span className="slider">
-                        <img
-                            id="dark-mode-icon"
-                            src={sunBlack}
-                            data-light={sunBlack}
-                            data-dark={moonWhite}
-                            alt="mode icon"
-                        />
-                    </span>
-                </label>
+                <DarkModeToggle />
             </div>
         </nav>
     );

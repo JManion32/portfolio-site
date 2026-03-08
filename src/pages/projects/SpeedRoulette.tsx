@@ -5,10 +5,9 @@ import Breadcrumbs from '../../components/Breadcrumb.tsx';
 import TechStack from '../../components/TechStack.tsx';
 import NavButton from '../../components/NavButton.tsx';
 import useNavigateTop from '../../hooks/useNavigateTop.ts';
+import TextContentHeader from '../../components/TextContentHeader.tsx';
 
 import srLogo from '../../assets/sr-logo.svg';
-import githubLight from '../../assets/github-mark.png';
-import githubDark from '../../assets/github-mark-white.png';
 import javafxProject from '../../assets/javafx-project.png';
 import srStoryboardDark from '../../assets/sr-storyboard-dark-mode.png';
 import srHomePageDark from '../../assets/sr-home-dark-mode.png';
@@ -24,26 +23,12 @@ function SpeedRoulette() {
             <div className="page">
                 <div className="text-content">
                     <Breadcrumbs />
-                    <div className="text-page-header-row">
-                        <h1 className="text-page-header">Speed Roulette</h1>
-                        <button
-                            className="contact-button project-contact-btn"
-                            title="Speed Roulette Website"
-                            onClick={() => window.open('https://speedroulette.io/', '_blank')}
-                        >
-                            <img src={srLogo} className="contact-image" />
-                        </button>
-                        <button
-                            className="contact-button project-contact-btn"
-                            title="Speed Roulette Repository"
-                            onClick={() => window.open('https://github.com/JManion32/speed-roulette', '_blank')}
-                        >
-                            <div className="github-image-wrapper">
-                                <img src={githubLight} className="github-image light" />
-                                <img src={githubDark} className="github-image dark" />
-                            </div>
-                        </button>
-                    </div>
+                    <TextContentHeader
+                        title="Speed Roulette"
+                        siteImg={srLogo}
+                        siteLink="https://speedroulette.io/"
+                        ghLink="https://github.com/JManion32/speed-roulette"
+                    />
                     <div id="text-body">
                         <p>
                             Inspired by the intensity of speed chess, Speed Roulette puts an interesting twist on the

@@ -1,5 +1,6 @@
 import Breadcrumbs from '../../components/Breadcrumb';
 import NavButton from '../../components/NavButton';
+import TextContentHeader from '../../components/TextContentHeader.tsx';
 
 import twitchStats from '../../assets/twitch-stats.png';
 import charityStream from '../../assets/charity-stream.png';
@@ -11,9 +12,7 @@ function Streamer() {
             <div className="page">
                 <div className="text-content">
                     <Breadcrumbs />
-                    <div className="text-page-header-row">
-                        <h1 className="text-page-header">Twitch Streamer</h1>
-                    </div>
+                    <TextContentHeader title="Twitch Streamer" />
                     <div id="text-body">
                         <p>
                             From May 2021 to November 2023, I streamed on Twitch around two to three times per week.

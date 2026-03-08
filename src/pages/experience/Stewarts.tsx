@@ -3,6 +3,7 @@ import ReadMoreBtn from '../../components/ReadMoreBtn.tsx';
 
 import Breadcrumbs from '../../components/Breadcrumb.tsx';
 import NavButton from '../../components/NavButton.tsx';
+import TextContentHeader from '../../components/TextContentHeader.tsx';
 
 import stewartsFleet from '../../assets/stewarts-fleet.jpeg';
 import stewartsLogo from '../../assets/stewarts-logo.png';
@@ -18,16 +19,12 @@ function Stewarts() {
             <div className="page">
                 <div className="text-content">
                     <Breadcrumbs />
-                    <div className="text-page-header-row">
-                        <h1 className="text-page-header">IT Technician Intern</h1>
-                        <button
-                            className="contact-button project-contact-btn"
-                            title="About Stewart's Shops"
-                            onClick={() => window.open('https://www.stewartsshops.com/who-we-are/', '_blank')}
-                        >
-                            <img src={stewartsLogo} className="contact-image" style={{ borderRadius: '0.25rem' }} />
-                        </button>
-                    </div>
+                    <TextContentHeader
+                        title="IT Internship"
+                        siteImg={stewartsLogo}
+                        siteLinkTitle="Stewart's Shops Website"
+                        siteLink="https://www.stewartsshops.com/who-we-are/"
+                    />
                     <div id="text-body">
                         <p>
                             During summer 2024, I worked as an IT Technician Intern for Stewart's Shops. This role was

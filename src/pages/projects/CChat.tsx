@@ -4,9 +4,7 @@ import Breadcrumbs from '../../components/Breadcrumb.tsx';
 import NavButton from '../../components/NavButton.tsx';
 import ComingSoon from '../../components/ComingSoon.tsx';
 import TechStack from '../../components/TechStack.tsx';
-
-import githubLight from '../../assets/github-mark.png';
-import githubDark from '../../assets/github-mark-white.png';
+import TextContentHeader from '../../components/TextContentHeader.tsx';
 import cchatLogo from '../../assets/cchat-logo.svg';
 import cchatLogin from '../../assets/cchat-login.png';
 
@@ -17,26 +15,12 @@ function CChat() {
             <div className="page">
                 <div className="text-content">
                     <Breadcrumbs />
-                    <div className="text-page-header-row">
-                        <h1 className="text-page-header">CChat</h1>
-                        <button
-                            className="contact-button project-contact-btn"
-                            title="Speed Roulette Website"
-                            onClick={() => window.open('https://cchat.fun/', '_blank')}
-                        >
-                            <img src={cchatLogo} className="contact-image" />
-                        </button>
-                        <button
-                            className="contact-button project-contact-btn"
-                            title="Speed Roulette Repository"
-                            onClick={() => window.open('https://github.com/JManion32/cchat', '_blank')}
-                        >
-                            <div className="github-image-wrapper">
-                                <img src={githubLight} className="github-image light" />
-                                <img src={githubDark} className="github-image dark" />
-                            </div>
-                        </button>
-                    </div>
+                    <TextContentHeader
+                        title="CChat"
+                        siteImg={cchatLogo}
+                        siteLink="https://cchat.fun/"
+                        ghLink="https://github.com/JManion32/cchat"
+                    />
                     <ComingSoon />
                     <div id="text-body">
                         <p>

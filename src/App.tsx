@@ -25,6 +25,14 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
+                <Route path="/experience" element={<Experience />} />
+                <Route path="/resume" element={<Resume />} />
+                <Route path="/experience/rensselaer" element={<Rensselaer />} />
+                <Route path="/experience/hudsonvalley" element={<HudsonValley />} />
+                <Route path="/experience/pricechopper" element={<PriceChopper />} />
+                <Route path="/experience/lambdachi" element={<LambdaChi />} />
+                <Route path="/experience/stewarts" element={<Stewarts />} />
+                <Route path="/experience/streamer" element={<Streamer />} />
                 <Route path="/projects/cookiecoder" element={<CookieCoder />} />
                 <Route path="/projects/speedroulette" element={<SpeedRoulette />} />
                 <Route path="/projects/submitty" element={<Submitty />} />
@@ -32,14 +40,6 @@ function App() {
                 <Route path="/projects/superstrikers" element={<SuperStrikers />} />
                 <Route path="/projects/psoft" element={<PSoft />} />
                 <Route path="/projects/portfolio" element={<Portfolio />} />
-                <Route path="/experience" element={<Experience />} />
-                <Route path="/experience/rensselaer" element={<Rensselaer />} />
-                <Route path="/experience/hudsonvalley" element={<HudsonValley />} />
-                <Route path="/experience/pricechopper" element={<PriceChopper />} />
-                <Route path="/experience/lambdachi" element={<LambdaChi />} />
-                <Route path="/experience/stewarts" element={<Stewarts />} />
-                <Route path="/experience/streamer" element={<Streamer />} />
-                <Route path="/resume" element={<Resume />} />
             </Routes>
         </>
     );

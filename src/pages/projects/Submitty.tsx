@@ -28,29 +28,22 @@ export default function Submitty() {
             preview={
                 <>
                     <p>
-                        Created in 2014, Submitty is an open source course management, assignment submission, exam and
-                        grading system from the Rensselaer Center for Open Source Software (RCOS). In 11 years, it has
-                        evolved from a simple homework submission server, to the default learning management system used
-                        by all computer science courses at Rensselaer Polytechnic Institute.
+                        Created in 2014, Submitty has evolved from a simple homework submission server, 
+                        to the learning management system used by all computer science courses at Rensselaer Polytechnic Institute.
                     </p>
                     <p>
                         I began my journey with Submitty in January of 2025, taking it as a course for the spring
                         semester. I didn't have much experience with large projects, GitHub, or any of the technologies
-                        used, but I knew I was in the right place to learn. I spent most of that semester finding my
-                        footing, reviewing pull requests, troubleshooting my VM, and making small CSS changes. I was
-                        scared of JavaScript, had no idea how PHP worked, and steered clear of anything that had to do
-                        with the database, Cypress, or Python. Despite my inexperience, Submitty was by far my favorite
-                        course thanks to the real world experience I was gaining, and the guidance of the mentors.
+                        used, and spent much of the semester becoming acquainted.
                     </p>
                     <p>
                         At the end of the spring semester, I was excited to learn that I had the opportunity to join the
-                        full-time development team for the summer. This is where I really found my footing with the
+                        full-time development team for Summer 2025. This is where I found my footing with the
                         workflow and codebase, and started to make impactful contributions.
                     </p>
                     <p>
-                        I continued with Submitty in the Fall 2025 semester. We had a smaller group with many of the
-                        experienced developers moving on, so I began to take a leadership/mentor role. This spring, I am
-                        once again working on Submitty, this time as the official project leader.
+                        I continued with Submitty in the Fall 2025, and Spring 2026 semesters as the team lead. This gave me 
+                        the opportunity to onboard new contributors, lead design discussions, and develop my technical leadership skills.
                     </p>
                     <hr />
                     <h2>Tech Stack</h2>
@@ -95,10 +88,8 @@ export default function Submitty() {
                     <h2>Notifications UI Redesign</h2>
                     <p>
                         Submitty previously only displayed notifications on a per-course basis, meaning users had to
-                        visit each individual course to view or mark notifications as read. As we added more advanced
-                        notification features, this limitation became increasingly cumbersome, especially for users in
-                        multiple courses. Additionally, the UI was built with Twig, and lacked crucial quality of life
-                        features.
+                        visit each individual course to view them. As we added more advanced notification features, this 
+                        limitation became increasingly cumbersome, especially for users in multiple courses.
                     </p>
                     <h3>
                         Vue Notifications on the Home Page (
@@ -108,23 +99,23 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        Since this feature was going to be front and center on the site for all to see, thoughtful UI/UX
+                        Since this feature was going to be on the home page of the site, thoughtful UI/UX
                         design was essential. As a group, we started with whiteboard sketches to explore layout ideas,
                         then moved to Figma to create a polished mockup for feedback and iteration. Throughout
-                        development, I regularly demoed my progress to the group to gather input and refine both
-                        functionality and design.
+                        development, I regularly demoed my progress to the group to gather input and continuously iterate 
+                        on design and functionality.
                     </p>
                     <p>
-                        The main challenge was efficiently aggregating notifications from multiple course databases.
+                        The technical challenge was efficiently aggregating notifications from multiple course databases.
                         Since each course requires its own query and this feature now runs every time a user visits the
                         home page, performance was crucial. To address this, I optimized the process by:
                         <ul>
                             <li>Limiting queries to only active courses</li>
                             <li>Limiting each query to the 10 most recent notifications</li>
-                            <li>Sorting results server-side for efficiency</li>
+                            <li>Sorting results server-side</li>
                             <li>
-                                Creating a new database index on <code>created_at</code> and <code>to_user_id</code>,
-                                reducing the time complexity from <b>O(courses × notifications)</b> to <b>O(courses)</b>
+                                Creating a new database index on <code>to_user_id</code> and <code>created_at</code>,
+                                which reduced the time complexity from <b>O(courses × notifications)</b> to <b>O(courses)</b>
                             </li>
                         </ul>
                     </p>
@@ -136,9 +127,9 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        After the original feature was merged, it quickly became clear that users needed a way to
-                        dismiss unseen notifications without being redirected. This PR adds an envelope icon next to
-                        each unseen notification, allowing them to be marked as seen in place.
+                        After the original feature was merged, it became clear that users needed a way to
+                        dismiss unseen notifications without being redirected. This PR added an envelope icon next to
+                        each unseen notification, allowing them to be dynamically marked as seen.
                     </p>
                     <h3>
                         Improve Interactivity (
@@ -149,7 +140,7 @@ export default function Submitty() {
                     </h3>
                     <p>
                         As mentioned above, it’s important that this feature has a clean and intuitive UI. This PR
-                        improves the design with the following changes:
+                        improved the design with the following changes:
                         <ul>
                             <li>Added a star icon next to gradeable notifications.</li>
                             <li>Increased the font weight of notification content for better readability.</li>
@@ -165,9 +156,9 @@ export default function Submitty() {
                     </h3>
                     <p>
                         With new features continuously being added to the notifications UI, we were losing the benefits
-                        of modularizing code with Vue components. To address this, I created a Notification component
+                        of Vue components. To address this, I created a Notification component
                         that would be used for each individual notification inside the main display component. This
-                        split the 400 line file into two 200 line files, improving developer experience while
+                        split the 400 line file into two 200 line files, separting concerns while
                         maintaining original functionality.
                     </p>
                     <div id="content-img-container">
@@ -184,7 +175,7 @@ export default function Submitty() {
                     <p>
                         With Vue being used for the home page and Twig still being used on course pages, it was time to
                         convert the rest of the UI to Vue. Since the prior PR nicely modularized the Vue code, this
-                        transition was seamless aside from a few tweaks to the props.
+                        transition was seamless.
                     </p>
                     <div id="content-img-container">
                         <img src={courseNotisBefore} />
@@ -204,7 +195,7 @@ export default function Submitty() {
                     <p>
                         Despite the design of the course notification page's mark seen button where a single click of a
                         button marks all notifications as seen, the home page could not be so simple. After much
-                        deliberation about a safedesign, we settled on a popup that displays the counts of each course's
+                        deliberation about a safe design, we settled on a popup that displays the counts of each course's
                         unseen notifications. The user can then select specific courses to mark seen, or all of them. I
                         like to think of it as an "Are you sure?" popup with advanced functionality.
                     </p>
@@ -247,16 +238,15 @@ export default function Submitty() {
                     </div>
                     <p>
                         These updates have transformed the student experience of my peers and I this past semester.
-                        Taking four CS courses, combined notification feed made it easy to stay organized and up to
+                        Taking four computer science courses, a combined notification feed made it easy to stay organized and up to
                         date. In the future, I hope to add more to both the notification system and the home page,
                         maximizing quality of life for the best user experience possible!
                     </p>
                     <hr />
                     <h2>Configuration Text Editor</h2>
                     <p>
-                        Historically, editing a gradeable’s configuration in Submitty required switching to a different
-                        server directory, uploading a full config bundle, or using the limited Notebook Builder tool.
-                        There was no support for directly editing a gradeable's <code>config.json</code> or supplemental
+                        Historically, editing a gradeable’s configuration in Submitty required downloading the config, making changes, 
+                        and reuploading. There was no support for directly editing a gradeable's <code>config.json</code> or supplemental
                         files from the web interface.
                     </p>
                     <h3>
@@ -278,7 +268,7 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        Rather than just using a basic text area, I implemented CodeMirror to allow for a more
+                        Rather than just using a basic <code>textarea</code>, I implemented CodeMirror to allow for a more
                         customizable experience, and native tab support.
                     </p>
                     <h3>
@@ -355,8 +345,8 @@ export default function Submitty() {
                     </div>
                     <p>
                         With this feature completed, I now aim to modularize the code. This will allow it to be used in
-                        other areas of the site where text files are uploaded such as bulk upload redactions, and grade
-                        configurations. This is a very necessary quality of life enhancement that will improve
+                        other areas of the site where config files are uploaded such as bulk upload redactions, and grade
+                        configurations. This is a necessary quality of life enhancement that will improve
                         instructor productivity and experience.
                     </p>
                     <hr />
@@ -394,7 +384,7 @@ export default function Submitty() {
                                 polished theme change.
                             </li>
                         </ul>
-                        <b>Fun Fact:</b> I actually used the same design for the dark mode toggle on this site!
+                        <b>Fun Fact:</b> I ended up using the same design for the dark mode toggle on this site!
                     </p>
                     <hr />
                     <h2>Additional Work</h2>
@@ -456,13 +446,12 @@ export default function Submitty() {
                     <p>
                         In Summer 2025, there was rapid progress on the conversion of the TA Grading interface from Twig
                         to Vue. With so much legacy code being refactored, bugs were inevitable. Both of these PRs aim
-                        to address bugs that were affecting the workflow of graders. Though the changes were small, the
-                        process of discovering the cause of the issues took some time. More bugfixes coming soon!
+                        to address bugs that were affecting the workflow of graders.
                     </p>
                     <hr />
                     <h2>Future Plans / Work in Progress</h2>
                     <p>
-                        I now have 1 semester left at RPI, this time as the team leader of Submitty. Here is what I hope
+                        I am in my final semester of RPI, this time as the team leader of Submitty. Here is what I hope
                         to work on:
                         <ul>
                             <li>
@@ -477,37 +466,14 @@ export default function Submitty() {
                                 onboarding process, and leaving a review on most pull requests that come in.
                             </li>
                             <li>
-                                <b>Create a cloud instance</b> - Submitty currently requires self-hosting. By putting it
-                                on the cloud, anyone who is interested will be able to demo the site without the need to
-                                set up their own server.
-                            </li>
-                            <li>
                                 <b>Modularize the Configuration Editor</b> – A vital tool for instructors; improving it
                                 means a better experience for everyone especially future cloud users since they won't
                                 have SSH access.
                             </li>
                             <li>
-                                <b>Transform the home page into a dashboard</b> – Adding notifications was a good start,
-                                but there is more information to centralize such as grade summaries and upcoming
-                                gradeables.
-                            </li>
-                            <li>
-                                <b>Convert more pages to Vue</b> – The component-based approach is a joy to work with
-                                and a strong candidate to become a core part of the stack if we continue to port
-                                existing Twig files.
-                            </li>
-                            <li>
-                                <b>Work with the database</b> – I am eager to apply what I have learned from the
-                                Database Systems course I took to Submitty!
-                            </li>
-                            <li>
-                                <b>Enhance Live Lecture Chat</b> – Recently, I have become interested in stateful
-                                (socketed) applications. I want to expand the features of Live Lecture Chat, while
-                                learning more about sockets along the way!
-                            </li>
-                            <li>
                                 <b>Bugfixes</b> – Yeah, their boring, but it's always fun to solve problems in areas of
-                                the site I'm not familiar with.
+                                the site I'm not familiar with. My emphasis will be on issues labelled <code>URGENT/PRIORITY</code>, 
+                                as we have a growing backlog of them.
                             </li>
                         </ul>
                     </p>

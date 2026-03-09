@@ -1,6 +1,5 @@
 import NavButton from '../../components/NavButton.tsx';
 import TechStack from '../../components/TechStack.tsx';
-import useNavigateTop from '../../hooks/useNavigateTop.ts';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
 import TextContentPage from '../../components/TextContentPage.tsx';
 
@@ -14,7 +13,6 @@ import geometryDash from '../../assets/geometry-dash.png';
 import cookieClicker from '../../assets/clicker-cookie.webp';
 
 function CookieCoder() {
-    const navigateTop = useNavigateTop();
     return (
         <>
             <TextContentPage
@@ -33,12 +31,12 @@ function CookieCoder() {
                             This project is currently in its planning stages. If you have any input, please reach out!
                         </p>
                         <p>
-                            Cookie Coder is the site I wish I had when I first started learning to code. It will support
-                            a wide range of languages, and take a fresh approach to traditional module-based learning.
+                            Cookie Coder is the site I wish I had when I started learning how to code. It will support a
+                            wide range of languages, and take a fresh approach to traditional module-based learning.
                             Instead of rigid lessons, users will work through a massive pool of interactive,
                             flashcard-style questions. Each correct answer earns “bits,” an in-game currency that tracks
                             progress and ranks players on global leaderboards. The more bits a user collects, the larger
-                            their question pool grows, and the more difficult they become.
+                            their question pool grows, and the more difficult new questions become.
                         </p>
                         <hr />
                         <h2>Tentative Tech Stack</h2>
@@ -92,11 +90,10 @@ function CookieCoder() {
                         <h2>Core Idea: Learning Code through Repetition</h2>
                         <p>
                             Learning is continuous, occurring over time. Think about studying for an exam. Cramming all
-                            the material the night before <b>does not work</b>. It is far more effective to study
-                            multiple times over a week. In the same way, learning a programming language isn't possible
-                            from just a single online course. A foundation of knowledge needs to be established, and
-                            reinforced with repetition. This is what Cookie Coder aims to do through <i>fluid</i>{' '}
-                            modular learning.
+                            the material the night before is not as effective as studying throughout the week. In the
+                            same way, learning a programming language isn't possible from just a single online course. A
+                            foundation of knowledge needs to be established, and reinforced with repetition. This is
+                            what Cookie Coder aims to do through <i>fluid</i> modular learning.
                         </p>
                         <h3>Interactive Flashcard-Style Questions</h3>
                         <p>
@@ -133,8 +130,7 @@ function CookieCoder() {
                                 <h3>Make it Rain!</h3>
                                 <p>
                                     Features repetitive tycoon gameplay, as well as a risk component where users have to
-                                    solve puzzles to multiply their earnings. Growing up, I spent hundreds of hours
-                                    playing this.
+                                    solve puzzles to multiply their earnings.
                                 </p>
                             </div>
                             <div className="display-grid-cell">
@@ -142,8 +138,8 @@ function CookieCoder() {
                                 <h3>Gimkit</h3>
                                 <p>
                                     If you haven't heard of this site, I would describe it as competitive flashcards. We
-                                    used to play this a lot in high school, and its interactive tycoon gameplay made
-                                    learning fun and effective.
+                                    used to play this in high school, and its interactive tycoon gameplay made learning
+                                    fun and effective.
                                 </p>
                             </div>
                             <div className="display-grid-cell">
@@ -189,15 +185,6 @@ function CookieCoder() {
                             integrate AI? What will deployment look like? For now, I am going to stick to the core
                             question structure, tycoon gameplay, and leaderboard integration. With this, I can gauge
                             interest, and decide where to go next.
-                        </p>
-                        <p>
-                            As for the technologies I plan to use, they are similar to{' '}
-                            <a onClick={() => navigateTop('/projects/speedroulette')}>Speed Roulette</a>, but with a few
-                            exceptions. I'm no longer a fan of Tailwind and Bootstrap, so I am going to just use vanilla
-                            CSS. I’ve also decided to use two backend languages: Node.js for handling general
-                            application logic and Go for performance-critical worker processes. Lastly, I'm saying
-                            goodbye to Digital Ocean in favor of AWS since this will be a more complex application, and
-                            I need the experience.
                         </p>
                         <hr />
                         <p>

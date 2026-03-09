@@ -15,7 +15,7 @@ function Streamer() {
                 preview={
                     <>
                         <p>
-                            From May 2021 to November 2023, I streamed on Twitch around two to three times per week.
+                            From May 2021 to November 2023, I streamed weekly on Twitch.
                             Here are my lifetime stats:
                         </p>
                         <div id="content-img-container">
@@ -24,7 +24,7 @@ function Streamer() {
                         <hr />
                         <h2>Charity Stream</h2>
                         <p>
-                            During the 2022 holiday season, my coworker’s home was lost to a fire. To support him and
+                            During the 2022 holiday season, my coworker’s home was lost in a fire. To support him and
                             his family, I organized a charity stream. The response blew away my expectations, with
                             $1,200 being raised in just six hours!
                         </p>
@@ -36,7 +36,6 @@ function Streamer() {
                             <img src={coworkerPC} className="project-img" />
                         </div>
                         <hr />
-                        <h2>Reflection</h2>
                         <p>
                             In November 2023, I made the difficult decision to step away from streaming and focus on my
                             studies, closing this chapter of my life. I’m grateful for the community I built and the

@@ -31,7 +31,7 @@ export default function LambdaChi() {
                 preview={
                     <>
                         <p>
-                            If I had to describe my time at &Lambda;ΧΑ in one word, it would be <i>transformative</i>. 
+                            If I had to describe my time at &Lambda;ΧΑ in one word, it would be <i>transformative</i>.
                             Through my experiences here, I’ve grown as a person, friend, and leader.
                         </p>
                         <div id="content-img-container">
@@ -43,34 +43,32 @@ export default function LambdaChi() {
                     <>
                         <hr />
                         <h2>Secretary</h2>
-                        <p>
-                            As Secretary, I handled administrative operations to keep our chapter running smoothly.
-                        </p>
+                        <p>As Secretary, I handled administrative operations to keep our chapter running smoothly.</p>
                         <p>
                             One of the more front-facing responsibilities I had was managing weekly house meetings.
                             Before each meeting, I emailed a reminder to the brotherhood, and prepared the slideshow,
                             officer agenda, and meeting minutes. I took attendance at the start, recorded the minutes
-                            during the meeting, finalized them afterward, and sent them out promptly. Though this 
-                            workflow was initially intimidating, I came to value it, seeing it as the opportunity 
-                            to write the history of our chapter.
+                            during the meeting, finalized them afterward, and sent them out promptly. Though this
+                            workflow was initially intimidating, I came to value it, seeing it as the opportunity to
+                            write the history of our chapter.
                         </p>
                         <p>
-                            Other duties included managing the our roster, keeping the Google Calendar up-to-date, 
+                            Other duties included managing the our roster, keeping the Google Calendar up-to-date,
                             updating mailing lists, maintaining mailboxes, and organizing the Google Drive.
                         </p>
                         <hr />
                         <h2>Director of Recruitment Logistics</h2>
                         <p>
-                            Organization is the backbone of successful recruitment. Responsibilities included.
-                            preparing bid packets for new members, and printing flyers. In addition, I became a member 
-                            of the recruitment committee, where we discussed ideas and strategies.
+                            Organization is the backbone of successful recruitment. Responsibilities included. preparing
+                            bid packets for new members, and printing flyers. In addition, I became a member of the
+                            recruitment committee, where we discussed ideas and strategies.
                         </p>
                         <hr />
                         <h2>Webmaster</h2>
                         <p>
                             In recent years, the Webmaster role has been neglected, leaving the site outdated and
                             lacking relevant information. I have worked to bring everything up to date, and establish a
-                            system to prevent this from happening again. Before I transition out of the role, I will 
+                            system to prevent this from happening again. Before I transition out of the role, I will
                             create a document that will give the inheritor everything necessary to succeed.
                         </p>
                         <p>
@@ -83,8 +81,8 @@ export default function LambdaChi() {
                         <hr />
                         <h2>Philanthropy</h2>
                         <p>
-                            Philanthropy is closely tied with the history of our chapter. At the center of
-                            this tradition is our semesterly food drive.
+                            Philanthropy is closely tied with the history of our chapter. At the center of this
+                            tradition is our semesterly food drive.
                         </p>
                         <div id="content-img-container">
                             <img src={oldFoodDrive} className="project-img" />
@@ -119,9 +117,9 @@ export default function LambdaChi() {
                         <hr />
                         <h2>Reflection</h2>
                         <p>
-                            Being a part of something greater than myself has turned the grind of
-                            college into a unique and enjoyable experience. I am grateful to be a part of this
-                            amazing brotherhood, and excited for what lies ahead.
+                            Being a part of something greater than myself has turned the grind of college into a unique
+                            and enjoyable experience. I am grateful to be a part of this amazing brotherhood, and
+                            excited for what lies ahead.
                         </p>
                     </>
                 }

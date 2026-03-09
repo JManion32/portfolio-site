@@ -47,8 +47,8 @@ export default function Rensselaer() {
                     <>
                         {' '}
                         <p>
-                            Rensselaer Polytechnic Institute has provided countless opportunities for 
-                            personal and professional growth. The challenging coursework, real-world experience from{' '}
+                            Rensselaer Polytechnic Institute has provided countless opportunities for personal and
+                            professional growth. The challenging coursework, real-world experience from{' '}
                             <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>, and the friendships I
                             built at <a onClick={() => navigateTop('/experience/lambdachi')}>Lambda Chi Alpha</a> has
                             made tuition worth every penny.
@@ -64,27 +64,29 @@ export default function Rensselaer() {
                         <h2>Fall 2024</h2>
                         <p>
                             Transferring from community college to RPI was a stark adjustment. My first semester was
-                            exciting, but stressful. I took 4 courses totaling 16 credits. They were: Physics I, 
+                            exciting, but stressful. I took 4 courses totaling 16 credits. They were: Physics I,
                             Multivariable Calculus, Writing for Technical Communication, and most importantly:
                         </p>
                         <h3>Data Structures</h3>
                         <p>
-                            Featuring 10 homework assignments, weekly labs, and 4 exams, it was far more involved than 
-                            any academic work I had ever done previously. My excitement and confidence was quickly met with 
-                            many hours of studying, writing code, and learning.
+                            Featuring 10 homework assignments, weekly labs, and 4 exams, it was far more involved than
+                            any academic work I had ever done previously. My excitement and confidence was quickly met
+                            with many hours of studying, writing code, and learning.
                         </p>
                         <p>
-                            Though it was uncomfortable, pressure makes diamonds and I came out as a 10x better programmer than I was going
-                            in. During the subsequent winter break, I examined a ~3,000 line project I created the year
-                            prior, and was able to refactor it down to ~1,000 lines without changing any functionality!
+                            Though it was uncomfortable, pressure makes diamonds and I came out as a 10x better
+                            programmer than I was going in. During the subsequent winter break, I examined a ~3,000 line
+                            project I created the year prior, and was able to refactor it down to ~1,000 lines without
+                            changing any functionality!
                         </p>
                         <hr />
                         <h2>Spring 2025</h2>
                         <p>
-                            With my “Welcome to RPI” semester behind me, I was ready for the spring. Once again, I took 4
-                            courses totaling 16 credits: Linear Algebra, Introduction to Algorithms, Principles of
-                            Software (whose <a onClick={() => navigateTop('/projects/psoft')}>website</a> I would later revamp), 
-                            and Rensselaer Center for Open Source, where I joined the <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a> project.
+                            With my “Welcome to RPI” semester behind me, I was ready for the spring. Once again, I took
+                            4 courses totaling 16 credits: Linear Algebra, Introduction to Algorithms, Principles of
+                            Software (whose <a onClick={() => navigateTop('/projects/psoft')}>website</a> I would later
+                            revamp), and Rensselaer Center for Open Source, where I joined the{' '}
+                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a> project.
                         </p>
                         <h3>Key Course: Intro to Algorithms</h3>
                         <p>
@@ -101,8 +103,8 @@ export default function Rensselaer() {
                         </p>
                         <h3>Key Course: Database Systems</h3>
                         <p>
-                            One of the best courses I have ever taken. Before this, I was knowledgeable with
-                            databases, having worked with them on both{' '}
+                            One of the best courses I have ever taken. Before this, I was knowledgeable with databases,
+                            having worked with them on both{' '}
                             <a onClick={() => navigateTop('/projects/speedroulette')}>Speed Roulette</a> and{' '}
                             <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>. Now, I am proficient. The
                             material included relational algebra, normal forms, ER diagrams, SQL, PGSQL, optimization,
@@ -110,15 +112,16 @@ export default function Rensselaer() {
                             material. A special thank you to Professor{' '}
                             <a href="https://en.wikipedia.org/wiki/Sibel_Adal%C4%B1" target="_blank">
                                 Sibel Adali
-                            </a> for her engaging lectures, and organized course material.
+                            </a>{' '}
+                            for her engaging lectures, and organized course material.
                         </p>
                         <hr />
                         <h2>Spring 2026</h2>
                         <p>
                             My final semester of college. I am taking Operating Systems, Software Design and
                             Documentation, Distributed Systems, and once again{' '}
-                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>. It will be a busy semester, 
-                            but with 7 semesters of college behind me, I am prepared.
+                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>. It will be a busy
+                            semester, but with 7 semesters of college behind me, I am prepared.
                         </p>
                         <hr />
                         <h2>Reflection</h2>

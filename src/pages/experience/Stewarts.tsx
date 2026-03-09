@@ -33,8 +33,8 @@ export default function Stewarts() {
                     <>
                         {' '}
                         <p>
-                            During Summer 2024, I was an Information Technology Intern for Stewart's Shops. This role was
-                            hardware-focused, with emphasis on maintenance and troubleshooting.
+                            During Summer 2024, I was an Information Technology Intern for Stewart's Shops. This role
+                            was hardware-focused, with emphasis on maintenance and troubleshooting.
                         </p>
                         <hr />
                         <h2>Overview</h2>
@@ -53,7 +53,7 @@ export default function Stewarts() {
                         </div>
                         <p>
                             I worked in the Technology Center, which functions as the company’s help desk. With an 18
-                            person team covering 400+ shops, there was never a shortage of hardware issues to address 
+                            person team covering 400+ shops, there was never a shortage of hardware issues to address
                             both over the phone, and onsite.
                         </p>
                     </>
@@ -63,10 +63,11 @@ export default function Stewarts() {
                         <hr />
                         <h2>Onsite Responsibilities</h2>
                         <p>
-                            Since I was a temporary employee, I spent most days on the road. This gave me the unique opportunity 
-                            to enjoy the beauty of the Northeast in the summer. Some days were to Lake Placid, others to Vermont, 
-                            Syracuse, Cooperstown, even my home town, I was all over the place. Beyond location, each shop had its own personality,
-                            making every trip a memorable experience.
+                            Since I was a temporary employee, I spent most days on the road. This gave me the unique
+                            opportunity to enjoy the beauty of the Northeast in the summer. Some days were to Lake
+                            Placid, others to Vermont, Syracuse, Cooperstown, even my home town, I was all over the
+                            place. Beyond location, each shop had its own personality, making every trip a memorable
+                            experience.
                         </p>
                         <div id="content-img-container">
                             <img src={tupperLunch} className="project-img" />
@@ -75,8 +76,8 @@ export default function Stewarts() {
                         <h3>Preventative Maintenance</h3>
                         <p>
                             One of my key responsibilities was preventative maintenance (also called PMs). This involved
-                            addressing issues with networking equipment before they occurred. In my time there, I completed 
-                            40 of these PMs, or about 10% of all shops.
+                            addressing issues with networking equipment before they occurred. In my time there, I
+                            completed 40 of these PMs, or about 10% of all shops.
                         </p>
                         <p>
                             For each PM, there was a checklist of tasks to complete. This list included cleaning and
@@ -94,20 +95,20 @@ export default function Stewarts() {
                             the shop's networking cage.
                         </p>
                         <p>
-                            To prepare for this, there was an ongoing project where 2-3 technicians would go to shops, and
-                            do a "cleanup". This was essentially a more thorough PM, with emphasis on the networking
-                            cage. This cage was the brain of the shop's infrastructure. Unplugging the wrong cable 
-                            could lead to a sales-disrupting outage. Communication with shop personnel was essential 
-                            to keep both teams on the same page.
+                            To prepare for this, there was an ongoing project where 2-3 technicians would go to shops,
+                            and do a "cleanup". This was essentially a more thorough PM, with emphasis on the networking
+                            cage. This cage was the brain of the shop's infrastructure. Unplugging the wrong cable could
+                            lead to a sales-disrupting outage. Communication with shop personnel was essential to keep
+                            both teams on the same page.
                         </p>
                         <p>
-                            Through this project, we prepared many shops for the new system, each time leaving the networking 
-                            infrastructure better than when we entered.
+                            Through this project, we prepared many shops for the new system, each time leaving the
+                            networking infrastructure better than when we entered.
                         </p>
                         <hr />
                         <h2>Office Days</h2>
                         <p>
-                            Though most days were on the road, I had my share of office time. With a room full of busy 
+                            Though most days were on the road, I had my share of office time. With a room full of busy
                             technicians, it was up to me to create work to do.
                         </p>
                         <h3>Shipping</h3>
@@ -151,10 +152,10 @@ export default function Stewarts() {
                         </div>
                         <h3>Misc Work</h3>
                         <p>
-                            Sometimes, there were too many technicians out of the office, no returns to process, and no battery
-                            backups to fix up. This was the real challenge of my productivity. On these days, I crimped
-                            new cables, sorted through boxes of miscellaneous equipment, and on one occasion, attempted
-                            to open digital locks that we lost the combinations to (I was unsuccessful).
+                            Sometimes, there were too many technicians out of the office, no returns to process, and no
+                            battery backups to fix up. This was the real challenge of my productivity. On these days, I
+                            crimped new cables, sorted through boxes of miscellaneous equipment, and on one occasion,
+                            attempted to open digital locks that we lost the combinations to (I was unsuccessful).
                         </p>
                         <hr />
                         <h2>Reflection</h2>

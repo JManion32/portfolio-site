@@ -28,8 +28,8 @@ export default function Submitty() {
             preview={
                 <>
                     <p>
-                        Created in 2014, Submitty has evolved from a simple homework submission server, 
-                        to the learning management system used by all computer science courses at Rensselaer Polytechnic Institute.
+                        Created in 2014, Submitty has evolved from a simple homework submission server, to the learning
+                        management system used by all computer science courses at Rensselaer Polytechnic Institute.
                     </p>
                     <p>
                         I began my journey with Submitty in January of 2025, taking it as a course for the spring
@@ -38,12 +38,13 @@ export default function Submitty() {
                     </p>
                     <p>
                         At the end of the spring semester, I was excited to learn that I had the opportunity to join the
-                        full-time development team for Summer 2025. This is where I found my footing with the
-                        workflow and codebase, and started to make impactful contributions.
+                        full-time development team for Summer 2025. This is where I found my footing with the workflow
+                        and codebase, and started to make impactful contributions.
                     </p>
                     <p>
-                        I continued with Submitty in the Fall 2025, and Spring 2026 semesters as the team lead. This gave me 
-                        the opportunity to onboard new contributors, lead design discussions, and develop my technical leadership skills.
+                        I continued with Submitty in the Fall 2025, and Spring 2026 semesters as the team lead. This
+                        gave me the opportunity to onboard new contributors, lead design discussions, and develop my
+                        technical leadership skills.
                     </p>
                     <hr />
                     <h2>Tech Stack</h2>
@@ -88,7 +89,7 @@ export default function Submitty() {
                     <h2>Notifications UI Redesign</h2>
                     <p>
                         Submitty previously only displayed notifications on a per-course basis, meaning users had to
-                        visit each individual course to view them. As we added more advanced notification features, this 
+                        visit each individual course to view them. As we added more advanced notification features, this
                         limitation became increasingly cumbersome, especially for users in multiple courses.
                     </p>
                     <h3>
@@ -99,23 +100,24 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        Since this feature was going to be on the home page of the site, thoughtful UI/UX
-                        design was essential. As a group, we started with whiteboard sketches to explore layout ideas,
-                        then moved to Figma to create a polished mockup for feedback and iteration. Throughout
-                        development, I regularly demoed my progress to the group to gather input and continuously iterate 
-                        on design and functionality.
+                        Since this feature was going to be on the home page of the site, thoughtful UI/UX design was
+                        essential. As a group, we started with whiteboard sketches to explore layout ideas, then moved
+                        to Figma to create a polished mockup for feedback and iteration. Throughout development, I
+                        regularly demoed my progress to the group to gather input and continuously iterate on design and
+                        functionality.
                     </p>
                     <p>
-                        The technical challenge was efficiently aggregating notifications from multiple course databases.
-                        Since each course requires its own query and this feature now runs every time a user visits the
-                        home page, performance was crucial. To address this, I optimized the process by:
+                        The technical challenge was efficiently aggregating notifications from multiple course
+                        databases. Since each course requires its own query and this feature now runs every time a user
+                        visits the home page, performance was crucial. To address this, I optimized the process by:
                         <ul>
                             <li>Limiting queries to only active courses</li>
                             <li>Limiting each query to the 10 most recent notifications</li>
                             <li>Sorting results server-side</li>
                             <li>
                                 Creating a new database index on <code>to_user_id</code> and <code>created_at</code>,
-                                which reduced the time complexity from <b>O(courses × notifications)</b> to <b>O(courses)</b>
+                                which reduced the time complexity from <b>O(courses × notifications)</b> to{' '}
+                                <b>O(courses)</b>
                             </li>
                         </ul>
                     </p>
@@ -127,9 +129,9 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        After the original feature was merged, it became clear that users needed a way to
-                        dismiss unseen notifications without being redirected. This PR added an envelope icon next to
-                        each unseen notification, allowing them to be dynamically marked as seen.
+                        After the original feature was merged, it became clear that users needed a way to dismiss unseen
+                        notifications without being redirected. This PR added an envelope icon next to each unseen
+                        notification, allowing them to be dynamically marked as seen.
                     </p>
                     <h3>
                         Improve Interactivity (
@@ -156,10 +158,9 @@ export default function Submitty() {
                     </h3>
                     <p>
                         With new features continuously being added to the notifications UI, we were losing the benefits
-                        of Vue components. To address this, I created a Notification component
-                        that would be used for each individual notification inside the main display component. This
-                        split the 400 line file into two 200 line files, separting concerns while
-                        maintaining original functionality.
+                        of Vue components. To address this, I created a Notification component that would be used for
+                        each individual notification inside the main display component. This split the 400 line file
+                        into two 200 line files, separting concerns while maintaining original functionality.
                     </p>
                     <div id="content-img-container">
                         <img src={individualNotification} />
@@ -195,9 +196,9 @@ export default function Submitty() {
                     <p>
                         Despite the design of the course notification page's mark seen button where a single click of a
                         button marks all notifications as seen, the home page could not be so simple. After much
-                        deliberation about a safe design, we settled on a popup that displays the counts of each course's
-                        unseen notifications. The user can then select specific courses to mark seen, or all of them. I
-                        like to think of it as an "Are you sure?" popup with advanced functionality.
+                        deliberation about a safe design, we settled on a popup that displays the counts of each
+                        course's unseen notifications. The user can then select specific courses to mark seen, or all of
+                        them. I like to think of it as an "Are you sure?" popup with advanced functionality.
                     </p>
                     <div id="content-img-container">
                         <img src={markSeenPopup} />
@@ -238,16 +239,16 @@ export default function Submitty() {
                     </div>
                     <p>
                         These updates have transformed the student experience of my peers and I this past semester.
-                        Taking four computer science courses, a combined notification feed made it easy to stay organized and up to
-                        date. In the future, I hope to add more to both the notification system and the home page,
-                        maximizing quality of life for the best user experience possible!
+                        Taking four computer science courses, a combined notification feed made it easy to stay
+                        organized and up to date. In the future, I hope to add more to both the notification system and
+                        the home page, maximizing quality of life for the best user experience possible!
                     </p>
                     <hr />
                     <h2>Configuration Text Editor</h2>
                     <p>
-                        Historically, editing a gradeable’s configuration in Submitty required downloading the config, making changes, 
-                        and reuploading. There was no support for directly editing a gradeable's <code>config.json</code> or supplemental
-                        files from the web interface.
+                        Historically, editing a gradeable’s configuration in Submitty required downloading the config,
+                        making changes, and reuploading. There was no support for directly editing a gradeable's{' '}
+                        <code>config.json</code> or supplemental files from the web interface.
                     </p>
                     <h3>
                         Gradeable Config Editor (
@@ -268,8 +269,8 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        Rather than just using a basic <code>textarea</code>, I implemented CodeMirror to allow for a more
-                        customizable experience, and native tab support.
+                        Rather than just using a basic <code>textarea</code>, I implemented CodeMirror to allow for a
+                        more customizable experience, and native tab support.
                     </p>
                     <h3>
                         File & Folder Management (
@@ -345,8 +346,8 @@ export default function Submitty() {
                     </div>
                     <p>
                         With this feature completed, I now aim to modularize the code. This will allow it to be used in
-                        other areas of the site where config files are uploaded such as bulk upload redactions, and grade
-                        configurations. This is a necessary quality of life enhancement that will improve
+                        other areas of the site where config files are uploaded such as bulk upload redactions, and
+                        grade configurations. This is a necessary quality of life enhancement that will improve
                         instructor productivity and experience.
                     </p>
                     <hr />
@@ -472,8 +473,8 @@ export default function Submitty() {
                             </li>
                             <li>
                                 <b>Bugfixes</b> – Yeah, their boring, but it's always fun to solve problems in areas of
-                                the site I'm not familiar with. My emphasis will be on issues labelled <code>URGENT/PRIORITY</code>, 
-                                as we have a growing backlog of them.
+                                the site I'm not familiar with. My emphasis will be on issues labelled{' '}
+                                <code>URGENT/PRIORITY</code>, as we have a growing backlog of them.
                             </li>
                         </ul>
                     </p>

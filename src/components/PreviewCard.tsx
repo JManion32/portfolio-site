@@ -6,24 +6,17 @@ type Props = {
     date?: string | null;
     desc: string;
     nav: string;
-    animation: string;
+    rank: string;
 };
 
-export default function PreviewCard({
-    img: previewImg,
-    header: previewHeader,
-    date: previewDate,
-    desc: previewDesc,
-    nav: previewNav,
-    animation: previewAnimation,
-}: Props) {
+export default function PreviewCard({ img, header, date, desc, nav, rank }: Props) {
     const navigateTop = useNavigateTop();
     return (
-        <div onClick={() => navigateTop(previewNav)} className={`project-preview-container ${previewAnimation}`}>
-            <img src={previewImg} className="project-image" alt={`${previewHeader} preview`} />
-            <h2 className="project-preview-header">{previewHeader}</h2>
-            <p className="experience-date">{previewDate}</p>
-            <p className="project-preview-desc">{previewDesc}</p>
+        <div onClick={() => navigateTop(nav)} className={`project-preview-container main-fly-in-bottom-${rank}`}>
+            <img src={img} className="project-image" alt={`${header} preview`} />
+            <h2 className="project-preview-header">{header}</h2>
+            <p className="experience-date">{date}</p>
+            <p className="project-preview-desc">{desc}</p>
         </div>
     );
 }

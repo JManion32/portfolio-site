@@ -97,3 +97,28 @@
     animation: main-fly-in-up 0.4s ease-out forwards;
     animation-delay: 1.15s;
 }
+
+.main-fly-in-bottom-8 {
+    animation: main-fly-in-up 0.4s ease-out forwards;
+    animation-delay: 1.3s;
+}
+
+.main-fly-in-bottom-9 {
+    animation: main-fly-in-up 0.4s ease-out forwards;
+    animation-delay: 1.45s;
+}
+
+.main-fly-in-bottom-10 {
+    animation: main-fly-in-up 0.4s ease-out forwards;
+    animation-delay: 1.6s;
+}
+
+.main-fly-in-bottom-11 {
+    animation: main-fly-in-up 0.4s ease-out forwards;
+    animation-delay: 1.75s;
+}
+
+.main-fly-in-bottom-12 {
+    animation: main-fly-in-up 0.4s ease-out forwards;
+    animation-delay: 1.9s;
+}

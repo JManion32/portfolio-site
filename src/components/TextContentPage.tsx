@@ -9,7 +9,7 @@ type TextContentPageProps = {
     navButton: React.ReactNode;
 };
 
-function TextContentPage({ header, preview, main, navButton }: TextContentPageProps) {
+export default function TextContentPage({ header, preview, main, navButton }: TextContentPageProps) {
     const [readMore, setReadMore] = useState(false);
     return (
         <div className="page">
@@ -29,5 +29,3 @@ function TextContentPage({ header, preview, main, navButton }: TextContentPagePr
         </div>
     );
 }
-
-export default TextContentPage;

@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
-import Projects from './pages/projects';
+import Projects from './pages/Projects';
 import CookieCoder from './pages/projects/CookieCoder';
 import SpeedRoulette from './pages/projects/SpeedRoulette';
 import Submitty from './pages/projects/Submitty';

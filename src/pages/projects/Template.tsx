@@ -1,4 +1,3 @@
-import Breadcrumbs from '../../components/Breadcrumb.tsx';
 //import TechStack from '../../components/TechStack.tsx';
 import NavButton from '../../components/NavButton.tsx';
 //import useNavigateTop from '../../hooks/useNavigateTop.ts';
@@ -12,7 +11,6 @@ export default function Template() {
 
     return (
         <TextContentPage
-            breadcrumbs={<Breadcrumbs />}
             header={
                 <TextContentHeader
                     title="Speed Roulette"

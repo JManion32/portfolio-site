@@ -35,7 +35,7 @@ export default function SpeedRoulette() {
                         Inspired by the intensity of speed chess, Speed Roulette puts a fast-paced twist on the beloved
                         high-stakes casino game. Players start with 20 dollars, 10 possible spins, and just 60 seconds
                         on the clock. When bets are submitted, the winning number is revealed, earnings are paid out,
-                        and the clock starts ticking again just 2.5 seconds later. Compete for a spot on the leaderboard
+                        and the clock is back to ticking just 2.5 seconds later. Compete for a spot on the leaderboard
                         by making quick decisions, taking bold risks, and hitting big payouts!
                     </p>
                     <div id="content-img-container">
@@ -102,18 +102,14 @@ export default function SpeedRoulette() {
                     <p>
                         This was a GUI I built with JavaFX and the skills I had learned at{' '}
                         <a onClick={() => navigateTop('/experience/HudsonValley')}>Hudson Valley</a>. It was limited in
-                        functionality, and had a bloated codebase (I didn't yet know how to use object oriented
-                        programming). I knew I wanted to create something more. Something I was proud of. Something I
-                        could enjoy with my friends.
+                        functionality, and ran from a single 3,000 line file.
                     </p>
 
                     <p>
                         The lightbulb went off on February 21st, 2025. I had been seeing a lot of speed chess content in
-                        my YouTube feed and I thought, this would be really cool to combine with roulette! Being halfway
-                        through my semester and having a limited skillset, I decided to take my time in the planning
-                        phase. I created a full storyboard of all pages of the site in light and dark mode, figured out
-                        the tech stack, and refined the rules of the game. After a few weeks, it was time to push the
-                        analysis paralysis aside and dive into the implementation.
+                        my YouTube feed and I thought, this would be really cool to combine with roulette! I started by creating 
+                        a full storyboard in light and dark mode, figuring out the tech stack, and defining the rules of the 
+                        game. After a few weeks, it was time to push the analysis paralysis aside and dive into the implementation.
                     </p>
                     <hr />
                     <h2>Implementation</h2>
@@ -125,9 +121,9 @@ export default function SpeedRoulette() {
                         <p>Implementation</p>
                     </div>
                     <p>
-                        Next, I moved to the backend, which introduced more complexity. I began by building the API to
-                        handle the core game logic and get it to a playable state. I then integrated Postgres to manage
-                        the leaderboard and statistics, and added Redis for caching user tokens and validating balances.
+                        Next, I moved to the backend, which introduced more complexity. I started by creating endpoints, 
+                        and handling the core game logic. I then integrated Postgres to manage
+                        the leaderboard and statistics, and Redis for caching user tokens and validating balances.
                         Finally, I dockerized the entire system to bring all the components together for smooth
                         deployment and developer experience.
                     </p>
@@ -143,12 +139,13 @@ export default function SpeedRoulette() {
                             <li>Redis (Caching)</li>
                         </ul>
                     </p>
-                    <h3>CI Pipeline</h3>
+                    <h3>Continuous Integration Pipeline</h3>
                     <p>
                         Extensive CI pipeline that includes:
                         <ul>
                             <li>Linters / Formatters</li>
-                            <li>Backend Unit Tests</li>
+                            <li>Build Tests</li>
+                            <li>Go Unit Tests</li>
                             <li>E2E Cypress Tests</li>
                         </ul>
                     </p>
@@ -186,60 +183,42 @@ export default function SpeedRoulette() {
                     <h3>New Technologies</h3>
                     <p>
                         When I started this project, I don't think I knew a single tool in the tech stack I was planning
-                        to use. Not one. It was quite overwhelming to say the least, and a mental battle from start to
-                        finish. Something that significantly helped me along the way was ChatGPT, though not as you
-                        might expect. Whenever I was driving for more that 10 minutes, I utilized the voice feature, and
+                        to use. Not one. Something that helped me along the way was ChatGPT, though not as you
+                        might expect. Whenever I was doing a task with low cognitive load, I utilized the voice feature, and
                         would have conversations with the AI agent about things I was unfamiliar with. These
-                        conversations were invaluable for learning, pushing through blockers, and planning what I needed
-                        to do next.
-                    </p>
-                    <p>
-                        While challenging at first, learning all of these technologies has given me a well rounded
-                        skillset that I have been able to use for{' '}
-                        <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>, and other projects.
+                        conversations helped me reason through blockers, and learn even when I wasn't at my desk.
                     </p>
                     <h3>Grid layout</h3>
                     <p>
-                        One issue in my original JavaFX GUI was that the user could not place a bet in between table
-                        cells (e.g., 7 and 10). To address that here, I created a table of the entire roulette board,
+                        My original JavaFX GUI did not allow the user to place a bet between table
+                        cells (e.g., 7 and 10). To address that here, I created a table of the roulette board,
                         then overlayed CSS grids on top of it.
                     </p>
                     <div id="content-img-container">
                         <img src={srGrid} className="project-img" />
                     </div>
                     <p>
-                        After overlaying the grid onto the table, the next challenge became handling bets on the
+                        After overlaying the grid onto the table, the next challenge was handling bets on the
                         backend. I identified patterns in the grid that allowed me to design solid logic, though a few
-                        off-by-one errors appeared after deployment. Once those were addressed, the code reached a
-                        stable state, and is now the one part of the project I have no plans to revisit. As the saying
-                        goes, <i>“If it ain’t broke, don’t fix it.”</i>
-                    </p>
-                    <h3>Deployment</h3>
-                    <p>
-                        Deployment turned out to be the worst blocker of the project. Since it was my first time, there
-                        was an inevitable learning curve, but the larger issue was choosing the right platform. I
-                        initially experimented with AWS, but the challenge of identifying the right services from
-                        hundreds of options and then configuring them to work together made it impractical for a small
-                        personal project. Ultimately, I switched to DigitalOcean, which provided a much simpler
-                        experience.
+                        off-by-one errors appeared when setting up unit tests. These have since been addressed, 
+                        and I have no plans to revisit this code. As the saying goes, <i>“If it ain’t broke, don’t fix it.”</i>
                     </p>
                     <h3>Security</h3>
                     <p>
-                        Although Speed Roulette does not handle any sensitive user data, I wanted to make sure that
-                        security was one of my top priorities, especially since I didn't have much experience in that
-                        area. Some of the security related features I added include:
+                        Although Speed Roulette does not handle any sensitive user data, security was a top priority.
                     </p>
                     <ul id="security-list">
                         <li>
                             <p>
-                                <b>Rate Limiting:</b> All pages of my site are rate limited to prevent spam, abuse, and
+                                <b>Rate Limiting:</b> All endpoints are rate limited to prevent spam, abuse, and
                                 server overload.
                             </p>
                         </li>
                         <li>
                             <p>
-                                <b>User Tokens:</b> Generated each time the user presses start and cached using Redis.
-                                Must accompany each request to the backend and expires after 3 minutes.
+                                <b>User Tokens:</b> Generated each time the user clicks start and cached using Redis.
+                                Must accompany each request to the backend and is renewed after each game. Expires after 
+                                three minutes.
                             </p>
                         </li>
                         <li>
@@ -250,8 +229,7 @@ export default function SpeedRoulette() {
                         </li>
                         <li>
                             <p>
-                                <b>Name Filter:</b> Utilized multiple JavaScript libraries to identify and prevent
-                                explicit nicknames.
+                                <b>Name Filter:</b> Utilized multiple JavaScript libraries to filter nicknames.
                             </p>
                         </li>
                         <li>
@@ -262,39 +240,34 @@ export default function SpeedRoulette() {
                         </li>
                     </ul>
                     <p>
-                        With all the precautions I took, I still left a crucial vulnerability that didn’t reveal itself
-                        until a week after deployment, when a user reported they were unable to start a game. I didn’t
-                        think much of it at first and simply rebooted the server. The site came back and was stable… for
-                        about five minutes. After another reboot, the same problem occurred. I rebooted the server once
-                        more, this time running my Docker containers with the live feed while I tested the site to see
-                        if I could spot anything. After several minutes, I thought the third reboot might have finally
-                        done the trick. That's when I saw a horrific sight on the feed:
+                        Despite these precautions, there was a crucial vulnerability that didn’t reveal itself
+                        until a week after deployment, when a user reported they were unable to start a game. I 
+                        rebooted the server, and the site came back online… for about five minutes. After another reboot, 
+                        the same problem occurred. I rebooted the once more, this time running my Docker containers with 
+                        the live feed while I tested the site to see if I could trigger anything. After several minutes, 
+                        I thought it may have resolved, until I looked at the feed:
                     </p>
                     <p>
                         <b>pkill pkill pkill pkill pkill</b>
                     </p>
                     <p>
                         A malicious script had found its way onto my server and hundreds of commands were just executed!
-                        But how? I spent the next 6 hours figuring it out.
+                        But how?
                     </p>
                     <p>
-                        The root cause turned out to be a simple misconfiguration in my Docker Compose file. The
-                        malware, known as <code>Kinsing</code>, exploits vulnerabilities in Linux servers and
-                        cloud-native environments, then killing all processes to maximize resources for mining
-                        cryptocurrency. It gained access to my Docker files because I had forgotten to bind the backend,
-                        database, and caching ports to localhost. This left them exposed to the open internet, and
-                        rendered my reverse proxy useless. After addressing this, reviewing and tightening a few other
-                        configurations, and migrating everything to a fresh DigitalOcean droplet, I haven’t run into any
-                        issues since!
+                        The root cause was a misconfigured Docker Compose file. The malware, which seems to be common, 
+                        exploits vulnerabilities in Linux servers and cloud-native environments, and attempts to kill 
+                        all processes to maximize resources for minin cryptocurrency. It gained access to my Docker files 
+                        because I had forgotten to bind the backend, database, and caching ports to localhost. This left 
+                        them exposed to the open internet, and rendered my reverse proxy useless. After addressing this, 
+                        reviewing and tightening a few other configurations, and migrating everything to a fresh 
+                        DigitalOcean droplet, order has been restored!
                     </p>
                     <hr />
                     <h2>Reflection</h2>
                     <p>
-                        Although this project was created only this year, I truly believe it was the spark that ignited
-                        my real passion for programming. Being the sole architect of a 25,000+ line codebase that does
-                        something cool gave me a unique sense of accomplishment I’d never felt before. Prior to Speed
-                        Roulette, most of my work was driven by requirement rather than genuine enjoyment, but I’ve
-                        enjoyed every step of this, and that same excitement has carried into other projects.
+                        This project was the spark that ignited my true passion for programming. I learned, I built, 
+                        and I deployed a fun project that turned a simple idea into a real application people could use.
                     </p>
                     <div id="content-img-container">
                         <img src={srDeploymentDay} />

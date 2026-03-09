@@ -33,7 +33,7 @@ export default function Stewarts() {
                     <>
                         {' '}
                         <p>
-                            During summer 2024, I worked as an IT Technician Intern for Stewart's Shops. This role was
+                            During Summer 2024, I was an Information Technology Intern for Stewart's Shops. This role was
                             hardware-focused, with emphasis on maintenance and troubleshooting.
                         </p>
                         <hr />
@@ -53,8 +53,8 @@ export default function Stewarts() {
                         </div>
                         <p>
                             I worked in the Technology Center, which functions as the company’s help desk. With an 18
-                            person team, there was never a shortage of hardware issues to address both over the phone,
-                            and onsite.
+                            person team covering 400+ shops, there was never a shortage of hardware issues to address 
+                            both over the phone, and onsite.
                         </p>
                     </>
                 }
@@ -63,10 +63,9 @@ export default function Stewarts() {
                         <hr />
                         <h2>Onsite Responsibilities</h2>
                         <p>
-                            Since I was a temporary employee, I was not set up with a phone, instead spending most of my
-                            days on the road. This gave me the unique opportunity to enjoy the beauty of the Northeast
-                            in the summer. Some days were to Lake Placid, others to Vermont, Syracuse, Cooperstown, even
-                            my home town, I was all over the place. Beyond location, each shop had its own personality,
+                            Since I was a temporary employee, I spent most days on the road. This gave me the unique opportunity 
+                            to enjoy the beauty of the Northeast in the summer. Some days were to Lake Placid, others to Vermont, 
+                            Syracuse, Cooperstown, even my home town, I was all over the place. Beyond location, each shop had its own personality,
                             making every trip a memorable experience.
                         </p>
                         <div id="content-img-container">
@@ -76,8 +75,8 @@ export default function Stewarts() {
                         <h3>Preventative Maintenance</h3>
                         <p>
                             One of my key responsibilities was preventative maintenance (also called PMs). This involved
-                            addressing issues with networking equipment before they occurred. In my three and a half
-                            month tenure, I completed 40 of these PMs, or about 10% of all shops.
+                            addressing issues with networking equipment before they occurred. In my time there, I completed 
+                            40 of these PMs, or about 10% of all shops.
                         </p>
                         <p>
                             For each PM, there was a checklist of tasks to complete. This list included cleaning and
@@ -86,38 +85,30 @@ export default function Stewarts() {
                             these shops is fragile, so any careless mistake could lead to a high-stress situation. To
                             mitigate this, I took a business-first approach. Rather than focusing on efficiency, I
                             proactively communicated with shop personnel so we were all on the same page, ensuring my
-                            work didn’t disrupt their operations.
+                            work never disrupted their operations.
                         </p>
                         <h3>New System Implementation</h3>
                         <p>
                             Throughout the summer, the tech center was in the process of preparing shops for a new
                             register POS system. This implementation would require the addition of two new switches to
-                            the shop's networking cage. Unfortunately, this wouldn't be a simple plugin and play, since
-                            most networking cages were <b>a mess</b>.
+                            the shop's networking cage.
                         </p>
                         <p>
-                            To address this, there was an ongoing project where 2-3 technicians would go to shops, and
-                            do a "cleanup". This was pretty much a more thorough PM, with emphasis on the networking
-                            cage. I was mainly brought along to do the usual sales floor side of things, while they
-                            tampered with the cage in the back. It was a collaborative effort, and I had the crucial
-                            role of being available to the shop employees incase anything they were doing causes issues.
+                            To prepare for this, there was an ongoing project where 2-3 technicians would go to shops, and
+                            do a "cleanup". This was essentially a more thorough PM, with emphasis on the networking
+                            cage. This cage was the brain of the shop's infrastructure. Unplugging the wrong cable 
+                            could lead to a sales-disrupting outage. Communication with shop personnel was essential 
+                            to keep both teams on the same page.
                         </p>
                         <p>
-                            Through this project, we prepared many stores for the new system, converting them from
-                            networking disaster to plugin and play.
-                        </p>
-                        <h3>Service Calls</h3>
-                        <p>
-                            Although we strived to address issues before they occurred, hardware is unpredictable.
-                            Sometimes a printer stops printing, other times an entire register dies. These were the best
-                            kind of days. I was given a sticky note of shops to visit, then spent 95% of the day
-                            driving, and the rest being the hero.
+                            Through this project, we prepared many shops for the new system, each time leaving the networking 
+                            infrastructure better than when we entered.
                         </p>
                         <hr />
                         <h2>Office Days</h2>
                         <p>
-                            Though most days were on the road, I had my share of office time. With no phone to answer
-                            and a room full of busy technicians, it was up to me to create work to do.
+                            Though most days were on the road, I had my share of office time. With a room full of busy 
+                            technicians, it was up to me to create work to do.
                         </p>
                         <h3>Shipping</h3>
                         <p>
@@ -127,11 +118,10 @@ export default function Stewarts() {
                         </p>
                         <h3>Battery Backups</h3>
                         <p>
-                            All of Stewart's Shops' networking equipment is hooked up to battery backups, and for good
+                            Most of Stewart's Shops' networking equipment is hooked up to battery backups, and for good
                             reason. Frequent storms throughout the summer leave entire areas without power, potentially
                             halting shop operations in their tracks. Enter battery backups, which allow shops to
-                            function for several hours with no power. If there's one thing my time in the Stewart's tech
-                            center taught me, its how to handle them.
+                            function for several hours with no power.
                         </p>
                         <div id="content-img-container">
                             <img src={apcBackup} className="project-img" />
@@ -159,18 +149,9 @@ export default function Stewarts() {
                                 right to Syracuse and back!
                             </p>
                         </div>
-                        <p>
-                            The last thing we wanted was someone arriving to a job 2+ hours away without the necessary
-                            equipment to complete it. This actually happened to me on one occasion. I was an hour and a
-                            half away from the tech center in Rutland, VA replacing a printer when I found that the one
-                            I had brought was faulty. I went to my vehicle to grab the spare, only to realize that I had
-                            already used it the day prior, and forgotten to replace it. Thankfully, it was a slow day in
-                            our office and at that shop so the delay had minimal impact, and I was back with the printer
-                            3 hours and 2 border crosses later.
-                        </p>
                         <h3>Misc Work</h3>
                         <p>
-                            Sometimes, there were too many guys out of the office, no returns to process, and no battery
+                            Sometimes, there were too many technicians out of the office, no returns to process, and no battery
                             backups to fix up. This was the real challenge of my productivity. On these days, I crimped
                             new cables, sorted through boxes of miscellaneous equipment, and on one occasion, attempted
                             to open digital locks that we lost the combinations to (I was unsuccessful).

@@ -31,11 +31,8 @@ export default function LambdaChi() {
                 preview={
                     <>
                         <p>
-                            If I had to describe my time at &Lambda;ΧΑ in one word, it would be <i>transformative</i>. I
-                            never imagined myself joining a fraternity, especially with the negative stereotypes that
-                            surround Greek life. Despite everything I've heard, I’ve only found a network of talented,
-                            supportive, and exceptional people. Through my experiences here, I’ve grown as a person,
-                            brother, and leader.
+                            If I had to describe my time at &Lambda;ΧΑ in one word, it would be <i>transformative</i>. 
+                            Through my experiences here, I’ve grown as a person, friend, and leader.
                         </p>
                         <div id="content-img-container">
                             <img src={lxaGroupPhoto} className="project-img" />
@@ -47,40 +44,34 @@ export default function LambdaChi() {
                         <hr />
                         <h2>Secretary</h2>
                         <p>
-                            As Secretary, I handle the administrative operations that keep our chapter running smoothly.
-                            This role has taught me the importance of being consistently good, rather than occasionally
-                            great. I strive to stay on top of my duties so I can be there to assist other officers, and
-                            enable them to reach their full potential.
+                            As Secretary, I handled administrative operations to keep our chapter running smoothly.
                         </p>
                         <p>
-                            One of the more front-facing responsibilities I have is managing our weekly house meetings.
-                            Before each meeting, I email a reminder to the brotherhood, then prepare the slideshow,
-                            officer agenda, and meeting minutes. I take attendance at the start, record the minutes
-                            during the meeting, finalize them afterward, and send them out promptly. This workflow was
-                            intimidating at first, but I have come to enjoy it. I see it as my duty to write the history
-                            of our chapter, and consider it a great honor to do so.
+                            One of the more front-facing responsibilities I had was managing weekly house meetings.
+                            Before each meeting, I emailed a reminder to the brotherhood, and prepared the slideshow,
+                            officer agenda, and meeting minutes. I took attendance at the start, recorded the minutes
+                            during the meeting, finalized them afterward, and sent them out promptly. Though this 
+                            workflow was initially intimidating, I came to value it, seeing it as the opportunity 
+                            to write the history of our chapter.
                         </p>
                         <p>
-                            Other duties include managing the fraternity’s official roster, preparing bid packets for
-                            new members, and maintaining the Google Calendar, mailing lists, mailboxes, and Google
-                            Drive.
+                            Other duties included managing the our roster, keeping the Google Calendar up-to-date, 
+                            updating mailing lists, maintaining mailboxes, and organizing the Google Drive.
                         </p>
                         <hr />
                         <h2>Director of Recruitment Logistics</h2>
                         <p>
-                            Recruitment is a vital component of every fraternity. Without new members, our chapter
-                            cannot live on. For the Spring 2026 semester, I will be working under our Recruitment
-                            Chairman to take care of the logistical side of our recruitment processes. The
-                            responsibilities are similar to that of the secretary's, but I am now fully focused on our
-                            recruitment efforts, rather than fraternity operations as a whole.
+                            Organization is the backbone of successful recruitment. Responsibilities included.
+                            preparing bid packets for new members, and printing flyers. In addition, I became a member 
+                            of the recruitment committee, where we discussed ideas and strategies.
                         </p>
                         <hr />
                         <h2>Webmaster</h2>
                         <p>
                             In recent years, the Webmaster role has been neglected, leaving the site outdated and
                             lacking relevant information. I have worked to bring everything up to date, and establish a
-                            system to prevent this from happening again. Before I transition out of the role, I intend
-                            to create a document that will give the inheritor everything necessary to succeed.
+                            system to prevent this from happening again. Before I transition out of the role, I will 
+                            create a document that will give the inheritor everything necessary to succeed.
                         </p>
                         <p>
                             My ongoing priority is repopulating the site with new event posts, chapter news, and
@@ -92,9 +83,8 @@ export default function LambdaChi() {
                         <hr />
                         <h2>Philanthropy</h2>
                         <p>
-                            Philanthropy is closely tied with the extensive history of our chapter. At the center of
-                            this tradition is our semesterly food drive, an initiative I’ve been honored to participate
-                            in.
+                            Philanthropy is closely tied with the history of our chapter. At the center of
+                            this tradition is our semesterly food drive.
                         </p>
                         <div id="content-img-container">
                             <img src={oldFoodDrive} className="project-img" />
@@ -129,9 +119,9 @@ export default function LambdaChi() {
                         <hr />
                         <h2>Reflection</h2>
                         <p>
-                            Making impactful contributions to something greater than myself has turned the grind of
-                            college into a unique and enjoyable experience. I am so grateful to be a part of this
-                            amazing brotherhood, and excited for the fun that lies ahead.
+                            Being a part of something greater than myself has turned the grind of
+                            college into a unique and enjoyable experience. I am grateful to be a part of this
+                            amazing brotherhood, and excited for what lies ahead.
                         </p>
                     </>
                 }

@@ -41,16 +41,16 @@ export default function Rensselaer() {
     return (
         <>
             <TextContentPage
-                header={<TextContentHeader title="Course Website" />}
+                header={<TextContentHeader title="Rensselaer Polytechnic Institute" />}
                 navButton={<NavButton right="IT Technician" rightNav="/experience/stewarts" />}
                 preview={
                     <>
                         {' '}
                         <p>
-                            Rensselaer Polytechnic Institute has provided me with countless opportunities for both
+                            Rensselaer Polytechnic Institute has provided countless opportunities for 
                             personal and professional growth. The challenging coursework, real-world experience from{' '}
-                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>, and the brotherhood I
-                            found at <a onClick={() => navigateTop('/experience/lambdachi')}>Lambda Chi Alpha</a> has
+                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>, and the friendships I
+                            built at <a onClick={() => navigateTop('/experience/lambdachi')}>Lambda Chi Alpha</a> has
                             made tuition worth every penny.
                         </p>
                         <div id="content-img-container">
@@ -63,48 +63,34 @@ export default function Rensselaer() {
                         <hr />
                         <h2>Fall 2024</h2>
                         <p>
-                            Transferring from community college to RPI was a massive adjustment. My first semester was
-                            exciting, but stressful. I was finding my footing on campus, rushing{' '}
-                            <a onClick={() => navigateTop('/experience/lambdachi')}>Lambda Chi Alpha</a>, and commuting
-                            from home all while trying to keep up with the rigor of my courses. I took 4 courses
-                            totaling 16 credits. They were: Physics I, Multivariable Calculus, Writing for Technical
-                            Communication, and the most impactful of all:
+                            Transferring from community college to RPI was a stark adjustment. My first semester was
+                            exciting, but stressful. I took 4 courses totaling 16 credits. They were: Physics I, 
+                            Multivariable Calculus, Writing for Technical Communication, and most importantly:
                         </p>
                         <h3>Data Structures</h3>
                         <p>
-                            This course is known for being among the most challenging in the CS curriculum, commonly
-                            referred to as a "weed-out course". Featuring 10 homework assignments, weekly labs, and 4
-                            exams, it was far more involved than any academic work I had ever done previously. Despite
-                            the reputation, I approached this course with excitement and confidence. I already had
-                            experience with the material from{' '}
-                            <a onClick={() => navigateTop('/experience/HudsonValley')}>Submitty</a>, and I was finally
-                            going to write large-scale coding projects for school!
+                            Featuring 10 homework assignments, weekly labs, and 4 exams, it was far more involved than 
+                            any academic work I had ever done previously. My excitement and confidence was quickly met with 
+                            many hours of studying, writing code, and learning.
                         </p>
                         <p>
-                            Reality hit by the second homework, when I failed to complete the assignment. From there on,
-                            I had my work cut out for me. I dug as deep as I could, practically living in the library
-                            every single day. Even then, I still felt behind. <i>It was humbling</i>, but it was all
-                            worth it. Pressure makes diamonds and I came out as a 10x better programmer than I was going
+                            Though it was uncomfortable, pressure makes diamonds and I came out as a 10x better programmer than I was going
                             in. During the subsequent winter break, I examined a ~3,000 line project I created the year
                             prior, and was able to refactor it down to ~1,000 lines without changing any functionality!
                         </p>
                         <hr />
                         <h2>Spring 2025</h2>
                         <p>
-                            With my “Welcome to RPI” semester behind me, I was ready for round two. Once again, I took 4
+                            With my “Welcome to RPI” semester behind me, I was ready for the spring. Once again, I took 4
                             courses totaling 16 credits: Linear Algebra, Introduction to Algorithms, Principles of
-                            Software (whose website I would later{' '}
-                            <a onClick={() => navigateTop('/projects/psoft')}>revamp</a>), and Rensselaer Center for
-                            Open Source, where I joined the{' '}
-                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a> project.
+                            Software (whose <a onClick={() => navigateTop('/projects/psoft')}>website</a> I would later revamp), 
+                            and Rensselaer Center for Open Source, where I joined the <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a> project.
                         </p>
                         <h3>Key Course: Intro to Algorithms</h3>
                         <p>
                             What better way to follow up Data Structures than with an algorithms course? Topics included
                             divide-and-conquer, graph decompositions, paths, greedy algorithms, dynamic programming,
-                            linear programming, and NP-complete problems. This paired with ds has equipped me with the
-                            skills and confidence necessary to think through complex problems, and perform in technical
-                            interviews.
+                            linear programming, and NP-complete problems.
                         </p>
                         <hr />
                         <h2>Fall 2025</h2>
@@ -115,7 +101,7 @@ export default function Rensselaer() {
                         </p>
                         <h3>Key Course: Database Systems</h3>
                         <p>
-                            This is one of the best courses I have ever taken. Before this, I was knowledgeable with
+                            One of the best courses I have ever taken. Before this, I was knowledgeable with
                             databases, having worked with them on both{' '}
                             <a onClick={() => navigateTop('/projects/speedroulette')}>Speed Roulette</a> and{' '}
                             <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>. Now, I am proficient. The
@@ -124,17 +110,15 @@ export default function Rensselaer() {
                             material. A special thank you to Professor{' '}
                             <a href="https://en.wikipedia.org/wiki/Sibel_Adal%C4%B1" target="_blank">
                                 Sibel Adali
-                            </a>
-                            . I wish she could teach all of my courses!
+                            </a> for her engaging lectures, and organized course material.
                         </p>
                         <hr />
                         <h2>Spring 2026</h2>
                         <p>
                             My final semester of college. I am taking Operating Systems, Software Design and
                             Documentation, Distributed Systems, and once again{' '}
-                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>, but this time as the
-                            project lead. It will be a busy semester, but I am super excited for all 4 of these courses,
-                            and the journey that lies beyond them!
+                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>. It will be a busy semester, 
+                            but with 7 semesters of college behind me, I am prepared.
                         </p>
                         <hr />
                         <h2>Reflection</h2>

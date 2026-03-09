@@ -38,7 +38,7 @@ function Experience() {
                             img={lxaLogo}
                             header="Lambda Chi Alpha"
                             date="August 2024 - Present"
-                            desc="Secretary, Webmaster, and Brother."
+                            desc="Secretary, Webmaster, and Recruitment Logistics Director."
                             nav="/experience/LambdaChi"
                             rank="3"
                         />

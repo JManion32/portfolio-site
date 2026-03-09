@@ -39,18 +39,17 @@ export default function PriceChopper() {
                         </p>
                         <h3>Takeaway: Appreciate the experience.</h3>
                         <p>
-                            Yeah, it was repetitive, and I would have rather been doing something else. But it was a
-                            job, not a source of entertainment. If I wanted to enjoy it, I had to create that experience
-                            myself. Everyday, I put my best effort forward to be personable, and find things to be happy
-                            about. At some point, I no longer had to make an effort, I just enjoyed being there. This
-                            takeaway extends far beyond my time at Price Chopper. There is joy to be found in
-                            everything, if you're willing to look for it.
+                            Yeah, it was repetitive, but it was a job, not a source of entertainment. If I wanted to enjoy 
+                            it, I had to create that experience myself. Everyday, I put my best effort forward to be 
+                            personable, and find things to be happy about. At some point, I no longer had to make an effort, 
+                            I just enjoyed being there. This takeaway extends far beyond my time at Price Chopper. There is 
+                            joy to be found in everything if you're willing to look for it.
                         </p>
                         <hr />
                         <h2>Supervisor</h2>
                         <p>
-                            When I turned 18, I was given supervisor privileges, providing my first real opportunity to
-                            develop leadership skills.
+                            When I turned 18, I was given supervisor privileges, providing an opportunity to
+                            develop real-world leadership skills.
                         </p>
                         <h3>Takeaway: Lead by example.</h3>
                         <p>
@@ -89,15 +88,14 @@ export default function PriceChopper() {
                             The tasks were straightforward — emptying garbages, cleaning bathrooms, keeping things in
                             order. I could have gone through the motions, done an average job, and left half-full bins
                             or “clean enough” bathrooms for the morning crew. Instead, I found real satisfaction in
-                            giving that extra effort, never leaving until the job was finished so I didn't leave someone
+                            giving that extra effort, not leaving until the job was finished so I didn't leave someone
                             else hanging. This mindset has carried over to development work too. Sure, I might spend a
                             whole day perfecting a site’s mobile scaling, but in the end, it’s always worth it.
                         </p>
                         <hr />
                         <h2>Customer Service Teammate</h2>
                         <p>
-                            After 3 1/2 years of experience, I was asked to work in the office. My responsibilities
-                            included:
+                            After 3 1/2 years of experience, I joined the office. Responsibilities included:
                             <ul>
                                 <li>Counting / Handling all of the store's money</li>
                                 <li>Cashing / Selling lottery tickets</li>
@@ -105,15 +103,13 @@ export default function PriceChopper() {
                                 <li>Processing Money Orders</li>
                                 <li>Handling Customer Returns / Complaints</li>
                             </ul>
-                            This was by far my favorite role. I developed relationships with the daily customers, had
-                            downtime to do my own thing, and truly felt like I had mastered the Front End department.
                         </p>
                         <h3>Takeaway: Master the details.</h3>
                         <p>
                             Mistakes in the office carried far greater consequences than anything that could happen on
                             the sales floor. Even once I had a routine, I made a habit of double, even triple-checking
-                            my work to ensure accuracy, and organization. Not only did this enable me succeed, but it
-                            made the lives of my team easier.
+                            my work to ensure accuracy, and organization. Speed is helpful, but not as essential as 
+                            quality assurance.
                         </p>
                         <hr />
                         <h2>Reflection</h2>

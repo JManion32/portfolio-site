@@ -107,9 +107,10 @@ export default function SpeedRoulette() {
 
                     <p>
                         The lightbulb went off on February 21st, 2025. I had been seeing a lot of speed chess content in
-                        my YouTube feed and I thought, this would be really cool to combine with roulette! I started by creating 
-                        a full storyboard in light and dark mode, figuring out the tech stack, and defining the rules of the 
-                        game. After a few weeks, it was time to push the analysis paralysis aside and dive into the implementation.
+                        my YouTube feed and I thought, this would be really cool to combine with roulette! I started by
+                        creating a full storyboard in light and dark mode, figuring out the tech stack, and defining the
+                        rules of the game. After a few weeks, it was time to push the analysis paralysis aside and dive
+                        into the implementation.
                     </p>
                     <hr />
                     <h2>Implementation</h2>
@@ -121,11 +122,11 @@ export default function SpeedRoulette() {
                         <p>Implementation</p>
                     </div>
                     <p>
-                        Next, I moved to the backend, which introduced more complexity. I started by creating endpoints, 
-                        and handling the core game logic. I then integrated Postgres to manage
-                        the leaderboard and statistics, and Redis for caching user tokens and validating balances.
-                        Finally, I dockerized the entire system to bring all the components together for smooth
-                        deployment and developer experience.
+                        Next, I moved to the backend, which introduced more complexity. I started by creating endpoints,
+                        and handling the core game logic. I then integrated Postgres to manage the leaderboard and
+                        statistics, and Redis for caching user tokens and validating balances. Finally, I dockerized the
+                        entire system to bring all the components together for smooth deployment and developer
+                        experience.
                     </p>
                     <hr />
                     <h2>Features</h2>
@@ -183,41 +184,39 @@ export default function SpeedRoulette() {
                     <h3>New Technologies</h3>
                     <p>
                         When I started this project, I don't think I knew a single tool in the tech stack I was planning
-                        to use. Not one. Something that helped me along the way was ChatGPT, though not as you
-                        might expect. Whenever I was doing a task with low cognitive load, I utilized the voice feature, and
+                        to use. Not one. Something that helped me along the way was ChatGPT, though not as you might
+                        expect. Whenever I was doing a task with low cognitive load, I utilized the voice feature, and
                         would have conversations with the AI agent about things I was unfamiliar with. These
                         conversations helped me reason through blockers, and learn even when I wasn't at my desk.
                     </p>
                     <h3>Grid layout</h3>
                     <p>
-                        My original JavaFX GUI did not allow the user to place a bet between table
-                        cells (e.g., 7 and 10). To address that here, I created a table of the roulette board,
-                        then overlayed CSS grids on top of it.
+                        My original JavaFX GUI did not allow the user to place a bet between table cells (e.g., 7 and
+                        10). To address that here, I created a table of the roulette board, then overlayed CSS grids on
+                        top of it.
                     </p>
                     <div id="content-img-container">
                         <img src={srGrid} className="project-img" />
                     </div>
                     <p>
-                        After overlaying the grid onto the table, the next challenge was handling bets on the
-                        backend. I identified patterns in the grid that allowed me to design solid logic, though a few
-                        off-by-one errors appeared when setting up unit tests. These have since been addressed, 
-                        and I have no plans to revisit this code. As the saying goes, <i>“If it ain’t broke, don’t fix it.”</i>
+                        After overlaying the grid onto the table, the next challenge was handling bets on the backend. I
+                        identified patterns in the grid that allowed me to design solid logic, though a few off-by-one
+                        errors appeared when setting up unit tests. These have since been addressed, and I have no plans
+                        to revisit this code. As the saying goes, <i>“If it ain’t broke, don’t fix it.”</i>
                     </p>
                     <h3>Security</h3>
-                    <p>
-                        Although Speed Roulette does not handle any sensitive user data, security was a top priority.
-                    </p>
+                    <p>Although Speed Roulette does not handle any sensitive user data, security was a top priority.</p>
                     <ul id="security-list">
                         <li>
                             <p>
-                                <b>Rate Limiting:</b> All endpoints are rate limited to prevent spam, abuse, and
-                                server overload.
+                                <b>Rate Limiting:</b> All endpoints are rate limited to prevent spam, abuse, and server
+                                overload.
                             </p>
                         </li>
                         <li>
                             <p>
                                 <b>User Tokens:</b> Generated each time the user clicks start and cached using Redis.
-                                Must accompany each request to the backend and is renewed after each game. Expires after 
+                                Must accompany each request to the backend and is renewed after each game. Expires after
                                 three minutes.
                             </p>
                         </li>
@@ -240,12 +239,12 @@ export default function SpeedRoulette() {
                         </li>
                     </ul>
                     <p>
-                        Despite these precautions, there was a crucial vulnerability that didn’t reveal itself
-                        until a week after deployment, when a user reported they were unable to start a game. I 
-                        rebooted the server, and the site came back online… for about five minutes. After another reboot, 
-                        the same problem occurred. I rebooted the once more, this time running my Docker containers with 
-                        the live feed while I tested the site to see if I could trigger anything. After several minutes, 
-                        I thought it may have resolved, until I looked at the feed:
+                        Despite these precautions, there was a crucial vulnerability that didn’t reveal itself until a
+                        week after deployment, when a user reported they were unable to start a game. I rebooted the
+                        server, and the site came back online… for about five minutes. After another reboot, the same
+                        problem occurred. I rebooted the once more, this time running my Docker containers with the live
+                        feed while I tested the site to see if I could trigger anything. After several minutes, I
+                        thought it may have resolved, until I looked at the feed:
                     </p>
                     <p>
                         <b>pkill pkill pkill pkill pkill</b>
@@ -255,19 +254,19 @@ export default function SpeedRoulette() {
                         But how?
                     </p>
                     <p>
-                        The root cause was a misconfigured Docker Compose file. The malware, which seems to be common, 
-                        exploits vulnerabilities in Linux servers and cloud-native environments, and attempts to kill 
-                        all processes to maximize resources for minin cryptocurrency. It gained access to my Docker files 
-                        because I had forgotten to bind the backend, database, and caching ports to localhost. This left 
-                        them exposed to the open internet, and rendered my reverse proxy useless. After addressing this, 
-                        reviewing and tightening a few other configurations, and migrating everything to a fresh 
-                        DigitalOcean droplet, order has been restored!
+                        The root cause was a misconfigured Docker Compose file. The malware, which seems to be common,
+                        exploits vulnerabilities in Linux servers and cloud-native environments, and attempts to kill
+                        all processes to maximize resources for minin cryptocurrency. It gained access to my Docker
+                        files because I had forgotten to bind the backend, database, and caching ports to localhost.
+                        This left them exposed to the open internet, and rendered my reverse proxy useless. After
+                        addressing this, reviewing and tightening a few other configurations, and migrating everything
+                        to a fresh DigitalOcean droplet, order has been restored!
                     </p>
                     <hr />
                     <h2>Reflection</h2>
                     <p>
-                        This project was the spark that ignited my true passion for programming. I learned, I built, 
-                        and I deployed a fun project that turned a simple idea into a real application people could use.
+                        This project was the spark that ignited my true passion for programming. I learned, I built, and
+                        I deployed a fun project that turned a simple idea into a real application people could use.
                     </p>
                     <div id="content-img-container">
                         <img src={srDeploymentDay} />

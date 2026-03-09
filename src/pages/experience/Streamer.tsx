@@ -1,4 +1,4 @@
-import Breadcrumbs from '../../components/Breadcrumb';
+import TextContentPage from '../../components/TextContentPage.tsx';
 import NavButton from '../../components/NavButton';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
 
@@ -9,11 +9,11 @@ import coworkerPC from '../../assets/coworker-pc.jpeg';
 function Streamer() {
     return (
         <>
-            <div className="page">
-                <div className="text-content">
-                    <Breadcrumbs />
-                    <TextContentHeader title="Twitch Streamer" />
-                    <div id="text-body">
+            <TextContentPage
+                header={<TextContentHeader title="Twitch Streamer" />}
+                navButton={<NavButton left="Hudson Valley" leftNav="/experience/hudsonvalley" />}
+                preview={
+                    <>
                         <p>
                             From May 2021 to November 2023, I streamed on Twitch around two to three times per week.
                             Here are my lifetime stats:
@@ -42,10 +42,9 @@ function Streamer() {
                             studies, closing this chapter of my life. I’m grateful for the community I built and the
                             memories we shared, and I look forward to the possibility of returning in the future.
                         </p>
-                    </div>
-                </div>
-                <NavButton left="Hudson Valley" leftNav="/experience/hudsonvalley" />
-            </div>
+                    </>
+                }
+            />
         </>
     );
 }

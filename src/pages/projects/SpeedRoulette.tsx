@@ -1,8 +1,5 @@
-import { useState } from 'react';
-import ReadMoreBtn from '../../components/ReadMoreBtn.tsx';
 import TextContentPage from '../../components/TextContentPage.tsx';
 
-import Breadcrumbs from '../../components/Breadcrumb.tsx';
 import TechStack from '../../components/TechStack.tsx';
 import NavButton from '../../components/NavButton.tsx';
 import useNavigateTop from '../../hooks/useNavigateTop.ts';
@@ -17,12 +14,10 @@ import srGameplay from '../../assets/sr-gameplay.png';
 import srGrid from '../../assets/srGrid.png';
 
 export default function SpeedRoulette() {
-    const [readMore, setReadMore] = useState(false);
     const navigateTop = useNavigateTop();
 
     return (
         <TextContentPage
-            breadcrumbs={<Breadcrumbs />}
             header={
                 <TextContentHeader
                     title="Speed Roulette"
@@ -34,14 +29,14 @@ export default function SpeedRoulette() {
             navButton={
                 <NavButton left="Submitty" leftNav="/projects/submitty" right="CChat" rightNav="/projects/cchat" />
             }
-            main={
+            preview={
                 <>
                     <p>
-                        Inspired by the intensity of speed chess, Speed Roulette puts a fast-paced twist on the
-                        beloved high-stakes casino game. Players start with 20 dollars, 10 possible spins, and just 60
-                        seconds on the clock. When bets are submitted, the winning number is revealed, earnings are paid
-                        out, and the clock starts ticking again just 2.5 seconds later. Compete for a spot on the
-                        leaderboard by making quick decisions, taking bold risks, and hitting big payouts!
+                        Inspired by the intensity of speed chess, Speed Roulette puts a fast-paced twist on the beloved
+                        high-stakes casino game. Players start with 20 dollars, 10 possible spins, and just 60 seconds
+                        on the clock. When bets are submitted, the winning number is revealed, earnings are paid out,
+                        and the clock starts ticking again just 2.5 seconds later. Compete for a spot on the leaderboard
+                        by making quick decisions, taking bold risks, and hitting big payouts!
                     </p>
                     <div id="content-img-container">
                         <img src={srGameplay} className="project-img" />
@@ -93,8 +88,8 @@ export default function SpeedRoulette() {
                     />
                 </>
             }
-            readMoreSection={
-                <div className={readMore ? '' : 'hide-read-more-container'}>
+            main={
+                <>
                     <hr />
                     <h2>Planning</h2>
                     <p>
@@ -305,9 +300,8 @@ export default function SpeedRoulette() {
                         <img src={srDeploymentDay} />
                         <p>Very special thank you to Geoff and Kaitlyn for making my deployment day so special!</p>
                     </div>
-                </div>
+                </>
             }
-            readMoreButton={<ReadMoreBtn readMore={readMore} setReadMore={setReadMore} />}
         />
     );
 }

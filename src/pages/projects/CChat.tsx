@@ -1,28 +1,34 @@
-import { useState } from 'react';
-import ReadMoreBtn from '../../components/ReadMoreBtn.tsx';
-import Breadcrumbs from '../../components/Breadcrumb.tsx';
 import NavButton from '../../components/NavButton.tsx';
 import ComingSoon from '../../components/ComingSoon.tsx';
 import TechStack from '../../components/TechStack.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
+import TextContentPage from '../../components/TextContentPage.tsx';
 import cchatLogo from '../../assets/cchat-logo.svg';
 import cchatLogin from '../../assets/cchat-login.png';
 
-function CChat() {
-    const [readMore, setReadMore] = useState(false);
+export default function CChat() {
     return (
         <>
-            <div className="page">
-                <div className="text-content">
-                    <Breadcrumbs />
+            <TextContentPage
+                header={
                     <TextContentHeader
                         title="CChat"
                         siteImg={cchatLogo}
                         siteLink="https://cchat.fun/"
                         ghLink="https://github.com/JManion32/cchat"
                     />
-                    <ComingSoon />
-                    <div id="text-body">
+                }
+                navButton={
+                    <NavButton
+                        left="Speed Roulette"
+                        leftNav="/projects/speedroulette"
+                        right="Course Website"
+                        rightNav="/projects/psoft"
+                    />
+                }
+                preview={
+                    <>
+                        <ComingSoon />
                         <p>
                             A client–server chat application designed to support real-time messaging between multiple
                             concurrent users. The centralized server manages client connections and routes messages
@@ -58,25 +64,18 @@ function CChat() {
                                 },
                             ]}
                         />
-                        <div className={`${readMore ? '' : 'hide-read-more-container'}`}>
-                            <hr />
-                            <h2>Inception</h2>
-                            <p>CChat</p>
-                            <h2>Implementation</h2>
-                            <h2>Future Plans</h2>
-                        </div>
-                    </div>
-                    <ReadMoreBtn readMore={readMore} setReadMore={setReadMore} />
-                </div>
-                <NavButton
-                    left="Speed Roulette"
-                    leftNav="/projects/speedroulette"
-                    right="Course Website"
-                    rightNav="/projects/psoft"
-                />
-            </div>
+                    </>
+                }
+                main={
+                    <>
+                        <hr />
+                        <h2>Inception</h2>
+                        <p>CChat</p>
+                        <h2>Implementation</h2>
+                        <h2>Future Plans</h2>
+                    </>
+                }
+            />
         </>
     );
 }
-
-export default CChat;

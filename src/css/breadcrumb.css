@@ -3,6 +3,7 @@
     align-items: center;
     gap: 0.5rem;
     font-size: 0.95rem;
+    margin-bottom: 0.25rem;
 }
 
 .breadcrumb-item {

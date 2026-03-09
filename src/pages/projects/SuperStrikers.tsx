@@ -1,29 +1,35 @@
-import { useState } from 'react';
-import ReadMoreBtn from '../../components/ReadMoreBtn.tsx';
-import Breadcrumbs from '../../components/Breadcrumb.tsx';
 import NavButton from '../../components/NavButton.tsx';
 import ComingSoon from '../../components/ComingSoon.tsx';
 import TechStack from '../../components/TechStack.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
+import TextContentPage from '../../components/TextContentPage.tsx';
 
 import ssLogo from '../../assets/ss.svg';
 import ssLogin from '../../assets/ss-login.png';
 
-function SuperStrikers() {
-    const [readMore, setReadMore] = useState(false);
+export default function SuperStrikers() {
     return (
         <>
-            <div className="page">
-                <div className="text-content">
-                    <Breadcrumbs />
+            <TextContentPage
+                header={
                     <TextContentHeader
                         title="Super Strikers"
                         siteImg={ssLogo}
                         siteLink="https://superstrikers.io"
                         ghLink="https://github.com/JManion32/super-strikers"
                     />
-                    <ComingSoon />
-                    <div id="text-body">
+                }
+                navButton={
+                    <NavButton
+                        left="Course Website"
+                        leftNav="/projects/psoft"
+                        right="Cookie Coder"
+                        rightNav="/projects/cookiecoder"
+                    />
+                }
+                preview={
+                    <>
+                        <ComingSoon />
                         <p>More info coming soon!</p>
                         <div id="content-img-container">
                             <img src={ssLogin} className="project-img" />
@@ -61,24 +67,17 @@ function SuperStrikers() {
                                 },
                             ]}
                         />
-                        <div className={`${readMore ? '' : 'hide-read-more-container'}`}>
-                            <hr />
-                            <h2>About</h2>
-                            <h2>Current MVP</h2>
-                            <h2>Future</h2>
-                        </div>
-                    </div>
-                    <ReadMoreBtn readMore={readMore} setReadMore={setReadMore} />
-                </div>
-                <NavButton
-                    left="Course Website"
-                    leftNav="/projects/psoft"
-                    right="Cookie Coder"
-                    rightNav="/projects/cookiecoder"
-                />
-            </div>
+                    </>
+                }
+                main={
+                    <>
+                        <hr />
+                        <h2>About</h2>
+                        <h2>Current MVP</h2>
+                        <h2>Future</h2>
+                    </>
+                }
+            />
         </>
     );
 }
-
-export default SuperStrikers;

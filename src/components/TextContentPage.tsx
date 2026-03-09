@@ -1,32 +1,28 @@
+import { useState } from 'react';
+import ReadMoreBtn from './ReadMoreBtn.tsx';
+import Breadcrumbs from './Breadcrumb.tsx';
+
 type TextContentPageProps = {
-    breadcrumbs: React.ReactNode;
     header: React.ReactNode;
-    main: React.ReactNode;
-    readMoreSection?: React.ReactNode;
-    readMoreButton?: React.ReactNode;
+    preview: React.ReactNode;
+    main?: React.ReactNode;
     navButton: React.ReactNode;
 };
 
-function TextContentPage({
-    breadcrumbs,
-    header,
-    main,
-    readMoreSection,
-    readMoreButton,
-    navButton,
-}: TextContentPageProps) {
+function TextContentPage({ header, preview, main, navButton }: TextContentPageProps) {
+    const [readMore, setReadMore] = useState(false);
     return (
         <div className="page">
             <div className="text-content">
-                {breadcrumbs}
+                <Breadcrumbs />
                 {header}
 
                 <div id="text-body">
-                    {main}
-                    {readMoreSection}
+                    {preview}
+                    <div className={readMore ? '' : 'hide-read-more-container'}>{main}</div>
                 </div>
 
-                {readMoreButton}
+                {main && <ReadMoreBtn readMore={readMore} setReadMore={setReadMore} />}
             </div>
 
             {navButton}

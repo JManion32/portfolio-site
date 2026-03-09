@@ -14,10 +14,7 @@ function Streamer() {
                 navButton={<NavButton left="Hudson Valley" leftNav="/experience/hudsonvalley" />}
                 preview={
                     <>
-                        <p>
-                            From May 2021 to November 2023, I streamed weekly on Twitch.
-                            Here are my lifetime stats:
-                        </p>
+                        <p>From May 2021 to November 2023, I streamed weekly on Twitch. Here are my lifetime stats:</p>
                         <div id="content-img-container">
                             <img src={twitchStats} className="project-img" />
                         </div>

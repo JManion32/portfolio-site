@@ -20,7 +20,7 @@ function Home() {
                     <h1 className="name-header constant-glow fly-in-left">Justin Manion</h1>
                     <p className="name-desc fly-in-right">
                         Systems-minded computer science student with proven leadership experience and proficiency
-                        building applications that span front-end interfaces, backend logic, and relational databases.
+                        building data intensive, user-facing applications.
                         Seeking a challenging role that provides opportunities for both technical and professional
                         growth.
                     </p>

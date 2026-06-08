@@ -5,6 +5,10 @@ Website to showcase my projects and experience.
 ```
 git clone https://github.com/JManion32/portfolio-site.git
 ```
+or
+```
+git clone git@github.com:JManion32/speed-roulette.git
+```
 
 
 ## Tech Stack

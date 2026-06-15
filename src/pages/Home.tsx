@@ -21,9 +21,9 @@ function Home() {
                 <div className="home-container">
                     <h1 className="name-header constant-glow fly-in-left">Justin Manion</h1>
                     <p className="name-desc fly-in-right">
-                        Systems-minded computer science student with proven leadership experience and proficiency
-                        building data intensive, user-facing applications. Seeking a challenging role that provides
-                        opportunities for both technical and professional growth.
+                        Systems-minded software engineer with proven leadership experience and proficiency 
+                        working across the stack. Interested in infrastructure, maintainability, and 
+                        collaborative software development.
                     </p>
                     <div className="full-contact-button-container">
                         <button
@@ -51,7 +51,7 @@ function Home() {
                             LinkedIn
                         </button>
                     </div>
-                    <p className="last-updated-full fly-in-bottom-4">Site Last Updated: {buildInfo.lastUpdated}</p>
+                    <p className="last-updated-full fly-in-bottom-4">Last Updated: {buildInfo.lastUpdated}</p>
                     <div className="mobile-contact-button-container">
                         <button
                             className="contact-button mobile-home-contact-button fly-in-bottom-1"
@@ -75,7 +75,7 @@ function Home() {
                             <img src={linkedinLogo} className="linkedin-image" />
                         </button>
                     </div>
-                    <p className="last-updated-mobile fly-in-bottom-4">Site Last Updated: {buildInfo.lastUpdated}</p>
+                    <p className="last-updated-mobile fly-in-bottom-4">Last Updated: {buildInfo.lastUpdated}</p>
                 </div>
                 <button className="right-guide-button" onClick={() => navigate('/projects')}>
                     Projects <span className="right-arrow-spacer">{'>>'}</span>

@@ -47,6 +47,7 @@ function Projects() {
                             nav="/projects/psoft"
                             rank="4"
                         />
+                        {/*
                         <PreviewCard
                             img={ssLogo}
                             header="Super Strikers"
@@ -68,6 +69,7 @@ function Projects() {
                             nav="/projects/portfolio"
                             rank="7"
                         />
+                        */}
                     </>
                 }
             />

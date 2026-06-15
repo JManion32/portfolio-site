@@ -40,7 +40,21 @@ npm run lint-check
 npm run lint-fix
 ```
 
-## Docker
+## Using Docker locally
+#### Use a simple nginx config
+```
+server {
+    listen 80;
+    server_name _;
+
+    root /usr/share/nginx/html;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}
+```
 #### Start
 ```bash
 docker build -t portfolio-site:test .

@@ -6,9 +6,9 @@ import submittyDuck from '../assets/submitty_duck.png';
 import srPreview from '../assets/sr-preview.png';
 import chatLogo from '../assets/cchat-logo.svg';
 import psoftLogo from '../assets/psoft-logo.png';
-import ssLogo from '../assets/ss.svg';
-import cookieCoder from '../assets/cookie_coder_logo.svg';
-import jmLogo from '../assets/jm-dark-circle.png';
+//import ssLogo from '../assets/ss.svg';
+//import cookieCoder from '../assets/cookie_coder_logo.svg';
+//import jmLogo from '../assets/jm-dark-circle.png';
 
 function Projects() {
     return (

@@ -1,7 +1,7 @@
 .home-page {
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 74vh;
 }
 
 .home-container {
@@ -37,13 +37,22 @@
         0 0 5px rgb(255 255 255 / 20%);
 }
 
-.contact-button-container {
-    margin-top: var(--home-contact-margin-top);
+.full-contact-button-container,
+.mobile-contact-button-container {
+    margin: var(--home-contact-margin);
     display: flex;
     gap: var(--home-contact-button-gap);
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.full-contact-button-container {
+    display: var(--full-contact-button-visibility);
+}
+
+.mobile-contact-button-container {
+    display: var(--contact-button-icon-visibility);
 }
 
 .gmail-image {
@@ -57,6 +66,22 @@
 
 .yt-image {
     height: 1.25rem;
+}
+
+.last-updated-full,
+.last-updated-mobile {
+    font-style: italic;
+    color: var(--last-updated);
+    opacity: 0;
+    margin: 0;
+}
+
+.last-updated-full {
+    display: var(--full-contact-button-visibility);
+}
+
+.last-updated-mobile {
+    display: var(--contact-button-icon-visibility);
 }
 
 @keyframes fly-in-left {
@@ -117,4 +142,9 @@
 .fly-in-bottom-3 {
     animation: fly-in-up 0.3s ease-out forwards;
     animation-delay: 1.05s;
+}
+
+.fly-in-bottom-4 {
+    animation: fly-in-up 0.3s ease-out forwards;
+    animation-delay: 1.2s;
 }

@@ -14,6 +14,7 @@
     --contact-border: #9c9c9c;
     --toggle-thumb: #fff;
     --toggle-track: #ccc;
+    --last-updated: #222;
 
     /* Navbar */
 
@@ -50,6 +51,7 @@
     --toggle-thumb: #000;
     --toggle-track: #4d4d4d;
     --contact-border: #7a7a7a;
+    --last-updated: #888;
 
     /* Navbar */
     --hover-nav-text: #6069ca50;

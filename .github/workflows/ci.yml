@@ -121,6 +121,14 @@ jobs:
                   username: ${{ github.actor }}
                   password: ${{ secrets.GITHUB_TOKEN }}
 
+            - name: Generate build metadata
+              run: |
+                  cat > src/build-info.json << EOF
+                  {
+                    "lastUpdated": "$(git log -1 --format=%cd --date=format:'%m-%d-%Y')"
+                  }
+                  EOF
+
             - name: Build and push image
               uses: docker/build-push-action@v5
               with:

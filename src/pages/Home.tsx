@@ -7,6 +7,8 @@ import githubDark from '../assets/github-mark-white.png';
 import gmailLogo from '../assets/gmail-logo.png';
 import linkedinLogo from '../assets/linkedin_logo.png';
 
+import buildInfo from '../build-info.json';
+
 function Home() {
     const navigate = useNavigate();
     useEffect(() => {
@@ -23,7 +25,7 @@ function Home() {
                         building data intensive, user-facing applications. Seeking a challenging role that provides
                         opportunities for both technical and professional growth.
                     </p>
-                    <div className="contact-button-container">
+                    <div className="full-contact-button-container">
                         <button
                             className="contact-button home-contact-button fly-in-bottom-1"
                             onClick={() => window.open('https://github.com/JManion32', '_blank')}
@@ -48,17 +50,9 @@ function Home() {
                             <img src={linkedinLogo} className="linkedin-image" />
                             LinkedIn
                         </button>
-                        {/*
-                <button 
-                    className="contact-button home-contact-button"
-                    onClick={() => window.open('https://www.youtube.com/@JManCodes', '_blank')}
-                >
-                    <img src="../assets/youtube_logo.png" className="yt-image"/>
-                    YouTube
-                </button>
-                */}
                     </div>
-                    <div className="contact-button-container">
+                    <p className="last-updated-full fly-in-bottom-4">Site Last Updated: {buildInfo.lastUpdated}</p>
+                    <div className="mobile-contact-button-container">
                         <button
                             className="contact-button mobile-home-contact-button fly-in-bottom-1"
                             onClick={() => window.open('https://github.com/JManion32', '_blank')}
@@ -80,15 +74,8 @@ function Home() {
                         >
                             <img src={linkedinLogo} className="linkedin-image" />
                         </button>
-                        {/*
-                    <button 
-                        className="contact-button mobile-home-contact-button"
-                        onClick={() => window.open('https://www.youtube.com/@JManCodes', '_blank')}
-                    >
-                        <img src="../assets/youtube_logo.png" className="yt-image"/>
-                    </button>
-                    */}
                     </div>
+                    <p className="last-updated-mobile fly-in-bottom-4">Site Last Updated: {buildInfo.lastUpdated}</p>
                 </div>
                 <button className="right-guide-button" onClick={() => navigate('/projects')}>
                     Projects <span className="right-arrow-spacer">{'>>'}</span>

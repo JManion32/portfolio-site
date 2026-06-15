@@ -30,7 +30,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --home-desc-width: 80%;
         --full-contact-button-visibility: none;
         --contact-button-icon-visibility: flex;
-        --home-contact-margin-top: 1rem;
+        --home-contact-margin: 2rem 0 4rem 0;
         --home-contact-button-gap: 3rem;
 
         /* Main Project / Experience */
@@ -72,7 +72,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --home-desc-width: 75%;
         --full-contact-button-visibility: none;
         --contact-button-icon-visibility: flex;
-        --home-contact-margin-top: 1.5rem;
+        --home-contact-margin: 2rem 0 4rem 0;
         --home-contact-button-gap: 3.75rem;
 
         /* Main Project / Experience */
@@ -112,7 +112,7 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --home-desc-width: 60%;
         --full-contact-button-visibility: flex;
         --contact-button-icon-visibility: none;
-        --home-contact-margin-top: 3rem;
+        --home-contact-margin: 2rem 0 3.5rem 0;
 
         /* Main Project / Experience */
         --main-page-header-size: 3rem;

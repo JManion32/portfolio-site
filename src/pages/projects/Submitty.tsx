@@ -1,4 +1,4 @@
-import TechStack from '../../components/TechStack.tsx';
+//import TechStack from '../../components/TechStack.tsx';
 import NavButton from '../../components/NavButton.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
 import TextContentPage from '../../components/TextContentPage.tsx';
@@ -12,6 +12,9 @@ import courseNotisAfter from '../../assets/course-notis-after.png';
 import markSeenPopup from '../../assets/mark-all-seen-popup.png';
 import additionalUnseenCount from '../../assets/additional-unseen-count.png';
 import configEditor from '../../assets/completed-gradeable-config-editor.png';
+import orgToggle from '../../assets/submitty-org-mode-toggle.png';
+import withdrawnToggle from '../../assets/withdrawn-toggle.png';
+import submittyOverview from '../../assets/high-level-submitty.png';
 
 export default function Submitty() {
     return (
@@ -28,69 +31,35 @@ export default function Submitty() {
             preview={
                 <>
                     <p>
-                        Created in 2014, Submitty has evolved from a simple homework submission server, to the learning
-                        management system used by all computer science courses at Rensselaer Polytechnic Institute.
+                        Created in 2014, Submitty is Rensselaer Polytechnic Institute's open source, comprehensive course management system.
                     </p>
                     <p>
-                        I began my journey with Submitty in January of 2025, taking it as a course for the spring
-                        semester. I didn't have much experience with large projects, GitHub, or any of the technologies
-                        used, and spent much of the semester becoming acquainted.
+                        I began my journey with Submitty in January of 2025, where I spent the semester learning the technologies, 
+                        conducting functionality reviews, and making minor UI changes. At the end, I was excited to learn that 
+                        I would be joining Summer 2025's full-time development team where I would have the opportunity to make 
+                        more impactful contributions.
                     </p>
                     <p>
-                        At the end of the spring semester, I was excited to learn that I had the opportunity to join the
-                        full-time development team for Summer 2025. This is where I found my footing with the workflow
-                        and codebase, and started to make impactful contributions.
+                        I continued with Submitty through Fall 2025 and served as the team lead in Spring 2026. This
+                        provided the opportunity for me to develop my technical leadership skills through onboarding, 
+                        code reviews, and design discussions. For Summer 2026, I am mentoring a Google Summer of Code student 
+                        tasked with migrating legacy Twig features to Vue.
                     </p>
-                    <p>
-                        I continued with Submitty in the Fall 2025, and Spring 2026 semesters as the team lead. This
-                        gave me the opportunity to onboard new contributors, lead design discussions, and develop my
-                        technical leadership skills.
-                    </p>
-                    <hr />
-                    <h2>Tech Stack</h2>
-                    <TechStack
-                        sections={[
-                            {
-                                title: 'Front-end',
-                                items: [
-                                    { name: 'Vite', className: 'vite' },
-                                    { name: 'Twig', className: 'twig' },
-                                    { name: 'Vue', className: 'vue' },
-                                    { name: 'JavaScript', className: 'javascript' },
-                                    { name: 'TypeScript', className: 'ts' },
-                                ],
-                            },
-                            {
-                                title: 'Backend',
-                                items: [
-                                    { name: 'PHP', className: 'php' },
-                                    { name: 'Python', className: 'python' },
-                                    { name: 'PostgreSQL', className: 'postgres' },
-                                ],
-                            },
-                            {
-                                title: 'DevOps',
-                                items: [
-                                    { name: 'Docker', className: 'docker' },
-                                    { name: 'ESLint', className: 'eslint' },
-                                    { name: 'Stylelint', className: 'stylelint' },
-                                    { name: 'Prettier', className: 'prettier' },
-                                    { name: 'Cypress', className: 'cypress' },
-                                ],
-                            },
-                        ]}
-                    />
+                    <div id="content-img-container">
+                        <img src={submittyOverview} />
+                        <p>A high-level overview of the Submitty system.</p>
+                    </div>
                 </>
             }
             main={
                 <>
                     <hr />
-                    <p>Below are the key contributions I have made to Submitty.</p>
                     <h2>Notifications UI Redesign</h2>
                     <p>
-                        Submitty previously only displayed notifications on a per-course basis, meaning users had to
-                        visit each individual course to view them. As we added more advanced notification features, this
-                        limitation became increasingly cumbersome, especially for users in multiple courses.
+                        <b>Problem:</b> Notifications are stored within individual course databases, 
+                        requiring users to navigate between courses to view them. As additional 
+                        notification features were introduced, this workflow became increasingly 
+                        cumbersome and fragmented.
                     </p>
                     <h3>
                         Vue Notifications on the Home Page (
@@ -100,7 +69,7 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        Since this feature was going to be on the home page of the site, thoughtful UI/UX design was
+                        Since this feature was going to be on the home page of the site, thoughtful design was
                         essential. As a group, we started with whiteboard sketches to explore layout ideas, then moved
                         to Figma to create a polished mockup for feedback and iteration. Throughout development, I
                         regularly demoed my progress to the group to gather input and continuously iterate on design and
@@ -295,7 +264,8 @@ export default function Submitty() {
                         Download Config as ZIP (
                         <a href="https://github.com/Submitty/Submitty/pull/11973" target="_blank">
                             PR#11973
-                        </a>
+                        </a>so proud of all that we have accomplished and excited to see
+                        what we create next!
                         )
                     </h3>
                     <p>
@@ -344,16 +314,10 @@ export default function Submitty() {
                     <div id="content-img-container">
                         <img src={configEditor} />
                     </div>
-                    <p>
-                        With this feature completed, I now aim to modularize the code. This will allow it to be used in
-                        other areas of the site where config files are uploaded such as bulk upload redactions, and
-                        grade configurations. This is a necessary quality of life enhancement that will improve
-                        instructor productivity and experience.
-                    </p>
                     <hr />
-                    <h2>Dark Mode Toggle for the Documentation Site</h2>
+                    <h2>Additional Work</h2>
                     <h3>
-                        Initial PR (
+                        Dark Mode for Documentation Site (
                         <a href="https://github.com/Submitty/submitty.github.io/pull/691" target="_blank">
                             PR#691
                         </a>
@@ -362,52 +326,13 @@ export default function Submitty() {
                     <p>
                         To improve accessibility and match user expectations, I added a dark mode toggle to the Submitty
                         documentation site. The site is built with Jekyll and uses auto-generated styles, so integrating
-                        theme switching required working around those constraints.
-                        <ul>
-                            <li>
-                                <b>SCSS Theming</b> – Introduced a dedicated <code>_colors.scss</code> file to define
-                                color variables for both light and dark themes. These variables are applied across
-                                components to ensure consistency and maintainability.
-                            </li>
-                            <li>
-                                <b>Style Overrides</b> - Since the site uses a mix of default and third-party CSS, I
-                                selectively overrode conflicting styles via <code>dark_mode.css</code> to support dark
-                                mode without breaking layout or readability.
-                            </li>
-                            <li>
-                                <b>JavaScript Toggle</b> - Implemented a lightweight JS toggle that saves user
-                                preference and dynamically applies the appropriate theme class. I actually reused toggle
-                                for this portfolio site!
-                            </li>
-                            <li>
-                                <b>Responsive Design</b> - Tested and refined the toggle to ensure it works seamlessly
-                                across devices, including mobile. All elements have a 0.2s transition time for a smooth,
-                                polished theme change.
-                            </li>
-                        </ul>
-                        <b>Fun Fact:</b> I ended up using the same design for the dark mode toggle on this site!
+                        theme switching required working around those constraints. <b>Fun Fact:</b> I ended up using the 
+                        same design for the dark mode toggle on this site! See the toggle in action <a href="https://submitty.org/index/overview"
+                        target="_blank"> here</a>.
                     </p>
-                    <hr />
-                    <h2>Additional Work</h2>
-                    <h3>
-                        Team Grade Override (
-                        <a href="https://github.com/Submitty/Submitty/pull/10677" target="_blank">
-                            PR#10677
-                        </a>
-                        )
-                    </h3>
-                    <p>
-                        Initially created by{' '}
-                        <a
-                            href="https://submitty.org/developer/rensselaer_center_for_open_source/2024_Michael_Papadopoulos"
-                            target="_blank"
-                        >
-                            Michael Papadopoulos
-                        </a>
-                        . When overriding a grade in a team gradeable, instructors would have to process each student
-                        individually. Now, a popup listing the student’s teammates displays, notifying the instructor
-                        that they have teammates, and asking if they want to override them as well.
-                    </p>
+                    <div id="content-img-container">
+                        <img src={orgToggle} />
+                    </div>
                     <h3>
                         Filter Withdrawn Students (
                         <a href="https://github.com/Submitty/submitty.github.io/pull/11792" target="_blank">
@@ -416,74 +341,20 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        Initially created by GitHub user <a href="https://github.com/yanliw123">yanliw123</a>. To
-                        streamline grading, this PR adds a toggle that hides withdrawn students from the grading page,
-                        so TAs can focus on active students only.
+                        This PR was created and abandoned by another contributor. It adds a toggle that hides withdrawn 
+                        students from the grading page, so TAs can focus on active students only.
                     </p>
-                    <h3>
-                        Add Audit / Withdrawn to Sample Data (
-                        <a href="https://github.com/Submitty/submitty.github.io/pull/11882" target="_blank">
-                            PR#11882
-                        </a>
-                        )
-                    </h3>
-                    <p>
-                        [IN PROGRESS] Added two students with registration_type set to <code>withdrawn</code> and two
-                        with <code>audit</code> to the existing sample data, which uses a seeded random number
-                        generator. Modifying this data shifted all related values, requiring updates to 20+ Cypress test
-                        files to ensure the feature could be integrated.
-                    </p>
-                    <h3>
-                        TA Grading Bugfixes (
-                        <a href="https://github.com/Submitty/Submitty/pull/12224" target="_blank">
-                            PR#12224
-                        </a>{' '}
-                        and{' '}
-                        <a href="https://github.com/Submitty/Submitty/pull/12227" target="_blank">
-                            PR#12227
-                        </a>
-                        )
-                    </h3>
-                    <p>
-                        In Summer 2025, there was rapid progress on the conversion of the TA Grading interface from Twig
-                        to Vue. With so much legacy code being refactored, bugs were inevitable. Both of these PRs aim
-                        to address bugs that were affecting the workflow of graders.
-                    </p>
+                    <div id="content-img-container">
+                        <img src={withdrawnToggle} />
+                    </div>
                     <hr />
-                    <h2>Future Plans / Work in Progress</h2>
-                    <p>
-                        I am in my final semester of RPI, this time as the team leader of Submitty. Here is what I hope
-                        to work on:
-                        <ul>
-                            <li>
-                                <b>Become a dependable leader</b> – I’m eager to create a collaborative environment
-                                where new contributors feel welcome. I intend to lead by example, and stress that I am
-                                always available to help.
-                            </li>
-                            <li>
-                                <b>Improve Operations</b> – Submitty has a tried and true system, but there is room for
-                                improvement. As the project lead, I want Submitty to operate like a well-oiled machine.
-                                I will achieve this by running a <i>quick</i> standup each meeting, redeveloping our
-                                onboarding process, and leaving a review on most pull requests that come in.
-                            </li>
-                            <li>
-                                <b>Modularize the Configuration Editor</b> – A vital tool for instructors; improving it
-                                means a better experience for everyone especially future cloud users since they won't
-                                have SSH access.
-                            </li>
-                            <li>
-                                <b>Bugfixes</b> – Yeah, their boring, but it's always fun to solve problems in areas of
-                                the site I'm not familiar with. My emphasis will be on issues labelled{' '}
-                                <code>URGENT/PRIORITY</code>, as we have a growing backlog of them.
-                            </li>
-                        </ul>
-                    </p>
+                    <h2>Team Lead</h2>
+                        
                     <hr />
                     <h2>Reflection</h2>
                     <p>
-                        Being a part of Submitty has been an invaluable experience in my journey to becoming a
-                        real-world software developer. I would like to thank Professor Cutler, my teammates, mentors,
-                        and RPI for making this happen. I’m so proud of all that we have accomplished and excited to see
+                        Submitty has shaped me into the software engineer I am today. I would like to thank Professor Cutler, 
+                        my teammates, mentors, and RPI for this experience. I am so proud of all that we have accomplished and excited to see
                         what we create next!
                     </p>
                 </>

@@ -61,9 +61,9 @@ export default function Rensselaer() {
                         <h2>Fall 2024</h2>
                         <p>
                             Transferring from community college to RPI was a stark adjustment. My first semester was
-                            exciting, but stressful. I took 4 courses totaling 16 credits. They were: Physics I,
-                            Multivariable Calculus, Writing for Technical Communication, and most importantly:
+                            exciting, but stressful.
                         </p>
+                        <p><b>Courses:</b> Physics I, Multivariable Calculus, Writing for Technical Communication, and most importantly:</p>
                         <h3>Data Structures</h3>
                         <p>
                             Featuring 10 homework assignments, weekly labs, and 4 exams, it was far more involved than
@@ -72,15 +72,14 @@ export default function Rensselaer() {
                         </p>
                         <p>
                             Though it was uncomfortable, pressure makes diamonds and I came out as a 10x better
-                            programmer than I was going in. During the subsequent winter break, I examined a ~3,000 line
+                            than I was going in. During the subsequent winter break, I examined a ~3,000 line
                             project I created the year prior, and was able to refactor it down to ~1,000 lines without
                             changing any functionality!
                         </p>
                         <hr />
                         <h2>Spring 2025</h2>
                         <p>
-                            With my “Welcome to RPI” semester behind me, I was ready for the spring. Once again, I took
-                            4 courses totaling 16 credits: Linear Algebra, Introduction to Algorithms, Principles of
+                            <b>Courses:</b> Linear Algebra, Introduction to Algorithms, Principles of
                             Software (whose <a onClick={() => navigateTop('/projects/psoft')}>website</a> I would later
                             revamp), and Rensselaer Center for Open Source, where I joined the{' '}
                             <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a> project.
@@ -94,35 +93,39 @@ export default function Rensselaer() {
                         <hr />
                         <h2>Fall 2025</h2>
                         <p>
-                            This semester was, as usual, 4 courses totalling 16 credits. The courses were: Database
+                            <b>Courses:</b> Database
                             Systems, Programming Languages, Software Analysis and Debugging, and{' '}
-                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a> (RCOS). So far, good!
+                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a> (RCOS).
                         </p>
                         <h3>Key Course: Database Systems</h3>
                         <p>
-                            One of the best courses I have ever taken. Before this, I was knowledgeable with databases,
-                            having worked with them on both{' '}
-                            <a onClick={() => navigateTop('/projects/speedroulette')}>Speed Roulette</a> and{' '}
-                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>. Now, I am proficient. The
+                            One of the best courses I have ever taken. The
                             material included relational algebra, normal forms, ER diagrams, SQL, PGSQL, optimization,
                             and more. I received an A in the course, a testament to my newfound proficiency with the
                             material. A special thank you to Professor{' '}
                             <a href="https://en.wikipedia.org/wiki/Sibel_Adal%C4%B1" target="_blank">
                                 Sibel Adali
                             </a>{' '}
-                            for her engaging lectures, and organized course material.
+                            for her engaging lectures and organized approach.
                         </p>
                         <hr />
                         <h2>Spring 2026</h2>
                         <p>
-                            My final semester of college. I am taking Operating Systems, Software Design and
+                            My final semester of college.
+                        </p>
+                        <p>
+                            <b>Courses:</b> Operating Systems, Software Design and
                             Documentation, Distributed Systems, and once again{' '}
-                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>. It will be a busy
-                            semester, but with 7 semesters of college behind me, I am prepared.
+                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>.
+                        </p>
+                        <h3>Key Course: Operating Systems</h3>
+                        <p>
+                            This course took a deep dive into C programming, Linux, and the building 
+                            blocks of operating systems. I even learned VIM!
                         </p>
                         <hr />
                         <h2>Reflection</h2>
-                        <p>RPI is awesome.</p>
+                        <p>RPI was an incredible experience that molded me into who I am today.</p>
                         <div id="rpi-collage-container">
                             <img src={rpi1} className="rpi-collage-img" />
                             <img src={rpi2} className="rpi-collage-img" />

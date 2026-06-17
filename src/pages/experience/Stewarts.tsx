@@ -34,8 +34,8 @@ export default function Stewarts() {
                     <>
                         {' '}
                         <p>
-                            During Summer 2024, I was an Information Technology Intern for Stewart's Shops. This role
-                            was hardware-focused, with emphasis on maintenance and troubleshooting.
+                            During Summer 2024, I joined Stewart's Shops as an Information Technology Intern. This role
+                            was hardware-focused, with emphasis on communication, collaboration, and troubleshooting.
                         </p>
                         <hr />
                         <h2>Overview</h2>
@@ -58,18 +58,16 @@ export default function Stewarts() {
                         <hr />
                         <h2>Onsite Responsibilities</h2>
                         <p>
-                            Since I was a temporary employee, I spent most days on the road. This gave me the unique
+                            I spent most days on the road. This gave me the unique
                             opportunity to enjoy the beauty of the Northeast in the summer. Some days were to Lake
-                            Placid, others to Vermont, Syracuse, Cooperstown, even my home town, I was all over the
-                            place. Beyond location, each shop had its own personality, making every trip a memorable
-                            experience.
+                            Placid, others to Vermont, Syracuse, Cooperstown, and everywhere in between.
                         </p>
                         <TextImage img={tupperLunch} desc="Enjoying lunch in the middle of the Adirondacks."/>
                         <h3>Preventative Maintenance</h3>
                         <p>
-                            One of my key responsibilities was preventative maintenance (also called PMs). This involved
-                            addressing issues with networking equipment before they occurred. In my time there, I
-                            completed 40 of these PMs, or about 10% of all shops.
+                            One of my key responsibilities was preventative maintenance (also called PMs). The goal was
+                            to address issues with networking equipment before they occurred. Throughout the summer, I
+                            completed 40 of these, which is about 10% of all shops.
                         </p>
                         <p>
                             For each PM, there was a checklist of tasks to complete. This list included cleaning and
@@ -82,20 +80,16 @@ export default function Stewarts() {
                         </p>
                         <h3>New System Implementation</h3>
                         <p>
-                            Throughout the summer, the tech center was in the process of preparing shops for a new
+                            During the summer, the tech center was in the process of preparing shops for a new
                             register POS system. This implementation would require the addition of two new switches to
                             the shop's networking cage.
                         </p>
                         <p>
                             To prepare for this, there was an ongoing project where 2-3 technicians would go to shops,
                             and do a "cleanup". This was essentially a more thorough PM, with emphasis on the networking
-                            cage. This cage was the brain of the shop's infrastructure. Unplugging the wrong cable could
+                            cage. This cage is the brain of the shop's infrastructure. Unplugging the wrong cable could
                             lead to a sales-disrupting outage. Communication with shop personnel was essential to keep
                             both teams on the same page.
-                        </p>
-                        <p>
-                            Through this project, we prepared many shops for the new system, each time leaving the
-                            networking infrastructure better than when we entered.
                         </p>
                         <hr />
                         <h2>Office Days</h2>
@@ -121,7 +115,7 @@ export default function Stewarts() {
                             With over 400 shops each equipped with a handful of these backups, they piled up <i>fast</i>{' '}
                             in our office. For each one, I cleaned it,
                             <b>thoroughly</b> tested the receptacles, replaced the battery, and labelled it with the
-                            date. I must've processed over 100 during the summer, all of which are out on the field now.
+                            date. I must've processed over 100 during the summer, all of which are in the field now.
                             Its cool to think that when I walk into a Stewart's Shop, there's a decent chance its being
                             supported by one of my battery backups.
                         </p>
@@ -137,7 +131,7 @@ export default function Stewarts() {
                         <h3>Misc Work</h3>
                         <p>
                             Sometimes, there were too many technicians out of the office, no returns to process, and no
-                            battery backups to fix up. This was the real challenge of my productivity. On these days, I
+                            battery backups to fix. This was the real challenge of my productivity. On these days, I
                             crimped new cables, sorted through boxes of miscellaneous equipment, and on one occasion,
                             attempted to open digital locks that we lost the combinations to (I was unsuccessful).
                         </p>
@@ -148,7 +142,7 @@ export default function Stewarts() {
                             lessons about collaboration and enterprise IT. I spent the summer traveling across the
                             Northeast in tech vans, troubleshooting hardware in fast-paced environments, and building
                             relationships with people who made the experience memorable. Stewart's Shops is a fantastic
-                            company, and I am beyond grateful to have spent my summer there.
+                            company, and I am beyond grateful to have spent a summer there.
                         </p>
                     </>
                 }

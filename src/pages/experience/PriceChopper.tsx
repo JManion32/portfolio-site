@@ -23,7 +23,7 @@ export default function PriceChopper() {
                     <>
                         <p>
                             This was my first job, held from June 2020 to October 2024. Along the way, I advanced from
-                            high school to college, and from novice cashier to dependable leader.
+                            high school to college, and from novice cashier to team leader.
                         </p>
                         <TextImage img={pcStore} desc="I spent thousands of hours in this store."/>
                     </>
@@ -38,7 +38,7 @@ export default function PriceChopper() {
                         </p>
                         <h3>Takeaway: Appreciate the experience.</h3>
                         <p>
-                            Yeah, it was repetitive, but it was a job, not a source of entertainment. If I wanted to
+                            Yeah, it was repetitive, but it was a part time job, not a source of entertainment. If I wanted to
                             enjoy it, I had to create that experience myself. Everyday, I put my best effort forward to
                             be personable, and find things to be happy about. At some point, I no longer had to make an
                             effort, I just enjoyed being there. This takeaway extends far beyond my time at Price
@@ -60,8 +60,8 @@ export default function PriceChopper() {
                         </p>
                         <h3>Takeaway: Level heads prevail.</h3>
                         <p>
-                            I specifically remember a summer shift early in my time as a supervisor when we were
-                            short-staffed across the board. We were short on cashiers, and to make matters worse,
+                            I specifically remember a busy summer shift early in my time as a supervisor. 
+                            We were short on cashiers, and to make matters worse,
                             maintenance called out, leaving me without support inside or outside the store. For several
                             hours, I rotated between pushing carts, running a register, covering breaks, and leading the
                             team. By the end, I was exhausted. To me, it was such a big deal. To my replacement, it was
@@ -75,6 +75,15 @@ export default function PriceChopper() {
                             complaining or panic will make the situation any better. As the one in charge, it was my
                             responsibility to do my very best with what I had, and that's what leadership means to me.
                         </p>
+                        <h3>Takeaway: Don't avoid the tough conversations.</h3>
+                        <p>
+                            If you want the best from your team, you have to provide the uncomfortable feedback. Someone 
+                            might go on their phone, or take a long break. It may be fine every now and then, but when you 
+                            don't attempt to correct it when it becomes a pattern, it becomes the new normal. It reminds me 
+                            of the Broken Window Theory from <i>The Pragmatic Programmer</i>. A car with no broken windows 
+                            won't be touched, but a car with a broken window will be susceptible to even more damage since it 
+                            is believed that the owner doesn't care.
+                        </p>
                         <hr />
                         <h2>Maintenance</h2>
                         <p>
@@ -87,7 +96,7 @@ export default function PriceChopper() {
                             The tasks were straightforward — emptying garbages, cleaning bathrooms, keeping things in
                             order. I could have gone through the motions, done an average job, and left half-full bins
                             or “clean enough” bathrooms for the morning crew. Instead, I found real satisfaction in
-                            giving that extra effort, not leaving until the job was finished so I didn't leave someone
+                            giving that extra effort, and not leaving until the job was finished so I didn't leave someone
                             else hanging. This mindset has carried over to development work too. Sure, I might spend a
                             whole day perfecting a site’s mobile scaling, but in the end, it’s always worth it.
                         </p>

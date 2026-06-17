@@ -4,7 +4,7 @@ import TextContentHeader from '../../components/TextContentHeader.tsx';
 import useNavigateTop from '../../hooks/useNavigateTop.ts';
 import TextImage from '../../components/TextImage.tsx';
 
-import hudsonValleyAerial from '../../assets/hudson-valley-aerial.jpg';
+import hudsonValleyAerial from '../../assets/hvcc/hudson-valley-aerial.jpg';
 
 function HudsonValley() {
     const navigateTop = useNavigateTop();

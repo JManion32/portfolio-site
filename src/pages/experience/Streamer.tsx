@@ -3,9 +3,9 @@ import NavButton from '../../components/NavButton';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
 import TextImage from '../../components/TextImage.tsx';
 
-import twitchStats from '../../assets/twitch-stats.png';
-import charityStream from '../../assets/charity-stream.png';
-import coworkerPC from '../../assets/coworker-pc.jpeg';
+import twitchStats from '../../assets/streamer/twitch-stats.png';
+import charityStream from '../../assets/streamer/charity-stream.png';
+import coworkerPC from '../../assets/streamer/coworker-pc.jpeg';
 
 function Streamer() {
     return (

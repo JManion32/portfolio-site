@@ -2,12 +2,12 @@ import PreviewPage from '../components/PreviewPage.tsx';
 import PreviewCard from '../components/PreviewCard';
 import NavButton from '../components/NavButton';
 
-import rpiSeal from '../assets/rpi-seal.png';
-import stewartsLogo from '../assets/stewarts-logo.png';
-import lxaLogo from '../assets/lxa-logo.webp';
-import priceChopper from '../assets/price-chopper.png';
-import hvccGreen from '../assets/hvcc-green.png';
-import twitchLogo from '../assets/twitch-logo.png';
+import rpiSeal from '../assets/rpi/rpi-seal.png';
+import stewartsLogo from '../assets/stewarts/stewarts-logo.png';
+import lxaLogo from '../assets/lxa/lxa-logo.webp';
+import priceChopper from '../assets/pc/price-chopper.png';
+import hvccGreen from '../assets/hvcc/hvcc-green.png';
+import twitchLogo from '../assets/streamer/twitch-logo.png';
 
 function Experience() {
     return (

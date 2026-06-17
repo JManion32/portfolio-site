@@ -3,12 +3,12 @@ import NavButton from '../../components/NavButton.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
 import TextImage from '../../components/TextImage.tsx';
 
-import oldFoodDrive from '../../assets/old-lxa-food-drive.png';
-import newFoodDrive from '../../assets/new-lxa-food-drive.png';
-import smashingPumpkin from '../../assets/smashing-pumpkin.png';
-import patioPumpkin from '../../assets/patio-pumpkin.png';
-import lxaLogo from '../../assets/lxa-logo.webp';
-import lxaGroupPhoto from '../../assets/lxa-group-photo.jpg';
+import oldFoodDrive from '../../assets/lxa/old-lxa-food-drive.png';
+import newFoodDrive from '../../assets/lxa/new-lxa-food-drive.png';
+import smashingPumpkin from '../../assets/lxa/smashing-pumpkin.png';
+import patioPumpkin from '../../assets/lxa/patio-pumpkin.png';
+import lxaLogo from '../../assets/lxa/lxa-logo.webp';
+import lxaGroupPhoto from '../../assets/lxa/lxa-group-photo.jpg';
 
 export default function LambdaChi() {
     return (

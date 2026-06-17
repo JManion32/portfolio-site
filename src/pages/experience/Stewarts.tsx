@@ -3,12 +3,12 @@ import NavButton from '../../components/NavButton.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
 import TextImage from '../../components/TextImage.tsx';
 
-import stewartsFleet from '../../assets/stewarts-fleet.jpeg';
-import stewartsLogo from '../../assets/stewarts-logo.png';
-import stewartsStation from '../../assets/stewarts-gas-station.webp';
-import stewartsPlant from '../../assets/stewarts-plant.png';
-import apcBackup from '../../assets/apc-backup.avif';
-import tupperLunch from '../../assets/tupper-lake-lunch.png';
+import stewartsFleet from '../../assets/stewarts/stewarts-fleet.jpeg';
+import stewartsLogo from '../../assets/stewarts/stewarts-logo.png';
+import stewartsStation from '../../assets/stewarts/stewarts-gas-station.webp';
+import stewartsPlant from '../../assets/stewarts/stewarts-plant.png';
+import apcBackup from '../../assets/stewarts/apc-backup.avif';
+import tupperLunch from '../../assets/stewarts/tupper-lake-lunch.png';
 
 export default function Stewarts() {
     return (

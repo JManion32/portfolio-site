@@ -4,18 +4,17 @@ import TextContentHeader from '../../components/TextContentHeader.tsx';
 import TextContentPage from '../../components/TextContentPage.tsx';
 import TextImage from '../../components/TextImage.tsx';
 
-import submittyDuck from '../../assets/submitty_duck.png';
-
-import homeNotis from '../../assets/submitty-noti-ui.png';
-import individualNotification from '../../assets/individual-notification-component.png';
-import courseNotisBefore from '../../assets/course-notis-before.png';
-import courseNotisAfter from '../../assets/course-notis-after.png';
-import markSeenPopup from '../../assets/mark-all-seen-popup.png';
-import additionalUnseenCount from '../../assets/additional-unseen-count.png';
-import configEditor from '../../assets/completed-gradeable-config-editor.png';
-import orgToggle from '../../assets/submitty-org-mode-toggle.png';
-import withdrawnToggle from '../../assets/withdrawn-toggle.png';
-import submittyOverview from '../../assets/high-level-submitty.png';
+import submittyDuck from '../../assets/submitty/submitty_duck.png';
+import homeNotis from '../../assets/submitty/submitty-noti-ui.png';
+import individualNotification from '../../assets/submitty/individual-notification-component.png';
+import courseNotisBefore from '../../assets/submitty/course-notis-before.png';
+import courseNotisAfter from '../../assets/submitty/course-notis-after.png';
+import markSeenPopup from '../../assets/submitty/mark-all-seen-popup.png';
+import additionalUnseenCount from '../../assets/submitty/additional-unseen-count.png';
+import configEditor from '../../assets/submitty/completed-gradeable-config-editor.png';
+import orgToggle from '../../assets/submitty/submitty-org-mode-toggle.png';
+import withdrawnToggle from '../../assets/submitty/withdrawn-toggle.png';
+import submittyOverview from '../../assets/submitty/high-level-submitty.png';
 
 export default function Submitty() {
     return (

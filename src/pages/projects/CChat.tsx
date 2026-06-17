@@ -5,8 +5,8 @@ import TextContentHeader from '../../components/TextContentHeader.tsx';
 import TextContentPage from '../../components/TextContentPage.tsx';
 import TextImage from '../../components/TextImage.tsx';
 
-import cchatLogo from '../../assets/cchat-logo.svg';
-import cchatLogin from '../../assets/cchat-login.png';
+import cchatLogo from '../../assets/cchat/cchat-logo.svg';
+import cchatLogin from '../../assets/cchat/cchat-login.png';
 
 export default function CChat() {
     return (

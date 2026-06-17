@@ -4,13 +4,13 @@ import TextContentHeader from '../../components/TextContentHeader.tsx';
 import TextContentPage from '../../components/TextContentPage.tsx';
 import TextImage from '../../components/TextImage.tsx';
 
-import ogPsoftIndex from '../../assets/og-psoft-index.png';
-import ogPsoftHW from '../../assets/og-psoft-hw-page-light.png';
-import newPsoftHW from '../../assets/new-psoft-hw-page-light.png';
-import mobilePsoft from '../../assets/mobile-psoft-scaling.png';
-import newPsoftIndex from '../../assets/new-psoft-index.png';
-import newPsoftIndex2 from '../../assets/new-psoft-index2.png';
-import newPsoftIndexDM from '../../assets/new-psoft-index-dm.png';
+import ogPsoftIndex from '../../assets/psoft/og-psoft-index.png';
+import ogPsoftHW from '../../assets/psoft/og-psoft-hw-page-light.png';
+import newPsoftHW from '../../assets/psoft/new-psoft-hw-page-light.png';
+import mobilePsoft from '../../assets/psoft/mobile-psoft-scaling.png';
+import newPsoftIndex from '../../assets/psoft/new-psoft-index.png';
+import newPsoftIndex2 from '../../assets/psoft/new-psoft-index2.png';
+import newPsoftIndexDM from '../../assets/psoft/new-psoft-index-dm.png';
 
 export default function PSoft() {
     const navigateTop = useNavigateTop();

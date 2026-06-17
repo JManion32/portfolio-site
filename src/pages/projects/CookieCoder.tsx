@@ -3,14 +3,14 @@ import TechStack from '../../components/TechStack.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
 import TextContentPage from '../../components/TextContentPage.tsx';
 
-import quizletLogo from '../../assets/quizlet-logo.webp';
-import makeItRain from '../../assets/make-it-rain.jpg';
-import gimkit from '../../assets/gimkit-logo.jpg';
-import duolingo from '../../assets/duolingo-logo.webp';
-import sololearn from '../../assets/sololearn-logo.png';
-import submittyDuck from '../../assets/submitty_duck.png';
-import geometryDash from '../../assets/geometry-dash.png';
-import cookieClicker from '../../assets/clicker-cookie.webp';
+import quizletLogo from '../../assets/cc/quizlet-logo.webp';
+import makeItRain from '../../assets/cc/make-it-rain.jpg';
+import gimkit from '../../assets/cc/gimkit-logo.jpg';
+import duolingo from '../../assets/cc/duolingo-logo.webp';
+import sololearn from '../../assets/cc/sololearn-logo.png';
+import submittyDuck from '../../assets/submitty/submitty_duck.png';
+import geometryDash from '../../assets/cc/geometry-dash.png';
+import cookieClicker from '../../assets/cc/clicker-cookie.webp';
 
 function CookieCoder() {
     return (

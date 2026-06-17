@@ -1,10 +1,10 @@
 import TextContentPage from '../../components/TextContentPage.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
 import TextImage from '../../components/TextImage.tsx';
-
 import NavButton from '../../components/NavButton.tsx';
-import pcStore from '../../assets/price-chopper-store.webp';
-import pcRetired from '../../assets/price-chopper-retirement.jpeg';
+
+import pcStore from '../../assets/pc/price-chopper-store.webp';
+import pcRetired from '../../assets/pc/price-chopper-retirement.jpeg';
 
 export default function PriceChopper() {
     return (

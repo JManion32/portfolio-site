@@ -5,13 +5,13 @@ import useNavigateTop from '../../hooks/useNavigateTop.ts';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
 import TextImage from '../../components/TextImage.tsx';
 
-import srLogo from '../../assets/sr-logo.svg';
-import javafxProject from '../../assets/javafx-project.png';
-import srStoryboardDark from '../../assets/sr-storyboard-dark-mode.png';
-import srHomePageDark from '../../assets/sr-home-dark-mode.png';
-import srDeploymentDay from '../../assets/sr-deployment-day.png';
-import srGameplay from '../../assets/sr-gameplay.png';
-import srGrid from '../../assets/srGrid.png';
+import srLogo from '../../assets/sr/sr-logo.svg';
+import javafxProject from '../../assets/sr/javafx-project.png';
+import srStoryboardDark from '../../assets/sr/sr-storyboard-dark-mode.png';
+import srHomePageDark from '../../assets/sr/sr-home-dark-mode.png';
+import srDeploymentDay from '../../assets/sr/sr-deployment-day.png';
+import srGameplay from '../../assets/sr/sr-gameplay.png';
+import srGrid from '../../assets/sr/srGrid.png';
 
 export default function SpeedRoulette() {
     const navigateTop = useNavigateTop();

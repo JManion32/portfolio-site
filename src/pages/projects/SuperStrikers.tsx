@@ -4,8 +4,8 @@ import TechStack from '../../components/TechStack.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
 import TextContentPage from '../../components/TextContentPage.tsx';
 
-import ssLogo from '../../assets/ss.svg';
-import ssLogin from '../../assets/ss-login.png';
+import ssLogo from '../../assets/ss/ss.svg';
+import ssLogin from '../../assets/ss/ss-login.png';
 
 export default function SuperStrikers() {
     return (

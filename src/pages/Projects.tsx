@@ -2,12 +2,12 @@ import PreviewPage from '../components/PreviewPage.tsx';
 import PreviewCard from '../components/PreviewCard';
 import NavButton from '../components/NavButton';
 
-import submittyDuck from '../assets/submitty_duck.png';
-import srPreview from '../assets/sr-preview.png';
-import chatLogo from '../assets/cchat-logo.svg';
-import psoftLogo from '../assets/psoft-logo.png';
-//import ssLogo from '../assets/ss.svg';
-//import cookieCoder from '../assets/cookie_coder_logo.svg';
+import submittyDuck from '../assets/submitty/submitty_duck.png';
+import srPreview from '../assets/sr/sr-preview.png';
+import chatLogo from '../assets/cchat/cchat-logo.svg';
+import psoftLogo from '../assets/psoft/psoft-logo.png';
+//import ssLogo from '../assets/ss/ss.svg';
+//import cookieCoder from '../assets/cc/cookie_coder_logo.svg';
 //import jmLogo from '../assets/jm-dark-circle.png';
 
 function Projects() {

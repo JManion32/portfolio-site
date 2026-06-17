@@ -1,6 +1,7 @@
 import TextContentPage from '../../components/TextContentPage.tsx';
 import NavButton from '../../components/NavButton.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
+import TextImage from '../../components/TextImage.tsx';
 
 import oldFoodDrive from '../../assets/old-lxa-food-drive.png';
 import newFoodDrive from '../../assets/new-lxa-food-drive.png';
@@ -34,9 +35,7 @@ export default function LambdaChi() {
                             If I had to describe my time at &Lambda;ΧΑ in one word, it would be <i>transformative</i>.
                             Through my experiences here, I’ve grown as a person, friend, and leader.
                         </p>
-                        <div id="content-img-container">
-                            <img src={lxaGroupPhoto} className="project-img" />
-                        </div>
+                        <TextImage img={lxaGroupPhoto}/>
                     </>
                 }
                 main={
@@ -84,30 +83,16 @@ export default function LambdaChi() {
                             Philanthropy is closely tied with the history of our chapter. At the center of this
                             tradition is our semesterly food drive.
                         </p>
-                        <div id="content-img-container">
-                            <img src={oldFoodDrive} className="project-img" />
-                            <p>&Lambda;XA Brothers with the donations they collected, circa 1995</p>
-                        </div>
-                        <div id="content-img-container">
-                            <img src={newFoodDrive} className="project-img" />
-                            <p>
-                                Fall 2024 Food Drive results (an incredible 3,169 pounds of donations!). This photo was
+                        <TextImage img={oldFoodDrive} desc="&Lambda;XA Brothers with the donations they collected, circa 1995"/>
+                        <TextImage img={newFoodDrive} desc="Fall 2024 Food Drive results (an incredible 3,169 pounds of donations!). This photo was
                                 taken in the room that the brothers are standing in front of 30 years prior in the
-                                previous image, a testament to our longstanding commitment to philanthropy.
-                            </p>
-                        </div>
+                                previous image, a testament to our longstanding commitment to philanthropy."/>
                         <p>
                             Another event we hold each fall is Pumpkin Bash, a community fundraiser where we smash
                             pumpkins to support local charities.
                         </p>
-                        <div id="content-img-container">
-                            <img src={smashingPumpkin} className="project-img" />
-                            <p>Me smashing a pumpkin.</p>
-                        </div>
-                        <div id="content-img-container">
-                            <img src={patioPumpkin} className="project-img" />
-                            <p>Pumpkin somehow growing on our patio 10 months after Pumpkin Bash.</p>
-                        </div>
+                        <TextImage img={smashingPumpkin} desc="Me smashing a pumpkin."/>
+                        <TextImage img={patioPumpkin} desc="Pumpkin somehow growing on our patio 10 months after Pumpkin Bash."/>
                         <p>
                             Our chapter participates in a number of other initiatives such as volunteering at Hope 7, a
                             local community center. We also hold events such as "Bowls on Sunset" and "Phat Sandos",

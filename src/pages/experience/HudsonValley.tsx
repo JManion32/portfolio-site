@@ -2,6 +2,7 @@ import TextContentPage from '../../components/TextContentPage.tsx';
 import NavButton from '../../components/NavButton.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
 import useNavigateTop from '../../hooks/useNavigateTop.ts';
+import TextImage from '../../components/TextImage.tsx';
 
 import hudsonValleyAerial from '../../assets/hudson-valley-aerial.jpg';
 
@@ -26,9 +27,7 @@ function HudsonValley() {
                             two years, I would discover my interest in computer science, and lay a strong foundation for
                             my transfer to university.
                         </p>
-                        <div id="content-img-container">
-                            <img src={hudsonValleyAerial} className="project-img" />
-                        </div>
+                        <TextImage img={hudsonValleyAerial}/>
                     </>
                 }
                 main={

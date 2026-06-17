@@ -3,6 +3,8 @@ import ComingSoon from '../../components/ComingSoon.tsx';
 import TechStack from '../../components/TechStack.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
 import TextContentPage from '../../components/TextContentPage.tsx';
+import TextImage from '../../components/TextImage.tsx';
+
 import cchatLogo from '../../assets/cchat-logo.svg';
 import cchatLogin from '../../assets/cchat-login.png';
 
@@ -35,9 +37,7 @@ export default function CChat() {
                             efficiently. CChat features both a native desktop client and a web client, and enables
                             seamless cross-platform communication through a shared protocol.
                         </p>
-                        <div id="content-img-container">
-                            <img src={cchatLogin} className="project-img" />
-                        </div>
+                        <TextImage img={cchatLogin}/>
                         <hr />
                         <h2>Tech Stack</h2>
                         <TechStack

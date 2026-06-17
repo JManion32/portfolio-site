@@ -2,6 +2,7 @@
 import NavButton from '../../components/NavButton.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
 import TextContentPage from '../../components/TextContentPage.tsx';
+import TextImage from '../../components/TextImage.tsx';
 
 import submittyDuck from '../../assets/submitty_duck.png';
 
@@ -45,10 +46,7 @@ export default function Submitty() {
                         code reviews, and design discussions. For Summer 2026, I am mentoring a Google Summer of Code student 
                         tasked with migrating legacy Twig features to Vue.
                     </p>
-                    <div id="content-img-container">
-                        <img src={submittyOverview} />
-                        <p>A high-level overview of the Submitty system.</p>
-                    </div>
+                    <TextImage img={submittyOverview} desc="A high-level overview of the Submitty system."/>
                 </>
             }
             main={
@@ -131,10 +129,7 @@ export default function Submitty() {
                         each individual notification inside the main display component. This split the 400 line file
                         into two 200 line files, separting concerns while maintaining original functionality.
                     </p>
-                    <div id="content-img-container">
-                        <img src={individualNotification} />
-                        <p>Individual Notification Component</p>
-                    </div>
+                    <TextImage img={individualNotification} desc="Individual Notification Component"/>
                     <h3>
                         Convert Course Notifications to Vue (
                         <a href="https://github.com/Submitty/Submitty/pull/12159" target="_blank">
@@ -147,14 +142,8 @@ export default function Submitty() {
                         convert the rest of the UI to Vue. Since the prior PR nicely modularized the Vue code, this
                         transition was seamless.
                     </p>
-                    <div id="content-img-container">
-                        <img src={courseNotisBefore} />
-                        <p>Before</p>
-                    </div>
-                    <div id="content-img-container">
-                        <img src={courseNotisAfter} />
-                        <p>After</p>
-                    </div>
+                    <TextImage img={courseNotisBefore} desc="Before"/>
+                    <TextImage img={courseNotisAfter} desc="After"/>
                     <h3>
                         Home Page Mark All Seen Popup (
                         <a href="https://github.com/Submitty/Submitty/pull/12219" target="_blank">
@@ -169,9 +158,7 @@ export default function Submitty() {
                         course's unseen notifications. The user can then select specific courses to mark seen, or all of
                         them. I like to think of it as an "Are you sure?" popup with advanced functionality.
                     </p>
-                    <div id="content-img-container">
-                        <img src={markSeenPopup} />
-                    </div>
+                    <TextImage img={markSeenPopup}/>
                     <h3>
                         Home Page Additional Unseen Count (
                         <a href="https://github.com/Submitty/Submitty/pull/12227" target="_blank">
@@ -199,13 +186,9 @@ export default function Submitty() {
                             </li>
                         </ul>
                     </p>
-                    <div id="content-img-container">
-                        <img src={additionalUnseenCount} />
-                    </div>
+                    <TextImage img={additionalUnseenCount}/>
                     <h3 style={{ marginBottom: '2rem' }}>The Final Product (Home Page)</h3>
-                    <div id="content-img-container">
-                        <img src={homeNotis} />
-                    </div>
+                    <TextImage img={homeNotis}/>
                     <p>
                         These updates have transformed the student experience of my peers and I this past semester.
                         Taking four computer science courses, a combined notification feed made it easy to stay
@@ -311,9 +294,7 @@ export default function Submitty() {
                         .
                     </p>
                     <h3 style={{ marginBottom: '2rem' }}>The Final Product</h3>
-                    <div id="content-img-container">
-                        <img src={configEditor} />
-                    </div>
+                    <TextImage img={configEditor}/>
                     <hr />
                     <h2>Additional Work</h2>
                     <h3>
@@ -330,9 +311,7 @@ export default function Submitty() {
                         same design for the dark mode toggle on this site! See the toggle in action <a href="https://submitty.org/index/overview"
                         target="_blank"> here</a>.
                     </p>
-                    <div id="content-img-container">
-                        <img src={orgToggle} />
-                    </div>
+                    <TextImage img={orgToggle}/>
                     <h3>
                         Filter Withdrawn Students (
                         <a href="https://github.com/Submitty/submitty.github.io/pull/11792" target="_blank">
@@ -344,9 +323,7 @@ export default function Submitty() {
                         This PR was created and abandoned by another contributor. It adds a toggle that hides withdrawn 
                         students from the grading page, so TAs can focus on active students only.
                     </p>
-                    <div id="content-img-container">
-                        <img src={withdrawnToggle} />
-                    </div>
+                    <TextImage img={withdrawnToggle}/>
                     <hr />
                     <h2>Team Lead</h2>
                         

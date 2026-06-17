@@ -1,6 +1,7 @@
 import TextContentPage from '../../components/TextContentPage.tsx';
 import NavButton from '../../components/NavButton.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
+import TextImage from '../../components/TextImage.tsx';
 
 import stewartsFleet from '../../assets/stewarts-fleet.jpeg';
 import stewartsLogo from '../../assets/stewarts-logo.png';
@@ -43,14 +44,8 @@ export default function Stewarts() {
                             the largest, most popular gas station chains in the Northeast. All of the shops are centered
                             around Saratoga NY, where the main office and distribution center is located.
                         </p>
-                        <div id="content-img-container">
-                            <img src={stewartsStation} className="project-img" />
-                            <p>Stewart's Shop</p>
-                        </div>
-                        <div id="content-img-container">
-                            <img src={stewartsPlant} className="project-img" />
-                            <p>Stewart's Distribution Center</p>
-                        </div>
+                        <TextImage img={stewartsStation} desc="Stewart's Shop"/>
+                        <TextImage img={stewartsPlant} desc="Stewart's Distribution Center"/>
                         <p>
                             I worked in the Technology Center, which functions as the company’s help desk. With an 18
                             person team covering 400+ shops, there was never a shortage of hardware issues to address
@@ -69,10 +64,7 @@ export default function Stewarts() {
                             place. Beyond location, each shop had its own personality, making every trip a memorable
                             experience.
                         </p>
-                        <div id="content-img-container">
-                            <img src={tupperLunch} className="project-img" />
-                            <p>Enjoying lunch in the middle of the Adirondacks.</p>
-                        </div>
+                        <TextImage img={tupperLunch} desc="Enjoying lunch in the middle of the Adirondacks."/>
                         <h3>Preventative Maintenance</h3>
                         <p>
                             One of my key responsibilities was preventative maintenance (also called PMs). This involved
@@ -124,10 +116,7 @@ export default function Stewarts() {
                             halting shop operations in their tracks. Enter battery backups, which allow shops to
                             function for several hours with no power.
                         </p>
-                        <div id="content-img-container">
-                            <img src={apcBackup} className="project-img" />
-                            <p>Battery Backup</p>
-                        </div>
+                        <TextImage img={apcBackup} desc="Battery backup"/>
                         <p>
                             With over 400 shops each equipped with a handful of these backups, they piled up <i>fast</i>{' '}
                             in our office. For each one, I cleaned it,
@@ -143,13 +132,8 @@ export default function Stewarts() {
                             brought. On certain office days, I would take inventory of these vehicles, ensuring they
                             were adequately stocked and well organized.
                         </p>
-                        <div id="content-img-container">
-                            <img src={stewartsFleet} className="project-img" />
-                            <p>
-                                A portion of the tech center fleet. This picture was taken after I drove the van on the
-                                right to Syracuse and back!
-                            </p>
-                        </div>
+                        <TextImage img={stewartsFleet} desc="A portion of the tech center fleet. This picture was taken after I drove the van on the
+                                right to Syracuse and back!"/>
                         <h3>Misc Work</h3>
                         <p>
                             Sometimes, there were too many technicians out of the office, no returns to process, and no

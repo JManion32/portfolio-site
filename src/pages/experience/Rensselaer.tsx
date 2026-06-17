@@ -1,8 +1,8 @@
 import TextContentPage from '../../components/TextContentPage.tsx';
-
 import NavButton from '../../components/NavButton.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
 import useNavigateTop from '../../hooks/useNavigateTop.ts';
+import TextImage from '../../components/TextImage.tsx';
 
 import summerSage from '../../assets/summer-sage.jpg';
 
@@ -53,9 +53,7 @@ export default function Rensselaer() {
                             built at <a onClick={() => navigateTop('/experience/lambdachi')}>Lambda Chi Alpha</a> has
                             made tuition worth every penny.
                         </p>
-                        <div id="content-img-container">
-                            <img src={summerSage} className="project-img" />
-                        </div>
+                        <TextImage img={summerSage}/>
                     </>
                 }
                 main={

@@ -1,9 +1,9 @@
 import TextContentPage from '../../components/TextContentPage.tsx';
-
 import TechStack from '../../components/TechStack.tsx';
 import NavButton from '../../components/NavButton.tsx';
 import useNavigateTop from '../../hooks/useNavigateTop.ts';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
+import TextImage from '../../components/TextImage.tsx';
 
 import srLogo from '../../assets/sr-logo.svg';
 import javafxProject from '../../assets/javafx-project.png';
@@ -38,9 +38,7 @@ export default function SpeedRoulette() {
                         and the clock is back to ticking just 2.5 seconds later. Compete for a spot on the leaderboard
                         by making quick decisions, taking bold risks, and hitting big payouts!
                     </p>
-                    <div id="content-img-container">
-                        <img src={srGameplay} className="project-img" />
-                    </div>
+                    <TextImage img={srGameplay}/>
                     <hr />
                     <h2>Tech Stack</h2>
                     <TechStack
@@ -96,9 +94,7 @@ export default function SpeedRoulette() {
                         The idea of building an online roulette game dates back to 2023 when the only programming
                         language I knew was Java:
                     </p>
-                    <div id="content-img-container">
-                        <img src={javafxProject} />
-                    </div>
+                    <TextImage img={javafxProject}/>
                     <p>
                         This was a GUI I built with JavaFX and the skills I had learned at{' '}
                         <a onClick={() => navigateTop('/experience/HudsonValley')}>Hudson Valley</a>. It was limited in
@@ -115,12 +111,8 @@ export default function SpeedRoulette() {
                     <hr />
                     <h2>Implementation</h2>
                     <p>With the complete storyboard, it was easy to build out the UI.</p>
-                    <div id="content-img-container">
-                        <img src={srStoryboardDark} />
-                        <p>Storyboard</p>
-                        <img src={srHomePageDark} />
-                        <p>Implementation</p>
-                    </div>
+                    <TextImage img={srStoryboardDark} desc="Storyboard"/>
+                    <TextImage img={srHomePageDark} desc="Implementation"/>
                     <p>
                         Next, I moved to the backend, which introduced more complexity. I started by creating endpoints,
                         and handling the core game logic. I then integrated Postgres to manage the leaderboard and
@@ -195,9 +187,7 @@ export default function SpeedRoulette() {
                         10). To address that here, I created a table of the roulette board, then overlayed CSS grids on
                         top of it.
                     </p>
-                    <div id="content-img-container">
-                        <img src={srGrid} className="project-img" />
-                    </div>
+                    <TextImage img={srGrid}/>
                     <p>
                         After overlaying the grid onto the table, the next challenge was handling bets on the backend. I
                         identified patterns in the grid that allowed me to design solid logic, though a few off-by-one
@@ -268,10 +258,7 @@ export default function SpeedRoulette() {
                         This project was the spark that ignited my true passion for programming. I learned, I built, and
                         I deployed a fun project that turned a simple idea into a real application people could use.
                     </p>
-                    <div id="content-img-container">
-                        <img src={srDeploymentDay} />
-                        <p>Very special thank you to Geoff and Kaitlyn for making my deployment day so special!</p>
-                    </div>
+                    <TextImage img={srDeploymentDay} desc="Very special thank you to Geoff and Kaitlyn for making my deployment day so special!"/>
                 </>
             }
         />

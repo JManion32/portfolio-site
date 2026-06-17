@@ -1,5 +1,7 @@
 import TextContentPage from '../../components/TextContentPage.tsx';
 import TextContentHeader from '../../components/TextContentHeader.tsx';
+import TextImage from '../../components/TextImage.tsx';
+
 import NavButton from '../../components/NavButton.tsx';
 import pcStore from '../../assets/price-chopper-store.webp';
 import pcRetired from '../../assets/price-chopper-retirement.jpeg';
@@ -23,10 +25,7 @@ export default function PriceChopper() {
                             This was my first job, held from June 2020 to October 2024. Along the way, I advanced from
                             high school to college, and from novice cashier to dependable leader.
                         </p>
-                        <div id="content-img-container">
-                            <img src={pcStore} className="project-img" />
-                            <p>I spent thousands of hours in this store.</p>
-                        </div>
+                        <TextImage img={pcStore} desc="I spent thousands of hours in this store."/>
                     </>
                 }
                 main={
@@ -117,10 +116,7 @@ export default function PriceChopper() {
                             My time at Price Chopper was invaluable in shaping who I am today. Though that extended
                             chapter of my life is now over, I will always cherish the experiences I had there.
                         </p>
-                        <div id="content-img-container">
-                            <img src={pcRetired} className="project-img" />
-                            <p>Me and my coworker on my "retirement" day.</p>
-                        </div>
+                        <TextImage img={pcRetired} desc='Me and my coworker on my "retirement" day.'/>
                     </>
                 }
             />

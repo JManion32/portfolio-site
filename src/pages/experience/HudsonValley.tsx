@@ -37,7 +37,7 @@ function HudsonValley() {
                         <p>There were a handful of courses that shaped my journey at HVCC.</p>
                         <h3>Intro CS Courses</h3>
                         <p>
-                            Initially, I enrolled in the undecided program. One of my favorite hobbies at the time was
+                            Initially, I enrolled in the undecided program, but one of my favorite hobbies at the time was
                             building computers. This and my Dad being a software engineer led to my decision to take an
                             introductory computer science course. I found enjoyment in the hardware side of things, but
                             struggled with the software since it was brand new to me. By the end of that semester, I
@@ -47,11 +47,12 @@ function HudsonValley() {
                         <p>
                             In my second semester, I took an introductory programming course in Python. This helped
                             narrow down my field of interest: I wanted to write code. I just loved the idea that
-                            programming is a skill to be continually developed, like leveling up in a video game.
+                            programming is a skill to be continually developed from my computer, like leveling up 
+                            in a video game.
                         </p>
                         <h3>Programming & Data Logic II</h3>
                         <p>
-                            This was HVCC's data structures course. The assignments were far more complex than Python
+                            This was HVCC's data structures course (in Java). The assignments were far more complex than Python
                             Programming, but working through them helped me grow as a developer. Concepts included data
                             structures, generics, recursion, exception handling, inheritance, abstraction,
                             encapsulation, and polymorphism. My favorite, however, was JavaFX, which gave me my first
@@ -72,12 +73,12 @@ function HudsonValley() {
                             </li>
                             <li>
                                 <b>History of Media and Culture in the US:</b> I took this course in my freshman fall.
-                                It had nothing to do with computer science, but remains as one of the best courses I've
+                                It had nothing to do with computer science, but remains one of the best courses I've
                                 ever taken.
                             </li>
                             <li>
                                 <b>Biology:</b> To earn my Associate’s at HVCC, I had to take Biology I and II. Sure, I
-                                struggled to figure out how dissecting rats and memorizing flower anatomy had anything
+                                struggled to figure out how dissecting rats and memorizing flower anatomy at 8:00am had anything
                                 to do with computer science, but it was fun.
                             </li>
                         </ul>

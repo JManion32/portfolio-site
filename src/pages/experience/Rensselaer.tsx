@@ -125,7 +125,7 @@ export default function Rensselaer() {
                         </p>
                         <hr />
                         <h2>Reflection</h2>
-                        <p>RPI was an incredible experience that molded me into who I am today.</p>
+                        <p>RPI was an incredible experience that molded me into who I am today. Go Engineers!</p>
                         <div id="rpi-collage-container">
                             <img src={rpi1} className="rpi-collage-img" />
                             <img src={rpi2} className="rpi-collage-img" />

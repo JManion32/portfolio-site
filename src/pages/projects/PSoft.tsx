@@ -22,8 +22,6 @@ export default function PSoft() {
                     <NavButton
                         left="CChat"
                         leftNav="/projects/cchat"
-                        right="Super Strikers"
-                        rightNav="/projects/superstrikers"
                     />
                 }
                 preview={

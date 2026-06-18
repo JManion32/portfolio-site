@@ -35,7 +35,7 @@ export default function SpeedRoulette() {
                         Inspired by the intensity of speed chess, Speed Roulette puts a fast-paced twist on the beloved
                         high-stakes casino game. Players start with 20 dollars, 10 possible spins, and just 60 seconds
                         on the clock. When bets are submitted, the winning number is revealed, earnings are paid out,
-                        and the clock is back to ticking just 2.5 seconds later. Compete for a spot on the leaderboard
+                        and the clock starts ticking again just 2.5 seconds later. Compete for a spot on the leaderboard
                         by making quick decisions, taking bold risks, and hitting big payouts!
                     </p>
                     <TextImage img={srGameplay}/>

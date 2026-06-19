@@ -379,21 +379,41 @@ export default function Submitty() {
                     </p>
                     <h4>1) High-Level Review</h4>
                     <p>
-
+                        Mainly asking questions such as: "Are the changes necessary?", "Should the 
+                        scope be adjusted?", and "Did the author take the correct approach?". This 
+                        step can save a lot of time.
                     </p>
                     <h4>2) Understand the Implementation</h4>
                     <p>
-
+                        If the changes look good at a high level, the next step is understanding them. To accomplish 
+                        this, I typically verify the functionality according to the documentation provided by the author. 
+                        I also trace code execution.
                     </p>
                     <h4>3) Deeper Code Review</h4>
                     <p>
-
+                        This is where I see if the code follows project conventions. Sometimes, people use best practices, 
+                        but if they aren't consistent with the rest of the project, the cost outweighs the benefits. This is also 
+                        where I look for security, performance, testing, and maintainability concerns. Finally, I "bikeshed", going line-by-line 
+                        to ensure quality.
                     </p>
                     <h4>4) Provide Thorough, Actionable Feedback</h4>
                     <p>
-
+                        I make an effort to provide the author with as much information as possible so they can 
+                        understand my perspective, know what needs to change, and maybe even learn something new.
                     </p>
                     <h3>Challenges</h3>
+                    <p>
+                        With an influx in activity and many new developers, I encountered several leadership challenges.
+                    </p>
+                    <h4>Finding Tasks</h4>
+                    <p>
+
+                    </p>
+                    <h4>Setting Expectations</h4>
+                    <p>
+
+                    </p>
+                    <h4>Changing Priorities</h4>
                     <p>
 
                     </p>

@@ -13,7 +13,10 @@ export default function Portfolio() {
                 navButton={<NavButton left="Cookie Coder" leftNav="/projects/cookiecoder" />}
                 preview={
                     <>
-                        <p>The site you are on right now, for showcasing my experiences. I hope you're enjoying it!</p>
+                        <p>
+                            This is likely my most mature project so far. The code, content, and infrastructure 
+                            has been refactored numerous times to provide maintainability for future Justin.
+                        </p>
                         <hr />
                         <h2>Tech Stack</h2>
                         <TechStack
@@ -47,8 +50,7 @@ export default function Portfolio() {
                         <h3>Responsive / Interactive Experience</h3>
                         <p>
                             You'll find a smooth dark mode toggle, responsive scaling, fun animations, and interactive
-                            buttons, all crafted with care to make the UI seamless and engaging. In the future, I intend
-                            to add some features that will make for a memorable user experience. Stay tuned!
+                            buttons, all crafted with care to make the UI seamless and engaging.
                         </p>
                         <h3>Optimal Developer Experience</h3>
                         <p>

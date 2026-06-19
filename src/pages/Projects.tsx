@@ -8,7 +8,7 @@ import chatLogo from '../assets/cchat/cchat-logo.svg';
 import psoftLogo from '../assets/psoft/psoft-logo.png';
 //import ssLogo from '../assets/ss/ss.svg';
 //import cookieCoder from '../assets/cc/cookie_coder_logo.svg';
-//import jmLogo from '../assets/jm-dark-circle.png';
+import jmLogo from '../assets/jm-dark-circle.png';
 
 function Projects() {
     return (
@@ -62,14 +62,14 @@ function Projects() {
                             nav="/projects/cookiecoder"
                             rank="6"
                         />
+                        */}
                         <PreviewCard
                             img={jmLogo}
                             header="Portfolio Site"
                             desc="Website to showcase my projects and experience."
                             nav="/projects/portfolio"
-                            rank="7"
+                            rank="5"
                         />
-                        */}
                     </>
                 }
             />

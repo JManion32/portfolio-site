@@ -51,7 +51,6 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --content-img-p-width: 90%;
         --text-content-bg-shadow: none;
         --text-content-code-size: 1rem;
-
         --text-h1-size: 4rem;
         --text-h2-size: 2rem;
         --text-h3-size: 1.6rem;
@@ -95,7 +94,6 @@ I'm not going to put every variable here, instead I made them as explicit as pos
         --content-img-p-width: 90%;
         --text-content-bg-shadow: 0 2px 8px rgb(0 0 0 / 10%);
         --text-content-code-size: 0.95rem;
-
         --text-h1-size: 4rem;
         --text-h2-size: 2rem;
         --text-h3-size: 1.6rem;

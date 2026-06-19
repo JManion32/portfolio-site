@@ -21,9 +21,9 @@ function Home() {
                 <div className="home-container">
                     <h1 className="name-header constant-glow fly-in-left">Justin Manion</h1>
                     <p className="name-desc fly-in-right">
-                        Systems-minded software engineer with proven leadership experience and proficiency 
-                        working across the stack. Interested in infrastructure, maintainability, and 
-                        the process of building innovative projects from end-to-end.
+                        Systems-minded software engineer with proven leadership experience and proficiency working
+                        across the stack. Interested in infrastructure, maintainability, and the process of building
+                        innovative projects from end-to-end.
                     </p>
                     <div className="full-contact-button-container">
                         <button

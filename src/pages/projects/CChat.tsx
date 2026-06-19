@@ -37,7 +37,7 @@ export default function CChat() {
                             efficiently. CChat features both a native desktop client and a web client, and enables
                             seamless cross-platform communication through a shared protocol.
                         </p>
-                        <TextImage img={cchatLogin}/>
+                        <TextImage img={cchatLogin} />
                         <hr />
                         <h2>Tech Stack</h2>
                         <TechStack

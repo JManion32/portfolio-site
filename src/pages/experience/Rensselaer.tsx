@@ -52,7 +52,7 @@ export default function Rensselaer() {
                             built at <a onClick={() => navigateTop('/experience/lambdachi')}>Lambda Chi Alpha</a> has
                             made tuition worth every penny.
                         </p>
-                        <TextImage img={summerSage}/>
+                        <TextImage img={summerSage} />
                     </>
                 }
                 main={
@@ -63,7 +63,10 @@ export default function Rensselaer() {
                             Transferring from community college to RPI was a stark adjustment. My first semester was
                             exciting, but stressful.
                         </p>
-                        <p><b>Courses:</b> Physics I, Multivariable Calculus, Writing for Technical Communication, and most importantly:</p>
+                        <p>
+                            <b>Courses:</b> Physics I, Multivariable Calculus, Writing for Technical Communication, and
+                            most importantly:
+                        </p>
                         <h3>Data Structures</h3>
                         <p>
                             Featuring 10 homework assignments, weekly labs, and 4 exams, it was far more involved than
@@ -71,17 +74,17 @@ export default function Rensselaer() {
                             with many hours of studying, writing code, and learning.
                         </p>
                         <p>
-                            Though it was uncomfortable, pressure makes diamonds and I came out as a 10x better
-                            than I was going in. During the subsequent winter break, I examined a ~3,000 line
-                            project I created the year prior, and was able to refactor it down to ~1,000 lines without
-                            changing any functionality!
+                            Though it was uncomfortable, pressure makes diamonds and I came out as a 10x better than I
+                            was going in. During the subsequent winter break, I examined a ~3,000 line project I created
+                            the year prior, and was able to refactor it down to ~1,000 lines without changing any
+                            functionality!
                         </p>
                         <hr />
                         <h2>Spring 2025</h2>
                         <p>
-                            <b>Courses:</b> Linear Algebra, Introduction to Algorithms, Principles of
-                            Software (whose <a onClick={() => navigateTop('/projects/psoft')}>website</a> I would later
-                            revamp), and Rensselaer Center for Open Source, where I joined the{' '}
+                            <b>Courses:</b> Linear Algebra, Introduction to Algorithms, Principles of Software (whose{' '}
+                            <a onClick={() => navigateTop('/projects/psoft')}>website</a> I would later revamp), and
+                            Rensselaer Center for Open Source, where I joined the{' '}
                             <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a> project.
                         </p>
                         <h3>Key Course: Intro to Algorithms</h3>
@@ -93,16 +96,14 @@ export default function Rensselaer() {
                         <hr />
                         <h2>Fall 2025</h2>
                         <p>
-                            <b>Courses:</b> Database
-                            Systems, Programming Languages, Software Analysis and Debugging, and{' '}
-                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a> (RCOS).
+                            <b>Courses:</b> Database Systems, Programming Languages, Software Analysis and Debugging,
+                            and <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a> (RCOS).
                         </p>
                         <h3>Key Course: Database Systems</h3>
                         <p>
-                            One of the best courses I have ever taken. The
-                            material included relational algebra, normal forms, ER diagrams, SQL, PGSQL, optimization,
-                            and more. I received an A in the course, a testament to my newfound proficiency with the
-                            material. A special thank you to Professor{' '}
+                            One of the best courses I have ever taken. The material included relational algebra, normal
+                            forms, ER diagrams, SQL, PGSQL, optimization, and more. I received an A in the course, a
+                            testament to my newfound proficiency with the material. A special thank you to Professor{' '}
                             <a href="https://en.wikipedia.org/wiki/Sibel_Adal%C4%B1" target="_blank">
                                 Sibel Adali
                             </a>{' '}
@@ -110,18 +111,15 @@ export default function Rensselaer() {
                         </p>
                         <hr />
                         <h2>Spring 2026</h2>
+                        <p>My final semester of college.</p>
                         <p>
-                            My final semester of college.
-                        </p>
-                        <p>
-                            <b>Courses:</b> Operating Systems, Software Design and
-                            Documentation, Distributed Systems, and once again{' '}
-                            <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>.
+                            <b>Courses:</b> Operating Systems, Software Design and Documentation, Distributed Systems,
+                            and once again <a onClick={() => navigateTop('/projects/Submitty')}>Submitty</a>.
                         </p>
                         <h3>Key Course: Operating Systems</h3>
                         <p>
-                            This course took a deep dive into C programming, Linux, and the building 
-                            blocks of operating systems. I even learned VIM!
+                            This course took a deep dive into C programming, Linux, and the building blocks of operating
+                            systems. I even learned VIM!
                         </p>
                         <hr />
                         <h2>Reflection</h2>

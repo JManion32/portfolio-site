@@ -14,8 +14,10 @@ export default function Portfolio() {
                 preview={
                     <>
                         <p>
-                            This is likely my most mature project so far. The code, content, and infrastructure 
-                            has been refactored numerous times to provide maintainability for future Justin.
+                            This is my most mature project so far. The code, content, and infrastructure have been 
+                            refactored numerous times to simplify future development and maintenance. On the user side, you'll find a 
+                            smooth dark mode toggle, responsive scaling, fun animations, and interactive
+                            buttons, all crafted with care to make for an engaging presentation of my portfolio.
                         </p>
                         <hr />
                         <h2>Tech Stack</h2>
@@ -24,46 +26,58 @@ export default function Portfolio() {
                                 {
                                     title: 'Front-end',
                                     items: [
-                                        { name: 'Vite', className: 'vite' },
                                         { name: 'React', className: 'react' },
                                         { name: 'TypeScript', className: 'ts' },
+                                        { name: 'Vite', className: 'vite' },
                                     ],
                                 },
                                 {
                                     title: 'Infrastructure & DevOps',
                                     items: [
+                                        { name: 'Docker', className: 'docker' },
+                                        { name: 'GitHub Actions', className: 'ghactions' },
                                         { name: 'DigitalOcean', className: 'digitalocean' },
                                         { name: 'AWS Route 53', className: 'route53' },
                                         { name: 'Nginx', className: 'nginx' },
-                                        { name: 'Certbot', className: 'certbot' },
                                     ],
                                 },
                             ]}
                         />
                         <hr />
-                        <h2>Design Goals</h2>
-                        <h3>Resume, but better</h3>
+                        <h3>Implementation</h3>
                         <p>
-                            A resume is limited to only 1 page of content. With this site, I wanted to go beyond bullet
-                            points and offer a more detailed view of what I’ve been working on, and who I am.
+                            A major focus of this project has been maintainability. The site is built from reusable 
+                            React components that allow content, layouts, and styling to be shared across pages while 
+                            minimizing duplication. As the project has grown, components have been continuously refactored 
+                            to improve organization and simplify future development.
                         </p>
-                        <h3>Responsive / Interactive Experience</h3>
+
                         <p>
-                            You'll find a smooth dark mode toggle, responsive scaling, fun animations, and interactive
-                            buttons, all crafted with care to make the UI seamless and engaging.
+                            Styling is managed through a collection of reusable CSS classes. Colors, spacing, typography, 
+                            and other visual elements are defined centrally to ensure consistency throughout the site. 
+                            This approach makes it easy to update the site's appearance without requiring widespread changes 
+                            across the codebase.
                         </p>
-                        <h3>Optimal Developer Experience</h3>
+
                         <p>
-                            All reused assets on the site have been broken into components. This centralizes design,
-                            making it easy to change in the future. I have also set up a CI/CD pipeline which keeps my
-                            codebase consistent, and makes deployment as easy as typing <code>git push</code>.
+                            To support a wide range of screen sizes, the site utilizes a dedicated scaling system that 
+                            adjusts layouts, spacing, and typography responsively. Rather than treating responsiveness as an 
+                            afterthought, scalability was considered throughout development to provide a consistent experience 
+                            across desktop and mobile devices.
+                        </p>
+                        <h3>Infrastructure</h3>
+                        <p>
+                            The deployment process for this site has undergone several iterations. Early versions 
+                            required manually SSHing into the DigitalOcean droplet to pull changes, rebuild containers, and 
+                            restart services. Today, a lightweight CI/CD pipeline built with GitHub Actions and Docker 
+                            automates deployment, making new changes as simple as typing <code>git push</code>.
                         </p>
                         <hr />
                         <h2>Reflection</h2>
                         <p>
-                            Building this site deepened my understanding of web technologies and gave me the chance to
-                            reflect on past experiences. Through that process, I gained greater confidence in who I am
-                            and what I bring to the table.
+                            Building this site has deepened my understanding of web technologies and dev ops
+                            while providing the chance to reflect on past experiences. Through this, I have gained
+                            greater confidence in who I am and what I bring to the table.
                         </p>
                     </>
                 }

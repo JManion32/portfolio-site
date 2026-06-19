@@ -156,6 +156,11 @@
     color: #041711;
 }
 
+.ghactions {
+    background: #2088ff;
+    color: white;
+}
+
 /* Dependencies / Tooling */
 .eslint {
     background: #4b32c3;

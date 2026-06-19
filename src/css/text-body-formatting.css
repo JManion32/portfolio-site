@@ -6,6 +6,15 @@
     margin-bottom: 1rem;
 }
 
+.display-grid-cell img {
+    height: 5rem !important;
+    border: none !important;
+}
+
+.display-grid-cell p {
+    font-size: 1rem !important;
+}
+
 .text-page-h1 {
     font-size: var(--text-h1-size);
     flex-grow: 1;
@@ -38,15 +47,6 @@
     font-size: var(--text-p-size);
     line-height: 1.55rem;
     letter-spacing: 0.01em;
-}
-
-.display-grid-cell p {
-    font-size: 1rem !important;
-}
-
-.display-grid-cell img {
-    height: 5rem !important;
-    border: none !important;
 }
 
 #text-body img {

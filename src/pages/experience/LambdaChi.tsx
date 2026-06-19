@@ -35,7 +35,7 @@ export default function LambdaChi() {
                             If I had to describe my time at &Lambda;ΧΑ in one word, it would be <i>transformative</i>.
                             Through my experiences here, I’ve grown as a person, friend, and leader.
                         </p>
-                        <TextImage img={lxaGroupPhoto}/>
+                        <TextImage img={lxaGroupPhoto} />
                     </>
                 }
                 main={
@@ -44,12 +44,12 @@ export default function LambdaChi() {
                         <h2>Secretary</h2>
                         <p>As Secretary, I handled administrative operations to keep our chapter running smoothly.</p>
                         <p>
-                            One of my core responsibilities was managing weekly house meetings.
-                            Before each meeting, I emailed a reminder to the brotherhood, and prepared the slideshow,
-                            officer agenda, and meeting minutes. I took attendance at the start, recorded the minutes
-                            during the meeting, finalized them afterward, and sent them out promptly. Though this
-                            workflow was initially intimidating, I came to value it, seeing it as the opportunity to
-                            write the history of our chapter.
+                            One of my core responsibilities was managing weekly house meetings. Before each meeting, I
+                            emailed a reminder to the brotherhood, and prepared the slideshow, officer agenda, and
+                            meeting minutes. I took attendance at the start, recorded the minutes during the meeting,
+                            finalized them afterward, and sent them out promptly. Though this workflow was initially
+                            intimidating, I came to value it, seeing it as the opportunity to write the history of our
+                            chapter.
                         </p>
                         <p>
                             Other duties included managing the our roster, keeping the Google Calendar up-to-date,
@@ -65,13 +65,14 @@ export default function LambdaChi() {
                         <hr />
                         <h2>Webmaster</h2>
                         <p>
-                            When I picked up the Webmaster role, it had been neglected for several years. Our site was out of 
-                            date, we lacked a steady flow of content, and the position was just generally overlooked.
+                            When I picked up the Webmaster role, it had been neglected for several years. Our site was
+                            out of date, we lacked a steady flow of content, and the position was just generally
+                            overlooked.
                         </p>
                         <p>
-                            As the Webmaster, I revitalized the site, wrote weekly posts about chapter events, 
-                            overhauled various pages, and created an extensive transition document to make it easier 
-                            for my predecessors to maintain the site.
+                            As the Webmaster, I revitalized the site, wrote weekly posts about chapter events,
+                            overhauled various pages, and created an extensive transition document to make it easier for
+                            my predecessors to maintain the site.
                         </p>
                         <hr />
                         <h2>Philanthropy</h2>
@@ -79,16 +80,25 @@ export default function LambdaChi() {
                             Philanthropy is closely tied with the history of our chapter. At the center of this
                             tradition is our semesterly food drive.
                         </p>
-                        <TextImage img={oldFoodDrive} desc="&Lambda;XA Brothers with the donations they collected, circa 1995"/>
-                        <TextImage img={newFoodDrive} desc="Fall 2024 Food Drive results (an incredible 3,169 pounds of donations!). This photo was
+                        <TextImage
+                            img={oldFoodDrive}
+                            desc="&Lambda;XA Brothers with the donations they collected, circa 1995"
+                        />
+                        <TextImage
+                            img={newFoodDrive}
+                            desc="Fall 2024 Food Drive results (an incredible 3,169 pounds of donations!). This photo was
                                 taken in the room that the brothers are standing in front of 30 years prior in the
-                                previous image, a testament to our longstanding commitment to philanthropy."/>
+                                previous image, a testament to our longstanding commitment to philanthropy."
+                        />
                         <p>
                             Another event we hold each fall is Pumpkin Bash, a community fundraiser where we smash
                             pumpkins to support local charities.
                         </p>
-                        <TextImage img={smashingPumpkin} desc="Me smashing a pumpkin."/>
-                        <TextImage img={patioPumpkin} desc="Pumpkin somehow growing on our patio 10 months after Pumpkin Bash."/>
+                        <TextImage img={smashingPumpkin} desc="Me smashing a pumpkin." />
+                        <TextImage
+                            img={patioPumpkin}
+                            desc="Pumpkin somehow growing on our patio 10 months after Pumpkin Bash."
+                        />
                         <p>
                             Our chapter participates in a number of other initiatives such as volunteering at Hope 7, a
                             local community center. We also hold events such as "Bowls on Sunset" and "Phat Sandos",

@@ -25,7 +25,7 @@ export default function PriceChopper() {
                             This was my first job, held from June 2020 to October 2024. Along the way, I advanced from
                             high school to college, and from novice cashier to team leader.
                         </p>
-                        <TextImage img={pcStore} desc="I spent thousands of hours in this store."/>
+                        <TextImage img={pcStore} desc="I spent thousands of hours in this store." />
                     </>
                 }
                 main={
@@ -38,11 +38,11 @@ export default function PriceChopper() {
                         </p>
                         <h3>Takeaway: Appreciate the experience.</h3>
                         <p>
-                            Yeah, it was repetitive, but it was a part time job, not a source of entertainment. If I wanted to
-                            enjoy it, I had to create that experience myself. Everyday, I put my best effort forward to
-                            be personable, and find things to be happy about. At some point, I no longer had to make an
-                            effort, I just enjoyed being there. This takeaway extends far beyond my time at Price
-                            Chopper. There is joy to be found in everything if you're willing to look for it.
+                            Yeah, it was repetitive, but it was a part time job, not a source of entertainment. If I
+                            wanted to enjoy it, I had to create that experience myself. Everyday, I put my best effort
+                            forward to be personable, and find things to be happy about. At some point, I no longer had
+                            to make an effort, I just enjoyed being there. This takeaway extends far beyond my time at
+                            Price Chopper. There is joy to be found in everything if you're willing to look for it.
                         </p>
                         <hr />
                         <h2>Supervisor</h2>
@@ -60,14 +60,13 @@ export default function PriceChopper() {
                         </p>
                         <h3>Takeaway: Level heads prevail.</h3>
                         <p>
-                            I specifically remember a busy summer shift early in my time as a supervisor. 
-                            We were short on cashiers, and to make matters worse,
-                            maintenance called out, leaving me without support inside or outside the store. For several
-                            hours, I rotated between pushing carts, running a register, covering breaks, and leading the
-                            team. By the end, I was exhausted. To me, it was such a big deal. To my replacement, it was
-                            another Tuesday. This really put things into perspective for me. I wasn't there for the
-                            smooth sailing, I was there because I was trusted to guide the ship when the waves got
-                            rocky.
+                            I specifically remember a busy summer shift early in my time as a supervisor. We were short
+                            on cashiers, and to make matters worse, maintenance called out, leaving me without support
+                            inside or outside the store. For several hours, I rotated between pushing carts, running a
+                            register, covering breaks, and leading the team. By the end, I was exhausted. To me, it was
+                            such a big deal. To my replacement, it was another Tuesday. This really put things into
+                            perspective for me. I wasn't there for the smooth sailing, I was there because I was trusted
+                            to guide the ship when the waves got rocky.
                         </p>
                         <p>
                             The original title for this takeaway was "It is what it is." Things can, and will go wrong.
@@ -77,12 +76,12 @@ export default function PriceChopper() {
                         </p>
                         <h3>Takeaway: Don't avoid the tough conversations.</h3>
                         <p>
-                            If you want the best from your team, you have to provide the uncomfortable feedback. Someone 
-                            might go on their phone, or take a long break. It may be fine every now and then, but when you 
-                            don't attempt to correct it when it becomes a pattern, it becomes the new normal. It reminds me 
-                            of the Broken Window Theory from <i>The Pragmatic Programmer</i>. A car with no broken windows 
-                            won't be touched, but a car with a broken window will be susceptible to even more damage since it 
-                            is believed that the owner doesn't care.
+                            If you want the best from your team, you have to provide the uncomfortable feedback. Someone
+                            might go on their phone, or take a long break. It may be fine every now and then, but when
+                            you don't attempt to correct it when it becomes a pattern, it becomes the new normal. It
+                            reminds me of the Broken Window Theory from <i>The Pragmatic Programmer</i>. A car with no
+                            broken windows won't be touched, but a car with a broken window will be susceptible to even
+                            more damage since it is believed that the owner doesn't care.
                         </p>
                         <hr />
                         <h2>Maintenance</h2>
@@ -96,9 +95,9 @@ export default function PriceChopper() {
                             The tasks were straightforward — emptying garbages, cleaning bathrooms, keeping things in
                             order. I could have gone through the motions, done an average job, and left half-full bins
                             or “clean enough” bathrooms for the morning crew. Instead, I found real satisfaction in
-                            giving that extra effort, and not leaving until the job was finished so I didn't leave someone
-                            else hanging. This mindset has carried over to development work too. Sure, I might spend a
-                            whole day perfecting a site’s mobile scaling, but in the end, it’s always worth it.
+                            giving that extra effort, and not leaving until the job was finished so I didn't leave
+                            someone else hanging. This mindset has carried over to development work too. Sure, I might
+                            spend a whole day perfecting a site’s mobile scaling, but in the end, it’s always worth it.
                         </p>
                         <hr />
                         <h2>Customer Service Teammate</h2>
@@ -125,7 +124,7 @@ export default function PriceChopper() {
                             My time at Price Chopper was invaluable in shaping who I am today. Though that extended
                             chapter of my life is now over, I will always cherish the experiences I had there.
                         </p>
-                        <TextImage img={pcRetired} desc='Me and my coworker on my "retirement" day.'/>
+                        <TextImage img={pcRetired} desc='Me and my coworker on my "retirement" day.' />
                     </>
                 }
             />

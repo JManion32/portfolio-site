@@ -32,8 +32,8 @@ export default function PSoft() {
                             Revamped the course website for Principles of Software, a core computer science course at
                             Rensselaer Polytechnic Institute.
                         </p>
-                        <TextImage img={ogPsoftIndex} desc="Before"/>
-                        <TextImage img={newPsoftIndex2} desc="After"/>
+                        <TextImage img={ogPsoftIndex} desc="Before" />
+                        <TextImage img={newPsoftIndex2} desc="After" />
                     </>
                 }
                 main={
@@ -65,8 +65,8 @@ export default function PSoft() {
                             required excessive scrolling to get to the newest content. <b>Solution:</b> I introduced
                             dropdowns so users can quickly access only what they need without being overwhelmed.
                         </p>
-                        <TextImage img={ogPsoftHW} desc="Before"/>
-                        <TextImage img={newPsoftHW} desc="After"/>
+                        <TextImage img={ogPsoftHW} desc="Before" />
+                        <TextImage img={newPsoftHW} desc="After" />
                         <h3>Dark Mode Toggle</h3>
                         <p>
                             <b>Problem:</b> After a semester of lowering my brightness every time I opened the site,
@@ -74,7 +74,7 @@ export default function PSoft() {
                             <code>colors.css</code> which defined all color variables used throughout the site, and
                             placed the toggle on the right side of the navigation bar.
                         </p>
-                        <TextImage img={newPsoftIndexDM} desc="Home page in dark mode"/>
+                        <TextImage img={newPsoftIndexDM} desc="Home page in dark mode" />
                         <h3>Components</h3>
                         <p>
                             <b>Problem:</b> In the original implementation, reused components were duplicated across
@@ -97,7 +97,7 @@ export default function PSoft() {
                             file with width-based media queries that altered CSS variables. It is the same approach I
                             took with this <a onClick={() => navigateTop('/projects/portfolio')}>portfolio site</a>.
                         </p>
-                        <TextImage img={mobilePsoft} desc="Home page featuring a mobile nav bar!"/>
+                        <TextImage img={mobilePsoft} desc="Home page featuring a mobile nav bar!" />
                         <h3>GitHub Workflow</h3>
                         <p>
                             <b>Problem:</b> The previous workflow for maintaining this site was inefficient. When I
@@ -126,9 +126,9 @@ export default function PSoft() {
                             <i>finished</i> the project twice: once at the start of Summer 2025, and again four months
                             later. Here was my first finished product:
                         </p>
-                        <TextImage img={newPsoftIndex}/>
+                        <TextImage img={newPsoftIndex} />
                         <p>Certainly an improvement, but I'm much happier with the second iteration:</p>
-                        <TextImage img={newPsoftIndex2}/>
+                        <TextImage img={newPsoftIndex2} />
                     </>
                 }
             />

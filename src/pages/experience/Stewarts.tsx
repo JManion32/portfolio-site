@@ -44,8 +44,8 @@ export default function Stewarts() {
                             the largest, most popular gas station chains in the Northeast. All of the shops are centered
                             around Saratoga NY, where the main office and distribution center is located.
                         </p>
-                        <TextImage img={stewartsStation} desc="Stewart's Shop"/>
-                        <TextImage img={stewartsPlant} desc="Stewart's Distribution Center"/>
+                        <TextImage img={stewartsStation} desc="Stewart's Shop" />
+                        <TextImage img={stewartsPlant} desc="Stewart's Distribution Center" />
                         <p>
                             I worked in the Technology Center, which functions as the company’s help desk. With an 18
                             person team covering 400+ shops, there was never a shortage of hardware issues to address
@@ -58,11 +58,11 @@ export default function Stewarts() {
                         <hr />
                         <h2>Onsite Responsibilities</h2>
                         <p>
-                            I spent most days on the road. This gave me the unique
-                            opportunity to enjoy the beauty of the Northeast in the summer. Some days were to Lake
-                            Placid, others to Vermont, Syracuse, Cooperstown, and everywhere in between.
+                            I spent most days on the road. This gave me the unique opportunity to enjoy the beauty of
+                            the Northeast in the summer. Some days were to Lake Placid, others to Vermont, Syracuse,
+                            Cooperstown, and everywhere in between.
                         </p>
-                        <TextImage img={tupperLunch} desc="Enjoying lunch in the middle of the Adirondacks."/>
+                        <TextImage img={tupperLunch} desc="Enjoying lunch in the middle of the Adirondacks." />
                         <h3>Preventative Maintenance</h3>
                         <p>
                             One of my key responsibilities was preventative maintenance (also called PMs). The goal was
@@ -80,9 +80,9 @@ export default function Stewarts() {
                         </p>
                         <h3>New System Implementation</h3>
                         <p>
-                            During the summer, the tech center was in the process of preparing shops for a new
-                            register POS system. This implementation would require the addition of two new switches to
-                            the shop's networking cage.
+                            During the summer, the tech center was in the process of preparing shops for a new register
+                            POS system. This implementation would require the addition of two new switches to the shop's
+                            networking cage.
                         </p>
                         <p>
                             To prepare for this, there was an ongoing project where 2-3 technicians would go to shops,
@@ -110,13 +110,13 @@ export default function Stewarts() {
                             halting shop operations in their tracks. Enter battery backups, which allow shops to
                             function for several hours with no power.
                         </p>
-                        <TextImage img={apcBackup} desc="Battery backup"/>
+                        <TextImage img={apcBackup} desc="Battery backup" />
                         <p>
                             With over 400 shops each equipped with a handful of these backups, they piled up <i>fast</i>{' '}
                             in our office. For each one, I cleaned it,
                             <b>thoroughly</b> tested the receptacles, replaced the battery, and labelled it with the
-                            date. I must've processed over 100 during the summer, all of which are in the field now.
-                            Its cool to think that when I walk into a Stewart's Shop, there's a decent chance its being
+                            date. I must've processed over 100 during the summer, all of which are in the field now. Its
+                            cool to think that when I walk into a Stewart's Shop, there's a decent chance its being
                             supported by one of my battery backups.
                         </p>
                         <h3>Organizing Vehicles</h3>
@@ -126,8 +126,11 @@ export default function Stewarts() {
                             brought. On certain office days, I would take inventory of these vehicles, ensuring they
                             were adequately stocked and well organized.
                         </p>
-                        <TextImage img={stewartsFleet} desc="A portion of the tech center fleet. This picture was taken after I drove the van on the
-                                right to Syracuse and back!"/>
+                        <TextImage
+                            img={stewartsFleet}
+                            desc="A portion of the tech center fleet. This picture was taken after I drove the van on the
+                                right to Syracuse and back!"
+                        />
                         <h3>Misc Work</h3>
                         <p>
                             Sometimes, there were too many technicians out of the office, no returns to process, and no

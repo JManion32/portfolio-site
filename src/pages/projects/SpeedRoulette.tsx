@@ -38,7 +38,7 @@ export default function SpeedRoulette() {
                         and the clock starts ticking again just 2.5 seconds later. Compete for a spot on the leaderboard
                         by making quick decisions, taking bold risks, and hitting big payouts!
                     </p>
-                    <TextImage img={srGameplay}/>
+                    <TextImage img={srGameplay} />
                     <hr />
                     <h2>Tech Stack</h2>
                     <TechStack
@@ -94,7 +94,7 @@ export default function SpeedRoulette() {
                         The idea of building an online roulette game dates back to 2023 when the only programming
                         language I knew was Java:
                     </p>
-                    <TextImage img={javafxProject}/>
+                    <TextImage img={javafxProject} />
                     <p>
                         This was a GUI I built with JavaFX and the skills I had learned at{' '}
                         <a onClick={() => navigateTop('/experience/HudsonValley')}>Hudson Valley</a>. It was limited in
@@ -111,8 +111,8 @@ export default function SpeedRoulette() {
                     <hr />
                     <h2>Implementation</h2>
                     <p>With the complete storyboard, it was easy to build out the UI.</p>
-                    <TextImage img={srStoryboardDark} desc="Storyboard"/>
-                    <TextImage img={srHomePageDark} desc="Implementation"/>
+                    <TextImage img={srStoryboardDark} desc="Storyboard" />
+                    <TextImage img={srHomePageDark} desc="Implementation" />
                     <p>
                         Next, I moved to the backend, which introduced more complexity. I started by creating endpoints,
                         and handling the core game logic. I then integrated Postgres to manage the leaderboard and
@@ -187,7 +187,7 @@ export default function SpeedRoulette() {
                         10). To address that here, I created a table of the roulette board, then overlayed CSS grids on
                         top of it.
                     </p>
-                    <TextImage img={srGrid}/>
+                    <TextImage img={srGrid} />
                     <p>
                         After overlaying the grid onto the table, the next challenge was handling bets on the backend. I
                         identified patterns in the grid that allowed me to design solid logic, though a few off-by-one
@@ -258,7 +258,10 @@ export default function SpeedRoulette() {
                         This project was the spark that ignited my true passion for programming. I learned, I built, and
                         I deployed a fun project that turned a simple idea into a real application people could use.
                     </p>
-                    <TextImage img={srDeploymentDay} desc="Very special thank you to Geoff and Kaitlyn for making my deployment day so special!"/>
+                    <TextImage
+                        img={srDeploymentDay}
+                        desc="Very special thank you to Geoff and Kaitlyn for making my deployment day so special!"
+                    />
                 </>
             }
         />

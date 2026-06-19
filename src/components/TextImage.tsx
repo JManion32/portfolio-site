@@ -4,7 +4,6 @@ type TextImageProps = {
 };
 
 export default function TextImage({ img, desc }: TextImageProps) {
-
     return (
         <div className="content-img-container">
             <img src={img} />

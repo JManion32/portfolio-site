@@ -16,7 +16,7 @@ function Streamer() {
                 preview={
                     <>
                         <p>From May 2021 to November 2023, I streamed weekly on Twitch. Here are my lifetime stats:</p>
-                        <TextImage img={twitchStats}/>
+                        <TextImage img={twitchStats} />
                         <hr />
                         <h2>Charity Stream</h2>
                         <p>
@@ -24,9 +24,9 @@ function Streamer() {
                             his family, I organized a charity stream. The response blew away my expectations, with
                             $1,200 being raised in just six hours!
                         </p>
-                        <TextImage img={charityStream}/>
+                        <TextImage img={charityStream} />
                         <p>With the funds raised, I built him a new PC and gave the remaining cash to his family.</p>
-                        <TextImage img={coworkerPC}/>
+                        <TextImage img={coworkerPC} />
                         <hr />
                         <p>
                             In November 2023, I made the difficult decision to step away from streaming and focus on my

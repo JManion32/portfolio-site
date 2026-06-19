@@ -11,10 +11,18 @@ import courseNotisBefore from '../../assets/submitty/course-notis-before.png';
 import courseNotisAfter from '../../assets/submitty/course-notis-after.png';
 import markSeenPopup from '../../assets/submitty/mark-all-seen-popup.png';
 import additionalUnseenCount from '../../assets/submitty/additional-unseen-count.png';
+import olderUnseenCount from '../../assets/submitty/older-unseen-count.png';
 import configEditor from '../../assets/submitty/completed-gradeable-config-editor.png';
 import orgToggle from '../../assets/submitty/submitty-org-mode-toggle.png';
 import withdrawnToggle from '../../assets/submitty/withdrawn-toggle.png';
 import submittyOverview from '../../assets/submitty/high-level-submitty.png';
+import oldNotifications from '../../assets/submitty/old-notifications.png';
+import iterationCycle from '../../assets/submitty/iteration-cycle.png';
+import notificationComponents from '../../assets/submitty/notification-components.png';
+import oldHomeNotifications from '../../assets/submitty/old-home-notifications.png';
+import spring2025Team from '../../assets/submitty/spring-2025-team.png';
+import summer2025Team from '../../assets/submitty/summer-2025-team.png';
+import finalPresentation1 from '../../assets/submitty/final-presentation-1.png';
 
 export default function Submitty() {
     return (
@@ -35,10 +43,14 @@ export default function Submitty() {
                     </p>
                     <p>
                         I began my journey with Submitty in January of 2025, where I spent the semester learning the technologies, 
-                        conducting functionality reviews, and making minor UI changes. At the end, I was excited to learn that 
-                        I would be joining Summer 2025's full-time development team where I would have the opportunity to make 
-                        more impactful contributions.
+                        conducting functionality reviews, making minor UI changes, and adding the Prettier code formatter.
                     </p>
+                    <TextImage img={spring2025Team} desc="The Spring 2025 team."/>
+                    <p>
+                        In Summer 2025, I joined the full-time development team. This provided the opportunity to learn the system 
+                        at a deeper level, and make more substantial contributions.
+                    </p>
+                    <TextImage img={summer2025Team} desc="The Summer 2025 team."/>
                     <p>
                         I continued with Submitty through Fall 2025 and served as the team lead in Spring 2026. This
                         provided the opportunity for me to develop my technical leadership skills through onboarding, 
@@ -53,29 +65,39 @@ export default function Submitty() {
                     <hr />
                     <h2>Notifications UI Redesign</h2>
                     <p>
-                        <b>Problem:</b> Notifications are stored within individual course databases, 
-                        requiring users to navigate between courses to view them. As additional 
-                        notification features were introduced, this workflow became increasingly 
-                        cumbersome and fragmented.
+                        <b>Background:</b> Notifications are stored within individual course
+                        databases and were originally used primarily by the discussion forum.
                     </p>
+                    <p>
+                        <b>Problem:</b> As new automated notification features were introduced,
+                        notifications became increasingly important to users. Because notifications
+                        were decentralized, users could only view them from within each individual
+                        course, requiring frequent navigation between courses to stay informed.
+                    </p>
+                    <TextImage img={oldNotifications} desc="The old notifications system."/>
                     <h3>
-                        Vue Notifications on the Home Page (
+                        Notifications Panel on the Home Page (
                         <a href="https://github.com/Submitty/Submitty/pull/11914" target="_blank">
                             PR#11914
                         </a>
                         )
                     </h3>
                     <p>
+                        I proposed a Vue component for the home page that would centralize all of the user's notifications.
+                    </p>
+                    <h4>Design Challenge</h4>
+                    <p>
                         Since this feature was going to be on the home page of the site, thoughtful design was
                         essential. As a group, we started with whiteboard sketches to explore layout ideas, then moved
-                        to Figma to create a polished mockup for feedback and iteration. Throughout development, I
-                        regularly demoed my progress to the group to gather input and continuously iterate on design and
-                        functionality.
+                        to Figma to create a polished mockup for feedback and iteration. Once we reached consensus on 
+                        the general look and feel, I started the implementation, entering the feedback loop:
                     </p>
+                    <TextImage img={iterationCycle}/>
+                    <h4>Performance Considerations</h4>
                     <p>
-                        The technical challenge was efficiently aggregating notifications from multiple course
-                        databases. Since each course requires its own query and this feature now runs every time a user
-                        visits the home page, performance was crucial. To address this, I optimized the process by:
+                        As with design, performance is critical on the home page.
+                        Notifications had to be aggregated across multiple course databases, which can add up, especially 
+                        for instructors in many courses. Some optimizations I made include:
                         <ul>
                             <li>Limiting queries to only active courses</li>
                             <li>Limiting each query to the 10 most recent notifications</li>
@@ -87,6 +109,7 @@ export default function Submitty() {
                             </li>
                         </ul>
                     </p>
+                    <TextImage img={oldHomeNotifications} desc="The completed panel."/>
                     <h3>
                         Mark as Seen (
                         <a href="https://github.com/Submitty/Submitty/pull/12007" target="_blank">
@@ -96,8 +119,8 @@ export default function Submitty() {
                     </h3>
                     <p>
                         After the original feature was merged, it became clear that users needed a way to dismiss unseen
-                        notifications without being redirected. This PR added an envelope icon next to each unseen
-                        notification, allowing them to be dynamically marked as seen.
+                        notifications without being redirected. This PR added an envelope icon to unseen
+                        notifications, allowing them to be dynamically marked as seen.
                     </p>
                     <h3>
                         Improve Interactivity (
@@ -107,11 +130,9 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        As mentioned above, it’s important that this feature has a clean and intuitive UI. This PR
-                        improved the design with the following changes:
                         <ul>
-                            <li>Added a star icon next to gradeable notifications.</li>
-                            <li>Increased the font weight of notification content for better readability.</li>
+                            <li>Added a star icon to indicate gradeable notifications.</li>
+                            <li>Increased the font weight of notification content for enhanced readability.</li>
                             <li>Linked each notification’s course name to that course’s notifications page.</li>
                         </ul>
                     </p>
@@ -126,9 +147,10 @@ export default function Submitty() {
                         With new features continuously being added to the notifications UI, we were losing the benefits
                         of Vue components. To address this, I created a Notification component that would be used for
                         each individual notification inside the main display component. This split the 400 line file
-                        into two 200 line files, separting concerns while maintaining original functionality.
+                        in two, separating concerns while maintaining original functionality.
                     </p>
                     <TextImage img={individualNotification} desc="Individual Notification Component"/>
+                    <TextImage img={notificationComponents} desc="Red: NotificationDisplay component. Blue: Individual Notification components."/>
                     <h3>
                         Convert Course Notifications to Vue (
                         <a href="https://github.com/Submitty/Submitty/pull/12159" target="_blank">
@@ -137,9 +159,8 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        With Vue being used for the home page and Twig still being used on course pages, it was time to
-                        convert the rest of the UI to Vue. Since the prior PR nicely modularized the Vue code, this
-                        transition was seamless.
+                        Reused the previously created Vue components on the course pages. The components are 
+                        self-contained, only requiring a few prop changes to implement.
                     </p>
                     <TextImage img={courseNotisBefore} desc="Before"/>
                     <TextImage img={courseNotisAfter} desc="After"/>
@@ -151,10 +172,11 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        Despite the design of the course notification page's mark seen button where a single click of a
-                        button marks all notifications as seen, the home page could not be so simple. After much
-                        deliberation about a safe design, we settled on a popup that displays the counts of each
-                        course's unseen notifications. The user can then select specific courses to mark seen, or all of
+                        Individual mark seen is helpful, but what if you have 50 unseen notifications? That's a lot of clicking. 
+                        The notifications panel needed a batch mark seen, but it wasn't that simple. If it was just a 
+                        button, then users could clear all of their notifications without seeing them. After much
+                        deliberation (and even a presentation) about a safe design, we settled on a popup that displays the counts of each
+                        course's unseen notifications. The user can then select specific courses to clear, or all of
                         them. I like to think of it as an "Are you sure?" popup with advanced functionality.
                     </p>
                     <TextImage img={markSeenPopup}/>
@@ -166,11 +188,10 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        Since the notifications display is on the home page, performance is essential. For this reason,
-                        only the 10 most recent notifications from each of the user's courses are brought here. This
-                        means if the user has 11 unseen notifications in a course, they will have no way to see it, or
-                        individually clear it from the home page. To address this, I implemented a count of how many
-                        unseen notifications the user has beyond what is displayed. The tricky part of this PR was the
+                        Limiting aggregated notifications to the 10 most recent from each course improved performance, but 
+                        what if the user had 11 unseen? They would have no way to see that 11th notification, or individually 
+                        clear it from the home page. To address this, I implemented a count of how many
+                        unseen notifications the user has beyond what is currently displayed. The tricky part of this PR was the
                         edge cases:
                         <ul>
                             <li>
@@ -180,26 +201,23 @@ export default function Submitty() {
                                 "Show All" <b>vs</b> "Unseen Only"
                             </li>
                             <li>
-                                notifications in the front-end, but not yet displayed <b>vs</b> notifications exceed
-                                limit, and cannot be brought to the front-end
+                                Not displayed <b>vs</b> never brought to the panel
                             </li>
                         </ul>
                     </p>
-                    <TextImage img={additionalUnseenCount}/>
+                    <TextImage img={additionalUnseenCount} desc="Not yet displayed."/>
+                    <TextImage img={olderUnseenCount} desc="Never brought to the panel."/>
                     <h3 style={{ marginBottom: '2rem' }}>The Final Product (Home Page)</h3>
                     <TextImage img={homeNotis}/>
-                    <p>
-                        These updates have transformed the student experience of my peers and I this past semester.
-                        Taking four computer science courses, a combined notification feed made it easy to stay
-                        organized and up to date. In the future, I hope to add more to both the notification system and
-                        the home page, maximizing quality of life for the best user experience possible!
-                    </p>
                     <hr />
                     <h2>Configuration Text Editor</h2>
                     <p>
-                        Historically, editing a gradeable’s configuration in Submitty required downloading the config,
-                        making changes, and reuploading. There was no support for directly editing a gradeable's{' '}
-                        <code>config.json</code> or supplemental files from the web interface.
+                        <b>Problem:</b> There was no feature to edit gradeable configurations from the site. Instructors 
+                        had two options:
+                        <ul>
+                            <li>Reupload</li>
+                            <li>SSH into the server and edit the file</li>
+                        </ul>
                     </p>
                     <h3>
                         Gradeable Config Editor (
@@ -209,8 +227,7 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        I inherited this PR from <a href="https://github.com/DarthNyan">Tate Whiteberg</a>, picking up
-                        where it was left off, and completing it.
+                        This PR was in a half-completed state, and had been abandoned for over a year.
                     </p>
                     <h3>
                         Live Editing with CodeMirror (
@@ -246,8 +263,7 @@ export default function Submitty() {
                         Download Config as ZIP (
                         <a href="https://github.com/Submitty/Submitty/pull/11973" target="_blank">
                             PR#11973
-                        </a>so proud of all that we have accomplished and excited to see
-                        what we create next!
+                        </a>
                         )
                     </h3>
                     <p>
@@ -259,8 +275,8 @@ export default function Submitty() {
                         <a href="https://github.com/Submitty/Submitty/pull/11991" target="_blank">
                             PR#11991
                         </a>
-                        , <a href="https://github.com/Submitty/Submitty/pull/12003">PR#12003</a>, and{' '}
-                        <a href="https://github.com/Submitty/Submitty/pull/12218">PR#12218</a>)
+                        , <a href="https://github.com/Submitty/Submitty/pull/12003" target="_blank">PR#12003</a>, and{' '}
+                        <a href="https://github.com/Submitty/Submitty/pull/12218" target="_blank">PR#12218</a>)
                     </h3>
                     <p>
                         Refined visual layout and interactions to feel intuitive and consistent with the rest of
@@ -325,7 +341,67 @@ export default function Submitty() {
                     <TextImage img={withdrawnToggle}/>
                     <hr />
                     <h2>Team Lead</h2>
+                    <p>
+                        In Spring 2026, I had the opportunity to lead our team of 10 developers.
+                    </p>
+                    <h3>Responsibilities</h3>
+                    <p>
+                        <ul>
+                            <li>Present onboarding slides</li>
+                            <li>Write weekly progress reports</li>
+                            <li>1:1 check-ins with developers</li>
+                            <li>Lead standups</li>
+                            <li>Conduct code reviews</li>
+                            <li>Create issues</li>
+                            <li>Create posters for the expo</li>
+                            <li>A comprehensive final presentation</li>
+                        </ul>
+                    </p>
+                    <TextImage img={finalPresentation1} desc="Final presentation with the team."/>
+                    <h3>Google Summer of Code</h3>
+                    <p>
+                        In February, Submitty was accepted to Google Summer of Code for the 7th time. GSoC is a Google 
+                        initiative that funds students to contribute to partnered open-source projects for a summer. To be accepted 
+                        to a project, candidates must write a proposal about their contributions to it. As a result, Submitty 
+                        was <i>flooded</i> with new activity. In a single semester, we saw:
+                        <ul>
+                            <li><b>288</b> pull requests created (excluding dependencies)</li>
+                            <li><b>107</b> issues created</li>
+                            <li><b>93</b> pull requests merged</li>
+                        </ul>
+                    </p>
+                    <h3>Approach to Code Reviews</h3>
+                    <p>
+                        With so many pull requests to review, I spent much of the semester refining my approach into 4 steps.
+                    </p>
+                    <h4>1) High-Level Review</h4>
+                    <p>
+
+                    </p>
+                    <h4>2) Understand the Implementation</h4>
+                    <p>
+
+                    </p>
+                    <h4>3) Deeper Code Review</h4>
+                    <p>
+
+                    </p>
+                    <h4>4) Provide Thorough, Actionable Feedback</h4>
+                    <p>
                         
+                    </p>
+                    <h3>Challenges</h3>
+                    <p>
+
+                    </p>
+                    <h3>Outcomes</h3>
+                    <p>
+
+                    </p>
+                    <h3>Takeaways</h3>
+                    <p>
+
+                    </p>
                     <hr />
                     <h2>Reflection</h2>
                     <p>

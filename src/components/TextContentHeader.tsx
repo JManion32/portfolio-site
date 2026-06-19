@@ -13,7 +13,7 @@ type TextContentHeaderProps = {
 export default function TextContentHeader({ title, siteImg, siteLink, siteLinkTitle, ghLink }: TextContentHeaderProps) {
     return (
         <div className="text-page-header-row">
-            <h1 className="text-page-header">{title}</h1>
+            <h1 className="text-page-h1">{title}</h1>
             {siteLink && (
                 <button
                     className="contact-button project-contact-btn"

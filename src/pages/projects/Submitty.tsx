@@ -322,11 +322,13 @@ export default function Submitty() {
                     <p>
                         To improve accessibility and match user expectations, I added a dark mode toggle to the Submitty
                         documentation site. The site is built with Jekyll and uses auto-generated styles, so integrating
-                        theme switching required working around those constraints. <b>Fun Fact:</b> I ended up using the 
-                        same design for the dark mode toggle on this site! See the toggle in action <a href="https://submitty.org/index/overview"
-                        target="_blank"> here</a>.
+                        theme switching required working around those constraints. See the toggle in 
+                        action <a href="https://submitty.org/index/overview" target="_blank"> here</a>.
                     </p>
                     <TextImage img={orgToggle}/>
+                    <p>
+                        <b>Fun Fact:</b> I ended up using the same design for the dark mode toggle on this site!
+                    </p>
                     <h3>
                         Filter Withdrawn Students (
                         <a href="https://github.com/Submitty/submitty.github.io/pull/11792" target="_blank">
@@ -353,7 +355,7 @@ export default function Submitty() {
                             <li>Lead standups</li>
                             <li>Conduct code reviews</li>
                             <li>Create issues</li>
-                            <li>Create posters for the expo</li>
+                            <li>Create posters for the CS exposition</li>
                             <li>A comprehensive final presentation</li>
                         </ul>
                     </p>
@@ -372,7 +374,8 @@ export default function Submitty() {
                     </p>
                     <h3>Approach to Code Reviews</h3>
                     <p>
-                        With so many pull requests to review, I spent much of the semester refining my approach into 4 steps.
+                        With so many pull requests and a lack of experienced developers to keep up, 
+                        I spent much of the semester reviewing. I refined my approach into four steps:
                     </p>
                     <h4>1) High-Level Review</h4>
                     <p>
@@ -388,7 +391,7 @@ export default function Submitty() {
                     </p>
                     <h4>4) Provide Thorough, Actionable Feedback</h4>
                     <p>
-                        
+
                     </p>
                     <h3>Challenges</h3>
                     <p>

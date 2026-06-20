@@ -22,7 +22,7 @@ function Projects() {
                         <PreviewCard
                             img={submittyDuck}
                             header="Submitty"
-                            desc="Rensselaer Polytechnic Institute's open source homework submission server for computer science courses."
+                            desc="Rensselaer Polytechnic Institute's open source, comprehensive course management system."
                             nav="/projects/submitty"
                             rank="1"
                         />

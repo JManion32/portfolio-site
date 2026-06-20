@@ -64,6 +64,7 @@ export default function SpeedRoulette() {
                                 title: 'Infrastructure',
                                 items: [
                                     { name: 'Docker', className: 'docker' },
+                                    { name: 'GitHub Actions', className: 'ghactions' },
                                     { name: 'DigitalOcean', className: 'digitalocean' },
                                     { name: 'AWS Route 53', className: 'route53' },
                                     { name: 'Nginx', className: 'nginx' },

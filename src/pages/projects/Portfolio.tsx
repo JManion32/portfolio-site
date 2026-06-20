@@ -69,7 +69,7 @@ export default function Portfolio() {
                         <p>
                             The deployment process for this site has undergone several iterations. Early versions 
                             required manually SSHing into the DigitalOcean droplet to pull changes, rebuild containers, and 
-                            restart services. Today, a lightweight CI/CD pipeline built with GitHub Actions and Docker 
+                            restart services. Today, a lightweight CI/CD pipeline built with GitHub Actions paired with Docker 
                             automates deployment, making new changes as simple as typing <code>git push</code>.
                         </p>
                         <hr />

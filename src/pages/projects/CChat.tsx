@@ -152,7 +152,7 @@ export default function CChat() {
                         <h4>Portability</h4>
                         <p>
                             At the end of the day, this is a simple portfolio project. Once I add more features, perhaps
-                            it could provide some real value for another one of my projects.
+                            it could provide some value for another one of my projects.
                         </p>
                     </>
                 }

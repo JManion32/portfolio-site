@@ -245,7 +245,7 @@ export default function Submitty() {
                         to clear merge conflicts, understand the implementation, diagnose the blocker, and complete it.
                     </p>
                     <TextImage img={originalConfig} desc="The original config editor." />
-                    <TextImage img={configEditorSequence} desc="Sequence diagram of the config editor.." />
+                    <TextImage img={configEditorSequence} desc="Sequence diagram of the config editor." />
                     <h3>
                         Live Editing with CodeMirror (
                         <a href="https://github.com/Submitty/Submitty/pull/11814" target="_blank">

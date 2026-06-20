@@ -84,7 +84,8 @@
     color: var(--hover-anchor-link);
 }
 
-#text-body ul, #text-body ol {
+#text-body ul,
+#text-body ol {
     margin-top: 0.5rem;
     margin-bottom: 2rem;
     font-size: var(--text-p-size);

@@ -77,11 +77,11 @@ export default function PriceChopper() {
                         <h3>Takeaway: Don't avoid the tough conversations.</h3>
                         <p>
                             If you want the best from your team, you have to provide the uncomfortable feedback. Someone
-                            might go on their phone, or take a long break. It may be fine every now and then, but if
-                            you don't attempt to correct it when it becomes a pattern, and soon the new normal. It
-                            reminds me of the Broken Window Theory from <i>The Pragmatic Programmer</i>. A car with no
-                            broken windows won't be touched, but a car with a broken window will be susceptible to even
-                            more damage since it is believed that the owner doesn't care.
+                            might go on their phone, or take a long break. It may be fine every now and then, but if you
+                            don't attempt to correct it when it becomes a pattern, and soon the new normal. It reminds
+                            me of the Broken Window Theory from <i>The Pragmatic Programmer</i>. A car with no broken
+                            windows won't be touched, but a car with a broken window will be susceptible to even more
+                            damage since it is believed that the owner doesn't care.
                         </p>
                         <hr />
                         <h2>Maintenance</h2>

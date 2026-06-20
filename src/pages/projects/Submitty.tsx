@@ -221,7 +221,7 @@ export default function Submitty() {
                     <TextImage img={additionalUnseenCount} desc="Not yet displayed." />
                     <TextImage img={olderUnseenCount} desc="Never brought to the panel." />
                     <h3 style={{ marginBottom: '2rem' }}>The Final Product</h3>
-                    <TextImage img={homeNotis} desc="The new home page."/>
+                    <TextImage img={homeNotis} desc="The new home page." />
                     <hr />
                     <h2>Text Editor for Gradeable Configurations</h2>
                     <p>
@@ -241,8 +241,8 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        This PR was in a half-completed state, and abandoned for over a year. When I picked it up, I 
-                        had to clear merge conflicts, understand the implementation, diagnose the blocker, and complete it.
+                        This PR was in a half-completed state, and abandoned for over a year. When I picked it up, I had
+                        to clear merge conflicts, understand the implementation, diagnose the blocker, and complete it.
                     </p>
                     <TextImage img={originalConfig} desc="The original config editor." />
                     <TextImage img={configEditorSequence} desc="Sequence diagram of the config editor.." />
@@ -254,8 +254,8 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        Rather than a basic <code>textarea</code>, I implemented CodeMirror to allow for a
-                        more customizable experience, and native tab support.
+                        Rather than a basic <code>textarea</code>, I implemented CodeMirror to allow for a more
+                        customizable experience, and native tab support.
                     </p>
                     <h3>
                         File & Folder Management (
@@ -265,9 +265,10 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        The original editor allowed instructors to edit their configurations, but what if they needed to add a file? 
-                        They would have to reupload, which was still complicated since there was no download feature. This PR added UI 
-                        components to allow adding and deleting files and directories from the configuration.
+                        The original editor allowed instructors to edit their configurations, but what if they needed to
+                        add a file? They would have to reupload, which was still complicated since there was no download
+                        feature. This PR added UI components to allow adding and deleting files and directories from the
+                        configuration.
                     </p>
                     <h3>
                         Customizable Environment (
@@ -276,9 +277,7 @@ export default function Submitty() {
                         </a>
                         )
                     </h3>
-                    <p>
-                        Took advantage of CodeMirror's features by adding toggles for line numbers and tab size.
-                    </p>
+                    <p>Took advantage of CodeMirror's features by adding toggles for line numbers and tab size.</p>
                     <h3>
                         Download Config as ZIP (
                         <a href="https://github.com/Submitty/Submitty/pull/11973" target="_blank">
@@ -287,8 +286,8 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        This was the feature was long overdue. The PR added a button to download the entire config directory 
-                        as a ZIP archive, allowing instructors to save their configurations for future use.
+                        This was the feature was long overdue. The PR added a button to download the entire config
+                        directory as a ZIP archive, allowing instructors to save their configurations for future use.
                     </p>
                     <h3>
                         Design & UX Polish (
@@ -306,8 +305,8 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        Refined the layout and interactions to feel intuitive and consistent with the rest of
-                        Submitty. Changes include:
+                        Refined the layout and interactions to feel intuitive and consistent with the rest of Submitty.
+                        Changes include:
                         <ul>
                             <li>highlighting selected files</li>
                             <li>adding tool tips to the customize toggles</li>
@@ -327,12 +326,14 @@ export default function Submitty() {
                         )
                     </h3>
                     <p>
-                        The most important part. <a
+                        The most important part.{' '}
+                        <a
                             href="https://submitty.org/instructor/assignment_configuration/configuration_editor"
                             target="_blank"
                         >
                             Documentation page
-                        </a>.
+                        </a>
+                        .
                     </p>
                     <h3 style={{ marginBottom: '2rem' }}>The Final Product</h3>
                     <TextImage img={configEditor} />
@@ -437,63 +438,73 @@ export default function Submitty() {
                     <h3>Challenges</h3>
                     <h4>Finding Tasks</h4>
                     <p>
-                        In a typical semester, developers can easily find work through the GitHub issue tracker. However, 
-                        with an influx of external contributors and nine of our ten developers being new to the project, 
-                        many struggled to identify meaningful tasks.
+                        In a typical semester, developers can easily find work through the GitHub issue tracker.
+                        However, with an influx of external contributors and nine of our ten developers being new to the
+                        project, many struggled to identify meaningful tasks.
                     </p>
                     <p>
-                        <b>Solution:</b> I encouraged developers to review two pull requests before each meeting. This provided steady 
-                        work, while helping us manage the large volume. Though reviews are helpful, all <i>developers</i> should be 
-                        <i>developing</i> in some capacity. To help find actual work beyond the issues list, I delegated my stash of 
-                        tasks, and leveraged the experience of veteran contributors to uncover undocumented tasks and improvement opportunities.
+                        <b>Solution:</b> I encouraged developers to review two pull requests before each meeting. This
+                        provided steady work, while helping us manage the large volume. Though reviews are helpful, all{' '}
+                        <i>developers</i> should be
+                        <i>developing</i> in some capacity. To help find actual work beyond the issues list, I delegated
+                        my stash of tasks, and leveraged the experience of veteran contributors to uncover undocumented
+                        tasks and improvement opportunities.
                     </p>
                     <p>
                         <b>Outcome:</b> Every developer had something meaningful to work on in addition to reviewing.
                     </p>
-                    <p>
-                        
-                    </p>
+                    <p></p>
                     <h4>Setting Expectations</h4>
                     <p>
-                        Development for Submitty has no rubric since every task is different. That said, we have expectations such as:
+                        Development for Submitty has no rubric since every task is different. That said, we have
+                        expectations such as:
                         <ul>
                             <li>Using Zulip (open-source Discord / Slack) for communication</li>
-                            <li>Filling out meeting notes <b>before the meeting</b> (using the correct format)</li>
+                            <li>
+                                Filling out meeting notes <b>before the meeting</b> (using the correct format)
+                            </li>
                             <li>Consistent participation (contributions, meeting attendance, etc)</li>
                         </ul>
                         Without a rubric, these expectations were difficult to enforce at times.
                     </p>
                     <p>
-                        <b>Solution:</b> I provided developers with feedback during 1:1 check-ins. I also sent consistent reminders 
-                        about upcoming events on Zulip, giving developers every opportunity to succeed even if some of them neglected to 
-                        check their notifications.
+                        <b>Solution:</b> I provided developers with feedback during 1:1 check-ins. I also sent
+                        consistent reminders about upcoming events on Zulip, giving developers every opportunity to
+                        succeed even if some of them neglected to check their notifications.
                     </p>
                     <p>
                         My takeaway here is largely the same as one of my third takeaway as a shift supervisor at
                         <a onClick={() => navigateTop('/experience/pricechopper')}>Price Chopper</a>.
                     </p>
                     <p>
-                        If you want the best from your team, you have to provide the uncomfortable feedback. 
-                        Someone may miss a critical communication, or put little effort into their meeting notes. 
-                        It may be fine every now and then, but if
-                        you don't attempt to correct it when it becomes a pattern, and soon the new normal. It
-                        reminds me of the Broken Window Theory from <i>The Pragmatic Programmer</i>. A car with no
-                        broken windows won't be touched, but a car with a broken window will be susceptible to even
-                        more damage since it is believed that the owner doesn't care.
+                        If you want the best from your team, you have to provide the uncomfortable feedback. Someone may
+                        miss a critical communication, or put little effort into their meeting notes. It may be fine
+                        every now and then, but if you don't attempt to correct it when it becomes a pattern, and soon
+                        the new normal. It reminds me of the Broken Window Theory from <i>The Pragmatic Programmer</i>.
+                        A car with no broken windows won't be touched, but a car with a broken window will be
+                        susceptible to even more damage since it is believed that the owner doesn't care.
                     </p>
                     <h4>Changing Priorities</h4>
                     <p>
                         Intial team priorities:
                         <ul>
-                            <li>Decrease the “Urgent/Priority” issue count (started with <b>21</b>, ended with <b>14</b>)</li>
-                            <li>End with fewer issues than we started with (started with <b>570</b>, ended with <b>596</b>)</li>
-                            <li>Merge/Close most PRs created before 2026 (started with <b>26</b>, ended with <b>20</b>)</li>
+                            <li>
+                                Decrease the “Urgent/Priority” issue count (started with <b>21</b>, ended with <b>14</b>
+                                )
+                            </li>
+                            <li>
+                                End with fewer issues than we started with (started with <b>570</b>, ended with{' '}
+                                <b>596</b>)
+                            </li>
+                            <li>
+                                Merge/Close most PRs created before 2026 (started with <b>26</b>, ended with <b>20</b>)
+                            </li>
                         </ul>
                     </p>
                     <p>
-                        We made progress, but with the activity caused by Google Summer of Code, we had to shift priorities to 
-                        less measurable outcomes such as getting a review on every pull request, and ensuring all developers had 
-                        a meaningful project to work on.
+                        We made progress, but with the activity caused by Google Summer of Code, we had to shift
+                        priorities to less measurable outcomes such as getting a review on every pull request, and
+                        ensuring all developers had a meaningful project to work on.
                     </p>
                     <p>
                         <b>Takeaway:</b> Things change. Success isn't measured by the initial plan.
@@ -502,19 +513,34 @@ export default function Submitty() {
                     <p>
                         The development team:
                         <ul>
-                            <li>Conducted <b>282</b> reviews on pull requests</li>
-                            <li>Created <b>59</b> pull requests</li>
-                            <li>Closed <b>78</b> issues</li>
+                            <li>
+                                Conducted <b>282</b> reviews on pull requests
+                            </li>
+                            <li>
+                                Created <b>59</b> pull requests
+                            </li>
+                            <li>
+                                Closed <b>78</b> issues
+                            </li>
                         </ul>
                     </p>
                     <p>
                         My individual contributions:
                         <ul>
-                            <li>Conducted <b>75</b> reviews on pull requests</li>
-                            <li>Created <b>15</b> pull requests</li>
-                            <li>Opened <b>11</b> issues</li>
-                            <li>Participated in the GSoC selection process, interviewing <b>4</b> candidates</li>
-                            <li>Created <b>2</b> new onboarding presentations:
+                            <li>
+                                Conducted <b>75</b> reviews on pull requests
+                            </li>
+                            <li>
+                                Created <b>15</b> pull requests
+                            </li>
+                            <li>
+                                Opened <b>11</b> issues
+                            </li>
+                            <li>
+                                Participated in the GSoC selection process, interviewing <b>4</b> candidates
+                            </li>
+                            <li>
+                                Created <b>2</b> new onboarding presentations:
                                 <ul>
                                     <li>Technologies</li>
                                     <li>Workflow</li>
@@ -526,32 +552,32 @@ export default function Submitty() {
                     <h3>Takeaways</h3>
                     <h4>It's more than writing code.</h4>
                     <p>
-                        I thought being the most experienced developer meant I needed to have the most output. I spent 
-                        the first few weeks focusing on creating pull requests. I soon realized this wasn't best for the 
-                        team, and pivoted to making their success my own by conducting reviews and creating issues. By 
-                        enabling others to contribute effectively, I was able to have a far greater impact than I could 
+                        I thought being the most experienced developer meant I needed to have the most output. I spent
+                        the first few weeks focusing on creating pull requests. I soon realized this wasn't best for the
+                        team, and pivoted to making their success my own by conducting reviews and creating issues. By
+                        enabling others to contribute effectively, I was able to have a far greater impact than I could
                         through my own contributions alone.
                     </p>
                     <h4>What it means to lead by example.</h4>
                     <p>
-                        After shifting my focus away from maximizing my own output, I gained a new perspective on what it 
-                        means to lead by example. Setting a positive tone, providing thoughtful feedback, and creating 
-                        an environment where developers felt comfortable asking questions was important for creating an 
-                        environment that people look forward to being a part of.
+                        After shifting my focus away from maximizing my own output, I gained a new perspective on what
+                        it means to lead by example. Setting a positive tone, providing thoughtful feedback, and
+                        creating an environment where developers felt comfortable asking questions was important for
+                        creating an environment that people look forward to being a part of.
                     </p>
                     <h4>You don't always know the answers.</h4>
                     <p>
-                        I was apprehensive when I first stepped into this role. With only a year of experience on the project, 
-                        I questioned whether I had enough knowledge to provide the support my developers needed. Sometimes I 
-                        had the answers immediately. Other times, I sat alongside a developer and worked through the problem 
-                        with them. When neither of us knew the answer, I found that knowing who to ask was just as important 
-                        as having the answer myself.
+                        I was apprehensive when I first stepped into this role. With only a year of experience on the
+                        project, I questioned whether I had enough knowledge to provide the support my developers
+                        needed. Sometimes I had the answers immediately. Other times, I sat alongside a developer and
+                        worked through the problem with them. When neither of us knew the answer, I found that knowing
+                        who to ask was just as important as having the answer myself.
                     </p>
                     <h4>I enjoyed mentoring.</h4>
                     <p>
-                        Having the opportunity to share the knowledge I had gained over three semesters and 
-                        watching new contributors grow into confident developers as a result was was an 
-                        especially rewarding experience.
+                        Having the opportunity to share the knowledge I had gained over three semesters and watching new
+                        contributors grow into confident developers as a result was was an especially rewarding
+                        experience.
                     </p>
                     <hr />
                     <h2>Reflection</h2>
@@ -560,7 +586,7 @@ export default function Submitty() {
                         Cutler, my teammates, mentors, and RPI for this experience. I am so proud of all that we have
                         accomplished and excited to see what we create next!
                     </p>
-                    <TextImage img={finalPresentation2}/>
+                    <TextImage img={finalPresentation2} />
                 </>
             }
         />

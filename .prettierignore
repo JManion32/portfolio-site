@@ -1,4 +1,5 @@
 nodes_modules
+assets
 
 .prettierrc.json
 eslint.config.js
